@@ -9,7 +9,7 @@ Typical usage
     from pipeline import (
         fetch_league_history, get_today_matches,
         scrape_500_odds_today, apply_euro_fallback,
-        load_shared_models, load_club_models,
+        get_intl_models, get_club_models,
     )
 """
 
@@ -32,10 +32,11 @@ from pipeline.probability import (
 
 # ── model_loader ─────────────────────────────────────────────────────────────
 from pipeline.model_loader import (
-    load_shared_models,
-    load_club_models,
-    get_shared_models,
+    get_intl_models,
     get_club_models,
+    invalidate_cache,
+    is_club_available,
+    is_intl_available,
 )
 
 # ── scraper ───────────────────────────────────────────────────────────────────
@@ -86,8 +87,8 @@ __all__ = [
     'compute_dynamic_xgb_weight', 'rps_score',
     'brier_decomposition_multiclass', 'quick_validate', 'format_pct',
     # model_loader
-    'load_shared_models', 'load_club_models',
-    'get_shared_models', 'get_club_models',
+    'get_intl_models', 'get_club_models',
+    'invalidate_cache', 'is_club_available', 'is_intl_available',
     # scraper
     'scrape_500_odds_today', 'fetch_live_odds_map', 'apply_euro_fallback',
     # data_loader
