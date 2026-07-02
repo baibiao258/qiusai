@@ -48,6 +48,13 @@ from pipeline.scraper import (
     fetch_live_odds_map,
     scrape_500_odds_today,
 )
+from pipeline.data_loader import (
+    api_get,
+    fetch_league_history,
+    get_today_matches,
+    load_365scores_today,
+    build_365_map,
+)
 
 
 # ── 常量 ──
@@ -82,13 +89,6 @@ HTFT_DISPLAY_MAP = {
 
 
 
-
-def api_get(path):
-    """通用 API 请求"""
-    url = f"https://api.football-data.org/v4{path}"
-    req = urllib.request.Request(url, headers=HDR)
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return json.loads(resp.read().decode('utf-8'))
 
 # ── 共享混合模型加载 (lazy) ──
 
@@ -329,107 +329,7 @@ def _try_hybrid_predict(home, away):
 
 
 
-def load_365scores_today():
-    try:
-        from fetch_365scores import fetch_365scores_data, extract_games
-    except Exception:
-        sys.path.insert(0, '/root')
-        from fetch_365scores import fetch_365scores_data, extract_games
-
-    date_str = date.today().isoformat()
-    csv_path = f'/root/data/365scores/{date_str}.csv'
-    games = []
-    if os.path.exists(csv_path):
-        try:
-            with open(csv_path, 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    g = {
-                        'home': row.get('home', ''),
-                        'away': row.get('away', ''),
-                        'competition': row.get('competition', ''),
-                        'time': row.get('time', ''),
-                        'votes': {
-                            'home': float(row['vote_home']) if row.get('vote_home') not in ('', None) else None,
-                            'draw': float(row['vote_draw']) if row.get('vote_draw') not in ('', None) else None,
-                            'away': float(row['vote_away']) if row.get('vote_away') not in ('', None) else None,
-                            'total': int(float(row['vote_count'])) if row.get('vote_count') not in ('', None) else None,
-                        },
-                        'pop_rank_home': int(float(row['pop_rank_home'])) if row.get('pop_rank_home') not in ('', None) else None,
-                        'pop_rank_away': int(float(row['pop_rank_away'])) if row.get('pop_rank_away') not in ('', None) else None,
-                        'fifa_rank_home': int(float(row['fifa_rank_home'])) if row.get('fifa_rank_home') not in ('', None) else None,
-                        'fifa_rank_away': int(float(row['fifa_rank_away'])) if row.get('fifa_rank_away') not in ('', None) else None,
-                        'trend_home': [int(float(row.get('trend_home_w') or 0)), int(float(row.get('trend_home_d') or 0)), int(float(row.get('trend_home_l') or 0))],
-                        'trend_away': [int(float(row.get('trend_away_w') or 0)), int(float(row.get('trend_away_d') or 0)), int(float(row.get('trend_away_l') or 0))],
-                        'trend_win_rate_home': float(row['trend_win_rate_home']) if row.get('trend_win_rate_home') not in ('', None) else None,
-                        'trend_win_rate_away': float(row['trend_win_rate_away']) if row.get('trend_win_rate_away') not in ('', None) else None,
-                    }
-                    games.append(g)
-        except Exception:
-            games = []
-    if not games:
-        try:
-            raw = fetch_365scores_data()
-            games = extract_games(raw)
-        except Exception:
-            games = []
-    return games
-
-
-def build_365_map(games):
-    from team_name_normalizer import normalize_match_pair
-    mapping = {}
-    for g in games:
-        try:
-            h, a = normalize_match_pair(g.get('home', ''), g.get('away', ''))
-            if h and a:
-                mapping[(h, a)] = g
-                mapping[(a, h)] = g
-        except Exception:
-            continue
-    return mapping
-
 # ── 数据 ──
-
-def fetch_league_history(code, months_back=10):
-    """拉取某联赛历史已完赛比赛(更大范围)"""
-    end = date.today()
-    start = end - timedelta(days=months_back*30)
-    all_m = []
-    segments = []
-    seg_size = months_back * 15
-    s = start
-    while s < end:
-        e = min(s + timedelta(days=seg_size), end)
-        segments.append((s, e))
-        s = e + timedelta(days=1)
-    import time
-    for i, (s,e) in enumerate(segments):
-        ss=s.isoformat(); ee=e.isoformat()
-        for attempt in range(2):
-            try:
-                data = api_get(f"/competitions/{code}/matches?dateFrom={ss}&dateTo={ee}")
-                for m in data.get('matches',[]):
-                    if m['status']!='FINISHED': continue
-                    sc=m['score']['fullTime']
-                    if sc['home'] is None: continue
-                    all_m.append({
-                        'date':m['utcDate'][:10],
-                        'home':m['homeTeam']['shortName'],
-                        'away':m['awayTeam']['shortName'],
-                        'h_score':sc['home'],'a_score':sc['away'],
-                    })
-                break
-            except urllib.error.HTTPError as e:
-                if e.code == 429 and attempt == 0:
-                    time.sleep(15)
-                    continue
-                break
-            except Exception:
-                break
-        if i < len(segments)-1:
-            time.sleep(1.5)
-    return all_m
 
 
 def train(all_matches):
@@ -457,24 +357,6 @@ def train(all_matches):
         elo[h]+=32*(sh-e_h); elo[a]+=32*(sa-(1-e_h))
     return ts,ga,dict(elo)
 
-
-def get_today_matches():
-    """获取今日竞彩赛事"""
-    today = date.today().isoformat()
-    all_m = []
-    seen = set()
-    for code,_lname in JCZQ_LEAGUES:
-        try:
-            data = api_get(f"/competitions/{code}/matches?dateFrom={today}&dateTo={today}")
-            for m in data.get('matches',[]):
-                if m['status'] in ('SCHEDULED','TIMED'):
-                    key = (code, m['homeTeam']['shortName'], m['awayTeam']['shortName'])
-                    if key not in seen:
-                        seen.add(key)
-                        all_m.append(m)
-        except Exception:
-            pass
-    return all_m
 
 
 def predict_match_legacy(home,away,ts,ga,elo_r):
