@@ -1,0 +1,406 @@
+date,game_id,home,away,competition,time,status,score,vote_home,vote_draw,vote_away,vote_count,pop_rank_home,pop_rank_away,pop_rank_diff,fifa_rank_home,fifa_rank_away,fifa_rank_diff,trend_home_w,trend_home_d,trend_home_l,trend_away_w,trend_away_d,trend_away_l,trend_win_rate_home,trend_win_rate_away,trend_win_rate_diff,venue,attendance,goals_home,goals_away,yellow_home,yellow_away,red_home,red_away,has_lineups,lineups_status_text,has_doubtful,has_missing_players,has_statistics,has_news,has_buzz,social_comments
+2026-06-13,4651124,Audax Italiano,Deportes La Serena,First Division,13-06-2026 00:00,finished,1:1,67.1,19.7,13.2,2666,830,168,-662,,,,2,2,2,2,0,0,0.3333,1.0,-0.6667,Estadio Bicentenario Municipal de La Florida,1187,1,1,2,2,0,0,True,Lineups,False,True,True,False,True,0
+2026-06-13,4688678,Puente Alto,Lautaro De Buin,Tercera Division A,13-06-2026 00:00,finished,1:3,28.9,15.6,55.6,90,1,14,13,,,,0,0,2,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,True,False,False,0
+2026-06-13,4705667,UNTREF,River Plate,Division de Honor,13-06-2026 00:00,finished,1:3,31.6,5.3,63.2,19,0,27,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731618,Universidad La Matanza (W),River Plate (W),Alcides Márquez Cup (W),13-06-2026 00:00,finished,1:3,11.1,11.1,77.8,9,0,1,,,,,0,0,0,1,1,1,,0.3333,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731622,Gimnasia La Plata (W),UNTREF (W),Alcides Márquez Cup (W),13-06-2026 00:00,finished,3:0,50.0,12.5,37.5,8,7,0,,,,,0,0,1,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733396,Deportivo Plottier,Pacífico de Neuquen,Liga Federal,13-06-2026 00:00,finished,,50.0,7.1,42.9,14,0,0,,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733397,Rivadavia Juniors,Quique Club,Liga Federal,13-06-2026 00:00,finished,79:59,50.0,8.3,41.7,12,0,0,,,,,1,0,0,0,1,1,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733398,Sanjustino,Alma Juniors,Liga Federal,13-06-2026 00:00,finished,,40.0,10.0,50.0,10,0,0,,,,,0,0,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733399,Recreativo Bochas Club,Gimnasia Y Esgrima De Santa Fe,Liga Federal,13-06-2026 00:00,finished,,27.3,9.1,63.6,11,0,0,,,,,1,1,1,0,1,0,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733400,Club Atlético Almagro De Esperanza,Atlético Sastre,Liga Federal,13-06-2026 00:00,finished,87:77,10.0,10.0,80.0,10,0,0,,,,,1,0,0,0,1,0,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4697664,Club Morón (W),GEVP (W),Superiores Primera (W),13-06-2026 00:25,finished,3:0,50.0,12.5,37.5,8,0,0,,,,,0,1,0,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4697668,Mupol Voley (W),Club Italiano (W),Superiores Primera (W),13-06-2026 00:25,finished,3:0,75.0,12.5,12.5,8,0,0,,,,,0,1,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731623,Boca Juniors (W),Estudiantes de La Plata (W),Alcides Márquez Cup (W),13-06-2026 00:25,finished,3:0,80.0,10.0,10.0,10,29,7,-22,,,,1,1,1,0,1,0,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4697670,Club Harrods (W),Glorias Argentinas (W),Superiores Primera (W),13-06-2026 00:30,finished,0:3,20.0,20.0,60.0,5,0,0,,,,,0,0,0,1,1,1,,0.3333,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700600,Lomas Del Mirador (W),La Patriada Voley (W),Superiores Segunda (W),13-06-2026 00:30,finished,0:3,62.5,12.5,25.0,8,0,0,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700601,General Lamadrid (W),Huracan (W),Superiores Segunda (W),13-06-2026 00:30,finished,3:0,75.0,12.5,12.5,8,0,0,,,,,1,0,0,1,0,0,1.0,1.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700602,UBA Voley (W),Nautico Zarate (W),Superiores Segunda (W),13-06-2026 00:30,finished,3:0,60.0,20.0,20.0,5,0,0,,,,,1,1,1,0,1,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731619,Ferro Carril Oeste (W),Argentino De Castelar (W),Alcides Márquez Cup (W),13-06-2026 00:30,finished,,57.1,14.3,28.6,7,0,0,,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731620,Velez Sarsfield (W),Banco Provincia La Plata (W),Alcides Márquez Cup (W),13-06-2026 00:30,finished,3:0,66.7,16.7,16.7,6,0,3,,,,,0,1,0,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733401,Club Perfora de Neuquen,Petrolero Argentino,Liga Federal,13-06-2026 00:30,finished,,42.9,14.3,42.9,7,0,0,,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733402,Independiente Neuquén,Club Social Y Deportivo General Roca,Liga Federal,13-06-2026 00:30,finished,,16.7,16.7,66.7,6,0,0,,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733403,Centro Espanol Plottier,Club Atlético Regina,Liga Federal,13-06-2026 00:30,finished,,20.0,20.0,60.0,5,0,0,,,,,1,1,0,0,1,0,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733404,Juventud Sionista de Parana,La Armonía,Liga Federal,13-06-2026 00:30,finished,,50.0,16.7,33.3,6,2,0,,,,,1,1,0,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733405,Club Unión Y Juventud Bandera,Atlético Rafaela,Liga Federal,13-06-2026 00:30,finished,,25.0,25.0,50.0,4,0,0,,,,,0,1,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733406,María Juana,Club Atlético Tostado,Liga Federal,13-06-2026 00:30,finished,,20.0,20.0,60.0,5,0,0,,,,,0,1,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4710244,Salam,Ahli Sana'a,Yemeni League,13-06-2026 12:45,finished,,17.8,6.8,75.3,73,0,35,,,,,0,0,0,1,2,0,,0.3333,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4710245,Alsadd FC,Ittihad Ibb,Yemeni League,13-06-2026 12:45,finished,,39.8,6.0,54.2,83,0,54,,,,,2,2,2,0,0,2,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4710246,Al Orouba FC,Ittihad Hadramout FC,Yemeni League,13-06-2026 12:45,finished,,46.3,1.5,52.2,67,44,1,-43,,,,0,1,1,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4697759,Independiente Petrolero,Real Potosi,División Profesional,13-06-2026 19:00,finished,,50.5,15.6,33.9,109,187,343,156,,,,0,0,1,2,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4715373,Guabira,Real Oruro,División Profesional,13-06-2026 19:00,finished,,88.9,5.6,5.6,18,365,18,-347,,,,1,1,2,2,1,0,0.25,0.6667,-0.4167,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4683760,Winnipeg Sea Bears,Calgary Surge,CEBL,13-06-2026 00:00,live,92:72,61.5,7.7,30.8,13,0,0,,,,,0,1,0,0,0,0,0.0,,,,,0,0,0,0,0,0,True,Box Score,False,False,True,False,False,0
+2026-06-13,4691657,San German,Criollos de Caguas,BSN,13-06-2026 00:00,live,80:79,63.0,2.2,34.8,46,0,0,,,,,1,1,1,1,0,1,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,True,Box Score,False,False,True,False,False,0
+2026-06-13,4691658,Osos de Manati,Vaqueros De Bayamon,BSN,13-06-2026 00:00,live,90:87,25.6,2.3,72.1,43,0,2,,,,,0,1,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,True,Box Score,False,False,True,False,False,0
+2026-06-13,4705665,Defensores de Banfield,Lomas Voley,Division de Honor,13-06-2026 00:00,live,3:0,60.0,10.0,30.0,10,5,0,,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4709512,Dominican Republic,Puerto Rico,NORCECA Final Four,13-06-2026 00:00,live,2:2,50.0,4.5,45.5,22,8,61,53,,,,1,0,1,0,1,0,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733421,Gigantes San Francisco,Reales De La Vega,LNB,13-06-2026 00:00,live,50:56,60.0,5.0,35.0,20,0,0,,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734728,Gimnastico (W),Puente Alto (W),National League Women,13-06-2026 00:00,live,83:81,33.3,8.3,58.3,12,0,0,,,,,0,0,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555756,Kansas City Royals,Houston Astros,MLB,13-06-2026 00:10,live,5:9,27.2,0.1,72.7,739,191,340,149,,,,0,0,1,0,0,1,0.0,0.0,0.0,Kauffman Stadium,,4,5,0,0,0,0,True,Box Score,False,False,False,True,True,0
+2026-06-13,4556222,Minnesota Twins,St. Louis Cardinals,MLB,13-06-2026 00:10,live,1:3,39.3,0.1,60.6,710,164,210,46,,,,0,1,0,0,1,1,0.0,0.0,0.0,Target Field,,1,3,0,0,0,0,True,Box Score,False,False,False,True,True,0
+2026-06-13,4728732,Ca Penarol,Aguada,Liga Uruguaya,13-06-2026 00:15,live,58:67,76.7,0.5,22.8,206,31,35,4,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,True,Box Score,False,False,True,False,True,0
+2026-06-13,4733935,Universidad La Matanza (W),Gimnasia Esgrima Ituzaingo (W),Superiores Primera (W),13-06-2026 00:25,live,1:0,25.0,12.5,62.5,8,0,0,,,,,0,0,0,0,0,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4697665,Sholem (W),Estudiantil Porteno (W),Superiores Primera (W),13-06-2026 00:30,live,2:0,60.0,20.0,20.0,5,0,0,,,,,1,1,0,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4697667,Nautico Hacoaj (W),Defensores de Banfield (W),Superiores Primera (W),13-06-2026 00:30,live,0:2,75.0,12.5,12.5,8,0,0,,,,,0,0,0,1,0,1,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700599,Club San Fernando (W),Pinocho (W),Superiores Segunda (W),13-06-2026 00:30,live,1:2,71.4,14.3,14.3,7,0,0,,,,,1,1,0,1,0,1,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700603,Centro Municipal 3 de Febrero (W),Circulo General Urquiza (W),Superiores Segunda (W),13-06-2026 00:30,live,2:0,71.4,14.3,14.3,7,0,0,,,,,1,1,1,0,1,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700604,Club Comunicaciones (W),Lomas Voley (W),Superiores Segunda (W),13-06-2026 00:30,live,2:1,50.0,12.5,37.5,8,0,0,,,,,0,1,0,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700605,CA Independiente (W),Centro Cultural Tortuguitas (W),Superiores Segunda (W),13-06-2026 00:30,live,2:1,55.6,11.1,33.3,9,0,0,,,,,1,1,0,1,0,0,0.5,1.0,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4700606,Banco de la Nación Argentina (W),Huracán de San Justo (W),Superiores Segunda (W),13-06-2026 00:30,live,1:1,71.4,14.3,14.3,7,0,0,,,,,0,0,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733422,Héroes de Moca,Caneros Del Este,LNB,13-06-2026 00:30,live,63:60,31.2,6.2,62.5,16,0,0,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4627869,USA,Paraguay,FIFA World Cup,13-06-2026 01:00,live,3:0,58.5,11.2,30.2,150728,3996,3805,-191,17,41,24,0,1,0,1,0,1,0.0,0.5,-0.5,SoFi Stadium (Los Angeles),,3,0,0,1,0,0,True,Lineups,False,False,True,True,True,0
+2026-06-13,4682657,Juventud Antoniana,Sarmiento De La Banda,Federal A,13-06-2026 01:00,live,0:0,43.9,25.4,30.7,394,21,5,-16,,,,0,1,2,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,True,False,False,0
+2026-06-13,4715848,Pirata FC,Universitario,League Cup,13-06-2026 01:00,live,0:0,15.7,12.3,72.0,1640,20,1374,1354,,,,1,0,1,1,2,2,0.5,0.2,0.3,,,0,0,0,0,0,0,False,,True,False,True,False,True,0
+2026-06-13,4736587,Pericos de Puebla,Toros de Tijuana,LMB,13-06-2026 01:00,upcoming,,17.1,1.3,81.6,76,40,20,-20,,,,1,0,1,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736591,Dorados de Chihuahua,Guerreros de Oaxaca,LMB,13-06-2026 01:00,live,3:2,29.6,1.9,68.5,54,6,16,10,,,,1,0,1,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736593,Conspiradores de Querétaro,Tecos de los Dos Laredos,LMB,13-06-2026 01:00,live,6:0,32.7,2.0,65.3,49,2,6,4,,,,1,1,0,0,0,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736595,El Águila de Veracruz,Saraperos de Saltillo,LMB,13-06-2026 01:00,live,0:1,59.2,2.0,38.8,49,16,31,15,,,,0,0,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4734741,Brujos Izalco,Lobos BKB Chalchuapa,Liga Mayor,13-06-2026 01:15,live,44:36,43.8,6.2,50.0,16,0,0,,,,,0,0,0,1,0,1,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734742,Cojute,San Salvador BC,Liga Mayor,13-06-2026 01:15,live,25:34,20.0,10.0,70.0,10,0,0,,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4638533,Nelson Giants,Southland Sharks,NBL,13-06-2026 01:30,live,28:21,36.0,4.0,60.0,25,0,0,,,,,0,1,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,True,Box Score,False,False,True,False,False,0
+2026-06-13,4736008,Sultanes de Monterrey,Piratas de Campeche,LMB,13-06-2026 01:30,live,1:0,86.5,0.6,12.9,155,56,14,-42,,,,0,0,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736479,Kyrgyzstan (W),Lebanon (W),AVC Women's Cup,13-06-2026 01:30,live,1:0,40.6,3.1,56.2,32,0,0,,,,,0,0,0,0,0,0,,,,,,0,0,0,0,0,0,True,Box Score,False,False,True,False,False,0
+2026-06-13,4736589,Charros de Jalisco,Diablos Rojos del México,LMB,13-06-2026 01:30,live,0:0,17.2,1.1,81.7,93,47,34,-13,,,,0,0,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736590,Leones de Yucatán,Caliente de Durango,LMB,13-06-2026 01:30,live,0:0,40.0,3.3,56.7,30,28,7,-21,,,,1,1,0,1,0,0,0.5,1.0,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736592,Bravos de León,Algodoneros del Unión Laguna,LMB,13-06-2026 01:30,live,4:0,78.4,2.0,19.6,51,8,20,12,,,,1,1,0,0,0,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736594,Olmecas de Tabasco,Rieleros de Aguascalientes,LMB,13-06-2026 01:30,live,0:0,81.0,1.7,17.2,58,14,15,1,,,,0,1,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4555581,Los Angeles Angels,Tampa Bay Rays,MLB,13-06-2026 01:38,live,2:0,20.1,0.1,79.8,1217,220,192,-28,,,,1,1,0,1,1,1,0.5,0.3333,0.1667,Angel Stadium,,1,0,0,0,0,0,True,Box Score,False,False,False,True,True,0
+2026-06-13,4736588,Acereros de Monclova,Tigres de Quintana Roo,LMB,13-06-2026 01:45,live,0:0,66.1,1.7,32.2,59,14,35,21,,,,0,0,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4659719,Seattle Storm,Golden State Valkyries,WNBA,13-06-2026 02:00,upcoming,,23.7,0.6,75.7,173,23,4,-19,,,,0,0,0,1,0,0,,1.0,,Climate Pledge Arena,,0,0,0,0,0,0,True,Box Score,True,True,True,True,True,0
+2026-06-13,4709513,Mexico,Guatemala,NORCECA Final Four,13-06-2026 02:00,upcoming,0:0,75.0,2.5,22.5,40,73,8,-65,,,,0,0,1,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555483,Athletics,Colorado Rockies,MLB,13-06-2026 02:05,upcoming,,74.7,0.1,25.2,1021,171,163,-8,,,,1,1,0,0,1,1,0.5,0.0,0.5,Las Vegas Ballpark,,0,0,0,0,0,0,False,,False,False,False,True,True,0
+2026-06-13,4555146,San Francisco Giants,Chicago Cubs,MLB,13-06-2026 02:15,upcoming,,44.4,0.1,55.5,935,506,416,-90,,,,1,0,0,1,0,0,1.0,1.0,0.0,Oracle Park,,0,0,0,0,0,0,False,,False,False,False,True,True,0
+2026-06-13,4735946,Angeles Cdmx,Astros De Jalisco,CIBACOPA,13-06-2026 02:15,upcoming,,18.5,3.7,77.8,27,0,6,,,,,1,0,0,0,1,1,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4638534,Bay Hawks,Franklin Bulls,NBL,13-06-2026 04:30,upcoming,,35.0,5.0,60.0,20,0,0,,,,,0,0,0,0,1,0,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736504,Uzbekistan (W),Hong Kong (W),AVC Women's Cup,13-06-2026 04:30,upcoming,,28.6,14.3,57.1,7,0,1,,,,,0,1,0,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4626434,Fukuoka Hawks,Yakult Swallows,NPB,13-06-2026 05:00,upcoming,,70.8,4.2,25.0,24,6,8,2,,,,0,1,1,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4626748,Rakuten Gold Eagles,Hiroshima Toyo Carp,NPB,13-06-2026 05:00,upcoming,,57.1,7.1,35.7,14,6,11,5,,,,1,1,0,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4626785,Nippon Ham Fighters,Chunichi Dragons,NPB,13-06-2026 05:00,upcoming,,55.6,5.6,38.9,18,11,6,-5,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4626800,Chiba Lotte Marines,Yokohama Baystars,NPB,13-06-2026 05:00,upcoming,,53.3,6.7,40.0,15,5,6,1,,,,1,1,0,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4626799,Orix Buffaloes,Hanshin Tigers,NPB,13-06-2026 06:00,upcoming,,33.3,8.3,58.3,12,5,14,9,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736647,Dunedin Thunder,Canterbury Red Devils,NZIHL,13-06-2026 06:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,0,0,1,0,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4728295,Melbourne Ice,Central Coast Rhinos,AIHL,13-06-2026 07:00,upcoming,,35.7,7.1,57.1,14,5,0,,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4728296,Sydney Bears,Melbourne Mustangs,AIHL,13-06-2026 07:00,upcoming,,33.3,16.7,50.0,6,1,5,4,,,,0,0,1,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4728294,Adelaide Adrenaline,Canberra Brave,AIHL,13-06-2026 07:15,upcoming,,20.0,20.0,60.0,5,1,1,0,,,,0,0,0,1,0,1,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736567,Kazakhstan (W),Chinese Taipei (W),AVC Women's Cup,13-06-2026 07:30,upcoming,,63.6,9.1,27.3,11,15,12,-3,,,,1,1,1,0,1,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4638535,Otago Nuggets,Canterbury Rams,NBL,13-06-2026 07:30,upcoming,,25.0,12.5,62.5,8,0,0,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4680133,Changchun Yatai,Dalian K'un City,League One,13-06-2026 07:30,upcoming,,64.6,12.5,22.9,48,34,0,,,,,2,0,1,2,0,0,0.6667,1.0,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736642,Kiwoom Heroes,Hanwha Eagles,KBO,13-06-2026 08:00,upcoming,,33.3,33.3,33.3,3,10,11,1,,,,1,0,0,0,1,1,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736643,KIA Tigers,Doosan Bears,KBO,13-06-2026 08:00,upcoming,,33.3,33.3,33.3,3,4,3,-1,,,,0,0,0,1,1,0,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736644,Samsung Lions,SSG Landers,KBO,13-06-2026 08:00,upcoming,,33.3,33.3,33.3,3,12,3,-9,,,,0,1,0,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736645,LG Twins,Lotte Giants,KBO,13-06-2026 08:00,upcoming,,33.3,33.3,33.3,3,12,3,-9,,,,0,1,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736646,Kt Wiz Suwon,NC Dinos,KBO,13-06-2026 08:00,upcoming,,33.3,33.3,33.3,3,2,11,9,,,,1,0,1,0,1,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4668131,China PR,Japan,Volleyball Nations League,13-06-2026 08:30,upcoming,,16.4,0.8,82.8,128,100,142,42,,,,0,0,0,1,1,1,,0.3333,,Linxia Olympic Sports Park Stadium,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4626801,Seibu Lions,Yomiuri Giants,NPB,13-06-2026 09:00,upcoming,,69.2,7.7,23.1,13,5,14,9,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736543,Barbora Krejcikova,Magda Linette,Hertogenbosch,13-06-2026 09:00,upcoming,,77.3,2.3,20.5,44,53,28,-25,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736562,Magdalena Frech,Aliaksandra Sasnovich,Berlin,13-06-2026 09:00,upcoming,,86.4,4.5,9.1,22,2,2,0,,,,0,1,0,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736563,Nikola Bartunkova,Noma Akugue Noha,Berlin,13-06-2026 09:00,upcoming,,83.3,8.3,8.3,12,0,0,,,,,0,0,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736622,Lorenzo Sonego,Filip Cristian Jianu,Halle,13-06-2026 09:00,upcoming,,92.0,4.0,4.0,25,57,0,,,,,0,1,0,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736623,Diego Dedura-Palomero,Nikoloz Basilashvili,Halle,13-06-2026 09:00,upcoming,,27.3,9.1,63.6,11,0,46,,,,,0,0,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736629,Milena Steinkamp,Shuai Zhang,Berlin,13-06-2026 09:00,upcoming,,50.0,25.0,25.0,4,0,14,,,,,,,,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736552,Bergs Z./Rinderknech A.,Arends S./Pel D.,Hertogenbosch,13-06-2026 09:15,upcoming,,62.5,12.5,25.0,8,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4661088,Kuressaare,Harju Jalgpallikool,Meistriliiga,13-06-2026 09:30,upcoming,,35.6,20.0,44.4,45,6,1,-5,,,,2,1,0,1,0,0,0.6667,1.0,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736541,Alexander Shevchenko,Vitaliy Sachko,Bratislava,13-06-2026 09:30,upcoming,,63.0,3.7,33.3,27,3,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688115,Orsha,FC Lida,Pershaya Liga,13-06-2026 10:00,upcoming,,16.7,16.7,66.7,12,2,3,1,,,,2,0,0,0,2,0,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736542,Pruchya Isaro / Niki Kaliyanda Poonacha,Mansouri S./Neuchrist M.,Lyon ,13-06-2026 10:00,upcoming,,20.0,20.0,60.0,5,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736545,Mark Lajal,Bu Yunchaokete,Ilkley,13-06-2026 10:00,upcoming,,26.7,6.7,66.7,15,1,1,0,,,,1,1,0,1,1,1,0.5,0.3333,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736549,Jecan M. A./Pavel B.,Grevelius E./Heinonen A.,Cattolica,13-06-2026 10:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736573,Emilliana Arango,Anna Bondar,Nottingham,13-06-2026 10:00,upcoming,,52.9,5.9,41.2,17,7,1,-6,,,,0,0,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736579,Sofia Kenin,Elsa Jacquemot,Nottingham,13-06-2026 10:00,upcoming,,38.5,7.7,53.8,13,5,1,-4,,,,0,0,0,0,0,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736580,Dane Sweeny,Toby Samuel,Ilkley,13-06-2026 10:00,upcoming,,22.2,11.1,66.7,9,0,0,,,,,1,1,0,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736586,Darwin Blanch,Jacob Fearnley,Ilkley,13-06-2026 10:00,upcoming,,18.2,9.1,72.7,11,0,1,,,,,1,1,0,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736601,Oliver Tarvet,Filippo Romano,Ilkley,13-06-2026 10:00,upcoming,,10.0,10.0,80.0,10,0,0,,,,,1,1,0,1,1,1,0.5,0.3333,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736636,Timofey Skatov,James Watt,Nottingham,13-06-2026 10:00,upcoming,,33.3,33.3,33.3,3,1,0,,,,,0,0,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736639,Henry Jefferson,Alastair Gray,Nottingham,13-06-2026 10:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,,,,0,1,0,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736556,Tessa Johanna Brockmann,Alycia Parks,Berlin,13-06-2026 10:10,upcoming,,12.5,12.5,75.0,8,0,2,,,,,0,0,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736558,Petra Marcinko,Aoi Ito,Berlin,13-06-2026 10:10,upcoming,,75.0,12.5,12.5,8,0,0,,,,,0,1,0,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736566,Mia Pohankova,Tamara Korpatsch,Berlin,13-06-2026 10:10,upcoming,,20.0,10.0,70.0,10,0,1,,,,,0,1,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736614,Benito Sanchez Martinez,Roberto Bautista,Halle,13-06-2026 10:10,upcoming,,10.0,10.0,80.0,10,0,245,,,,,0,1,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736621,Tiago Pereira,Tom Gentzsch,Halle,13-06-2026 10:10,upcoming,,40.0,20.0,40.0,5,0,0,,,,,0,0,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636285,Piteå (W),If Brommapojkarna (W),Damallsvenskan,13-06-2026 10:30,upcoming,,47.6,28.6,23.8,21,2,0,,,,,1,0,0,1,1,0,1.0,0.5,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736577,Mingge Xu,Kimberly Birrell,Nottingham,13-06-2026 10:30,upcoming,,11.1,11.1,77.8,9,0,1,,,,,0,0,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736619,Jamie Mackenzie,Alex Bolt,Halle,13-06-2026 10:30,upcoming,,50.0,25.0,25.0,4,0,4,,,,,0,0,0,0,0,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736569,Federico Cina,Taro Daniel,Bratislava,13-06-2026 10:40,upcoming,,62.1,3.4,34.5,29,0,5,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736597,Alexander Bublik,Taylor Fritz,Stuttgart,13-06-2026 10:40,upcoming,,54.6,0.5,45.0,218,111,398,287,,,,1,1,0,1,1,0,0.5,0.5,0.0,CENTER COURT,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636287,FC Rosengard (W),Norrkoping (W),Damallsvenskan,13-06-2026 11:00,upcoming,,52.0,28.0,20.0,25,6,0,,,,,0,1,2,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636288,AIK (W),Djurgårdens (W),Damallsvenskan,13-06-2026 11:00,upcoming,,27.3,27.3,45.5,11,0,1,,,,,2,1,2,2,1,0,0.4,0.6667,-0.2667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4664941,Ogre United,Riga,Virsliga,13-06-2026 11:00,upcoming,,20.2,17.3,62.5,104,0,196,,,,,0,2,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678002,Tobol Kostanay,FC Qyzyljar,Premier League,13-06-2026 11:00,upcoming,,60.5,16.3,23.3,43,161,6,-155,,,,2,0,0,1,2,0,1.0,0.3333,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4712285,Bumprom,Shakhter Soligorsk,Pershaya Liga,13-06-2026 11:00,upcoming,,44.4,22.2,33.3,9,0,129,,,,,2,1,1,1,1,2,0.5,0.25,0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736544,Aoyama S./Liang E.,Neel I./Olmos G.,Hertogenbosch,13-06-2026 11:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736568,South Korea (W),Vietnam (W),AVC Women's Cup,13-06-2026 11:00,upcoming,,50.0,12.5,37.5,8,30,6,-24,,,,1,1,1,0,1,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736607,Martin Damm,Daniel Merida Aguilar,Queen's,13-06-2026 11:00,upcoming,,45.0,5.0,50.0,20,1,0,,,,,0,1,1,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736609,Zachary Svajda,Liam Broady,Queen's,13-06-2026 11:00,upcoming,,70.0,10.0,20.0,10,1,1,0,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736582,Antonia Ruzic,Kaja Juvan,Nottingham,13-06-2026 11:10,upcoming,,70.0,10.0,20.0,10,0,1,,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736584,Hannah Klugman,Anastasia Zakharova,Nottingham,13-06-2026 11:10,upcoming,,11.1,11.1,77.8,9,0,0,,,,,0,0,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736625,Bollipalli R C./Hilderbrand T.,Stevenson D./Willis M.,Ilkley,13-06-2026 11:10,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736634,Patrick Brady,Giles Hussey,Nottingham,13-06-2026 11:10,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736635,Luca Nardi,Oscar Weightman,Nottingham,13-06-2026 11:10,upcoming,,33.3,33.3,33.3,3,3,0,,,,,0,0,1,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4673036,Suduva,Banga Gargzdai,A Lyga,13-06-2026 11:15,upcoming,,65.6,24.6,9.8,61,175,23,-152,,,,1,1,2,2,0,4,0.25,0.3333,-0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736559,Maria Timofeeva,Renata Zarazua,Berlin,13-06-2026 11:20,upcoming,,66.7,16.7,16.7,6,0,4,,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736560,Katerina Siniakova,Yue Yuan,Berlin,13-06-2026 11:20,upcoming,,80.0,10.0,10.0,10,7,1,-6,,,,0,1,0,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736564,Diane Parry,Ella Seidel,Berlin,13-06-2026 11:20,upcoming,,62.5,12.5,25.0,8,2,0,,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4661084,Trans Narva,Nõmme United,Meistriliiga,13-06-2026 11:30,upcoming,,65.2,17.4,17.4,23,15,3,-12,,,,0,1,0,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4680130,Shijiazhuang Gongfu,Suzhou Dongwu,League One,13-06-2026 11:30,upcoming,,58.3,20.8,20.8,24,1,3,2,,,,2,0,0,0,0,2,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4680131,Nanjing City,Ningbo FC,League One,13-06-2026 11:30,upcoming,,63.2,10.5,26.3,19,3,2,-1,,,,1,2,0,2,1,2,0.3333,0.4,-0.0667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736548,Emma Raducanu,Kamilla Rakhimova,Queen's,13-06-2026 11:30,upcoming,,76.5,0.5,23.0,187,27,1,-26,,,,1,1,0,1,0,1,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,True,False,False,0
+2026-06-13,4736585,Cabral F./Mektic N.,Glinka D./Sakellaridis S.,Stuttgart,13-06-2026 11:30,upcoming,,60.0,20.0,20.0,5,0,0,,,,,1,1,,1,1,,,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736578,Daria Kasatkina,Anna Blinkova,Nottingham,13-06-2026 11:40,upcoming,,81.8,9.1,9.1,11,52,2,-50,,,,0,0,1,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636752,Ilves,TPS,Veikkausliiga,13-06-2026 12:00,upcoming,,61.8,25.8,12.4,178,47,12,-35,,,,1,0,1,1,0,0,0.5,1.0,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636753,Inter Turku,AC Oulu,Veikkausliiga,13-06-2026 12:00,upcoming,,70.5,19.2,10.4,193,96,15,-81,,,,1,2,1,1,1,1,0.25,0.3333,-0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636963,Eskilstuna United DFF,Malmö FF (W),Damallsvenskan,13-06-2026 12:00,upcoming,,16.7,66.7,16.7,6,3,0,,,,,2,0,0,1,2,0,1.0,0.3333,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4668134,Cuba,Slovenia,Volleyball Nations League,13-06-2026 12:00,upcoming,,47.4,1.3,51.3,78,151,66,-85,,,,0,0,0,1,1,1,,0.3333,,Linxia Olympic Sports Park Stadium,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4677089,Baranovichi,FC Minsk,Vysshaya Liga,13-06-2026 12:00,upcoming,,31.0,28.6,40.5,42,2,21,19,,,,1,0,1,2,0,1,0.5,0.6667,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678001,Jetisu,Okzhetpes,Premier League,13-06-2026 12:00,upcoming,,25.0,27.5,47.5,40,6,5,-1,,,,0,2,0,2,1,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4680129,Dingnan United,Guangdong GZ-Power,League One,13-06-2026 12:00,upcoming,,40.0,5.0,55.0,20,3,0,,,,,2,2,0,2,0,2,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688113,FC Slonim,Ostrovets,Pershaya Liga,13-06-2026 12:00,upcoming,,50.0,33.3,16.7,6,1,0,,,,,0,1,1,2,1,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736603,Ashlyn Krueger,Darja Vidmanova,Ilkley,13-06-2026 12:00,upcoming,,71.4,14.3,14.3,7,1,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736608,Aleksandar Kovacevic,Michael Mmoh,Queen's,13-06-2026 12:10,upcoming,,75.0,12.5,12.5,8,2,2,0,,,,0,0,0,0,0,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736610,James Duckworth,Aleksandar Vukic,Queen's,13-06-2026 12:10,upcoming,,71.4,14.3,14.3,7,8,3,-5,,,,0,1,0,2,1,0,0.0,0.6667,-0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736574,Panna Udvardy,Katie Volynets,Nottingham,13-06-2026 12:20,upcoming,,60.0,20.0,20.0,5,1,1,0,,,,0,1,0,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736632,Remy Bertola,William Jansen,Nottingham,13-06-2026 12:20,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,1,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736638,Rhys Lawlor,James Mccabe,Nottingham,13-06-2026 12:20,upcoming,,33.3,33.3,33.3,3,0,0,,,,,,,,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736641,Soon-Woo Kwon,Millen Hurrion,Nottingham,13-06-2026 12:20,upcoming,,33.3,33.3,33.3,3,1,0,,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736534,David Jorda Sanchis,Tristan Boyer,Lyon,13-06-2026 12:30,upcoming,,11.1,11.1,77.8,9,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736555,Jesper De Jong,Enrico Dalla Valle,Cattolica,13-06-2026 12:30,upcoming,,71.4,7.1,21.4,14,2,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736611,Harry Wendelken,Adam Walton,Queen's,13-06-2026 12:30,upcoming,,16.7,8.3,75.0,12,0,2,,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736613,Martin Landaluce,Marc-Andrea Huesler,Halle,13-06-2026 12:30,upcoming,,85.0,5.0,10.0,20,2,1,-1,,,,0,1,0,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736615,Raphael Collignon,Aziz Dougaz,Halle,13-06-2026 12:30,upcoming,,72.7,9.1,18.2,11,1,0,,,,,0,1,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736616,Mattia Bellucci,Mikhail Kukushkin,Halle,13-06-2026 12:30,upcoming,,85.7,7.1,7.1,14,2,9,7,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736617,Katie Boulter,Donna Vekic,Queen's,13-06-2026 12:40,upcoming,,73.8,2.4,23.8,42,3,36,33,,,,1,1,1,1,2,1,0.3333,0.25,0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736640,Anton Matusevich,Guy Den Ouden,Nottingham,13-06-2026 12:50,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636286,Hammarby (W),Hacken (W),Damallsvenskan,13-06-2026 13:00,upcoming,,37.5,33.3,29.2,24,3,4,1,,,,1,1,1,1,0,1,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4649924,JIPPO,Kapa,Ykkosliiga,13-06-2026 13:00,upcoming,,60.0,10.0,30.0,20,4,3,-1,,,,2,0,0,0,1,0,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4655674,Odishi 1919,Aragvi Dusheti,Erovnuli Liga 2,13-06-2026 13:00,upcoming,,33.3,50.0,16.7,6,0,0,,,,,1,1,2,2,0,1,0.25,0.6667,-0.4167,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4655675,Samtredia,Kolkheti Poti,Erovnuli Liga 2,13-06-2026 13:00,upcoming,,50.0,33.3,16.7,6,100,2,-98,,,,0,0,2,2,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4663520,Grobiņa,Rigas FS,Virsliga,13-06-2026 13:00,upcoming,,18.8,17.9,63.2,117,2,341,339,,,,0,2,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678003,Kairat Almaty,FK Atyrau,Premier League,13-06-2026 13:00,upcoming,,67.1,18.9,14.0,222,346,8,-338,,,,0,2,1,2,2,2,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678159,Austria (W),Georgia (W),European League (W),13-06-2026 13:00,upcoming,,60.0,20.0,20.0,5,1,1,0,,,,1,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4716658,SC Magdeburg,Füchse Berlin,Champions League,13-06-2026 13:00,upcoming,,58.4,7.9,33.7,101,19,50,31,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4727323,Magesi FC,Milford,Premier League,13-06-2026 13:00,upcoming,,52.8,20.4,26.9,108,4,1,-3,,,,2,0,1,0,1,1,0.6667,0.0,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4730410,Molodechno,Energetik BGU,Pershaya Liga,13-06-2026 13:00,upcoming,,40.0,20.0,40.0,5,0,12,,,,,0,2,1,2,1,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731587,Tishreen SC,Omyyah Idlib,Syrian Premier League,13-06-2026 13:00,upcoming,,71.2,9.6,19.2,125,188,5,-183,,,,0,1,0,2,0,1,0.0,0.6667,-0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731590,Al Shorta Damascus,Al Shola,Syrian Premier League,13-06-2026 13:00,upcoming,,55.9,14.7,29.4,68,78,6,-72,,,,2,0,0,0,0,2,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731591,Damascus Al Ahli Club,Jableh SC,Syrian Premier League,13-06-2026 13:00,upcoming,,61.8,11.8,26.3,76,33,65,32,,,,2,0,1,1,0,0,0.6667,1.0,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731592,Khan Sheikhoun,Jaish,Syrian Premier League,13-06-2026 13:00,upcoming,,31.9,13.9,54.2,72,1,268,267,,,,0,1,0,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731652,Croatia,Albania,European League (M),13-06-2026 13:00,upcoming,,50.0,25.0,25.0,4,9,0,,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731679,Austria,Kosovo,European League (M),13-06-2026 13:00,upcoming,,50.0,25.0,25.0,4,7,2,-5,,,,0,0,0,0,0,0,,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4732742,Huracan FC,Tacuarembó FC,Segunda Division,13-06-2026 13:00,upcoming,,23.6,20.0,56.4,55,6,26,20,,,,2,2,0,1,0,1,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735914,Salus Fc,Canadian SC,Divisional C,13-06-2026 13:00,upcoming,,37.5,25.0,37.5,8,1,5,4,,,,0,2,2,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735915,Deportivo LSM,Potencia,Divisional C,13-06-2026 13:00,upcoming,,94.4,2.8,2.8,36,18,1,-17,,,,1,1,2,1,1,0,0.25,0.5,-0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736546,Adrian Mannarino,Alex De Minaur,Hertogenbosch,13-06-2026 13:00,upcoming,,20.5,0.8,78.7,122,98,308,210,,,,1,1,1,1,1,0,0.3333,0.5,-0.1667,CENTRE COURT,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736605,Mary Stoiana,Celine Naef,Ilkley,13-06-2026 13:00,upcoming,,60.0,20.0,20.0,5,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4679624,FK Vakhsh,Ravshan Kulob,Vysshaya Liga,13-06-2026 13:00,upcoming,,57.1,14.3,28.6,14,2,28,26,,,,2,2,2,1,0,1,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4647058,Mashujaa Fc,Young Africans,Ligi Kuu Bara,13-06-2026 13:15,upcoming,,14.7,14.7,70.5,95,2,498,496,,,,0,2,0,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736630,Oliver Okonkwo,Hugo Grenier,Nottingham,13-06-2026 13:30,upcoming,,33.3,33.3,33.3,3,0,1,,,,,0,1,1,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4728774,Montenegro (W),Albania (W),European League (W),13-06-2026 13:30,upcoming,,33.3,33.3,33.3,3,1,0,,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731058,Barkchi Gissar,FK Khujand,Vysshaya Liga,13-06-2026 13:30,upcoming,,26.7,26.7,46.7,15,0,34,,,,,0,0,0,2,1,0,,0.6667,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731883,Academia Control Orientado,Club Atlético Belgrano (Zarate),Promocional Amateur,13-06-2026 13:30,upcoming,,33.3,33.3,33.3,3,0,1,,,,,0,2,1,2,0,2,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733724,Lietkabelis,Neptūnas,LKL League,13-06-2026 13:30,upcoming,,25.0,12.5,62.5,8,5,28,23,,,,0,1,0,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736572,Alicia  Dudeney,Yulia Putintseva,Nottingham,13-06-2026 13:30,upcoming,,12.5,12.5,75.0,8,0,3,,,,,0,1,0,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736583,Viktorija Golubic,Veronika Erjavec,Nottingham,13-06-2026 13:30,upcoming,,60.0,20.0,20.0,5,1,0,,,,,0,0,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736637,Zhizhen Zhang,Mark Ceban,Nottingham,13-06-2026 13:30,upcoming,,33.3,33.3,33.3,3,3,0,,,,,0,1,1,0,,,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736598,Daniel Galan,Felix Balshaw,Lyon,13-06-2026 13:40,upcoming,,70.6,5.9,23.5,17,23,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736599,Roberto Carballes,Francesco Forti,Cattolica,13-06-2026 13:40,upcoming,,62.5,12.5,25.0,8,8,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736627,Altmaier D./Fonseca J.,Nouza P./Oberleitner N.,Halle,13-06-2026 13:40,upcoming,,60.0,20.0,20.0,5,0,0,,,,,,,,0,0,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636283,Vaxjo DFF (W),IK Uppsala (W),Damallsvenskan,13-06-2026 14:00,upcoming,,33.3,44.4,22.2,9,1,0,,,,,0,0,0,2,0,0,,1.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636754,FF Jaro,HJK Helsinki,Veikkausliiga,13-06-2026 14:00,upcoming,,20.8,20.2,59.0,183,11,770,759,,,,0,1,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636755,Vaasa PS,KuPS,Veikkausliiga,13-06-2026 14:00,upcoming,,25.9,23.7,50.4,135,22,165,143,,,,3,0,1,4,2,1,0.75,0.5714,0.1786,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4645455,CA Union (W),Lanús (W),Campeonato Femenino,13-06-2026 14:00,upcoming,,33.3,40.0,26.7,15,0,4,,,,,0,0,2,0,2,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4652495,07 Vestur,Vikingur Gota,Formuladeildin,13-06-2026 14:00,upcoming,,9.7,32.3,58.1,31,1,214,213,,,,0,0,0,2,1,1,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4661086,JK Tammeka Tartu,Pärnu JK Vaprus,Meistriliiga,13-06-2026 14:00,upcoming,,54.3,14.3,31.4,35,8,6,-2,,,,0,1,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4662046,Volsungur,Njardvik,Inkasso Deildin,13-06-2026 14:00,upcoming,,24.3,29.7,45.9,37,2,3,1,,,,0,0,0,1,0,1,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4662047,Leiknir Reykjavik,Vestri,Inkasso Deildin,13-06-2026 14:00,upcoming,,30.3,33.3,36.4,33,7,4,-3,,,,1,1,0,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4667754,KPV,JJK,Ykkonen,13-06-2026 14:00,upcoming,,30.0,33.3,36.7,30,5,7,2,,,,0,1,0,0,2,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4668099,Brazil,Serbia,Volleyball Nations League,13-06-2026 14:00,upcoming,,92.9,0.1,7.0,1892,660,125,-535,,,,1,1,0,1,1,0,0.5,0.5,0.0,Nilson Nelson Gymnasium,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4675543,FC ML Vitebsk,FC Vitebsk,Vysshaya Liga,13-06-2026 14:00,upcoming,,71.4,22.4,6.1,49,1,20,19,,,,1,2,1,0,0,2,0.25,0.0,0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4677810,Guarani,Caxias,Serie C,13-06-2026 14:00,upcoming,,60.1,24.1,15.8,569,937,792,-145,,,,1,1,0,1,2,1,0.5,0.25,0.25,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4678186,Finland (W),Israel (W),European League (W),13-06-2026 14:00,upcoming,,11.1,11.1,77.8,9,1,2,1,,,,1,1,1,0,1,0,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678901,Eskhata,Fk Khosilot Farkhor,Vysshaya Liga,13-06-2026 14:00,upcoming,,41.7,16.7,41.7,12,1,0,,,,,1,2,2,1,2,1,0.2,0.25,-0.05,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4683280,Olaria,America-RJ,"Carioca, Serie A2",13-06-2026 14:00,upcoming,,17.6,17.6,64.7,34,41,169,128,,,,2,2,0,1,1,1,0.5,0.3333,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4684452,FK Minija Kretinga,BFA Vilnius,I Lyga,13-06-2026 14:00,upcoming,,54.5,18.2,27.3,11,1,0,,,,,2,0,1,1,1,1,0.6667,0.3333,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4685905,Bonsucesso,Resende,"Carioca, Serie A2",13-06-2026 14:00,upcoming,,35.7,35.7,28.6,14,120,278,158,,,,2,1,0,1,2,1,0.6667,0.25,0.4167,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688117,Volna Pinsk,Osipovichy,Pershaya Liga,13-06-2026 14:00,upcoming,,66.7,16.7,16.7,6,2,1,-1,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4725983,Fylkir,Grotta,Icelandic Cup - Mjólkurbikarinn,13-06-2026 14:00,upcoming,,53.8,24.5,21.7,106,66,7,-59,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4728777,Bosnia & Herzegovina (W),Lithuania (W),European League (W),13-06-2026 14:00,upcoming,,33.3,33.3,33.3,3,1,0,,,,,1,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736026,Club Deportivo Nueva Santa Cruz,I.N. San Juan FC,Copa Simón Bolívar,13-06-2026 14:00,upcoming,,45.0,7.5,47.5,40,5,1,-4,,,,1,0,0,1,2,1,1.0,0.25,0.75,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736557,Polina Kudermetova,Sinja Kraus,Berlin,13-06-2026 14:00,upcoming,,37.5,12.5,50.0,8,1,0,,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736561,Xin-Yu Wang,Dalma Galfi,Berlin,13-06-2026 14:00,upcoming,,80.0,10.0,10.0,10,10,1,-9,,,,0,1,0,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736565,Lulu Sun,Anhelina Kalinina,Berlin,13-06-2026 14:00,upcoming,,22.2,11.1,66.7,9,1,9,8,,,,0,1,0,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736570,Pokorny L./Sachko V.,Karol Drzewiecki / Piotr Matuszewski,Bratislava,13-06-2026 14:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,0,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736575,Catherine Mcnally,Mika Stojsavljevic,Nottingham,13-06-2026 14:00,upcoming,,50.0,25.0,25.0,4,1,0,,,,,1,1,0,0,0,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736600,Johan Alexander Rodriguez,Nicolas Kicker,San Miguel de Tucuman,13-06-2026 14:00,upcoming,,40.0,20.0,40.0,5,0,2,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736606,Christie F./Silva E.,Brooks M./Rajecki A.,Ilkley,13-06-2026 14:10,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678181,Croatia (W),Estonia (W),European League (W),13-06-2026 14:30,upcoming,,33.3,33.3,33.3,3,22,3,-19,,,,1,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731659,Slovakia,Georgia,European League (M),13-06-2026 14:30,upcoming,,33.3,33.3,33.3,3,12,3,-9,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736596,Gorgodze E./Karamoko N.,Cavalle-Reimers Y./Salden L.,Modena,13-06-2026 14:30,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,,1,1,0,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736612,Johannus Monday,Giovanni Mpetshi Perricard,Queen's,13-06-2026 14:30,upcoming,,6.2,6.2,87.5,16,0,5,,,,,0,0,1,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736618,Dino Prizmic,Rinky Hijikata,Queen's,13-06-2026 14:30,upcoming,,77.3,4.5,18.2,22,1,2,1,,,,0,1,0,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736620,Daniel Evans,Marcos Giron,Queen's,13-06-2026 14:30,upcoming,,15.4,7.7,76.9,13,155,6,-149,,,,0,1,0,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736631,Daniel Masur,Jay Clarke,Nottingham,13-06-2026 14:40,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,0,0,0,0,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736576,Oksana Selekhmeteva,Kamilla Rakhimova,Nottingham,13-06-2026 14:40,upcoming,,25.0,25.0,50.0,4,0,1,,,,,0,0,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736581,Zeynep Sonmez,Lanlana Tararudee,Nottingham,13-06-2026 14:40,upcoming,,80.0,10.0,10.0,10,1,0,,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736633,August Holmgren,Max Basing,Nottingham,13-06-2026 14:40,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,1,0,0,0,0,0.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4661178,Rustavi,FC Mesakhte Tkibuli,Erovnuli Liga,13-06-2026 15:00,upcoming,,50.0,28.9,21.1,38,3,1,-2,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4663519,Auda,FK Jelgava,Virsliga,13-06-2026 15:00,upcoming,,64.0,19.8,16.3,86,30,10,-20,,,,1,1,1,2,2,0,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731655,Denmark,Bosnia & Herzegovina,European League (M),13-06-2026 15:00,upcoming,,60.0,20.0,20.0,5,4,1,-3,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734690,Pardubice,ČEZ Nymburk,NBL,13-06-2026 15:00,upcoming,,50.0,12.5,37.5,8,2,7,5,,,,0,1,1,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736036,Unión Compañías,Deportes Vallenar,Tercera División B,13-06-2026 15:00,upcoming,,33.3,33.3,33.3,3,1,15,14,,,,0,2,0,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736065,Bouenguidi,Football Canon 105,Championnat D1,13-06-2026 15:00,upcoming,,50.0,25.0,25.0,4,0,6,,,,,0,0,0,0,0,0,,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736602,Guido Ivan Justo,Luciano Emanuel Ambrogi,San Miguel de Tucuman,13-06-2026 15:10,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4647060,JKT Tanzania,Singida Black Stars SC,Ligi Kuu Bara,13-06-2026 15:30,upcoming,,45.5,27.3,27.3,22,5,9,4,,,,2,2,2,1,0,1,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4719085,VJS,Rovaniemi,Ykkonen,13-06-2026 15:30,upcoming,,62.5,18.8,18.8,16,1,14,13,,,,2,2,0,0,2,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4732905,Karbalaa,Amanat Baghdad,Iraqi League,13-06-2026 15:30,upcoming,,69.6,12.7,17.7,3676,370,634,264,,,,1,1,1,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736604,Arends S./Pel D.,Galloway R./Peers J.,Halle,13-06-2026 15:30,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736624,Fernandez L./Siegemund L.,Jovic I./Kessler M.,Queen's,13-06-2026 15:40,upcoming,,62.5,12.5,25.0,8,0,0,,,,,1,1,,1,1,,,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636756,Lahti,SJK Seinajoki,Veikkausliiga,13-06-2026 16:00,upcoming,,52.3,29.5,18.2,88,69,82,13,,,,0,1,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4636757,IFK Mariehamn,Gnistan,Veikkausliiga,13-06-2026 16:00,upcoming,,29.6,24.7,45.7,81,146,6,-140,,,,0,0,0,1,0,1,,0.5,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4655673,Shturmi,Kakheti Telavi,Erovnuli Liga 2,13-06-2026 16:00,upcoming,,50.0,25.0,25.0,4,0,3,,,,,0,1,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4656807,Gori,Gareji,Erovnuli Liga 2,13-06-2026 16:00,upcoming,,16.7,66.7,16.7,6,0,0,,,,,0,0,0,1,2,1,,0.25,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4661087,Flora Tallinn,Levadia Tallinn,Meistriliiga,13-06-2026 16:00,upcoming,,43.4,20.2,36.4,129,447,199,-248,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4675541,Dinamo Minsk,Gomel,Vysshaya Liga,13-06-2026 16:00,upcoming,,65.6,25.0,9.4,64,327,18,-309,,,,1,1,2,1,2,0,0.25,0.3333,-0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4678194,Latvia (W),Iceland (W),European League (W),13-06-2026 16:00,upcoming,,25.0,25.0,50.0,4,1,1,0,,,,0,0,0,0,0,0,,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688679,Deportes Rancagua,Quintero Unido,Tercera Division A,13-06-2026 16:00,upcoming,,20.0,10.0,70.0,10,0,1,,,,,1,0,0,1,0,2,1.0,0.3333,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688683,Chimbarongo,Cd Imperial Unido,Tercera Division A,13-06-2026 16:00,upcoming,,33.3,11.1,55.6,9,1,1,0,,,,2,1,0,0,2,1,0.6667,0.0,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4716659,AaB Handbold,Barcelona,Champions League,13-06-2026 16:00,upcoming,,7.2,10.8,82.0,334,15,268,253,,,,1,2,1,1,1,1,0.25,0.3333,-0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4729974,Usm Oujda,US Boujaad,Botola 2,13-06-2026 16:00,upcoming,,48.3,13.8,37.9,58,13,0,,,,,0,1,0,0,2,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4729975,Chabab Ben Guerir,Maghreb Tétouan,Botola 2,13-06-2026 16:00,upcoming,,17.7,12.2,70.2,181,15,399,384,,,,1,2,1,2,2,3,0.25,0.2857,-0.0357,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4729976,Rajaa Beni Mellal,Chabab Khénifra,Botola 2,13-06-2026 16:00,upcoming,,37.8,8.2,54.1,98,38,76,38,,,,2,1,0,1,2,2,0.6667,0.2,0.4667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731662,Spain,Azerbaijan,European League (M),13-06-2026 16:00,upcoming,,84.2,5.3,10.5,19,30,3,-27,,,,1,1,0,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731668,Latvia,Montenegro,European League (M),13-06-2026 16:00,upcoming,,33.3,33.3,33.3,3,3,9,6,,,,1,1,1,0,1,0,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731673,Sweden,Norway,European League (M),13-06-2026 16:00,upcoming,,25.0,25.0,50.0,4,4,3,-1,,,,1,1,0,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4732741,Uruguay Montevideo Fc,Miramar Misiones,Segunda Division,13-06-2026 16:00,upcoming,,34.8,23.9,41.3,46,11,25,14,,,,0,1,0,2,1,2,0.0,0.4,-0.4,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733909,Flamengo FBC (W),Killas (W),Women League,13-06-2026 16:15,upcoming,,50.0,16.7,33.3,6,0,0,,,,,2,2,1,0,1,0,0.4,0.0,0.4,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735960,DIarra,Stade Malien,Premiere Division,13-06-2026 16:15,upcoming,,33.3,33.3,33.3,15,0,194,,,,,1,0,1,1,1,2,0.5,0.25,0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735965,AS Real Bamako,Us Bougouba,Premiere Division,13-06-2026 16:15,upcoming,,50.0,40.0,10.0,10,148,0,,,,,1,2,0,0,1,2,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736628,Casanova H./Rodriguez Taverna S.,Del Pino M./Dickerson R.,San Miguel de Tucuman,13-06-2026 16:20,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4650620,Coquimbo Unido,O'Higgins,First Division,13-06-2026 16:30,upcoming,,60.3,16.6,23.2,622,360,625,265,,,,1,1,0,1,0,1,0.5,0.5,0.0,Estadio Francisco Sanchez Rumoroso,,0,0,0,0,0,0,False,Probable Lineups,True,True,False,False,True,0
+2026-06-13,4678192,Azerbaijan (W),North Macedonia (W),European League (W),13-06-2026 16:30,upcoming,,50.0,25.0,25.0,4,3,0,,,,,1,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688517,Uni Minsk,FC Slutsk,Pershaya Liga,13-06-2026 16:30,upcoming,,27.3,36.4,36.4,11,0,15,,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731676,Hungary,Luxembourg,European League (M),13-06-2026 16:30,upcoming,,66.7,16.7,16.7,6,3,2,-1,,,,1,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733297,Ponferradina,Celta Vigo B,Primera Division RFEF,13-06-2026 16:30,upcoming,,51.1,22.1,26.7,131,174,32,-142,,,,1,2,1,3,2,2,0.25,0.4286,-0.1786,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736547,Victoria Kasintseva,Katarzyna Kawa,Modena,13-06-2026 16:30,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4645284,Social Atletico Television (W),San Luis FC (W),Campeonato Femenino,13-06-2026 17:00,upcoming,,75.0,12.5,12.5,8,3,1,-2,,,,2,1,1,1,0,2,0.5,0.3333,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4731665,North Macedonia,Iceland,European League (M),13-06-2026 17:00,upcoming,,50.0,25.0,25.0,4,4,3,-1,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4654202,Sioni Bolnisi,Merani Martvili,Erovnuli Liga 2,13-06-2026 17:00,upcoming,,25.0,50.0,25.0,4,6,2,-4,,,,2,2,0,2,1,0,0.5,0.6667,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4655570,FC Samgurali Tskhaltubo,Torpedo Kutaisi,Erovnuli Liga,13-06-2026 17:00,upcoming,,32.4,17.6,50.0,34,3,91,88,,,,1,1,0,0,1,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4668704,Tartu JK Welko Electer,Tallinn CF,Esiliiga,13-06-2026 17:00,upcoming,,50.0,30.0,20.0,10,2,1,-1,,,,1,1,1,1,2,0,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4729057,Stelmet Zielona Gora,Legia Warszawa,Basket Liga,13-06-2026 17:00,upcoming,,20.0,20.0,60.0,5,11,3,-8,,,,0,1,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734729,Sportiva Italiana (W),Sergio Ceppi (W),National League Women,13-06-2026 17:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,0,0,0,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735947,Fenerbahçe,Besiktas,Super Ligi,13-06-2026 17:00,upcoming,,76.8,1.4,21.7,69,212,52,-160,,,,1,0,1,1,1,0,0.5,0.5,0.0,Fenerbahçe Metro Enerji Spor Salonu,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736485,Portugal U20,Tunisia U23,Maurice Revello Tournament,13-06-2026 17:00,upcoming,,62.2,8.9,28.9,180,67,22,-45,,,,1,1,2,2,1,0,0.25,0.6667,-0.4167,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4639206,Villa San Carlos,UAI Urquiza,Primera B Metropolitana,13-06-2026 17:30,upcoming,,50.0,28.6,21.4,14,50,26,-24,,,,2,0,0,1,0,0,1.0,1.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4643911,Ferrocarril Midland,Atlanta,Primera Nacional,13-06-2026 17:30,upcoming,,27.0,22.5,50.6,178,23,72,49,,,,0,1,0,1,2,1,0.0,0.25,-0.25,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4736626,Lucia Bronzetti,Laura Samson,Modena,13-06-2026 17:40,upcoming,,33.3,33.3,33.3,3,1,0,,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4712353,Tadamon,Fahaheel SC,Premier Division,13-06-2026 17:45,upcoming,,37.5,15.5,47.0,200,75,72,-3,,,,1,0,2,0,1,0,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4712354,Al Arabi Kuwait,Qadisiya Kuwait,Premier Division,13-06-2026 17:45,upcoming,,39.6,7.1,53.2,3405,662,553,-109,,,,1,2,2,1,1,1,0.2,0.3333,-0.1333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4643909,Colegiales,San Martin de Tucuman,Primera Nacional,13-06-2026 18:00,upcoming,,35.8,20.8,43.3,120,34,149,115,,,,0,2,2,2,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4652494,NSÍ Runavík,B36 Torshavn,Formuladeildin,13-06-2026 18:00,upcoming,,50.0,34.4,15.6,32,74,144,70,,,,0,1,1,2,1,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4675542,Dinamo Brest,Neman Grodno,Vysshaya Liga,13-06-2026 18:00,upcoming,,51.3,28.2,20.5,39,117,47,-70,,,,0,1,2,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4682650,Atlético Escobar,9 De Julio Rafaela,Federal A,13-06-2026 18:00,upcoming,,22.2,11.1,66.7,9,0,6,,,,,1,0,2,2,2,0,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4713147,São Paulo/Sp Youth,CA Bandeirantes Youth,Paulista U20,13-06-2026 18:00,upcoming,,84.4,2.2,13.3,45,875,1,-874,,,,0,1,1,1,2,2,0.0,0.2,-0.2,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4713149,Corinthians/Sp Youth,Portuguesa Santista/Sp Youth,Paulista U20,13-06-2026 18:00,upcoming,,80.6,9.7,9.7,72,937,3,-934,,,,1,1,2,1,0,2,0.25,0.3333,-0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4713569,Jacobina,Fluminense de Feira,Baiano - Série B,13-06-2026 18:00,upcoming,,33.3,9.1,57.6,33,89,131,42,,,,0,1,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4713937,Grapiúna,Feira FC,Baiano - Série B,13-06-2026 18:00,upcoming,,5.1,5.1,89.9,138,0,5,,,,,2,1,0,1,1,0,0.6667,0.5,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4713975,Palmeiras/Sp Youth,Audax/Sp Youth,Paulista U20,13-06-2026 18:00,upcoming,,86.7,1.3,12.0,75,964,49,-915,,,,2,1,1,0,2,0,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4729056,Olympiacos,Panathinaikos,Basket League,13-06-2026 18:00,upcoming,,70.5,0.5,29.0,200,181,168,-13,,,,0,1,0,1,0,1,0.0,0.5,-0.5,Stadio Eirinis kai Philias,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4729972,Wydad Fes,RAC Casablanca,Botola 2,13-06-2026 18:00,upcoming,,75.8,12.9,11.3,62,115,31,-84,,,,2,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733066,La Laguna Tenerife,Barcelona,ACB,13-06-2026 18:00,upcoming,,19.9,0.4,79.7,241,80,1298,1218,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,Pabellon Insular Santiago Martin,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733067,Olimpia Milano,Reyer Venezia,Lega A,13-06-2026 18:00,upcoming,,81.4,1.7,16.9,59,453,232,-221,,,,1,1,1,0,1,1,0.3333,0.0,0.3333,Unipol Forum,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733451,Holguin,Industriales,Liga Elite,13-06-2026 18:00,upcoming,,12.5,12.5,75.0,8,0,25,,,,,1,1,0,0,0,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733637,Artemisa,Matanzas,Liga Elite,13-06-2026 18:00,upcoming,,25.0,25.0,50.0,4,5,7,2,,,,0,0,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733641,Mayabeque,Las Tunas,Liga Elite,13-06-2026 18:00,upcoming,,20.0,20.0,60.0,5,1,17,16,,,,0,1,0,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734730,Colegio Los Leones (W),Santiago Morning Quilicura (W),National League Women,13-06-2026 18:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,0,1,0,0,0,0.5,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735912,Sportivo Bella Italia,Deportivo Colonia,Divisional C,13-06-2026 18:00,upcoming,,20.0,20.0,60.0,5,1,2,1,,,,1,1,2,1,1,0,0.25,0.5,-0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735913,Deutscher,Rocha FC,Divisional C,13-06-2026 18:00,upcoming,,11.1,11.1,77.8,9,0,8,,,,,1,1,1,2,6,1,0.3333,0.2222,0.1111,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736037,Provincial Talagante,Audax de Paipote,Tercera División B,13-06-2026 18:00,upcoming,,60.0,20.0,20.0,5,0,0,,,,,1,1,1,1,2,1,0.3333,0.25,0.0833,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4556231,Minnesota Twins,St. Louis Cardinals,MLB,13-06-2026 18:10,upcoming,,31.0,2.4,66.7,42,164,210,46,,,,0,1,0,0,1,1,0.0,0.0,0.0,Target Field,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735961,Fc Binga,Onze Créateurs,Premiere Division,13-06-2026 18:15,upcoming,,37.5,50.0,12.5,8,0,16,,,,,0,0,0,2,0,1,,0.6667,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4633721,Longford,Cobh Ramblers,Division 1,13-06-2026 18:30,upcoming,,28.9,42.2,28.9,83,11,8,-3,,,,1,2,0,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4639208,Camioneros,Arsenal Sarandi,Primera B Metropolitana,13-06-2026 18:30,upcoming,,18.9,21.6,59.5,37,12,663,651,,,,2,0,1,0,0,2,0.6667,0.0,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4639209,Sportivo Italiano,Excursionistas,Primera B Metropolitana,13-06-2026 18:30,upcoming,,35.3,17.6,47.1,34,54,28,-26,,,,1,0,0,1,1,2,1.0,0.25,0.75,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4639211,Sportivo Dock Sud,Talleres RE,Primera B Metropolitana,13-06-2026 18:30,upcoming,,4.5,18.2,77.3,22,21,37,16,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4639212,Comunicaciones,Deportivo Laferrere,Primera B Metropolitana,13-06-2026 18:30,upcoming,,40.0,20.0,40.0,20,32,41,9,,,,1,0,1,1,0,1,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4639213,Defensores Unidos,Brown Adrogue,Primera B Metropolitana,13-06-2026 18:30,upcoming,,33.3,22.2,44.4,9,32,67,35,,,,0,1,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4639215,Flandria,Ituzaingó,Primera B Metropolitana,13-06-2026 18:30,upcoming,,26.3,36.8,36.8,19,44,21,-23,,,,0,0,2,1,0,0,0.0,1.0,-1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4643898,Defensores de Belgrano,Colon,Primera Nacional,13-06-2026 18:30,upcoming,,29.3,23.2,47.6,164,76,869,793,,,,2,1,0,2,2,2,0.6667,0.3333,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4643904,Nueva Chicago,Chacarita Juniors,Primera Nacional,13-06-2026 18:30,upcoming,,50.4,20.5,29.1,127,195,162,-33,,,,2,0,0,0,0,1,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4643907,Almagro,Agropecuario,Primera Nacional,13-06-2026 18:30,upcoming,,43.5,34.8,21.7,115,87,52,-35,,,,2,1,0,2,2,2,0.6667,0.3333,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4668173,Bulgaria,Argentina,Volleyball Nations League,13-06-2026 18:30,upcoming,,43.0,1.0,56.0,100,115,306,191,,,,1,0,1,0,0,0,0.5,,,Nilson Nelson Gymnasium,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733943,Club Náutico Hacoaj,Social Atlético Televisión,Promocional Amateur,13-06-2026 18:30,upcoming,,60.0,20.0,20.0,5,3,1,-2,,,,1,1,1,1,1,1,0.3333,0.3333,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733945,Club Atlético Pilar,Juventud de Bernal,Promocional Amateur,13-06-2026 18:30,upcoming,,33.3,33.3,33.3,3,1,0,,,,,0,0,0,0,0,0,,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733946,Union Deportivo Provincial,Estrella de Berisso,Promocional Amateur,13-06-2026 18:30,upcoming,,25.0,25.0,50.0,4,0,1,,,,,0,0,0,1,0,0,,1.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736038,Laja Histórico,Deportes Valdivia,Tercera División B,13-06-2026 18:30,upcoming,,50.0,16.7,33.3,6,0,68,,,,,0,1,1,1,2,1,0.0,0.25,-0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736535,Talenet Giants Antwerp,BC Oostende,BNXT League,13-06-2026 18:30,upcoming,,25.0,25.0,50.0,4,20,23,3,,,,1,0,0,0,1,1,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4627868,Qatar,Switzerland,FIFA World Cup,13-06-2026 19:00,upcoming,,30.7,7.7,61.6,64626,5581,5539,-42,56,19,-37,2,0,0,2,1,2,1.0,0.4,0.6,Levi's Stadium (Santa Clara),,0,0,0,0,0,0,False,Probable Lineups,False,False,False,True,True,0
+2026-06-13,4643899,Ciudad De Bolivar,Deportivo Moron,Primera Nacional,13-06-2026 19:00,upcoming,,28.3,23.0,48.7,152,12,84,72,,,,2,2,1,1,1,1,0.4,0.3333,0.0667,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4651122,Everton De Vina,Palestino,First Division,13-06-2026 19:00,upcoming,,45.7,21.7,32.6,438,554,1091,537,,,,1,1,2,0,2,2,0.25,0.0,0.25,Estadio Sausalito,,0,0,0,0,0,0,False,Probable Lineups,False,False,False,False,True,0
+2026-06-13,4677802,Amazonas FC,Anápolis,Serie C,13-06-2026 19:00,upcoming,,50.4,26.4,23.2,413,204,191,-13,,,,0,0,0,0,1,2,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4688680,Naval,Rodelindo,Tercera Division A,13-06-2026 19:00,upcoming,,85.7,7.1,7.1,14,30,5,-25,,,,0,0,0,2,0,0,,1.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4695918,Piauí,Tirol,Serie D,13-06-2026 19:00,upcoming,,39.8,29.6,30.6,108,123,7,-116,,,,1,0,1,2,1,2,0.5,0.4,0.1,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4695920,Altos,Atlético Cearense,Serie D,13-06-2026 19:00,upcoming,,45.4,31.5,23.1,108,295,414,119,,,,2,0,0,0,0,1,1.0,0.0,1.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4695921,Ferroviário,Fluminense-PI,Serie D,13-06-2026 19:00,upcoming,,48.3,29.0,22.8,145,679,81,-598,,,,2,1,1,2,1,2,0.5,0.4,0.1,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4732740,Colon,Fenix,Segunda Division,13-06-2026 19:00,upcoming,,20.5,25.0,54.5,44,4,182,178,,,,1,0,0,1,2,2,1.0,0.2,0.8,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733298,Zamora CF,Sabadell,Primera Division RFEF,13-06-2026 19:00,upcoming,,46.0,16.7,37.3,126,21,84,63,,,,1,0,0,1,0,1,1.0,0.5,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735911,Club Atlético Artigas,Parque Del Plata,Divisional C,13-06-2026 19:00,upcoming,,60.0,20.0,20.0,5,3,0,,,,,2,1,2,0,0,1,0.4,0.0,0.4,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736039,EFC Conchalí,Buenos Aires,Tercera División B,13-06-2026 19:00,upcoming,,28.6,14.3,57.1,7,0,0,,,,,0,2,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733184,Section Paloise,Racing-Metro 92,Top 14,13-06-2026 19:05,upcoming,,33.3,33.3,33.3,3,4,7,3,,,,1,0,1,1,1,1,0.5,0.3333,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4556002,Toronto Blue Jays,New York Yankees,MLB,13-06-2026 19:07,upcoming,,29.2,1.1,69.7,89,248,1320,1072,,,,0,1,0,1,1,1,0.0,0.3333,-0.3333,Rogers Centre,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4679186,Unión Española (W),Universidad Concepción (W),Championship Women,13-06-2026 19:30,upcoming,,66.7,16.7,16.7,6,1,1,0,,,,1,2,0,2,2,0,0.3333,0.5,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4682648,Sportivo Las Parejas,CSCyD Gimnasia y Esgrima (Chivilcoy),Federal A,13-06-2026 19:30,upcoming,,20.0,20.0,60.0,5,19,2,-17,,,,2,1,1,2,0,1,0.5,0.6667,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4683319,Huachipato (W),Magallanes (W),Championship Women,13-06-2026 19:30,upcoming,,44.4,11.1,44.4,9,1,0,,,,,0,2,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736027,Ciudad Nueva Santa Cruz Academia,Los Angeles FC (Cotoca),Copa Simón Bolívar,13-06-2026 19:30,upcoming,,68.6,5.7,25.7,35,3,0,,,,,2,0,1,2,1,1,0.6667,0.5,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4643910,Quilmes,Gimnasia y Tiro,Primera Nacional,13-06-2026 20:00,upcoming,,44.9,24.6,30.4,69,418,38,-380,,,,2,1,2,1,2,2,0.4,0.2,0.2,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4668143,Canada,USA,Volleyball Nations League,13-06-2026 20:00,upcoming,,30.4,1.8,67.9,56,117,206,89,,,,1,0,1,1,1,1,0.5,0.3333,0.1667,TD Place Arena,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4677193,Carneras UPS (W),Universidad Católica (W),Superliga Femenina,13-06-2026 20:00,upcoming,,19.0,28.6,52.4,21,0,2,,,,,0,0,0,0,1,1,,0.0,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688677,Cd Constitución Unido,Atletico Oriente,Tercera Division A,13-06-2026 20:00,upcoming,,57.1,14.3,28.6,7,1,0,,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733233,Juventud Alfa FC,Nacional FBC,Liga 3,13-06-2026 20:00,upcoming,,50.0,16.7,33.3,6,0,1,,,,,0,2,0,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733713,Lideres De Miranda,Guerreros De Lara,LMBP,13-06-2026 20:00,upcoming,,33.3,33.3,33.3,3,1,1,0,,,,0,1,1,0,0,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733714,Caciques De Distrito,Marineros De Carabobo,LMBP,13-06-2026 20:00,upcoming,,33.3,33.3,33.3,3,6,6,0,,,,1,0,1,0,0,1,0.5,0.0,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736040,Vicente Peréz Rosales,Municipal de Paillaco,Tercera División B,13-06-2026 20:00,upcoming,,40.0,40.0,20.0,5,0,0,,,,,0,2,1,1,0,2,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555003,Washington Nationals,Seattle Mariners,MLB,13-06-2026 20:05,upcoming,,44.1,2.9,52.9,34,179,183,4,,,,0,1,1,0,0,1,0.0,0.0,0.0,Nationals Park,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555058,Baltimore Orioles,San Diego Padres,MLB,13-06-2026 20:05,upcoming,,51.5,3.0,45.5,33,206,226,20,,,,1,1,1,0,1,0,0.3333,0.0,0.3333,Oriole Park at Camden Yards,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555582,Pittsburgh Pirates,Miami Marlins,MLB,13-06-2026 20:05,upcoming,,55.6,3.7,40.7,27,186,192,6,,,,0,0,1,1,1,1,0.0,0.3333,-0.3333,PNC Park,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555342,Boston Red Sox,Texas Rangers,MLB,13-06-2026 20:10,upcoming,,59.4,3.1,37.5,32,612,218,-394,,,,1,0,0,0,1,1,1.0,0.0,1.0,Fenway Park,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555748,Chicago White Sox,Los Angeles Dodgers,MLB,13-06-2026 20:10,upcoming,,16.9,1.3,81.8,77,206,756,550,,,,1,1,0,1,0,1,0.5,0.5,0.0,Rate Field,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555785,New York Mets,Atlanta Braves,MLB,13-06-2026 20:10,upcoming,,31.7,2.4,65.9,41,263,266,3,,,,1,0,0,0,0,1,1.0,0.0,1.0,Citi Field,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4556150,Cincinnati Reds,Arizona Diamondbacks,MLB,13-06-2026 20:10,upcoming,,16.0,4.0,80.0,25,175,193,18,,,,0,1,0,0,0,0,0.0,,,Great American Ball Park,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4556197,Cleveland Guardians,Detroit Tigers,MLB,13-06-2026 20:10,upcoming,,50.0,3.8,46.2,26,207,251,44,,,,1,0,0,0,1,0,1.0,0.0,1.0,Progressive Field,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733910,Universitario Deportes (W),Unsaac (W),Women League,13-06-2026 20:30,upcoming,,57.1,28.6,14.3,7,13,0,,,,,1,2,1,2,0,0,0.25,1.0,-0.75,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4679184,Universidad De Chile(W),Palestino (W),Championship Women,13-06-2026 21:00,upcoming,,70.6,5.9,23.5,51,29,3,-26,,,,0,1,1,2,1,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4688676,Aguará,Comunal Cabrero,Tercera Division A,13-06-2026 21:00,upcoming,,63.6,9.1,27.3,11,0,2,,,,,1,1,2,1,2,1,0.25,0.25,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733715,Samanes De Aragua,Delfines De La Guaira,LMBP,13-06-2026 21:00,upcoming,,33.3,33.3,33.3,3,6,1,-5,,,,1,0,0,1,1,0,1.0,0.5,0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733716,Centauros De La Guaira,Senadores De Caracas,LMBP,13-06-2026 21:00,upcoming,,33.3,33.3,33.3,3,6,6,0,,,,0,1,0,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734731,Universidad De Concepcion (W),Azul y Rojo (W),National League Women,13-06-2026 21:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,1,1,0,1,0,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736041,Municipal Ovalle,Deportes Ovalle,Tercera División B,13-06-2026 21:00,upcoming,,25.0,12.5,62.5,8,0,0,,,,,0,0,1,1,2,1,0.0,0.25,-0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736042,Fernández Vial,Deportes Hualpénc,Tercera División B,13-06-2026 21:00,upcoming,,66.7,11.1,22.2,9,26,0,,,,,1,2,2,0,0,0,0.2,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4651123,Colo Colo,Cobresal,First Division,13-06-2026 21:30,upcoming,,84.9,6.6,8.5,1044,3106,621,-2485,,,,0,1,1,0,0,0,0.0,,,Estadio Monumental David Arellano,,0,0,0,0,0,0,False,Probable Lineups,True,True,False,False,True,0
+2026-06-13,4659251,Real Monarchs,Portland Timbers II,MLS Next Pro,13-06-2026 21:30,upcoming,,60.0,13.3,26.7,15,14,10,-4,,,,0,0,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4627856,Brazil,Morocco,FIFA World Cup,13-06-2026 22:00,upcoming,,59.1,9.5,31.4,236531,46551,9743,-36808,6,7,1,1,1,1,2,1,1,0.3333,0.5,-0.1667,MetLife Stadium (New Jersey),,0,0,0,0,0,0,False,Probable Lineups,True,True,False,True,True,0
+2026-06-13,4634234,Loudoun United FC,Rhode Island,USL Championship,13-06-2026 22:00,upcoming,,38.5,15.4,46.2,13,7,2,-5,,,,0,2,1,0,1,2,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4659720,Connecticut Sun,Indiana Fever,WNBA,13-06-2026 22:00,upcoming,,9.7,3.2,87.1,31,18,33,15,,,,0,0,0,1,1,0,,0.5,,Mohegan Sun Arena,,0,0,0,0,0,0,False,Missing Players,True,True,False,False,True,0
+2026-06-13,4733676,Pericos de Puebla,Toros de Tijuana,LMB,13-06-2026 22:00,upcoming,,33.3,11.1,55.6,9,40,20,-20,,,,1,0,1,1,1,0,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733785,Arabe Valparaiso,CD Hrvatski Sokol,LNB 2,13-06-2026 22:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,1,0,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733787,Luis Matte Larrain,Sportiva Italiana,LNB 2,13-06-2026 22:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,1,0,1,1,1,0.0,0.3333,-0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4712189,Portland Hearts of Pine,Chattanooga Red Wolves,USL League One,13-06-2026 22:30,upcoming,,50.0,25.0,25.0,4,0,0,,,,,0,1,2,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4734747,Tabare (W),Cordon (W),LFB (W),13-06-2026 22:30,upcoming,,33.3,33.3,33.3,3,0,0,,,,,1,0,0,0,0,0,1.0,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4735910,Terremoto,Huracan Buceo,Divisional C,13-06-2026 22:30,upcoming,,50.0,12.5,37.5,8,0,0,,,,,2,1,1,2,0,0,0.5,1.0,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4634229,Sporting JAX,Detroit City,USL Championship,13-06-2026 23:00,upcoming,,6.2,18.8,75.0,16,0,6,,,,,0,2,2,2,0,2,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4634230,Pittsburgh Riverhounds,Indy Eleven,USL Championship,13-06-2026 23:00,upcoming,,66.7,25.0,8.3,12,15,15,0,,,,1,1,0,1,1,1,0.5,0.3333,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4634235,Lexington,San Antonio FC,USL Championship,13-06-2026 23:00,upcoming,,18.2,22.7,59.1,22,2,20,18,,,,1,0,1,2,1,2,0.5,0.4,0.1,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4643903,Gimnasia Jujuy,San Martin,Primera Nacional,13-06-2026 23:00,upcoming,,46.0,20.0,34.0,50,110,337,227,,,,0,4,2,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,True,0
+2026-06-13,4659250,Atlanta United II,Chattanooga FC,MLS Next Pro,13-06-2026 23:00,upcoming,,66.7,16.7,16.7,6,10,3,-7,,,,1,0,1,1,0,1,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4683762,Niagara River Lions,Montreal Alliance,CEBL,13-06-2026 23:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,0,1,1,0,1,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4710811,Charlotte Independence,FC Naples,USL League One,13-06-2026 23:00,upcoming,,71.4,14.3,14.3,7,12,0,,,,,1,1,1,0,0,1,0.3333,0.0,0.3333,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4710813,One Knoxville,New York Cosmos,USL League One,13-06-2026 23:00,upcoming,,63.6,9.1,27.3,11,1,28,27,,,,1,2,0,0,0,0,0.3333,,,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4726052,Saskatchewan Roughriders,BC Lions,CFL,13-06-2026 23:00,upcoming,,45.5,9.1,45.5,11,7,30,23,,,,1,1,0,1,0,1,0.5,0.5,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733407,Tokio De Posadas,Club Hércules de Charata,Liga Federal,13-06-2026 23:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,1,1,1,1,0,0.0,0.5,-0.5,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4733677,Sultanes de Monterrey,Piratas de Campeche,LMB,13-06-2026 23:00,upcoming,,62.5,12.5,25.0,8,56,14,-42,,,,0,0,1,0,1,0,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4736043,CEFF Copiapo,Cultural Maipú,Tercera División B,13-06-2026 23:00,upcoming,,33.3,33.3,33.3,3,0,0,,,,,0,0,2,1,2,1,0.0,0.25,-0.25,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4555904,Milwaukee Brewers,Philadelphia Phillies,MLB,13-06-2026 23:10,upcoming,,50.0,2.5,47.5,40,187,229,42,,,,1,0,0,0,1,0,1.0,0.0,1.0,American Family Field,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4591187,Kansas City Royals,Houston Astros,MLB,13-06-2026 23:10,upcoming,,26.1,4.3,69.6,23,191,340,149,,,,0,0,1,0,0,1,0.0,0.0,0.0,Kauffman Stadium,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4634228,Tampa Bay Rowdies,Hartford,USL Championship,13-06-2026 23:30,upcoming,,60.5,23.3,16.3,43,15,6,-9,,,,2,1,1,2,0,1,0.5,0.6667,-0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4634238,Charleston Battery,FC Tulsa,USL Championship,13-06-2026 23:30,upcoming,,37.5,25.0,37.5,16,17,9,-8,,,,2,1,0,2,1,1,0.6667,0.5,0.1667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4668148,Turkiye,Italy,Volleyball Nations League,13-06-2026 23:30,upcoming,,31.4,1.4,67.1,70,108,248,140,,,,0,1,1,1,0,0,0.0,1.0,-1.0,TD Place Arena,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4710810,Sarasota Paradise,Union Omaha,USL League One,13-06-2026 23:30,upcoming,,33.3,33.3,33.3,3,0,2,,,,,0,1,1,0,1,1,0.0,0.0,0.0,,,0,0,0,0,0,0,False,,False,False,False,False,False,0
+2026-06-13,4732739,Oriental,Rentistas,Segunda Division,13-06-2026 23:30,upcoming,,43.3,13.3,43.3,30,7,146,139,,,,2,1,0,0,2,0,0.6667,0.0,0.6667,,,0,0,0,0,0,0,False,,False,False,False,False,False,0

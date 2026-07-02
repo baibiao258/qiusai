@@ -1,0 +1,13 @@
+{
+  "default_discount": 0.0,
+  "discount_by_strength": {
+    "low_diff": 0.2,
+    "high_diff": 0.0,
+    "home_favored": 0.0,
+    "away_favored": 0.0
+  },
+  "global_brier_raw": 0.5253,
+  "global_brier_optimal": 0.5253,
+  "n_friendly": 60,
+  "generated": "2026-06-14"
+}

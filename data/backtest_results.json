@@ -1,0 +1,85 @@
+[
+  {
+    "timestamp": "2026-06-08T13:25:32.067997",
+    "type": "historical_backtest",
+    "n_matches": 150,
+    "train_size": 350,
+    "test_size": 150,
+    "date_range": "2026-01-18 ~ 2026-03-31",
+    "brier": 0.4919,
+    "rps": 0.1503,
+    "log_loss": 0.8418,
+    "accuracy": 0.6333
+  },
+  {
+    "timestamp": "2026-06-08T13:27:45.701616",
+    "type": "historical_backtest",
+    "n_matches": 150,
+    "train_size": 350,
+    "test_size": 150,
+    "date_range": "2026-01-18 ~ 2026-03-31",
+    "brier": 0.4919,
+    "rps": 0.1503,
+    "log_loss": 0.8418,
+    "accuracy": 0.6333
+  },
+  {
+    "timestamp": "2026-06-08T13:28:17.578088",
+    "type": "historical_backtest",
+    "n_matches": 150,
+    "train_size": 350,
+    "test_size": 150,
+    "date_range": "2026-01-18 ~ 2026-03-31",
+    "brier": 0.4921,
+    "rps": 0.1505,
+    "log_loss": 0.8411,
+    "accuracy": 0.6
+  },
+  {
+    "timestamp": "2026-06-08T13:28:43.534374",
+    "type": "historical_backtest",
+    "n_matches": 600,
+    "train_size": 1400,
+    "test_size": 600,
+    "date_range": "2025-09-09 ~ 2026-03-31",
+    "brier": 0.4613,
+    "rps": 0.1475,
+    "log_loss": 0.7925,
+    "accuracy": 0.645
+  },
+  {
+    "timestamp": "2026-06-16T08:08:18.819493",
+    "type": "daily_verify",
+    "n_matches": 34,
+    "brier": 0.7373,
+    "rps": 0.2547,
+    "log_loss": 1.867,
+    "accuracy": 0.4412,
+    "correct_count": 15,
+    "wrong_count": 19
+  },
+  {
+    "timestamp": "2026-06-27T08:05:51.292496",
+    "type": "daily_verify",
+    "n_matches": 1,
+    "brier": 0.1916,
+    "rps": 0.071,
+    "log_loss": 0.436,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "code": "周四026",
+        "home": "瑞士",
+        "away": "波黑",
+        "actual_hda": "H",
+        "pred_h": 0.6459999999999999,
+        "pred_d": 0.221,
+        "pred_a": 0.132,
+        "brier": 0.19158100000000006,
+        "rps": 0.071017,
+        "log_loss": 0.4359552748659517,
+        "accuracy": 1.0
+      }
+    ]
+  }
+]

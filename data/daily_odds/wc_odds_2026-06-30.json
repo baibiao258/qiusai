@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2026-06-30",
+    "home": "Ivory Coast",
+    "away": "Norway",
+    "odds_h": 3.55,
+    "odds_d": 3.5,
+    "odds_a": 2.0,
+    "market_h": 0.2639019792648445
+  },
+  {
+    "date": "2026-06-30",
+    "home": "France",
+    "away": "Sweden",
+    "odds_h": 1.27,
+    "odds_d": 5.5,
+    "odds_a": 10.0,
+    "market_h": 0.7364263238936867
+  },
+  {
+    "date": "2026-07-01",
+    "home": "Mexico",
+    "away": "Ecuador",
+    "odds_h": 2.23,
+    "odds_d": 2.8,
+    "odds_a": 4.1,
+    "market_h": 0.4272899839952358
+  },
+  {
+    "date": "2026-07-01",
+    "home": "England",
+    "away": "DR Congo",
+    "odds_h": 1.27,
+    "odds_d": 5.25,
+    "odds_a": 14.0,
+    "market_h": 0.7504020010720028
+  },
+  {
+    "date": "2026-07-01",
+    "home": "Belgium",
+    "away": "Senegal",
+    "odds_h": 2.15,
+    "odds_d": 3.4,
+    "odds_a": 3.4,
+    "market_h": 0.44155844155844154
+  },
+  {
+    "date": "2026-07-02",
+    "home": "USA",
+    "away": "Bosnia & Herzegovina",
+    "odds_h": 1.33,
+    "odds_d": 4.8,
+    "odds_a": 8.5,
+    "market_h": 0.6975670638923559
+  },
+  {
+    "date": "2026-07-02",
+    "home": "Spain",
+    "away": "Austria",
+    "odds_h": 1.32,
+    "odds_d": 4.9,
+    "odds_a": 9.5,
+    "market_h": 0.7100582690136978
+  },
+  {
+    "date": "2026-07-02",
+    "home": "Portugal",
+    "away": "Croatia",
+    "odds_h": 1.77,
+    "odds_d": 3.45,
+    "odds_a": 5.2,
+    "market_h": 0.5395407587855822
+  },
+  {
+    "date": "2026-07-03",
+    "home": "Switzerland",
+    "away": "Algeria",
+    "odds_h": 2.02,
+    "odds_d": 3.15,
+    "odds_a": 4.2,
+    "market_h": 0.4712041884816754
+  },
+  {
+    "date": "2026-07-03",
+    "home": "Australia",
+    "away": "Egypt",
+    "odds_h": 3.5,
+    "odds_d": 2.8,
+    "odds_a": 2.45,
+    "market_h": 0.27184466019417475
+  },
+  {
+    "date": "2026-07-03",
+    "home": "Argentina",
+    "away": "Cape Verde",
+    "odds_h": 1.14,
+    "odds_d": 7.5,
+    "odds_a": 18.0,
+    "market_h": 0.8228195282501372
+  },
+  {
+    "date": "2026-07-04",
+    "home": "Colombia",
+    "away": "Ghana",
+    "odds_h": 1.49,
+    "odds_d": 3.7,
+    "odds_a": 7.5,
+    "market_h": 0.6244655475043882
+  },
+  {
+    "date": "2026-07-04",
+    "home": "Canada",
+    "away": "Morocco",
+    "odds_h": 5.1,
+    "odds_d": 3.6,
+    "odds_a": 1.74,
+    "market_h": 0.18699623858140785
+  }
+]

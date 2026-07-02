@@ -1,0 +1,578 @@
+[
+  {
+    "date": "2026-06-14",
+    "home": "Germany",
+    "away": "Cura\u00e7ao",
+    "odds_h": 1.03,
+    "odds_d": 21.0,
+    "odds_a": 41.0,
+    "market_h": 0.9309517116104058
+  },
+  {
+    "date": "2026-06-14",
+    "home": "Netherlands",
+    "away": "Japan",
+    "odds_h": 2.0,
+    "odds_d": 3.4,
+    "odds_a": 3.6,
+    "market_h": 0.46646341463414637
+  },
+  {
+    "date": "2026-06-14",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "odds_h": 3.25,
+    "odds_d": 2.75,
+    "odds_a": 2.5,
+    "market_h": 0.28720626631853785
+  },
+  {
+    "date": "2026-06-15",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "odds_h": 1.88,
+    "odds_d": 3.35,
+    "odds_a": 4.1,
+    "market_h": 0.49511553296564653
+  },
+  {
+    "date": "2026-06-15",
+    "home": "Spain",
+    "away": "Cape Verde",
+    "odds_h": 1.07,
+    "odds_d": 12.0,
+    "odds_a": 23.0,
+    "market_h": 0.8805232094432924
+  },
+  {
+    "date": "2026-06-15",
+    "home": "Belgium",
+    "away": "Egypt",
+    "odds_h": 1.57,
+    "odds_d": 3.8,
+    "odds_a": 5.5,
+    "market_h": 0.5887158108222303
+  },
+  {
+    "date": "2026-06-15",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "odds_h": 8.0,
+    "odds_d": 4.33,
+    "odds_a": 1.4,
+    "market_h": 0.11679704057647104
+  },
+  {
+    "date": "2026-06-16",
+    "home": "Iran",
+    "away": "New Zealand",
+    "odds_h": 1.81,
+    "odds_d": 3.35,
+    "odds_a": 4.6,
+    "market_h": 0.5171227705162839
+  },
+  {
+    "date": "2026-06-16",
+    "home": "France",
+    "away": "Senegal",
+    "odds_h": 1.44,
+    "odds_d": 4.33,
+    "odds_a": 7.5,
+    "market_h": 0.6559254456657416
+  },
+  {
+    "date": "2026-06-16",
+    "home": "Iraq",
+    "away": "Norway",
+    "odds_h": 17.51,
+    "odds_d": 7.8,
+    "odds_a": 1.21,
+    "market_h": 0.05644632186843425
+  },
+  {
+    "date": "2026-06-17",
+    "home": "Argentina",
+    "away": "Algeria",
+    "odds_h": 1.36,
+    "odds_d": 4.5,
+    "odds_a": 8.5,
+    "market_h": 0.6838905775075987
+  },
+  {
+    "date": "2026-06-17",
+    "home": "Austria",
+    "away": "Jordan",
+    "odds_h": 1.28,
+    "odds_d": 5.6,
+    "odds_a": 9.0,
+    "market_h": 0.7295044001852709
+  },
+  {
+    "date": "2026-06-17",
+    "home": "Portugal",
+    "away": "DR Congo",
+    "odds_h": 1.29,
+    "odds_d": 5.5,
+    "odds_a": 10.5,
+    "market_h": 0.7367011098354381
+  },
+  {
+    "date": "2026-06-17",
+    "home": "England",
+    "away": "Croatia",
+    "odds_h": 1.7,
+    "odds_d": 3.6,
+    "odds_a": 5.0,
+    "market_h": 0.5518087063151441
+  },
+  {
+    "date": "2026-06-17",
+    "home": "Ghana",
+    "away": "Panama",
+    "odds_h": 2.15,
+    "odds_d": 3.25,
+    "odds_a": 3.4,
+    "market_h": 0.4359404280501035
+  },
+  {
+    "date": "2026-06-18",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "odds_h": 9.0,
+    "odds_d": 4.5,
+    "odds_a": 1.33,
+    "market_h": 0.10238645111624327
+  },
+  {
+    "date": "2026-06-18",
+    "home": "Czech Republic",
+    "away": "South Africa",
+    "odds_h": 1.7,
+    "odds_d": 3.75,
+    "odds_a": 4.7,
+    "market_h": 0.5509534229446703
+  },
+  {
+    "date": "2026-06-18",
+    "home": "Switzerland",
+    "away": "Bosnia & Herzegovina",
+    "odds_h": 1.55,
+    "odds_d": 3.9,
+    "odds_a": 5.8,
+    "market_h": 0.6007170362501659
+  },
+  {
+    "date": "2026-06-18",
+    "home": "Canada",
+    "away": "Qatar",
+    "odds_h": 1.24,
+    "odds_d": 5.6,
+    "odds_a": 12.0,
+    "market_h": 0.7548526240115024
+  },
+  {
+    "date": "2026-06-19",
+    "home": "Mexico",
+    "away": "South Korea",
+    "odds_h": 1.94,
+    "odds_d": 3.3,
+    "odds_a": 3.9,
+    "market_h": 0.4795439302481556
+  },
+  {
+    "date": "2026-06-19",
+    "home": "USA",
+    "away": "Australia",
+    "odds_h": 1.55,
+    "odds_d": 4.0,
+    "odds_a": 5.5,
+    "market_h": 0.5990469707283866
+  },
+  {
+    "date": "2026-06-19",
+    "home": "Scotland",
+    "away": "Morocco",
+    "odds_h": 5.1,
+    "odds_d": 3.5,
+    "odds_a": 1.76,
+    "market_h": 0.18674589219668952
+  },
+  {
+    "date": "2026-06-20",
+    "home": "Brazil",
+    "away": "Haiti",
+    "odds_h": 1.1,
+    "odds_d": 9.5,
+    "odds_a": 23.0,
+    "market_h": 0.8593903638151426
+  },
+  {
+    "date": "2026-06-20",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "odds_h": 2.02,
+    "odds_d": 3.25,
+    "odds_a": 3.8,
+    "market_h": 0.46444285660561846
+  },
+  {
+    "date": "2026-06-20",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "odds_h": 1.63,
+    "odds_d": 3.85,
+    "odds_a": 5.2,
+    "market_h": 0.5757588829932561
+  },
+  {
+    "date": "2026-06-20",
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "odds_h": 1.57,
+    "odds_d": 4.0,
+    "odds_a": 5.5,
+    "market_h": 0.5959637003927942
+  },
+  {
+    "date": "2026-06-21",
+    "home": "Ecuador",
+    "away": "Cura\u00e7ao",
+    "odds_h": 1.2,
+    "odds_d": 6.25,
+    "odds_a": 15.0,
+    "market_h": 0.7861635220125787
+  },
+  {
+    "date": "2026-06-21",
+    "home": "Tunisia",
+    "away": "Japan",
+    "odds_h": 5.2,
+    "odds_d": 3.6,
+    "odds_a": 1.68,
+    "market_h": 0.1805157593123209
+  },
+  {
+    "date": "2026-06-21",
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "odds_h": 1.11,
+    "odds_d": 8.5,
+    "odds_a": 23.0,
+    "market_h": 0.8482849890438895
+  },
+  {
+    "date": "2026-06-21",
+    "home": "Belgium",
+    "away": "Iran",
+    "odds_h": 1.42,
+    "odds_d": 5.1,
+    "odds_a": 7.8,
+    "market_h": 0.6847051533615615
+  },
+  {
+    "date": "2026-06-21",
+    "home": "Uruguay",
+    "away": "Cape Verde",
+    "odds_h": 1.4,
+    "odds_d": 4.4,
+    "odds_a": 8.0,
+    "market_h": 0.6697108066971081
+  },
+  {
+    "date": "2026-06-22",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "odds_h": 5.0,
+    "odds_d": 3.5,
+    "odds_a": 1.7,
+    "market_h": 0.1862284820031299
+  },
+  {
+    "date": "2026-06-22",
+    "home": "Argentina",
+    "away": "Austria",
+    "odds_h": 1.6,
+    "odds_d": 3.8,
+    "odds_a": 5.5,
+    "market_h": 0.5841252096143097
+  },
+  {
+    "date": "2026-06-22",
+    "home": "France",
+    "away": "Iraq",
+    "odds_h": 1.1,
+    "odds_d": 8.0,
+    "odds_a": 26.0,
+    "market_h": 0.8475957620211899
+  },
+  {
+    "date": "2026-06-23",
+    "home": "Norway",
+    "away": "Senegal",
+    "odds_h": 2.15,
+    "odds_d": 3.45,
+    "odds_a": 3.4,
+    "market_h": 0.4433525465368988
+  },
+  {
+    "date": "2026-06-23",
+    "home": "Jordan",
+    "away": "Algeria",
+    "odds_h": 6.75,
+    "odds_d": 4.3,
+    "odds_a": 1.49,
+    "market_h": 0.14084568966464786
+  },
+  {
+    "date": "2026-06-23",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "odds_h": 1.25,
+    "odds_d": 5.75,
+    "odds_a": 11.0,
+    "market_h": 0.7512991833704529
+  },
+  {
+    "date": "2026-06-23",
+    "home": "England",
+    "away": "Ghana",
+    "odds_h": 1.35,
+    "odds_d": 5.0,
+    "odds_a": 9.5,
+    "market_h": 0.7081625046589638
+  },
+  {
+    "date": "2026-06-23",
+    "home": "Panama",
+    "away": "Croatia",
+    "odds_h": 6.0,
+    "odds_d": 4.0,
+    "odds_a": 1.54,
+    "market_h": 0.1563451776649746
+  },
+  {
+    "date": "2026-06-24",
+    "home": "Colombia",
+    "away": "DR Congo",
+    "odds_h": 1.45,
+    "odds_d": 4.1,
+    "odds_a": 7.5,
+    "market_h": 0.6464158082825311
+  },
+  {
+    "date": "2026-06-24",
+    "home": "Bosnia & Herzegovina",
+    "away": "Qatar",
+    "odds_h": 1.54,
+    "odds_d": 4.0,
+    "odds_a": 6.0,
+    "market_h": 0.6091370558375634
+  },
+  {
+    "date": "2026-06-24",
+    "home": "Switzerland",
+    "away": "Canada",
+    "odds_h": 2.1,
+    "odds_d": 3.3,
+    "odds_a": 3.5,
+    "market_h": 0.44715447154471544
+  },
+  {
+    "date": "2026-06-24",
+    "home": "Scotland",
+    "away": "Brazil",
+    "odds_h": 7.0,
+    "odds_d": 4.9,
+    "odds_a": 1.43,
+    "market_h": 0.1365434456417951
+  },
+  {
+    "date": "2026-06-24",
+    "home": "Morocco",
+    "away": "Haiti",
+    "odds_h": 1.29,
+    "odds_d": 5.25,
+    "odds_a": 9.5,
+    "market_h": 0.7238489169478611
+  },
+  {
+    "date": "2026-06-25",
+    "home": "Czech Republic",
+    "away": "Mexico",
+    "odds_h": 4.5,
+    "odds_d": 3.5,
+    "odds_a": 1.8,
+    "market_h": 0.208955223880597
+  },
+  {
+    "date": "2026-06-25",
+    "home": "South Africa",
+    "away": "South Korea",
+    "odds_h": 5.5,
+    "odds_d": 3.8,
+    "odds_a": 1.6,
+    "market_h": 0.169927333705981
+  },
+  {
+    "date": "2026-06-25",
+    "home": "Cura\u00e7ao",
+    "away": "Ivory Coast",
+    "odds_h": 13.0,
+    "odds_d": 6.0,
+    "odds_a": 1.2,
+    "market_h": 0.07142857142857144
+  },
+  {
+    "date": "2026-06-25",
+    "home": "Ecuador",
+    "away": "Germany",
+    "odds_h": 4.75,
+    "odds_d": 3.75,
+    "odds_a": 1.7,
+    "market_h": 0.19759783029833397
+  },
+  {
+    "date": "2026-06-25",
+    "home": "Japan",
+    "away": "Sweden",
+    "odds_h": 2.08,
+    "odds_d": 3.3,
+    "odds_a": 3.5,
+    "market_h": 0.4495212890168911
+  },
+  {
+    "date": "2026-06-25",
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "odds_h": 6.5,
+    "odds_d": 4.0,
+    "odds_a": 1.5,
+    "market_h": 0.14371257485029942
+  },
+  {
+    "date": "2026-06-26",
+    "home": "Paraguay",
+    "away": "Australia",
+    "odds_h": 2.1,
+    "odds_d": 3.2,
+    "odds_a": 3.5,
+    "market_h": 0.44321329639889195
+  },
+  {
+    "date": "2026-06-26",
+    "home": "Turkey",
+    "away": "USA",
+    "odds_h": 2.7,
+    "odds_d": 3.5,
+    "odds_a": 2.4,
+    "market_h": 0.345252774352651
+  },
+  {
+    "date": "2026-06-26",
+    "home": "Norway",
+    "away": "France",
+    "odds_h": 4.5,
+    "odds_d": 3.6,
+    "odds_a": 1.85,
+    "market_h": 0.2135642135642136
+  },
+  {
+    "date": "2026-06-26",
+    "home": "Senegal",
+    "away": "Iraq",
+    "odds_h": 1.4,
+    "odds_d": 4.33,
+    "odds_a": 8.0,
+    "market_h": 0.6674116604369774
+  },
+  {
+    "date": "2026-06-27",
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "odds_h": 2.5,
+    "odds_d": 3.4,
+    "odds_a": 2.7,
+    "market_h": 0.375767498976668
+  },
+  {
+    "date": "2026-06-27",
+    "home": "Uruguay",
+    "away": "Spain",
+    "odds_h": 5.0,
+    "odds_d": 3.8,
+    "odds_a": 1.62,
+    "market_h": 0.18510945393312486
+  },
+  {
+    "date": "2026-06-27",
+    "home": "New Zealand",
+    "away": "Belgium",
+    "odds_h": 11.0,
+    "odds_d": 5.0,
+    "odds_a": 1.29,
+    "market_h": 0.0852723426758329
+  },
+  {
+    "date": "2026-06-27",
+    "home": "Egypt",
+    "away": "Iran",
+    "odds_h": 2.2,
+    "odds_d": 2.98,
+    "odds_a": 3.45,
+    "market_h": 0.420886723707373
+  },
+  {
+    "date": "2026-06-27",
+    "home": "Croatia",
+    "away": "Ghana",
+    "odds_h": 1.62,
+    "odds_d": 3.75,
+    "odds_a": 5.5,
+    "market_h": 0.5791912384161753
+  },
+  {
+    "date": "2026-06-27",
+    "home": "Panama",
+    "away": "England",
+    "odds_h": 10.0,
+    "odds_d": 5.5,
+    "odds_a": 1.27,
+    "market_h": 0.09352614313449824
+  },
+  {
+    "date": "2026-06-27",
+    "home": "Colombia",
+    "away": "Portugal",
+    "odds_h": 3.5,
+    "odds_d": 3.25,
+    "odds_a": 2.12,
+    "market_h": 0.2682499513334631
+  },
+  {
+    "date": "2026-06-27",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "odds_h": 2.38,
+    "odds_d": 3.2,
+    "odds_a": 3.1,
+    "market_h": 0.3981697037810067
+  },
+  {
+    "date": "2026-06-28",
+    "home": "Algeria",
+    "away": "Austria",
+    "odds_h": 3.5,
+    "odds_d": 3.1,
+    "odds_a": 2.15,
+    "market_h": 0.2661741214057508
+  },
+  {
+    "date": "2026-06-28",
+    "home": "Jordan",
+    "away": "Argentina",
+    "odds_h": 14.0,
+    "odds_d": 6.5,
+    "odds_a": 1.19,
+    "market_h": 0.06703063390961479
+  }
+]

@@ -1,0 +1,677 @@
+{
+  "sims": 100000,
+  "format": "WC2026 12x4 groups; top2 + best 8 third to R32",
+  "note": "16强预测 here means top16 teams by R32 qualification probability",
+  "team_probs": [
+    {
+      "team": "Germany",
+      "elo": 1938.2314335082976,
+      "qualify_r32_prob": 0.9965,
+      "group_1st": 0.6897,
+      "group_2nd": 0.2621,
+      "group_3rd": 0.0464,
+      "group_4th": 0.0018
+    },
+    {
+      "team": "England",
+      "elo": 1941.053165402201,
+      "qualify_r32_prob": 0.9963,
+      "group_1st": 0.6637,
+      "group_2nd": 0.3105,
+      "group_3rd": 0.0241,
+      "group_4th": 0.0017
+    },
+    {
+      "team": "Spain",
+      "elo": 2064.443835604498,
+      "qualify_r32_prob": 0.9935,
+      "group_1st": 0.8575,
+      "group_2nd": 0.1138,
+      "group_3rd": 0.0243,
+      "group_4th": 0.0044
+    },
+    {
+      "team": "Croatia",
+      "elo": 1902.1587688027726,
+      "qualify_r32_prob": 0.9861,
+      "group_1st": 0.6818,
+      "group_2nd": 0.247,
+      "group_3rd": 0.0629,
+      "group_4th": 0.0082
+    },
+    {
+      "team": "France",
+      "elo": 2018.3929969724602,
+      "qualify_r32_prob": 0.982,
+      "group_1st": 0.7728,
+      "group_2nd": 0.168,
+      "group_3rd": 0.0464,
+      "group_4th": 0.0128
+    },
+    {
+      "team": "Argentina",
+      "elo": 2050.624926540864,
+      "qualify_r32_prob": 0.981,
+      "group_1st": 0.7695,
+      "group_2nd": 0.168,
+      "group_3rd": 0.0489,
+      "group_4th": 0.0136
+    },
+    {
+      "team": "Switzerland",
+      "elo": 1850.2239979424835,
+      "qualify_r32_prob": 0.9799,
+      "group_1st": 0.3247,
+      "group_2nd": 0.5922,
+      "group_3rd": 0.075,
+      "group_4th": 0.0082
+    },
+    {
+      "team": "Netherlands",
+      "elo": 1936.8807286681981,
+      "qualify_r32_prob": 0.9567,
+      "group_1st": 0.4525,
+      "group_2nd": 0.3199,
+      "group_3rd": 0.2061,
+      "group_4th": 0.0215
+    },
+    {
+      "team": "Uruguay",
+      "elo": 1857.4682161809992,
+      "qualify_r32_prob": 0.9561,
+      "group_1st": 0.2757,
+      "group_2nd": 0.5545,
+      "group_3rd": 0.1549,
+      "group_4th": 0.015
+    },
+    {
+      "team": "Portugal",
+      "elo": 1947.005525590382,
+      "qualify_r32_prob": 0.9534,
+      "group_1st": 0.684,
+      "group_2nd": 0.1975,
+      "group_3rd": 0.0838,
+      "group_4th": 0.0348
+    },
+    {
+      "team": "Norway",
+      "elo": 1835.0951817405792,
+      "qualify_r32_prob": 0.9454,
+      "group_1st": 0.6524,
+      "group_2nd": 0.2162,
+      "group_3rd": 0.0911,
+      "group_4th": 0.0402
+    },
+    {
+      "team": "Japan",
+      "elo": 1915.0892262415935,
+      "qualify_r32_prob": 0.9314,
+      "group_1st": 0.3561,
+      "group_2nd": 0.3571,
+      "group_3rd": 0.2557,
+      "group_4th": 0.0311
+    },
+    {
+      "team": "Brazil",
+      "elo": 1936.9422333314171,
+      "qualify_r32_prob": 0.9239,
+      "group_1st": 0.4038,
+      "group_2nd": 0.3164,
+      "group_3rd": 0.2405,
+      "group_4th": 0.0393
+    },
+    {
+      "team": "Belgium",
+      "elo": 1862.071261115862,
+      "qualify_r32_prob": 0.9137,
+      "group_1st": 0.4873,
+      "group_2nd": 0.2878,
+      "group_3rd": 0.1661,
+      "group_4th": 0.0588
+    },
+    {
+      "team": "Scotland",
+      "elo": 1738.0396975566027,
+      "qualify_r32_prob": 0.9045,
+      "group_1st": 0.2493,
+      "group_2nd": 0.4865,
+      "group_3rd": 0.2133,
+      "group_4th": 0.0509
+    },
+    {
+      "team": "Austria",
+      "elo": 1837.4660258635222,
+      "qualify_r32_prob": 0.8974,
+      "group_1st": 0.4368,
+      "group_2nd": 0.3077,
+      "group_3rd": 0.1866,
+      "group_4th": 0.0689
+    },
+    {
+      "team": "Colombia",
+      "elo": 1924.425174925159,
+      "qualify_r32_prob": 0.892,
+      "group_1st": 0.3178,
+      "group_2nd": 0.3202,
+      "group_3rd": 0.3067,
+      "group_4th": 0.0553
+    },
+    {
+      "team": "Ecuador",
+      "elo": 1889.405848675444,
+      "qualify_r32_prob": 0.8769,
+      "group_1st": 0.3648,
+      "group_2nd": 0.3426,
+      "group_3rd": 0.2167,
+      "group_4th": 0.0759
+    },
+    {
+      "team": "Morocco",
+      "elo": 1914.0323238817034,
+      "qualify_r32_prob": 0.8632,
+      "group_1st": 0.2708,
+      "group_2nd": 0.3334,
+      "group_3rd": 0.3333,
+      "group_4th": 0.0626
+    },
+    {
+      "team": "Senegal",
+      "elo": 1844.8068851583328,
+      "qualify_r32_prob": 0.8344,
+      "group_1st": 0.1876,
+      "group_2nd": 0.3029,
+      "group_3rd": 0.4366,
+      "group_4th": 0.0728
+    },
+    {
+      "team": "Turkey",
+      "elo": 1860.7826365850383,
+      "qualify_r32_prob": 0.8086,
+      "group_1st": 0.2744,
+      "group_2nd": 0.319,
+      "group_3rd": 0.2784,
+      "group_4th": 0.1281
+    },
+    {
+      "team": "Australia",
+      "elo": 1813.1063582880518,
+      "qualify_r32_prob": 0.7527,
+      "group_1st": 0.209,
+      "group_2nd": 0.3028,
+      "group_3rd": 0.3276,
+      "group_4th": 0.1606
+    },
+    {
+      "team": "Canada",
+      "elo": 1812.4533720176414,
+      "qualify_r32_prob": 0.7399,
+      "group_1st": 0.1346,
+      "group_2nd": 0.4142,
+      "group_3rd": 0.2867,
+      "group_4th": 0.1645
+    },
+    {
+      "team": "Mexico",
+      "elo": 1853.9812101206144,
+      "qualify_r32_prob": 0.695,
+      "group_1st": 0.0761,
+      "group_2nd": 0.4155,
+      "group_3rd": 0.3266,
+      "group_4th": 0.1817
+    },
+    {
+      "team": "Ivory Coast",
+      "elo": 1745.4141761673222,
+      "qualify_r32_prob": 0.686,
+      "group_1st": 0.1621,
+      "group_2nd": 0.2585,
+      "group_3rd": 0.3667,
+      "group_4th": 0.2127
+    },
+    {
+      "team": "Algeria",
+      "elo": 1804.251019665513,
+      "qualify_r32_prob": 0.6823,
+      "group_1st": 0.1144,
+      "group_2nd": 0.361,
+      "group_3rd": 0.3011,
+      "group_4th": 0.2235
+    },
+    {
+      "team": "Sweden",
+      "elo": 1764.238617411699,
+      "qualify_r32_prob": 0.6754,
+      "group_1st": 0.1699,
+      "group_2nd": 0.3128,
+      "group_3rd": 0.2746,
+      "group_4th": 0.2427
+    },
+    {
+      "team": "Jordan",
+      "elo": 1697.0062198016342,
+      "qualify_r32_prob": 0.6067,
+      "group_1st": 0.061,
+      "group_2nd": 0.2156,
+      "group_3rd": 0.4998,
+      "group_4th": 0.2236
+    },
+    {
+      "team": "Iran",
+      "elo": 1814.4140046808768,
+      "qualify_r32_prob": 0.6039,
+      "group_1st": 0.0518,
+      "group_2nd": 0.3304,
+      "group_3rd": 0.3664,
+      "group_4th": 0.2514
+    },
+    {
+      "team": "New Zealand",
+      "elo": 1649.3403221586118,
+      "qualify_r32_prob": 0.5972,
+      "group_1st": 0.0336,
+      "group_2nd": 0.1684,
+      "group_3rd": 0.6438,
+      "group_4th": 0.1542
+    },
+    {
+      "team": "Paraguay",
+      "elo": 1797.199603429049,
+      "qualify_r32_prob": 0.5783,
+      "group_1st": 0.1055,
+      "group_2nd": 0.2738,
+      "group_3rd": 0.3079,
+      "group_4th": 0.3127
+    },
+    {
+      "team": "United States",
+      "elo": 1810.5979915167782,
+      "qualify_r32_prob": 0.5699,
+      "group_1st": 0.1106,
+      "group_2nd": 0.2657,
+      "group_3rd": 0.2928,
+      "group_4th": 0.3309
+    },
+    {
+      "team": "Egypt",
+      "elo": 1746.5309559597704,
+      "qualify_r32_prob": 0.5664,
+      "group_1st": 0.0998,
+      "group_2nd": 0.263,
+      "group_3rd": 0.3155,
+      "group_4th": 0.3216
+    },
+    {
+      "team": "Uzbekistan",
+      "elo": 1775.9638913899914,
+      "qualify_r32_prob": 0.5445,
+      "group_1st": 0.0616,
+      "group_2nd": 0.2586,
+      "group_3rd": 0.3712,
+      "group_4th": 0.3086
+    },
+    {
+      "team": "DR Congo",
+      "elo": 1684.520274434174,
+      "qualify_r32_prob": 0.5355,
+      "group_1st": 0.0899,
+      "group_2nd": 0.239,
+      "group_3rd": 0.3245,
+      "group_4th": 0.3466
+    },
+    {
+      "team": "Tunisia",
+      "elo": 1701.7458871806423,
+      "qualify_r32_prob": 0.5155,
+      "group_1st": 0.0878,
+      "group_2nd": 0.2319,
+      "group_3rd": 0.3097,
+      "group_4th": 0.3706
+    },
+    {
+      "team": "Czech Republic",
+      "elo": 1753.7456867126903,
+      "qualify_r32_prob": 0.5125,
+      "group_1st": 0.062,
+      "group_2nd": 0.2438,
+      "group_3rd": 0.3275,
+      "group_4th": 0.3667
+    },
+    {
+      "team": "South Korea",
+      "elo": 1817.581974806541,
+      "qualify_r32_prob": 0.4838,
+      "group_1st": 0.0541,
+      "group_2nd": 0.2271,
+      "group_3rd": 0.3225,
+      "group_4th": 0.3963
+    },
+    {
+      "team": "Panama",
+      "elo": 1735.006393470557,
+      "qualify_r32_prob": 0.3705,
+      "group_1st": 0.0098,
+      "group_2nd": 0.0749,
+      "group_3rd": 0.593,
+      "group_4th": 0.3224
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "elo": 1630.3387199605393,
+      "qualify_r32_prob": 0.3535,
+      "group_1st": 0.0309,
+      "group_2nd": 0.1592,
+      "group_3rd": 0.2957,
+      "group_4th": 0.5142
+    },
+    {
+      "team": "South Africa",
+      "elo": 1631.477848512836,
+      "qualify_r32_prob": 0.2936,
+      "group_1st": 0.0145,
+      "group_2nd": 0.1403,
+      "group_3rd": 0.2826,
+      "group_4th": 0.5625
+    },
+    {
+      "team": "Ghana",
+      "elo": 1566.7574175547963,
+      "qualify_r32_prob": 0.2661,
+      "group_1st": 0.0363,
+      "group_2nd": 0.0913,
+      "group_3rd": 0.23,
+      "group_4th": 0.6424
+    },
+    {
+      "team": "Saudi Arabia",
+      "elo": 1658.1942156945645,
+      "qualify_r32_prob": 0.2574,
+      "group_1st": 0.0293,
+      "group_2nd": 0.0903,
+      "group_3rd": 0.2279,
+      "group_4th": 0.6525
+    },
+    {
+      "team": "Haiti",
+      "elo": 1597.4986719698272,
+      "qualify_r32_prob": 0.1688,
+      "group_1st": 0.0079,
+      "group_2nd": 0.0509,
+      "group_3rd": 0.224,
+      "group_4th": 0.7173
+    },
+    {
+      "team": "Qatar",
+      "elo": 1592.7426625455162,
+      "qualify_r32_prob": 0.1292,
+      "group_1st": 0.0018,
+      "group_2nd": 0.0224,
+      "group_3rd": 0.308,
+      "group_4th": 0.6678
+    },
+    {
+      "team": "Iraq",
+      "elo": 1704.1054795746911,
+      "qualify_r32_prob": 0.1017,
+      "group_1st": 0.0076,
+      "group_2nd": 0.03,
+      "group_3rd": 0.1196,
+      "group_4th": 0.8427
+    },
+    {
+      "team": "Cape Verde",
+      "elo": 1621.4980629135794,
+      "qualify_r32_prob": 0.0745,
+      "group_1st": 0.0039,
+      "group_2nd": 0.02,
+      "group_3rd": 0.1015,
+      "group_4th": 0.8746
+    },
+    {
+      "team": "Curaçao",
+      "elo": 1521.2634846681403,
+      "qualify_r32_prob": 0.0665,
+      "group_1st": 0.001,
+      "group_2nd": 0.015,
+      "group_3rd": 0.155,
+      "group_4th": 0.829
+    }
+  ],
+  "top16_projection": [
+    {
+      "team": "Germany",
+      "elo": 1938.2314335082976,
+      "qualify_r32_prob": 0.9965,
+      "group_1st": 0.6897,
+      "group_2nd": 0.2621,
+      "group_3rd": 0.0464,
+      "group_4th": 0.0018
+    },
+    {
+      "team": "England",
+      "elo": 1941.053165402201,
+      "qualify_r32_prob": 0.9963,
+      "group_1st": 0.6637,
+      "group_2nd": 0.3105,
+      "group_3rd": 0.0241,
+      "group_4th": 0.0017
+    },
+    {
+      "team": "Spain",
+      "elo": 2064.443835604498,
+      "qualify_r32_prob": 0.9935,
+      "group_1st": 0.8575,
+      "group_2nd": 0.1138,
+      "group_3rd": 0.0243,
+      "group_4th": 0.0044
+    },
+    {
+      "team": "Croatia",
+      "elo": 1902.1587688027726,
+      "qualify_r32_prob": 0.9861,
+      "group_1st": 0.6818,
+      "group_2nd": 0.247,
+      "group_3rd": 0.0629,
+      "group_4th": 0.0082
+    },
+    {
+      "team": "France",
+      "elo": 2018.3929969724602,
+      "qualify_r32_prob": 0.982,
+      "group_1st": 0.7728,
+      "group_2nd": 0.168,
+      "group_3rd": 0.0464,
+      "group_4th": 0.0128
+    },
+    {
+      "team": "Argentina",
+      "elo": 2050.624926540864,
+      "qualify_r32_prob": 0.981,
+      "group_1st": 0.7695,
+      "group_2nd": 0.168,
+      "group_3rd": 0.0489,
+      "group_4th": 0.0136
+    },
+    {
+      "team": "Switzerland",
+      "elo": 1850.2239979424835,
+      "qualify_r32_prob": 0.9799,
+      "group_1st": 0.3247,
+      "group_2nd": 0.5922,
+      "group_3rd": 0.075,
+      "group_4th": 0.0082
+    },
+    {
+      "team": "Netherlands",
+      "elo": 1936.8807286681981,
+      "qualify_r32_prob": 0.9567,
+      "group_1st": 0.4525,
+      "group_2nd": 0.3199,
+      "group_3rd": 0.2061,
+      "group_4th": 0.0215
+    },
+    {
+      "team": "Uruguay",
+      "elo": 1857.4682161809992,
+      "qualify_r32_prob": 0.9561,
+      "group_1st": 0.2757,
+      "group_2nd": 0.5545,
+      "group_3rd": 0.1549,
+      "group_4th": 0.015
+    },
+    {
+      "team": "Portugal",
+      "elo": 1947.005525590382,
+      "qualify_r32_prob": 0.9534,
+      "group_1st": 0.684,
+      "group_2nd": 0.1975,
+      "group_3rd": 0.0838,
+      "group_4th": 0.0348
+    },
+    {
+      "team": "Norway",
+      "elo": 1835.0951817405792,
+      "qualify_r32_prob": 0.9454,
+      "group_1st": 0.6524,
+      "group_2nd": 0.2162,
+      "group_3rd": 0.0911,
+      "group_4th": 0.0402
+    },
+    {
+      "team": "Japan",
+      "elo": 1915.0892262415935,
+      "qualify_r32_prob": 0.9314,
+      "group_1st": 0.3561,
+      "group_2nd": 0.3571,
+      "group_3rd": 0.2557,
+      "group_4th": 0.0311
+    },
+    {
+      "team": "Brazil",
+      "elo": 1936.9422333314171,
+      "qualify_r32_prob": 0.9239,
+      "group_1st": 0.4038,
+      "group_2nd": 0.3164,
+      "group_3rd": 0.2405,
+      "group_4th": 0.0393
+    },
+    {
+      "team": "Belgium",
+      "elo": 1862.071261115862,
+      "qualify_r32_prob": 0.9137,
+      "group_1st": 0.4873,
+      "group_2nd": 0.2878,
+      "group_3rd": 0.1661,
+      "group_4th": 0.0588
+    },
+    {
+      "team": "Scotland",
+      "elo": 1738.0396975566027,
+      "qualify_r32_prob": 0.9045,
+      "group_1st": 0.2493,
+      "group_2nd": 0.4865,
+      "group_3rd": 0.2133,
+      "group_4th": 0.0509
+    },
+    {
+      "team": "Austria",
+      "elo": 1837.4660258635222,
+      "qualify_r32_prob": 0.8974,
+      "group_1st": 0.4368,
+      "group_2nd": 0.3077,
+      "group_3rd": 0.1866,
+      "group_4th": 0.0689
+    }
+  ],
+  "blackhorse_candidates": [
+    {
+      "team": "Scotland",
+      "elo": 1738.0396975566027,
+      "qualify_r32_prob": 0.9045,
+      "group_1st": 0.2493,
+      "group_2nd": 0.4865,
+      "group_3rd": 0.2133,
+      "group_4th": 0.0509
+    },
+    {
+      "team": "Ivory Coast",
+      "elo": 1745.4141761673222,
+      "qualify_r32_prob": 0.686,
+      "group_1st": 0.1621,
+      "group_2nd": 0.2585,
+      "group_3rd": 0.3667,
+      "group_4th": 0.2127
+    },
+    {
+      "team": "Sweden",
+      "elo": 1764.238617411699,
+      "qualify_r32_prob": 0.6754,
+      "group_1st": 0.1699,
+      "group_2nd": 0.3128,
+      "group_3rd": 0.2746,
+      "group_4th": 0.2427
+    },
+    {
+      "team": "Jordan",
+      "elo": 1697.0062198016342,
+      "qualify_r32_prob": 0.6067,
+      "group_1st": 0.061,
+      "group_2nd": 0.2156,
+      "group_3rd": 0.4998,
+      "group_4th": 0.2236
+    },
+    {
+      "team": "New Zealand",
+      "elo": 1649.3403221586118,
+      "qualify_r32_prob": 0.5972,
+      "group_1st": 0.0336,
+      "group_2nd": 0.1684,
+      "group_3rd": 0.6438,
+      "group_4th": 0.1542
+    },
+    {
+      "team": "Egypt",
+      "elo": 1746.5309559597704,
+      "qualify_r32_prob": 0.5664,
+      "group_1st": 0.0998,
+      "group_2nd": 0.263,
+      "group_3rd": 0.3155,
+      "group_4th": 0.3216
+    },
+    {
+      "team": "Uzbekistan",
+      "elo": 1775.9638913899914,
+      "qualify_r32_prob": 0.5445,
+      "group_1st": 0.0616,
+      "group_2nd": 0.2586,
+      "group_3rd": 0.3712,
+      "group_4th": 0.3086
+    },
+    {
+      "team": "DR Congo",
+      "elo": 1684.520274434174,
+      "qualify_r32_prob": 0.5355,
+      "group_1st": 0.0899,
+      "group_2nd": 0.239,
+      "group_3rd": 0.3245,
+      "group_4th": 0.3466
+    },
+    {
+      "team": "Tunisia",
+      "elo": 1701.7458871806423,
+      "qualify_r32_prob": 0.5155,
+      "group_1st": 0.0878,
+      "group_2nd": 0.2319,
+      "group_3rd": 0.3097,
+      "group_4th": 0.3706
+    },
+    {
+      "team": "Czech Republic",
+      "elo": 1753.7456867126903,
+      "qualify_r32_prob": 0.5125,
+      "group_1st": 0.062,
+      "group_2nd": 0.2438,
+      "group_3rd": 0.3275,
+      "group_4th": 0.3667
+    }
+  ]
+}

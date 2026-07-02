@@ -1,0 +1,494 @@
+{
+  "type": "wc2026_knockout_simulation",
+  "n_sims": 50000,
+  "standings": {
+    "A": [
+      [
+        "Mexico",
+        4.95
+      ],
+      [
+        "South Korea",
+        4.18
+      ],
+      [
+        "Czech Republic",
+        4.16
+      ],
+      [
+        "South Africa",
+        2.84
+      ]
+    ],
+    "B": [
+      [
+        "Switzerland",
+        6.49
+      ],
+      [
+        "Canada",
+        5.27
+      ],
+      [
+        "Bosnia and Herzegovina",
+        3.0
+      ],
+      [
+        "Qatar",
+        1.84
+      ]
+    ],
+    "C": [
+      [
+        "Brazil",
+        6.16
+      ],
+      [
+        "Morocco",
+        5.88
+      ],
+      [
+        "Scotland",
+        3.69
+      ],
+      [
+        "Haiti",
+        0.96
+      ]
+    ],
+    "D": [
+      [
+        "United States",
+        4.24
+      ],
+      [
+        "Turkey",
+        4.22
+      ],
+      [
+        "Australia",
+        3.85
+      ],
+      [
+        "Paraguay",
+        3.69
+      ]
+    ],
+    "E": [
+      [
+        "Germany",
+        5.97
+      ],
+      [
+        "Ecuador",
+        5.25
+      ],
+      [
+        "Ivory Coast",
+        4.29
+      ],
+      [
+        "Cura\u00e7ao",
+        0.93
+      ]
+    ],
+    "F": [
+      [
+        "Netherlands",
+        5.56
+      ],
+      [
+        "Japan",
+        5.09
+      ],
+      [
+        "Sweden",
+        3.22
+      ],
+      [
+        "Tunisia",
+        2.44
+      ]
+    ],
+    "G": [
+      [
+        "Belgium",
+        5.49
+      ],
+      [
+        "Iran",
+        4.21
+      ],
+      [
+        "Egypt",
+        3.9
+      ],
+      [
+        "New Zealand",
+        2.47
+      ]
+    ],
+    "H": [
+      [
+        "Spain",
+        7.52
+      ],
+      [
+        "Uruguay",
+        4.8
+      ],
+      [
+        "Saudi Arabia",
+        2.3
+      ],
+      [
+        "Cape Verde",
+        1.96
+      ]
+    ],
+    "I": [
+      [
+        "France",
+        5.91
+      ],
+      [
+        "Norway",
+        4.69
+      ],
+      [
+        "Senegal",
+        4.41
+      ],
+      [
+        "Iraq",
+        1.43
+      ]
+    ],
+    "J": [
+      [
+        "Argentina",
+        6.44
+      ],
+      [
+        "Austria",
+        4.71
+      ],
+      [
+        "Algeria",
+        3.72
+      ],
+      [
+        "Jordan",
+        1.61
+      ]
+    ],
+    "K": [
+      [
+        "Portugal",
+        5.66
+      ],
+      [
+        "Colombia",
+        5.33
+      ],
+      [
+        "DR Congo",
+        2.62
+      ],
+      [
+        "Uzbekistan",
+        2.56
+      ]
+    ],
+    "L": [
+      [
+        "England",
+        6.62
+      ],
+      [
+        "Croatia",
+        5.67
+      ],
+      [
+        "Panama",
+        2.3
+      ],
+      [
+        "Ghana",
+        2.01
+      ]
+    ]
+  },
+  "bracket_r32": [
+    [
+      "Spain",
+      "Scotland"
+    ],
+    [
+      "Argentina",
+      "Ivory Coast"
+    ],
+    [
+      "France",
+      "Egypt"
+    ],
+    [
+      "Portugal",
+      "Czech Republic"
+    ],
+    [
+      "England",
+      "Sweden"
+    ],
+    [
+      "Germany",
+      "Algeria"
+    ],
+    [
+      "Brazil",
+      "United States"
+    ],
+    [
+      "Netherlands",
+      "Canada"
+    ],
+    [
+      "Colombia",
+      "Australia"
+    ],
+    [
+      "Japan",
+      "Iran"
+    ],
+    [
+      "Morocco",
+      "South Korea"
+    ],
+    [
+      "Croatia",
+      "Norway"
+    ],
+    [
+      "Ecuador",
+      "Austria"
+    ],
+    [
+      "Belgium",
+      "Senegal"
+    ],
+    [
+      "Turkey",
+      "Switzerland"
+    ],
+    [
+      "Uruguay",
+      "Mexico"
+    ]
+  ],
+  "champion_prob": {
+    "Spain": 17.832,
+    "Argentina": 14.846,
+    "England": 10.424,
+    "France": 7.004,
+    "Japan": 5.82,
+    "Brazil": 5.762,
+    "Colombia": 5.706,
+    "Morocco": 5.598,
+    "Portugal": 4.79,
+    "Netherlands": 4.21,
+    "Germany": 3.046,
+    "Norway": 2.59,
+    "Switzerland": 2.33,
+    "Ecuador": 2.312,
+    "Croatia": 1.578,
+    "Belgium": 1.338,
+    "Austria": 1.332,
+    "Senegal": 1.134,
+    "Uruguay": 1.126,
+    "Turkey": 0.326,
+    "Mexico": 0.208,
+    "Australia": 0.198,
+    "Algeria": 0.12,
+    "Iran": 0.068,
+    "Canada": 0.064,
+    "South Korea": 0.052,
+    "Egypt": 0.048,
+    "Ivory Coast": 0.04,
+    "Scotland": 0.032,
+    "Sweden": 0.028,
+    "United States": 0.026,
+    "Czech Republic": 0.012
+  },
+  "round_probs": {
+    "r16": {
+      "Norway": 52.38,
+      "Germany": 74.65,
+      "England": 86.16,
+      "Spain": 90.22,
+      "Argentina": 88.08,
+      "Croatia": 47.62,
+      "Belgium": 53.41,
+      "Japan": 80.08,
+      "Turkey": 36.31,
+      "Netherlands": 79.13,
+      "Switzerland": 63.69,
+      "Colombia": 76.08,
+      "France": 83.26,
+      "Brazil": 83.18,
+      "Austria": 42.53,
+      "Morocco": 79.6,
+      "Portugal": 84.34,
+      "Ecuador": 57.47,
+      "Mexico": 37.26,
+      "Uruguay": 62.74,
+      "Senegal": 46.59,
+      "South Korea": 20.4,
+      "Australia": 23.92,
+      "Canada": 20.87,
+      "Algeria": 25.35,
+      "Egypt": 16.74,
+      "Sweden": 13.84,
+      "Ivory Coast": 11.92,
+      "Iran": 19.92,
+      "United States": 16.82,
+      "Scotland": 9.78,
+      "Czech Republic": 15.66
+    },
+    "qf": {
+      "Norway": 25.85,
+      "Germany": 31.47,
+      "England": 58.53,
+      "Spain": 52.42,
+      "Argentina": 44.0,
+      "Croatia": 21.61,
+      "Belgium": 23.6,
+      "Japan": 42.22,
+      "Turkey": 18.24,
+      "Netherlands": 40.09,
+      "Switzerland": 39.96,
+      "Colombia": 44.44,
+      "France": 50.52,
+      "Brazil": 49.79,
+      "Austria": 22.77,
+      "Morocco": 47.2,
+      "Portugal": 41.63,
+      "Ecuador": 33.31,
+      "Mexico": 13.29,
+      "Uruguay": 28.51,
+      "Senegal": 20.31,
+      "South Korea": 5.34,
+      "Australia": 8.51,
+      "Canada": 4.98,
+      "Algeria": 6.09,
+      "Egypt": 4.75,
+      "Sweden": 3.91,
+      "Ivory Coast": 1.63,
+      "Iran": 4.83,
+      "United States": 5.13,
+      "Scotland": 1.95,
+      "Czech Republic": 3.11
+    },
+    "sf": {
+      "Norway": 12.5,
+      "Germany": 15.94,
+      "England": 36.06,
+      "Spain": 35.49,
+      "Argentina": 29.46,
+      "Croatia": 9.34,
+      "Belgium": 13.32,
+      "Japan": 24.4,
+      "Turkey": 6.63,
+      "Netherlands": 18.8,
+      "Switzerland": 19.74,
+      "Colombia": 25.14,
+      "France": 18.92,
+      "Brazil": 24.38,
+      "Austria": 12.58,
+      "Morocco": 23.14,
+      "Portugal": 14.41,
+      "Ecuador": 19.77,
+      "Mexico": 4.56,
+      "Uruguay": 12.08,
+      "Senegal": 11.33,
+      "South Korea": 1.11,
+      "Australia": 2.94,
+      "Canada": 1.12,
+      "Algeria": 1.84,
+      "Egypt": 0.6,
+      "Sweden": 0.86,
+      "Ivory Coast": 0.36,
+      "Iran": 1.44,
+      "United States": 1.0,
+      "Scotland": 0.44,
+      "Czech Republic": 0.32
+    },
+    "final": {
+      "Norway": 7.63,
+      "Germany": 5.16,
+      "England": 15.6,
+      "Spain": 23.97,
+      "Argentina": 19.91,
+      "Croatia": 5.35,
+      "Belgium": 5.1,
+      "Japan": 15.74,
+      "Turkey": 1.97,
+      "Netherlands": 6.85,
+      "Switzerland": 8.13,
+      "Colombia": 16.22,
+      "France": 10.68,
+      "Brazil": 9.21,
+      "Austria": 4.84,
+      "Morocco": 15.05,
+      "Portugal": 7.51,
+      "Ecuador": 8.04,
+      "Mexico": 1.2,
+      "Uruguay": 4.39,
+      "Senegal": 4.25,
+      "South Korea": 0.34,
+      "Australia": 1.24,
+      "Canada": 0.2,
+      "Algeria": 0.32,
+      "Egypt": 0.14,
+      "Sweden": 0.1,
+      "Ivory Coast": 0.1,
+      "Iran": 0.5,
+      "United States": 0.1,
+      "Scotland": 0.1,
+      "Czech Republic": 0.05
+    },
+    "champion": {
+      "Spain": 17.832,
+      "Argentina": 14.846,
+      "England": 10.424,
+      "France": 7.004,
+      "Japan": 5.82,
+      "Brazil": 5.762,
+      "Colombia": 5.706,
+      "Morocco": 5.598,
+      "Portugal": 4.79,
+      "Netherlands": 4.21,
+      "Germany": 3.046,
+      "Norway": 2.59,
+      "Switzerland": 2.33,
+      "Ecuador": 2.312,
+      "Croatia": 1.578,
+      "Belgium": 1.338,
+      "Austria": 1.332,
+      "Senegal": 1.134,
+      "Uruguay": 1.126,
+      "Turkey": 0.326,
+      "Mexico": 0.208,
+      "Australia": 0.198,
+      "Algeria": 0.12,
+      "Iran": 0.068,
+      "Canada": 0.064,
+      "South Korea": 0.052,
+      "Egypt": 0.048,
+      "Ivory Coast": 0.04,
+      "Scotland": 0.032,
+      "Sweden": 0.028,
+      "United States": 0.026,
+      "Czech Republic": 0.012
+    }
+  }
+}

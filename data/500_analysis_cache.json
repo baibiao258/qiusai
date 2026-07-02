@@ -1,0 +1,1817 @@
+{
+  "_timestamp": 1782918326.760559,
+  "data": {
+    "周一201": {
+      "shuju_id": "1411007",
+      "matchid": "65",
+      "hash": "d590eb2",
+      "match_time": "2026-06-09 02:45",
+      "league_id": "19472",
+      "league_name": "26友谊赛六月",
+      "fifa": {
+        "荷兰": {
+          "rank": 8,
+          "points": 1753
+        },
+        "乌兹别克斯坦": {
+          "rank": 50,
+          "points": 1458
+        }
+      },
+      "current_asian_handicap": {
+        "home_water": 0.86,
+        "line": "球半/两球",
+        "away_water": 0.92
+      },
+      "home_history": [
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "",
+          "date": "26-06-09",
+          "home": "荷兰",
+          "away": "乌兹别克斯坦",
+          "score": "2:1",
+          "ht_score": null,
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.22,
+            "draw": 6.06,
+            "away": 11.44
+          },
+          "asian_handicap": {
+            "home_water": 0.86,
+            "line": "球半/两球",
+            "away_water": 0.92
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-06-04",
+          "home": "荷兰",
+          "away": "阿尔及利亚",
+          "score": "0:1",
+          "ht_score": "0:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.3,
+            "draw": 5.2,
+            "away": 8.66
+          },
+          "asian_handicap": {
+            "home_water": 0.88,
+            "line": "球半",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-04-01",
+          "home": "荷兰",
+          "away": "厄瓜多尔",
+          "score": "1:1",
+          "ht_score": "1:1",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.53,
+            "draw": 3.98,
+            "away": 5.69
+          },
+          "asian_handicap": {
+            "home_water": 0.9,
+            "line": "一球",
+            "away_water": 0.88
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-03-28",
+          "home": "荷兰",
+          "away": "挪威",
+          "score": "2:1",
+          "ht_score": "1:1",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.7,
+            "draw": 3.91,
+            "away": 4.27
+          },
+          "asian_handicap": {
+            "home_water": 0.88,
+            "line": "半球/一球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-18",
+          "home": "[1]",
+          "away": "立陶宛[5]",
+          "score": "4:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.04,
+            "draw": 14.4,
+            "away": 34.38
+          },
+          "asian_handicap": {
+            "home_water": 1.02,
+            "line": "三球/三球半",
+            "away_water": 0.78
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-15",
+          "home": "[2]",
+          "away": "荷兰[1]",
+          "score": "1:1",
+          "ht_score": "1:0",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 4.51,
+            "draw": 3.66,
+            "away": 1.78
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "受半球/一球",
+            "away_water": 1.0
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-13",
+          "home": "[1]",
+          "away": "芬兰[3]",
+          "score": "4:0",
+          "ht_score": "3:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.1,
+            "draw": 9.69,
+            "away": 22.79
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "两球/两球半",
+            "away_water": 1.0
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-10",
+          "home": "[5]",
+          "away": "荷兰[1]",
+          "score": "0:4",
+          "ht_score": "0:1",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 38.68,
+            "draw": 14.19,
+            "away": 1.05
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "受三球/三球半",
+            "away_water": 1.0
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-08",
+          "home": "[4]",
+          "away": "荷兰[1]",
+          "score": "2:3",
+          "ht_score": "2:2",
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 28.63,
+            "draw": 11.34,
+            "away": 1.08
+          },
+          "asian_handicap": {
+            "home_water": 0.85,
+            "line": "受两球半",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-05",
+          "home": "[2]",
+          "away": "波兰[3]",
+          "score": "1:1",
+          "ht_score": "1:0",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.25,
+            "draw": 5.85,
+            "away": 10.81
+          },
+          "asian_handicap": {
+            "home_water": 1.0,
+            "line": "球半/两球",
+            "away_water": 0.8
+          }
+        }
+      ],
+      "away_history": [
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "",
+          "date": "26-06-09",
+          "home": "荷兰",
+          "away": "乌兹别克斯坦",
+          "score": "2:1",
+          "ht_score": null,
+          "result": "负",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.22,
+            "draw": 6.06,
+            "away": 11.44
+          },
+          "asian_handicap": {
+            "home_water": 0.86,
+            "line": "球半/两球",
+            "away_water": 0.92
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-06-02",
+          "home": "加拿大",
+          "away": "乌兹别克斯坦",
+          "score": "2:0",
+          "ht_score": "0:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.57,
+            "draw": 3.71,
+            "away": 5.72
+          },
+          "asian_handicap": {
+            "home_water": 0.76,
+            "line": "半球/一球",
+            "away_water": 1.02
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19741",
+          "league_name": "世界杯系列赛",
+          "date": "26-03-30",
+          "home": "[2]",
+          "away": "委内瑞拉[1]",
+          "score": "0:0",
+          "ht_score": "0:0",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 2.23,
+            "draw": 3.19,
+            "away": 3.11
+          },
+          "asian_handicap": {
+            "home_water": 0.98,
+            "line": "平手/半球",
+            "away_water": 0.8
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19741",
+          "league_name": "世界杯系列赛",
+          "date": "26-03-27",
+          "home": "[2]",
+          "away": "加蓬[3]",
+          "score": "3:1",
+          "ht_score": "1:1",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.58,
+            "draw": 3.7,
+            "away": 5.46
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "半球/一球",
+            "away_water": 0.98
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-01-30",
+          "home": "乌兹别克斯坦",
+          "away": "乌拉尔图",
+          "score": "4:2",
+          "ht_score": "0:0",
+          "result": "胜",
+          "panlu": "",
+          "daxiao": "大",
+          "euro_odds": {},
+          "asian_handicap": {}
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-01-26",
+          "home": "乌兹别克斯坦",
+          "away": "中国",
+          "score": "2:2",
+          "ht_score": "0:2",
+          "result": "平",
+          "panlu": "",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.82,
+            "draw": 3.68,
+            "away": 4.21
+          },
+          "asian_handicap": {}
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-11-19",
+          "home": "乌兹别克斯坦",
+          "away": "伊朗",
+          "score": "0:0",
+          "ht_score": "0:0",
+          "result": "平",
+          "panlu": "走",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 2.92,
+            "draw": 2.86,
+            "away": 2.53
+          },
+          "asian_handicap": {
+            "home_water": 1.04,
+            "line": "平手",
+            "away_water": 0.76
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-11-15",
+          "home": "乌兹别克斯坦",
+          "away": "埃及",
+          "score": "2:0",
+          "ht_score": "2:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 3.08,
+            "draw": 2.97,
+            "away": 2.5
+          },
+          "asian_handicap": {
+            "home_water": 0.9,
+            "line": "受平手/半球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-10-13",
+          "home": "乌兹别克斯坦",
+          "away": "乌拉圭",
+          "score": "1:2",
+          "ht_score": "0:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 3.77,
+            "draw": 3.38,
+            "away": 2.68
+          },
+          "asian_handicap": {
+            "home_water": 1.06,
+            "line": "受半球",
+            "away_water": 0.74
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-10-09",
+          "home": "乌兹别克斯坦",
+          "away": "科威特",
+          "score": "2:0",
+          "ht_score": "2:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.2,
+            "draw": 5.87,
+            "away": 12.49
+          },
+          "asian_handicap": {
+            "home_water": 0.82,
+            "line": "球半/两球",
+            "away_water": 0.98
+          }
+        }
+      ],
+      "home_form": {
+        "team": "荷兰",
+        "matches": 10,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "gf": 28,
+        "ga": 7
+      },
+      "away_form": {
+        "team": "乌兹别克斯坦",
+        "matches": 10,
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "gf": 13,
+        "ga": 11
+      },
+      "home_record": {
+        "text": "近10场， 6胜  3平  1负  进28球 失7球 胜率 60%  赢盘率 50%  大球率 60%",
+        "win_rate": 60,
+        "cover_rate": 50,
+        "over_rate": 60
+      },
+      "away_record": {
+        "text": "近10场， 4胜  4平  2负  进14球 失9球 胜率 40%  赢盘率 30%  大球率 40%",
+        "win_rate": 40,
+        "cover_rate": 30,
+        "over_rate": 40
+      },
+      "h2h": {
+        "has_data": true,
+        "text": "有交战记录"
+      },
+      "macau_tip": "和局",
+      "macau_reason": "世界盃到来之际，两队近期国友赛发挥并不好，再加上这是彼此世界盃前的最后一场热身赛，此番握手言和合情合理。",
+      "future_fixtures": [
+        {
+          "competition": "世界杯",
+          "date": "2026-06-15",
+          "home": "荷兰",
+          "away": "日本"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-21",
+          "home": "荷兰",
+          "away": "瑞典"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-26",
+          "home": "突尼斯",
+          "away": "荷兰"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-30",
+          "home": "荷兰",
+          "away": "摩洛哥"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-25",
+          "home": "荷兰",
+          "away": "德国"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-28",
+          "home": "塞尔维亚",
+          "away": "荷兰"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-18",
+          "home": "乌兹别克斯坦",
+          "away": "哥伦比亚"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-24",
+          "home": "葡萄牙",
+          "away": "乌兹别克斯坦"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-28",
+          "home": "刚果(金)",
+          "away": "乌兹别克斯坦"
+        },
+        {
+          "competition": "亚洲杯",
+          "date": "2027-01-08",
+          "home": "乌兹别克斯坦",
+          "away": "约旦"
+        },
+        {
+          "competition": "亚洲杯",
+          "date": "2027-01-12",
+          "home": "朝鲜",
+          "away": "乌兹别克斯坦"
+        },
+        {
+          "competition": "亚洲杯",
+          "date": "2027-01-17",
+          "home": "乌兹别克斯坦",
+          "away": "巴林"
+        }
+      ],
+      "code": "周一201",
+      "home": "荷兰",
+      "away": "乌兹别克斯坦"
+    },
+    "周一202": {
+      "shuju_id": "1410357",
+      "matchid": "65",
+      "hash": "935240a",
+      "match_time": "2026-06-09 03:10",
+      "league_id": "19472",
+      "league_name": "26友谊赛六月",
+      "fifa": {
+        "法国": {
+          "rank": 3,
+          "points": 1870
+        },
+        "北爱尔兰": {
+          "rank": 70,
+          "points": 1365
+        }
+      },
+      "current_asian_handicap": {
+        "home_water": 0.8,
+        "line": "两球/两球半",
+        "away_water": 0.98
+      },
+      "home_history": [
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "",
+          "date": "26-06-09",
+          "home": "法国",
+          "away": "北爱尔兰",
+          "score": "3:1",
+          "ht_score": null,
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.12,
+            "draw": 8.1,
+            "away": 18.18
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "两球/两球半",
+            "away_water": 0.98
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-06-05",
+          "home": "法国",
+          "away": "科特迪瓦",
+          "score": "1:2",
+          "ht_score": "1:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.21,
+            "draw": 6.22,
+            "away": 11.07
+          },
+          "asian_handicap": {
+            "home_water": 1.0,
+            "line": "两球",
+            "away_water": 0.78
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-03-30",
+          "home": "哥伦比亚",
+          "away": "法国",
+          "score": "1:3",
+          "ht_score": "0:2",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 3.7,
+            "draw": 3.56,
+            "away": 1.91
+          },
+          "asian_handicap": {
+            "home_water": 0.88,
+            "line": "受半球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-03-27",
+          "home": "巴西",
+          "away": "法国",
+          "score": "1:2",
+          "ht_score": "0:1",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 2.9,
+            "draw": 3.52,
+            "away": 2.22
+          },
+          "asian_handicap": {
+            "home_water": 0.78,
+            "line": "受平手/半球",
+            "away_water": 1.0
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-17",
+          "home": "[4]",
+          "away": "法国[1]",
+          "score": "1:3",
+          "ht_score": "1:3",
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 20.94,
+            "draw": 8.6,
+            "away": 1.12
+          },
+          "asian_handicap": {
+            "home_water": 0.92,
+            "line": "受两球/两球半",
+            "away_water": 0.88
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-14",
+          "home": "[1]",
+          "away": "乌克兰[3]",
+          "score": "4:0",
+          "ht_score": "0:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.15,
+            "draw": 7.52,
+            "away": 17.2
+          },
+          "asian_handicap": {
+            "home_water": 0.7,
+            "line": "两球",
+            "away_water": 1.05
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-14",
+          "home": "[3]",
+          "away": "法国[1]",
+          "score": "2:2",
+          "ht_score": "1:0",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 9.67,
+            "draw": 5.51,
+            "away": 1.3
+          },
+          "asian_handicap": {
+            "home_water": 0.94,
+            "line": "受球半",
+            "away_water": 0.86
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-11",
+          "home": "[1]",
+          "away": "阿塞拜疆[4]",
+          "score": "3:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.01,
+            "draw": 28.83,
+            "away": 75.35
+          },
+          "asian_handicap": {
+            "home_water": 0.95,
+            "line": "四球半/五球",
+            "away_water": 0.8
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-10",
+          "home": "[2]",
+          "away": "冰岛[1]",
+          "score": "2:1",
+          "ht_score": "1:1",
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.08,
+            "draw": 11.4,
+            "away": 27.04
+          },
+          "asian_handicap": {
+            "home_water": 0.85,
+            "line": "两球半/三球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-06",
+          "home": "乌克兰",
+          "away": "法国",
+          "score": "0:2",
+          "ht_score": "0:1",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 9.06,
+            "draw": 5.09,
+            "away": 1.33
+          },
+          "asian_handicap": {
+            "home_water": 0.9,
+            "line": "受球半",
+            "away_water": 0.9
+          }
+        }
+      ],
+      "away_history": [
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "",
+          "date": "26-06-09",
+          "home": "法国",
+          "away": "北爱尔兰",
+          "score": "3:1",
+          "ht_score": null,
+          "result": "负",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.12,
+            "draw": 8.1,
+            "away": 18.18
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "两球/两球半",
+            "away_water": 0.98
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-06-05",
+          "home": "北爱尔兰",
+          "away": "几内亚",
+          "score": "1:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 2.18,
+            "draw": 2.98,
+            "away": 3.47
+          },
+          "asian_handicap": {
+            "home_water": 0.84,
+            "line": "平手/半球",
+            "away_water": 0.94
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-04-01",
+          "home": "威尔士",
+          "away": "北爱尔兰",
+          "score": "1:1",
+          "ht_score": "0:1",
+          "result": "平",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.85,
+            "draw": 3.39,
+            "away": 4.02
+          },
+          "asian_handicap": {
+            "home_water": 0.84,
+            "line": "半球",
+            "away_water": 0.94
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "26-03-27",
+          "home": "意大利",
+          "away": "北爱尔兰",
+          "score": "2:0",
+          "ht_score": "0:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.25,
+            "draw": 5.56,
+            "away": 12.83
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "球半",
+            "away_water": 0.98
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-18",
+          "home": "[3]",
+          "away": "卢森堡[4]",
+          "score": "1:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.84,
+            "draw": 3.18,
+            "away": 4.9
+          },
+          "asian_handicap": {
+            "home_water": 0.9,
+            "line": "半球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-15",
+          "home": "[2]",
+          "away": "北爱尔兰[3]",
+          "score": "1:0",
+          "ht_score": "0:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 2.13,
+            "draw": 2.98,
+            "away": 3.89
+          },
+          "asian_handicap": {
+            "home_water": 0.84,
+            "line": "平手/半球",
+            "away_water": 0.96
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-14",
+          "home": "[2]",
+          "away": "德国[1]",
+          "score": "0:1",
+          "ht_score": "0:1",
+          "result": "负",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 8.37,
+            "draw": 4.96,
+            "away": 1.36
+          },
+          "asian_handicap": {
+            "home_water": 0.92,
+            "line": "受一球/球半",
+            "away_water": 0.88
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-11",
+          "home": "[2]",
+          "away": "斯洛伐克[1]",
+          "score": "2:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 2.45,
+            "draw": 2.86,
+            "away": 3.27
+          },
+          "asian_handicap": {
+            "home_water": 0.96,
+            "line": "平手/半球",
+            "away_water": 0.84
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-08",
+          "home": "[4]",
+          "away": "北爱尔兰[1]",
+          "score": "3:1",
+          "ht_score": "1:1",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.18,
+            "draw": 7.31,
+            "away": 13.97
+          },
+          "asian_handicap": {
+            "home_water": 0.85,
+            "line": "球半/两球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-05",
+          "home": "卢森堡",
+          "away": "北爱尔兰",
+          "score": "1:3",
+          "ht_score": "1:1",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 3.71,
+            "draw": 2.86,
+            "away": 2.25
+          },
+          "asian_handicap": {
+            "home_water": 0.88,
+            "line": "受平手/半球",
+            "away_water": 0.92
+          }
+        }
+      ],
+      "home_form": {
+        "team": "法国",
+        "matches": 10,
+        "wins": 8,
+        "draws": 1,
+        "losses": 1,
+        "gf": 24,
+        "ga": 8
+      },
+      "away_form": {
+        "team": "北爱尔兰",
+        "matches": 10,
+        "wins": 1,
+        "draws": 3,
+        "losses": 6,
+        "gf": 9,
+        "ga": 18
+      },
+      "home_record": {
+        "text": "近10场， 8胜  1平  1负  进24球 失8球 胜率 80%  赢盘率 50%  大球率 80%",
+        "win_rate": 80,
+        "cover_rate": 50,
+        "over_rate": 80
+      },
+      "away_record": {
+        "text": "近10场， 5胜  1平  4负  进10球 失9球 胜率 50%  赢盘率 70%  大球率 20%",
+        "win_rate": 50,
+        "cover_rate": 70,
+        "over_rate": 20
+      },
+      "h2h": {
+        "has_data": true,
+        "text": "有交战记录"
+      },
+      "macau_tip": "法国 贏",
+      "macau_reason": "上仗国友赛不敌科特迪瓦，导致近期大好的连胜势头被终结，已为法国在即将到来的世界盃敲响警钟，一众将士必须为此好好反省，此番面对近况起伏不定的北爱尔兰，法国誓要赢波反弹。",
+      "future_fixtures": [
+        {
+          "competition": "世界杯",
+          "date": "2026-06-17",
+          "home": "法国",
+          "away": "塞内加尔"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-23",
+          "home": "法国",
+          "away": "伊拉克"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-27",
+          "home": "挪威",
+          "away": "法国"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-07-01",
+          "home": "法国",
+          "away": "瑞典"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-26",
+          "home": "土耳其",
+          "away": "法国"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-29",
+          "home": "比利时",
+          "away": "法国"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-26",
+          "home": "格鲁吉亚",
+          "away": "北爱尔兰"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-29",
+          "home": "北爱尔兰",
+          "away": "匈牙利"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-10-03",
+          "home": "乌克兰",
+          "away": "北爱尔兰"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-10-06",
+          "home": "北爱尔兰",
+          "away": "格鲁吉亚"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-11-15",
+          "home": "北爱尔兰",
+          "away": "乌克兰"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-11-18",
+          "home": "匈牙利",
+          "away": "北爱尔兰"
+        }
+      ],
+      "code": "周一202",
+      "home": "法国",
+      "away": "北爱尔兰"
+    },
+    "周一203": {
+      "shuju_id": "1411004",
+      "matchid": "65",
+      "hash": "504fe5f",
+      "match_time": "2026-06-09 10:00",
+      "league_id": "19472",
+      "league_name": "26友谊赛六月",
+      "fifa": {
+        "秘鲁": {
+          "rank": 52,
+          "points": 1457
+        },
+        "西班牙": {
+          "rank": 2,
+          "points": 1874
+        }
+      },
+      "current_asian_handicap": {
+        "home_water": 0.8,
+        "line": "受两球",
+        "away_water": 0.96
+      },
+      "home_history": [
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "",
+          "date": "26-06-09",
+          "home": "秘鲁",
+          "away": "西班牙",
+          "score": "1:3",
+          "ht_score": null,
+          "result": "负",
+          "panlu": "走",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 15.34,
+            "draw": 6.97,
+            "away": 1.15
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "受两球",
+            "away_water": 0.96
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-06-06",
+          "home": "海地",
+          "away": "秘鲁",
+          "score": "1:2",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 2.65,
+            "draw": 3.14,
+            "away": 2.58
+          },
+          "asian_handicap": {
+            "home_water": 0.64,
+            "line": "受平手/半球",
+            "away_water": 1.12
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-04-01",
+          "home": "秘鲁",
+          "away": "洪都拉斯",
+          "score": "2:2",
+          "ht_score": "1:1",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.93,
+            "draw": 3.1,
+            "away": 4.13
+          },
+          "asian_handicap": {
+            "home_water": 0.94,
+            "line": "半球",
+            "away_water": 0.84
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-03-29",
+          "home": "塞内加尔",
+          "away": "秘鲁",
+          "score": "2:0",
+          "ht_score": "1:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.44,
+            "draw": 4.07,
+            "away": 7.11
+          },
+          "asian_handicap": {
+            "home_water": 1.03,
+            "line": "一球/球半",
+            "away_water": 0.75
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-12-22",
+          "home": "秘鲁",
+          "away": "玻利维亚",
+          "score": "2:0",
+          "ht_score": "0:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.98,
+            "draw": 3.16,
+            "away": 3.81
+          },
+          "asian_handicap": {
+            "home_water": 0.96,
+            "line": "半球",
+            "away_water": 0.82
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-11-19",
+          "home": "智利",
+          "away": "秘鲁",
+          "score": "2:1",
+          "ht_score": "0:1",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.93,
+            "draw": 3.04,
+            "away": 4.18
+          },
+          "asian_handicap": {
+            "home_water": 0.94,
+            "line": "半球",
+            "away_water": 0.86
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-11-13",
+          "home": "俄罗斯",
+          "away": "秘鲁",
+          "score": "1:1",
+          "ht_score": "1:0",
+          "result": "平",
+          "panlu": "赢",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.4,
+            "draw": 4.43,
+            "away": 7.29
+          },
+          "asian_handicap": {
+            "home_water": 0.95,
+            "line": "一球/球半",
+            "away_water": 0.85
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7388",
+          "league_name": "国家队友谊赛",
+          "date": "25-10-11",
+          "home": "智利",
+          "away": "秘鲁",
+          "score": "2:1",
+          "ht_score": "0:1",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.84,
+            "draw": 3.15,
+            "away": 4.53
+          },
+          "asian_handicap": {
+            "home_water": 0.84,
+            "line": "半球",
+            "away_water": 0.96
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7014",
+          "league_name": "世界杯南美区预选赛",
+          "date": "25-09-10",
+          "home": "[9]",
+          "away": "巴拉圭[6]",
+          "score": "0:1",
+          "ht_score": "0:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 2.61,
+            "draw": 2.75,
+            "away": 3.18
+          },
+          "asian_handicap": {
+            "home_water": 1.0,
+            "line": "平手/半球",
+            "away_water": 0.8
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7014",
+          "league_name": "世界杯南美区预选赛",
+          "date": "25-09-05",
+          "home": "[4]",
+          "away": "秘鲁[9]",
+          "score": "3:0",
+          "ht_score": "1:0",
+          "result": "负",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.41,
+            "draw": 4.15,
+            "away": 9.09
+          },
+          "asian_handicap": {
+            "home_water": 0.75,
+            "line": "一球",
+            "away_water": 1.05
+          }
+        }
+      ],
+      "away_history": [
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "",
+          "date": "26-06-09",
+          "home": "秘鲁",
+          "away": "西班牙",
+          "score": "1:3",
+          "ht_score": null,
+          "result": "胜",
+          "panlu": "走",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 15.34,
+            "draw": 6.97,
+            "away": 1.15
+          },
+          "asian_handicap": {
+            "home_water": 0.8,
+            "line": "受两球",
+            "away_water": 0.96
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-06-05",
+          "home": "西班牙",
+          "away": "伊拉克",
+          "score": "1:1",
+          "ht_score": "1:1",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.06,
+            "draw": 11.78,
+            "away": 25.21
+          },
+          "asian_handicap": {
+            "home_water": 0.86,
+            "line": "两球半/三球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-04-01",
+          "home": "西班牙",
+          "away": "埃及",
+          "score": "0:0",
+          "ht_score": "0:0",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.19,
+            "draw": 6.64,
+            "away": 12.22
+          },
+          "asian_handicap": {
+            "home_water": 0.88,
+            "line": "两球",
+            "away_water": 0.9
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "19472",
+          "league_name": "国家队友谊赛",
+          "date": "26-03-28",
+          "home": "西班牙",
+          "away": "塞尔维亚",
+          "score": "3:0",
+          "ht_score": "2:0",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.16,
+            "draw": 7.1,
+            "away": 14.07
+          },
+          "asian_handicap": {
+            "home_water": 0.94,
+            "line": "两球/两球半",
+            "away_water": 0.84
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-19",
+          "home": "[1]",
+          "away": "土耳其[2]",
+          "score": "2:2",
+          "ht_score": "1:1",
+          "result": "平",
+          "panlu": "输",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.18,
+            "draw": 7.26,
+            "away": 13.68
+          },
+          "asian_handicap": {
+            "home_water": 0.84,
+            "line": "两球",
+            "away_water": 0.96
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-11-16",
+          "home": "[3]",
+          "away": "西班牙[1]",
+          "score": "0:4",
+          "ht_score": "0:3",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 11.82,
+            "draw": 6.3,
+            "away": 1.22
+          },
+          "asian_handicap": {
+            "home_water": 0.92,
+            "line": "受球半/两球",
+            "away_water": 0.88
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-15",
+          "home": "[1]",
+          "away": "保加利亚[4]",
+          "score": "4:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "走",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 1.02,
+            "draw": 24.38,
+            "away": 57.44
+          },
+          "asian_handicap": {
+            "home_water": 1.0,
+            "line": "四球",
+            "away_water": 0.8
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-10-12",
+          "home": "[1]",
+          "away": "格鲁吉亚[2]",
+          "score": "2:0",
+          "ht_score": "1:0",
+          "result": "胜",
+          "panlu": "输",
+          "daxiao": "小",
+          "euro_odds": {
+            "home": 1.16,
+            "draw": 7.96,
+            "away": 15.52
+          },
+          "asian_handicap": {
+            "home_water": 0.94,
+            "line": "两球/两球半",
+            "away_water": 0.86
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-08",
+          "home": "[3]",
+          "away": "西班牙[1]",
+          "score": "0:6",
+          "ht_score": "0:3",
+          "result": "胜",
+          "panlu": "赢",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 5.95,
+            "draw": 4.4,
+            "away": 1.51
+          },
+          "asian_handicap": {
+            "home_water": 1.02,
+            "line": "受一球",
+            "away_water": 0.78
+          }
+        },
+        {
+          "fid": "",
+          "is_current": false,
+          "league_id": "7386",
+          "league_name": "世界杯欧洲区预选赛",
+          "date": "25-09-05",
+          "home": "[3]",
+          "away": "西班牙[2]",
+          "score": "0:3",
+          "ht_score": "0:3",
+          "result": "胜",
+          "panlu": "走",
+          "daxiao": "大",
+          "euro_odds": {
+            "home": 32.99,
+            "draw": 11.99,
+            "away": 1.07
+          },
+          "asian_handicap": {
+            "home_water": 0.82,
+            "line": "受三球",
+            "away_water": 0.98
+          }
+        }
+      ],
+      "home_form": {
+        "team": "秘鲁",
+        "matches": 10,
+        "wins": 2,
+        "draws": 3,
+        "losses": 5,
+        "gf": 9,
+        "ga": 14
+      },
+      "away_form": {
+        "team": "西班牙",
+        "matches": 10,
+        "wins": 6,
+        "draws": 4,
+        "losses": 0,
+        "gf": 25,
+        "ga": 7
+      },
+      "home_record": {
+        "text": "近10场， 2胜  3平  5负  进9球 失14球 胜率 20%  赢盘率 40%  大球率 50%",
+        "win_rate": 20,
+        "cover_rate": 40,
+        "over_rate": 50
+      },
+      "away_record": {
+        "text": "近10场， 6胜  4平  0负  进27球 失5球 胜率 60%  赢盘率 30%  大球率 70%",
+        "win_rate": 60,
+        "cover_rate": 30,
+        "over_rate": 70
+      },
+      "h2h": {
+        "has_data": true,
+        "text": "有交战记录"
+      },
+      "macau_tip": "西班牙 贏",
+      "macau_reason": "西班牙实力超群，大名单中几乎都是四大联赛中的主力球员，身价、经验和默契程度方面无疑碾压秘鲁，西班牙今铺赢波轻轻鬆鬆。",
+      "future_fixtures": [
+        {
+          "competition": "世界杯",
+          "date": "2026-06-16",
+          "home": "西班牙",
+          "away": "佛得角"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-22",
+          "home": "西班牙",
+          "away": "沙特阿拉伯"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-06-27",
+          "home": "乌拉圭",
+          "away": "西班牙"
+        },
+        {
+          "competition": "世界杯",
+          "date": "2026-07-03",
+          "home": "西班牙",
+          "away": "奥地利"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-27",
+          "home": "英格兰",
+          "away": "西班牙"
+        },
+        {
+          "competition": "欧国联",
+          "date": "2026-09-30",
+          "home": "西班牙",
+          "away": "克罗地亚"
+        }
+      ],
+      "code": "周一203",
+      "home": "秘鲁",
+      "away": "西班牙"
+    }
+  }
+}

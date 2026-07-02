@@ -1,0 +1,10 @@
+{
+  "threshold": 0.15,
+  "max_boost": 0.1,
+  "decay_power": 1.5,
+  "brier": 0.2339,
+  "brier_lowdraw": 0.3012,
+  "source": "draw_correction_grid_search",
+  "date": "2026-06-14",
+  "n_matches": 3248
+}

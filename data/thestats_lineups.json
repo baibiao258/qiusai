@@ -1,0 +1,110 @@
+{
+  "mt_362533007": {
+    "match_id": "mt_362533007",
+    "confirmed": true,
+    "home_team": "Portugal",
+    "away_team": "Croatia",
+    "home_formation": "4-2-3-1",
+    "home_starters": [
+      "Diogo Costa",
+      "Jo\u00e3o Cancelo",
+      "R\u00faben Dias",
+      "Renato Veiga",
+      "Nuno Mendes",
+      "R\u00faben Neves",
+      "Bruno Fernandes",
+      "Vitinha",
+      "Pedro Neto",
+      "Cristiano Ronaldo",
+      "Jo\u00e3o F\u00e9lix"
+    ],
+    "home_subs": 0,
+    "away_formation": "4-2-3-1",
+    "away_starters": [
+      "Dominik Livakovi\u0107",
+      "Marin Pongra\u010di\u0107",
+      "Jo\u0161ko Gvardiol",
+      "Josip \u0160utalo",
+      "Josip Stani\u0161i\u0107",
+      "Mateo Kova\u010di\u0107",
+      "Petar Su\u010di\u0107",
+      "Luka Modri\u0107",
+      "Ivan Peri\u0161i\u0107",
+      "Ante Budimir",
+      "Martin Baturina"
+    ],
+    "away_subs": 0
+  },
+  "mt_019700818": {
+    "match_id": "mt_019700818",
+    "confirmed": true,
+    "home_team": "Spain",
+    "away_team": "Austria",
+    "home_formation": "4-3-3",
+    "home_starters": [
+      "Unai Sim\u00f3n",
+      "Marc Cucurella",
+      "Pau Cubars\u00ed",
+      "Marcos Llorente",
+      "Aymeric Laporte",
+      "Pedri",
+      "Rodri",
+      "Dani Olmo",
+      "Lamine Yamal",
+      "Mikel Oyarzabal",
+      "Alex Baena"
+    ],
+    "home_subs": 0,
+    "away_formation": "4-2-3-1",
+    "away_starters": [
+      "Alexander Schlager",
+      "Phillipp Mwene",
+      "Philipp Lienhart",
+      "Stefan Posch",
+      "David Alaba",
+      "Nicolas Seiwald",
+      "Romano Schmid",
+      "Xaver Schlager",
+      "Marcel Sabitzer",
+      "Konrad Laimer",
+      "Marko Arnautovi\u0107"
+    ],
+    "away_subs": 0
+  },
+  "mt_974099603": {
+    "match_id": "mt_974099603",
+    "confirmed": true,
+    "home_team": "USA",
+    "away_team": "Bosnia & Herzegovina",
+    "home_formation": "4-2-3-1",
+    "home_starters": [
+      "Matthew Freese",
+      "Alexander Freeman",
+      "Tim Ream",
+      "Chris Richards",
+      "Antonee Robinson",
+      "Malik Tillman",
+      "Tyler Adams",
+      "Weston McKennie",
+      "Sergi\u00f1o Dest",
+      "Folarin Balogun",
+      "Christian Puli\u0161i\u0107"
+    ],
+    "home_subs": 13,
+    "away_formation": "3-4-1-2",
+    "away_starters": [
+      "Nikola Vasilj",
+      "Stjepan Radelji\u0107",
+      "Amar Dedi\u0107",
+      "Sead Kola\u0161inac",
+      "Nikola Kati\u0107",
+      "Tarik Muharemovi\u0107",
+      "Ivan \u0160unji\u0107",
+      "Kerim Alajbegovi\u0107",
+      "Armin Gigovi\u0107",
+      "Ermedin Demirovi\u0107",
+      "Edin D\u017eeko"
+    ],
+    "away_subs": 15
+  }
+}
