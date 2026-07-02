@@ -28,119 +28,24 @@ from scipy.stats import poisson as sp_poisson
 import bet_math
 from scraper_500_analysis import scrape_500_analysis, enrich_bundle_with_500, format_500_analysis_lines
 from fatigue_features import compute_fatigue_features, fatigue_adjustment, format_fatigue_lines
-
-def rps_score(y_true, y_proba):
-    """Ranked Probability Score for ordered 3-class (H/D/A).
-    y_true: (N, 3) one-hot
-    y_proba: (N, 3) predicted probs
-    Returns mean RPS over samples. Lower is better.
-    """
-    cdf_true = np.cumsum(y_true, axis=1)
-    cdf_pred = np.cumsum(y_proba, axis=1)
-    n_cat = y_proba.shape[1] - 1
-    return np.mean(np.sum((cdf_true - cdf_pred) ** 2, axis=1) / n_cat)
-
-
-def brier_decomposition_multiclass(y_true, y_proba, n_bins=10):
-    """One-vs-rest Brier decomposition averaged across classes.
-
-    This is a practical diagnostic for the 3-way H/D/A forecast:
-    - uncertainty: climatology difficulty
-    - resolution: separation from the base rate
-    - reliability: calibration error
-
-    The decomposition is performed per class with quantile bins on the
-    predicted probability for that class, then averaged across classes.
-    """
-    y_true = np.asarray(y_true, dtype=float)
-    y_proba = np.asarray(y_proba, dtype=float)
-    if y_true.size == 0:
-        return {'brier': 0.0, 'uncertainty': 0.0, 'resolution': 0.0, 'reliability': 0.0}
-
-    n_samples, n_classes = y_true.shape
-    brier = float(np.mean(np.sum((y_true - y_proba) ** 2, axis=1)))
-
-    uncertainty = 0.0
-    resolution = 0.0
-    reliability = 0.0
-
-    for c in range(n_classes):
-        p = y_proba[:, c]
-        o = y_true[:, c]
-        base_rate = float(o.mean())
-        uncertainty += base_rate * (1.0 - base_rate)
-
-        if np.allclose(p, p[0]):
-            # Degenerate forecast: all mass in one bucket.
-            obs = base_rate
-            reliability += np.mean((obs - p) ** 2)
-            continue
-
-        # Quantile buckets keep diagnostics stable under skew.
-        quantiles = np.unique(np.quantile(p, np.linspace(0, 1, min(n_bins, n_samples) + 1)))
-        if len(quantiles) <= 2:
-            quantiles = np.array([p.min(), p.max()])
-
-        # Include the right edge to make the last bin closed.
-        quantiles[0] = quantiles[0] - 1e-12
-        quantiles[-1] = quantiles[-1] + 1e-12
-        bin_ids = np.digitize(p, quantiles[1:-1], right=True)
-
-        for b in range(bin_ids.max() + 1):
-            idx = bin_ids == b
-            if not np.any(idx):
-                continue
-            w = idx.mean()
-            p_bar = float(p[idx].mean())
-            o_bar = float(o[idx].mean())
-            reliability += w * (o_bar - p_bar) ** 2
-            resolution += w * (o_bar - base_rate) ** 2
-
-    uncertainty /= n_classes
-    resolution /= n_classes
-    reliability /= n_classes
-
-    return {
-        'brier': brier,
-        'uncertainty': float(uncertainty),
-        'resolution': float(resolution),
-        'reliability': float(reliability),
-        'check': float(uncertainty - resolution + reliability),
-    }
+from pipeline.probability import (
+    poisson_pmf,
+    elo_expected,
+    dc_tau,
+    compute_rq_probs,
+    implied_probs_from_odds,
+    compute_goals_distribution,
+    compute_score_topn,
+    compute_htft_topn_math,
+    compute_dynamic_xgb_weight,
+    rps_score,
+    brier_decomposition_multiclass,
+    quick_validate,
+    format_pct,
+)
 
 
-def quick_validate(model_probs, actual_results):
-    """快速验证：给定模型概率矩阵和实际结果，返回 Brier 和 RPS。
-    model_probs: List[dict] 每项含 {'H': p_h, 'D': p_d, 'A': p_a}
-    actual_results: List[str] 每项为 'H'/'D'/'A'
-    """
-    y_true = np.zeros((len(actual_results), 3))
-    y_proba = np.zeros((len(actual_results), 3))
-    label_to_idx = {'A': 0, 'D': 1, 'H': 2}
-    for i, (mp, act) in enumerate(zip(model_probs, actual_results)):
-        y_proba[i] = [mp['A'], mp['D'], mp['H']]
-        y_true[i, label_to_idx[act]] = 1
-    brier = np.mean(np.sum((y_true - y_proba) ** 2, axis=1))
-    rps = rps_score(y_true, y_proba)
-    decomp = brier_decomposition_multiclass(y_true, y_proba)
-    return {'brier': brier, 'rps': rps, 'n': len(actual_results), **decomp}
-
-sys.path.insert(0, '/root/wc_2026_upgrade')
-from half_full_model import predict_half_full_probs
-
-# ── 基于熵的动态权重 (替换 min_games 硬阈值) ──
-def compute_dynamic_xgb_weight(xgb_probs, alpha=0.30, beta=0.50):
-    """根据XGB预测的香农熵自动分配XGB/DC权重."""
-    import math
-    p = list(xgb_probs)
-    total = sum(p)
-    p = [v / total for v in p]
-    e = -sum(v * math.log2(max(v, 1e-10)) for v in p)
-    max_e = math.log2(3)
-    confidence = 1.0 - e / max_e
-    xgb_w = max(0.10, min(0.90, alpha + beta * confidence))
-    return xgb_w, 1.0 - xgb_w, confidence
-
+# ── 常量 ──
 API_KEY = os.environ.get('FOOTBALL_API_KEY', '5d07c80baa2645d0809b6ec96d6b49c6')
 HDR = {'X-Auth-Token': API_KEY, 'Accept': 'application/json'}
 MAX_GOALS = 6
@@ -171,8 +76,6 @@ HTFT_DISPLAY_MAP = {
 }
 
 
-def poisson_pmf(k,lam): return (lam**k)*math.exp(-lam)/math.factorial(k)
-def elo_expected(ra,rb): return 1.0/(1+10**((rb-ra)/400))
 
 
 def api_get(path):
@@ -1016,68 +919,6 @@ def predict_match_wrapper(home, away):
 
 
 
-def rq_result_label(handicap, home_goals, away_goals):
-    adj = home_goals + handicap - away_goals
-    if adj > 0:
-        return '让胜'
-    if adj == 0:
-        return '让平'
-    return '让负'
-
-
-def dc_tau(x, y, lam_h, lam_a, rho):
-    """Dixon-Coles tau adjustment factor. Only affects low scores (x<=1, y<=1)."""
-    if x == 0 and y == 0:
-        return 1 - rho * lam_h * lam_a
-    elif x == 0 and y == 1:
-        return 1 + rho * lam_h
-    elif x == 1 and y == 0:
-        return 1 + rho * lam_a
-    elif x == 1 and y == 1:
-        return 1 - rho
-    return 1.0
-
-
-def compute_rq_probs(lambda_home, lambda_away, handicap, rho=0.0):
-    probs = {'让胜': 0.0, '让平': 0.0, '让负': 0.0}
-
-    # ── handicap 步进放大偏差校正 (2026-06-30) ──
-    # 回测: hcap=-1: 33.3%, hcap=+1: 42.9%, hcap=±2: 0%, hcap=±3: 0%
-    # 策略: 对原始 Poisson 概率做 handicap-aware 向均匀分布收缩
-    shrink_factor = max(0.0, 1.0 - abs(handicap) * 0.15)
-
-    for hg in range(MAX_GOALS + 1):
-        for ag in range(MAX_GOALS + 1):
-            p = poisson_pmf(hg, lambda_home) * poisson_pmf(ag, lambda_away)
-            if rho != 0.0:
-                p *= dc_tau(hg, ag, lambda_home, lambda_away, rho)
-            probs[rq_result_label(handicap, hg, ag)] += p
-
-    total = sum(probs.values()) or 1.0
-    raw = {k: v / total for k, v in probs.items()}
-
-    # 应用 handicap 收缩: 向均匀分布退火
-    if shrink_factor < 1.0:
-        uniform = 1/3
-        for k in raw:
-            raw[k] = raw[k] * shrink_factor + uniform * (1 - shrink_factor)
-        norm = sum(raw.values()) or 1.0
-        for k in raw:
-            raw[k] /= norm
-
-    return raw
-
-
-def implied_probs_from_odds(odds_h, odds_d, odds_a):
-    vals = []
-    for odd in (odds_h, odds_d, odds_a):
-        if odd and odd > 0:
-            vals.append(1.0 / odd)
-        else:
-            vals.append(0.0)
-    total = sum(vals) or 1.0
-    return {'H': vals[0] / total, 'D': vals[1] / total, 'A': vals[2] / total}
-
 
 def fallback_market_predict(market_row):
     odds_h = market_row.get('odds_h', 0)
@@ -1108,32 +949,6 @@ def fallback_market_predict(market_row):
     }
 
 
-def compute_goals_distribution(lambda_home, lambda_away, rho=0.0):
-    max_total = MAX_GOALS * 2
-    dist = {str(total): 0.0 for total in range(max_total + 1)}
-    for hg in range(MAX_GOALS + 1):
-        for ag in range(MAX_GOALS + 1):
-            p = poisson_pmf(hg, lambda_home) * poisson_pmf(ag, lambda_away)
-            if rho != 0.0:
-                p *= dc_tau(hg, ag, lambda_home, lambda_away, rho)
-            total = hg + ag
-            dist[str(total)] = dist.get(str(total), 0.0) + p
-    return dist
-
-
-def compute_score_topn(lambda_home, lambda_away, topn=8, rho=0.0):
-    rows = []
-    for hg in range(MAX_GOALS + 1):
-        for ag in range(MAX_GOALS + 1):
-            p = poisson_pmf(hg, lambda_home) * poisson_pmf(ag, lambda_away)
-            if rho != 0.0:
-                p *= dc_tau(hg, ag, lambda_home, lambda_away, rho)
-            rows.append((f'{hg}:{ag}', p, hg, ag))
-    rows.sort(key=lambda x: x[1], reverse=True)
-    return rows[:topn]
-
-
-HALF_FULL_R_HT = 0.45  # 半场/全场节奏比 (固定值, 不再通过环境变量配置)
 
 def compute_htft_topn(lambda_home, lambda_away, topn=6, home=None, away=None):
     """半全场预测: 优先 XGB 模型, 回退数学推导."""
@@ -1151,12 +966,7 @@ def compute_htft_topn(lambda_home, lambda_away, topn=6, home=None, away=None):
             cn = label_map.get(k, k)
             probs_cn[cn] = probs_cn.get(cn, 0) + v
     except Exception:
-        probs_cn = predict_half_full_probs(
-            lambda_ft_home=lambda_home,
-            lambda_ft_away=lambda_away,
-            r_ht=HALF_FULL_R_HT,
-            max_goals_ht=8, max_goals_ft=10,
-        )
+        _, probs_cn = compute_htft_topn_math(lambda_home, lambda_away, topn=9)
 
     rows = sorted(probs_cn.items(), key=lambda kv: kv[1], reverse=True)
     return rows[:topn], probs_cn
@@ -1191,8 +1001,6 @@ def estimate_vote_fusion_alpha(votes):
     return '0.05'
 
 
-def format_pct(v):
-    return f'{v * 100:.1f}%'
 
 
 def print_match_bundle(bundle):
