@@ -28,9 +28,9 @@ logger = logging.getLogger(__name__)
 
 # ── 必须存在的文件 ──────────────────────────────────────────────────────────
 _INTL_REQUIRED = {
-    "dc":    "dc_model.pkl",
-    "xgb29": "xgb_model_29.pkl",
-    "elo":   "elo_ratings.pkl",
+    "dc":  "dc_model.pkl",
+    "xgb": "xgb_model_29.pkl",
+    "elo": "elo_ratings.pkl",
 }
 
 # ── 可选文件（缺失时对应 key 为 None）──────────────────────────────────────
