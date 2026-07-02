@@ -1,11 +1,11 @@
 """Prediction bundle assembly, display, and logging.
 
 Replaces five functions previously in daily_jczq.py:
-    build_prediction_bundle()     → assemble full output dict
-    print_match_bundle()          → terminal display
-    record_prediction()           → subprocess call → backtest_jczq.py
-    ensure_log_has_source_fields()→ CSV schema migration
-    patch_logged_metadata()       → backfill source_tag / model_version
+    build_prediction_bundle()      → assemble full output dict
+    print_match_bundle()           → terminal display
+    record_prediction()            → direct Python call to backtest_jczq
+    ensure_log_has_source_fields() → CSV schema migration
+    patch_logged_metadata()        → backfill source_tag / model_version
 
 Also hosts pure helpers that belong to this layer:
     compute_bet_action()
@@ -19,7 +19,6 @@ from __future__ import annotations
 import csv
 import json
 import os
-import subprocess
 from datetime import date
 from typing import Optional
 
@@ -27,16 +26,13 @@ import bet_math
 from scraper_500_analysis import enrich_bundle_with_500, format_500_analysis_lines
 from fatigue_features import format_fatigue_lines
 from config.settings import (
-    BACKTEST_SCRIPT,
     PREDICTIONS_LOG,
     MODEL_VERSION,
-    HTFT_ORDER,
     HTFT_SHORT_MAP,
     HTFT_DISPLAY_MAP,
 )
 from pipeline.probability import (
     compute_rq_probs,
-    implied_probs_from_odds,
     compute_goals_distribution,
     compute_score_topn,
     compute_htft_topn_math,
@@ -153,24 +149,12 @@ def build_prediction_bundle(
     market_row: Optional[dict] = None,
     score_meta: Optional[dict] = None,
 ) -> dict:
-    """Assemble the full per-match output dict from model output + market data.
-
-    Parameters
-    ----------
-    code        : 500.com match code or synthetic '{competition}-{home}-{away}'
-    home, away  : team names (English)
-    utc         : kick-off time string HH:MM
-    league      : league display name
-    p           : predictor output dict (from pipeline.predictor)
-    market_row  : 500.com odds row (may be None)
-    score_meta  : 365scores enrichment dict (may be None)
-    """
+    """Assemble the full per-match output dict from model output + market data."""
     lambda_home = p['lambda_ft']['home']
     lambda_away = p['lambda_ft']['away']
     market_row = market_row or {}
     votes = score_meta.get('votes') if score_meta else None
 
-    # ── Dynamic market weight fusion ──
     pred_h = p['probs']['H']
     pred_d = p['probs']['D']
     pred_a = p['probs']['A']
@@ -201,17 +185,14 @@ def build_prediction_bundle(
     pred_d *= 100
     pred_a *= 100
 
-    # ── SPF pick ──
     spf_pick = max(
         [('主胜', pred_h), ('平', pred_d), ('客胜', pred_a)],
         key=lambda x: x[1],
     )[0]
     market_spf_pick = top_market_label(
-        {'主胜': odds_h, '平': odds_d, '客胜': odds_a},
-        spf_pick,
+        {'主胜': odds_h, '平': odds_d, '客胜': odds_a}, spf_pick,
     )
 
-    # ── Handicap / RQ ──
     handicap = int(market_row.get('handicap', 0) or 0)
     dc_rho = p.get('rho', 0.0)
     rq_probs = compute_rq_probs(lambda_home, lambda_away, handicap, rho=dc_rho)
@@ -221,42 +202,37 @@ def build_prediction_bundle(
         rq_pick,
     )
 
-    # ── Goals distribution ──
     goals_dist = compute_goals_distribution(lambda_home, lambda_away, rho=dc_rho)
     goals_items = sorted(goals_dist.items(), key=lambda kv: kv[1], reverse=True)
     goals_pick = int(goals_items[0][0]) if goals_items else int(
         sum(int(k) * v for k, v in goals_dist.items())
     )
     goals_top5 = goals_items[:5]
-    goals_all = goals_items
+    goals_all  = goals_items
 
-    # ── Score probabilities ──
     score_top8 = compute_score_topn(lambda_home, lambda_away, 8, rho=dc_rho)
     pred_top_score = score_top8[0][0] if score_top8 else p['score'].replace('-', ':')
     market_score_pick = top_market_label(market_row.get('bf_odds', {}), pred_top_score)
     score_prob_map = {score: prob for score, prob, _hg, _ag in score_top8}
-    score_all = [(s, prob) for s, prob, _hg, _ag in
-                 compute_score_topn(lambda_home, lambda_away, topn=999, rho=dc_rho)
-                 if prob > 0]
+    score_all = [
+        (s, prob) for s, prob, _hg, _ag in
+        compute_score_topn(lambda_home, lambda_away, topn=999, rho=dc_rho)
+        if prob > 0
+    ]
 
-    # ── HTFT ──
     htft_top6, htft_probs = compute_htft_topn(lambda_home, lambda_away, 6, home=home, away=away)
     pred_top_htft = max(htft_probs.items(), key=lambda x: x[1])[0]
     market_htft_pick = pick_best_htft(htft_probs, market_row.get('htft_odds'))
     htft_all = sorted(htft_probs.items(), key=lambda kv: kv[1], reverse=True)
 
-    # ── EV ──
-    def _ev(prob_pct: float, odds: float) -> float | str:
+    def _ev(prob_pct: float, odds: float):
         p_ = prob_pct / 100.0
-        if odds > 1 and p_ > 0:
-            return p_ * (odds - 1) - (1 - p_)
-        return ''
+        return p_ * (odds - 1) - (1 - p_) if odds > 1 and p_ > 0 else ''
 
     ev_h = _ev(pred_h, odds_h)
     ev_d = _ev(pred_d, odds_d)
     ev_a = _ev(pred_a, odds_a)
 
-    # ── bet_math full analysis ──
     _predictions = {
         'spf':        {'h': pred_h / 100, 'd': pred_d / 100, 'a': pred_a / 100},
         'rq':         {'rq_win': rq_probs['让胜'], 'rq_draw': rq_probs['让平'], 'rq_lose': rq_probs['让负']},
@@ -265,8 +241,8 @@ def build_prediction_bundle(
         'half_full':  [{'hf': label, 'prob': pr} for label, pr in htft_top6[:4]],
     }
     _odds_d = {
-        'spf':  {'h': odds_h, 'd': odds_d, 'a': odds_a} if all([odds_h, odds_d, odds_a]) else {},
-        'rq':   {'rq_win': market_row.get('rq_h', 0), 'rq_draw': market_row.get('rq_d', 0), 'rq_lose': market_row.get('rq_a', 0)},
+        'spf':   {'h': odds_h, 'd': odds_d, 'a': odds_a} if all([odds_h, odds_d, odds_a]) else {},
+        'rq':    {'rq_win': market_row.get('rq_h', 0), 'rq_draw': market_row.get('rq_d', 0), 'rq_lose': market_row.get('rq_a', 0)},
         'score': market_row.get('bf_odds', {}),
         'total_goals': {str(k).replace('球', ''): v for k, v in market_row.get('zjq_odds', {}).items()} if market_row.get('zjq_odds') else {},
         'half_full': market_row.get('htft_odds', {}),
@@ -280,11 +256,9 @@ def build_prediction_bundle(
             for s in bet_analysis.scenarios
             if s.play == '胜平负' and s.is_value
         ],
-        key=lambda x: x['ev'],
-        reverse=True,
+        key=lambda x: x['ev'], reverse=True,
     )
 
-    # ── Market conflicts ──
     market_conflicts: list[str] = []
     if market_spf_pick != spf_pick:
         market_conflicts.append(f'SPF市场倾向={market_spf_pick}')
@@ -299,12 +273,11 @@ def build_prediction_bundle(
     if market_zjq_pick and market_zjq_pick != f'{goals_pick}球':
         market_conflicts.append(f'总进球市场倾向={market_zjq_pick}')
 
-    # ── Votes / trend text ──
-    vote_h = votes.get('home') if votes else None
-    vote_d = votes.get('draw') if votes else None
-    vote_a = votes.get('away') if votes else None
+    vote_h     = votes.get('home')  if votes else None
+    vote_d     = votes.get('draw')  if votes else None
+    vote_a     = votes.get('away')  if votes else None
     vote_count = votes.get('total') if votes else None
-    vote_text = ''
+    vote_text  = ''
     if votes and vote_h is not None and vote_d is not None and vote_a is not None:
         vote_text = f'公众{vote_h:.1f}/{vote_d:.1f}/{vote_a:.1f}% n={vote_count or 0}'
         if score_meta and score_meta.get('trend_home') and score_meta.get('trend_away'):
@@ -312,7 +285,6 @@ def build_prediction_bundle(
             ta = score_meta['trend_away']
             vote_text += f' 近况{home}{th[0]}-{th[1]}-{th[2]} {away}{ta[0]}-{ta[1]}-{ta[2]}'
 
-    # ── RQ display text ──
     if handicap > 0:
         rq_text = f'受让{handicap}'
     elif handicap < 0:
@@ -320,7 +292,6 @@ def build_prediction_bundle(
     else:
         rq_text = '0'
 
-    # ── bet_action ──
     bet_action = compute_bet_action(league, model_type, bet_analysis, htft_top6, handicap, rq_probs)
     max_hda_prob = max(pred_h, pred_d, pred_a)
     if max_hda_prob < 60 and bet_action.startswith(('RECOMMEND', 'WATCH')):
@@ -331,7 +302,6 @@ def build_prediction_bundle(
         for s in bet_analysis.scenarios
     )
 
-    # ── AH fair odds ──
     ah_fair_odds: dict = {}
     try:
         from asian_handicap import ah_probs
@@ -344,7 +314,7 @@ def build_prediction_bundle(
         pass
 
     simple_pred = p.get('simple_pred', '')
-    simple_conf  = p.get('simple_conf', 0)
+    simple_conf = p.get('simple_conf', 0)
 
     return {
         'code': code, 'league': league, 'time': utc,
@@ -396,17 +366,17 @@ def build_prediction_bundle(
         'trend_win_rate_diff_str': _safe_diff_fmt(score_meta, 'trend_win_rate_home', 'trend_win_rate_away', '.4f'),
         's365_home_winrate':    score_meta.get('trend_win_rate_home') if score_meta else None,
         's365_away_winrate':    score_meta.get('trend_win_rate_away') if score_meta else None,
-        's365_home_fifa':       score_meta.get('fifa_rank_home') if score_meta else None,
-        's365_away_fifa':       score_meta.get('fifa_rank_away') if score_meta else None,
+        's365_home_fifa':       score_meta.get('fifa_rank_home')      if score_meta else None,
+        's365_away_fifa':       score_meta.get('fifa_rank_away')      if score_meta else None,
         's365_rank_diff': (
-            (score_meta.get('fifa_rank_away', 100) - score_meta.get('fifa_rank_home', 100))
-            if score_meta and score_meta.get('fifa_rank_home') is not None and score_meta.get('fifa_rank_away') is not None
-            else None
+            score_meta.get('fifa_rank_away', 100) - score_meta.get('fifa_rank_home', 100)
+            if score_meta and score_meta.get('fifa_rank_home') is not None
+            and score_meta.get('fifa_rank_away') is not None else None
         ),
         's365_popularity_diff': (
-            (score_meta.get('pop_rank_home', 50000) - score_meta.get('pop_rank_away', 50000))
-            if score_meta and score_meta.get('pop_rank_home') is not None and score_meta.get('pop_rank_away') is not None
-            else None
+            score_meta.get('pop_rank_home', 50000) - score_meta.get('pop_rank_away', 50000)
+            if score_meta and score_meta.get('pop_rank_home') is not None
+            and score_meta.get('pop_rank_away') is not None else None
         ),
         'ah_fair_odds': ah_fair_odds,
         'bet_action': bet_action,
@@ -442,12 +412,8 @@ def print_match_bundle(bundle: dict) -> None:
     for line in format_fatigue_lines(bundle.get('fatigue', {})):
         print(line)
 
-    spf_pick_prob = {
-        '主胜': bundle['pred_h'], '平': bundle['pred_d'], '客胜': bundle['pred_a'],
-    }.get(bundle['spf_pick'])
-    rq_pick_prob = {
-        '让胜': bundle['pred_rq_win'], '让平': bundle['pred_rq_draw'], '让负': bundle['pred_rq_loss'],
-    }.get(bundle['rq_pick'])
+    spf_pick_prob  = {'主胜': bundle['pred_h'], '平': bundle['pred_d'], '客胜': bundle['pred_a']}.get(bundle['spf_pick'])
+    rq_pick_prob   = {'让胜': bundle['pred_rq_win'], '让平': bundle['pred_rq_draw'], '让负': bundle['pred_rq_loss']}.get(bundle['rq_pick'])
     score_pick_prob = {k: v * 100 for k, v in bundle.get('score_prob_map', {}).items()}.get(bundle['pred_top_score'])
     htft_pick_prob  = {k: v * 100 for k, v in bundle.get('htft_prob_map', {}).items()}.get(bundle['pred_top_htft'])
 
@@ -489,8 +455,8 @@ def print_match_bundle(bundle: dict) -> None:
     if vh or vd or va:
         print(f'  365scores公众投票: 主{vh}% / 平{vd}% / 客{va}% (n={vc})')
 
-    home_wr = bundle.get('s365_home_winrate')
-    away_wr = bundle.get('s365_away_winrate')
+    home_wr   = bundle.get('s365_home_winrate')
+    away_wr   = bundle.get('s365_away_winrate')
     home_fifa = bundle.get('s365_home_fifa')
     away_fifa = bundle.get('s365_away_fifa')
     if home_wr is not None or home_fifa is not None:
@@ -507,9 +473,9 @@ def print_match_bundle(bundle: dict) -> None:
 
     si = bundle.get('standings')
     if si:
-        rd = si.get('rank_diff', 0)
+        rd  = si.get('rank_diff', 0)
         pd_ = si.get('pt_diff', 0)
-        gd = si.get('gd_diff', 0)
+        gd  = si.get('gd_diff', 0)
         print(f"  🏆 联赛排名: 主{si.get('home', '')} | 客{si.get('away', '')}  (差: {rd:+d}位, {pd_:+d}分, GD{gd:+d})")
 
     print(f"  模型: {bundle.get('model_version', '')} (生产) / xgb_model_30 (影子后台运行)")
@@ -544,7 +510,6 @@ def ensure_log_has_source_fields() -> None:
         fieldnames = list(rows[0].keys()) if rows else []
     if not fieldnames:
         return
-
     extras = [
         col for col in (
             'source_tag', 'model_version',
@@ -556,7 +521,6 @@ def ensure_log_has_source_fields() -> None:
     ]
     if not extras:
         return
-
     new_fields = fieldnames + extras
     with open(PREDICTIONS_LOG, 'w', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=new_fields)
@@ -592,7 +556,15 @@ def patch_logged_metadata(code: str, source_tag: str, model_version: str) -> Non
 
 
 def record_prediction(bundle: dict) -> None:
-    """Serialize bundle to predictions_log.csv via backtest_jczq.py subprocess."""
+    """Persist a match bundle to predictions_log.csv.
+
+    Calls backtest_jczq.record_match() directly (Python import) instead
+    of the previous subprocess.run approach, eliminating 40-line cmd list
+    construction and the associated shell-quoting fragility.
+
+    Falls back to a stderr warning on any exception so a single failed
+    record never aborts the full prediction run.
+    """
     score_full = {s: round(pr, 4) for s, pr, _hg, _ag in bundle.get('score_top8', [])}
     htft_full  = {
         HTFT_SHORT_MAP.get(label, label): round(pr, 4)
@@ -600,74 +572,72 @@ def record_prediction(bundle: dict) -> None:
     }
     goals_full = {str(g): round(pr, 4) for g, pr in bundle.get('goals_all', [])}
 
-    def _s(v) -> str:
-        return str(v) if v is not None else ''
+    record_kwargs = {
+        'code':           bundle['code'],
+        'home':           bundle['home_cn'],
+        'away':           bundle['away_cn'],
+        'league':         bundle['league'],
+        'time':           bundle['time'],
+        'rq':             bundle['handicap'],
+        'pred_h':         bundle['pred_h'],
+        'pred_d':         bundle['pred_d'],
+        'pred_a':         bundle['pred_a'],
+        'pred_rq_win':    bundle['pred_rq_win'],
+        'pred_rq_draw':   bundle['pred_rq_draw'],
+        'pred_rq_loss':   bundle['pred_rq_loss'],
+        'pred_score':     bundle['pred_top_score'],
+        'pred_goals':     bundle['pred_top_goals'],
+        'pred_htft':      HTFT_SHORT_MAP.get(bundle['pred_top_htft'], bundle['pred_top_htft']),
+        'pred_spf_pick':  bundle['pred_spf_pick'],
+        'pred_rq_pick':   bundle['pred_rq_pick'],
+        'pred_htft_pick': bundle['pred_htft_pick'],
+        'pred_goals_pick': bundle['pred_goals_pick'],
+        'pred_score_pick': bundle['pred_score_pick'],
+        'odds_h':         bundle.get('odds_h_str', ''),
+        'odds_d':         bundle.get('odds_d_str', ''),
+        'odds_a':         bundle.get('odds_a_str', ''),
+        'ev_h':           bundle.get('ev_h_str', ''),
+        'ev_d':           bundle.get('ev_d_str', ''),
+        'ev_a':           bundle.get('ev_a_str', ''),
+        'direction':      bundle['direction'],
+        'vote_h':         bundle.get('vote_h_str', ''),
+        'vote_d':         bundle.get('vote_d_str', ''),
+        'vote_a':         bundle.get('vote_a_str', ''),
+        'vote_count':     bundle.get('vote_count_str', ''),
+        'vote_fusion_alpha':    bundle.get('vote_fusion_alpha', ''),
+        'pop_rank_home':        bundle.get('pop_rank_home_str', ''),
+        'pop_rank_away':        bundle.get('pop_rank_away_str', ''),
+        'pop_rank_diff':        bundle.get('pop_rank_diff_str', ''),
+        'trend_win_rate_home':  bundle.get('trend_win_rate_home_str', ''),
+        'trend_win_rate_away':  bundle.get('trend_win_rate_away_str', ''),
+        'trend_win_rate_diff':  bundle.get('trend_win_rate_diff_str', ''),
+        'simple_pred':    str(bundle.get('simple_pred', '')),
+        'simple_conf':    bundle.get('simple_conf', 0),
+        'bet_action':     bundle.get('bet_action', ''),
+        'model_route':    bundle.get('model', ''),
+        'match_key':      f"{bundle.get('date', '')}|{bundle.get('league', '')}|{bundle.get('home_cn', '')}|{bundle.get('away_cn', '')}|{bundle.get('time', '')}",
+        'pred30_h':       bundle.get('pred30_h'),
+        'pred30_d':       bundle.get('pred30_d'),
+        'pred30_a':       bundle.get('pred30_a'),
+        's365_home_winrate':    bundle.get('s365_home_winrate'),
+        's365_away_winrate':    bundle.get('s365_away_winrate'),
+        's365_home_fifa':       bundle.get('s365_home_fifa'),
+        's365_away_fifa':       bundle.get('s365_away_fifa'),
+        's365_rank_diff':       bundle.get('s365_rank_diff'),
+        's365_popularity_diff': bundle.get('s365_popularity_diff'),
+        'score_full':     json.dumps(score_full, ensure_ascii=False),
+        'htft_full':      json.dumps(htft_full,  ensure_ascii=False),
+        'goals_full':     json.dumps(goals_full, ensure_ascii=False),
+    }
 
-    cmd = [
-        'python3', BACKTEST_SCRIPT, 'record',
-        '--code',            bundle['code'],
-        '--home',            bundle['home_cn'],
-        '--away',            bundle['away_cn'],
-        '--league',          bundle['league'],
-        '--time',            bundle['time'],
-        '--rq',              str(bundle['handicap']),
-        '--pred-h',          f"{bundle['pred_h']:.1f}",
-        '--pred-d',          f"{bundle['pred_d']:.1f}",
-        '--pred-a',          f"{bundle['pred_a']:.1f}",
-        '--pred-rq-win',     f"{bundle['pred_rq_win']:.1f}",
-        '--pred-rq-draw',    f"{bundle['pred_rq_draw']:.1f}",
-        '--pred-rq-loss',    f"{bundle['pred_rq_loss']:.1f}",
-        '--pred-score',      bundle['pred_top_score'],
-        '--pred-goals',      str(bundle['pred_top_goals']),
-        '--pred-htft',       HTFT_SHORT_MAP.get(bundle['pred_top_htft'], bundle['pred_top_htft']),
-        '--pred-spf-pick',   bundle['pred_spf_pick'],
-        '--pred-rq-pick',    bundle['pred_rq_pick'],
-        '--pred-htft-pick',  bundle['pred_htft_pick'],
-        '--pred-goals-pick', str(bundle['pred_goals_pick']),
-        '--pred-score-pick', bundle['pred_score_pick'],
-        '--odds-h',  bundle['odds_h_str'],
-        '--odds-d',  bundle['odds_d_str'],
-        '--odds-a',  bundle['odds_a_str'],
-        '--ev-h',    bundle['ev_h_str'],
-        '--ev-d',    bundle['ev_d_str'],
-        '--ev-a',    bundle['ev_a_str'],
-        '--dir',     bundle['direction'],
-        '--vote-h',              bundle['vote_h_str'],
-        '--vote-d',              bundle['vote_d_str'],
-        '--vote-a',              bundle['vote_a_str'],
-        '--vote-count',          bundle['vote_count_str'],
-        '--vote-fusion-alpha',   bundle['vote_fusion_alpha'],
-        '--pop-rank-home',       bundle['pop_rank_home_str'],
-        '--pop-rank-away',       bundle['pop_rank_away_str'],
-        '--pop-rank-diff',       bundle['pop_rank_diff_str'],
-        '--trend-win-rate-home', bundle['trend_win_rate_home_str'],
-        '--trend-win-rate-away', bundle['trend_win_rate_away_str'],
-        '--trend-win-rate-diff', bundle['trend_win_rate_diff_str'],
-        '--simple-pred',         _s(bundle.get('simple_pred')),
-        '--simple-conf',         str(bundle.get('simple_conf', 0)),
-        '--bet-action',          _s(bundle.get('bet_action')),
-        '--model-route',         _s(bundle.get('model')),
-        '--match-key',           f"{bundle.get('date', '')}|{bundle.get('league', '')}|{bundle.get('home_cn', '')}|{bundle.get('away_cn', '')}|{bundle.get('time', '')}",
-        '--pred30-h',  _s(bundle.get('pred30_h')),
-        '--pred30-d',  _s(bundle.get('pred30_d')),
-        '--pred30-a',  _s(bundle.get('pred30_a')),
-        '--s365-home-winrate',    _s(bundle.get('s365_home_winrate')),
-        '--s365-away-winrate',    _s(bundle.get('s365_away_winrate')),
-        '--s365-home-fifa',       _s(bundle.get('s365_home_fifa')),
-        '--s365-away-fifa',       _s(bundle.get('s365_away_fifa')),
-        '--s365-rank-diff',       _s(bundle.get('s365_rank_diff')),
-        '--s365-popularity-diff', _s(bundle.get('s365_popularity_diff')),
-        '--score-full', json.dumps(score_full, ensure_ascii=False),
-        '--htft-full',  json.dumps(htft_full,  ensure_ascii=False),
-        '--goals-full', json.dumps(goals_full, ensure_ascii=False),
-    ]
-
-    proc = subprocess.run(cmd, check=False, capture_output=True, text=True)
-    if proc.returncode != 0:
-        print(f"     ⚠ 落盘失败: {bundle['code']} | rc={proc.returncode} | stderr={proc.stderr.strip()}")
+    try:
+        import backtest_jczq
+        result = backtest_jczq.record_match(**record_kwargs)
+        if result:
+            print(f'     💾 {result}')
+    except Exception as exc:
+        print(f'     ⚠ 落盘失败: {bundle["code"]} | {exc}')
         return
-    if proc.stdout.strip():
-        print(f"     💾 {proc.stdout.strip()}")
 
     ensure_log_has_source_fields()
     patch_logged_metadata(bundle['code'], bundle['source_tag'], bundle['model_version'])
@@ -678,9 +648,7 @@ def record_prediction(bundle: dict) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _safe_str(meta: Optional[dict], key: str) -> str:
-    if meta and meta.get(key) is not None:
-        return str(meta[key])
-    return ''
+    return str(meta[key]) if meta and meta.get(key) is not None else ''
 
 
 def _safe_diff_str(meta: Optional[dict], key_a: str, key_b: str) -> str:
@@ -690,9 +658,7 @@ def _safe_diff_str(meta: Optional[dict], key_a: str, key_b: str) -> str:
 
 
 def _safe_fmt(meta: Optional[dict], key: str, fmt: str) -> str:
-    if meta and meta.get(key) is not None:
-        return format(meta[key], fmt)
-    return ''
+    return format(meta[key], fmt) if meta and meta.get(key) is not None else ''
 
 
 def _safe_diff_fmt(meta: Optional[dict], key_a: str, key_b: str, fmt: str) -> str:

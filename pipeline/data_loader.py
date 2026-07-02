@@ -1,11 +1,4 @@
-"""External data I/O layer – football-data.org, 365scores.
-
-Replaces 5 functions previously embedded in daily_jczq.py:
-    api_get()               → shared HTTP helper
-    fetch_league_history()  → football-data.org historical results
-    get_today_matches()     → today's JCZQ fixtures
-    load_365scores_today()  → local CSV cache or live fetch
-    build_365_map()         → (home, away) → 365scores row lookup
+"""External data I/O layer — football-data.org v4 + 365scores.
 
 Public API
 ----------
@@ -20,7 +13,6 @@ from __future__ import annotations
 import csv
 import json
 import os
-import sys
 import time
 import urllib.error
 import urllib.request
@@ -29,16 +21,15 @@ from typing import Optional
 
 from config.settings import API_KEY, DATA_DIR, JCZQ_LEAGUES
 
-# ── 常量 ─────────────────────────────────────────────────────────────────────
+# ── Constants ─────────────────────────────────────────────────────────────────
 
 _HDR = {'X-Auth-Token': API_KEY, 'Accept': 'application/json'}
 _SCORES365_DIR = os.path.join(DATA_DIR, '365scores')
 _API_BASE = 'https://api.football-data.org/v4'
 _API_TIMEOUT = 15
-_SEGMENT_DAYS = 150  # ~5 months per segment; dynamic: months_back*15
 
 
-# ── 公开 API ──────────────────────────────────────────────────────────────────
+# ── Public API ────────────────────────────────────────────────────────────────
 
 def api_get(path: str) -> dict:
     """Thin wrapper around football-data.org v4 REST API.
@@ -93,26 +84,28 @@ def fetch_league_history(code: str, months_back: int = 10) -> list[dict]:
         ss, ee = seg_start.isoformat(), seg_end.isoformat()
         for attempt in range(2):
             try:
-                data = api_get(f'/competitions/{code}/matches?dateFrom={ss}&dateTo={ee}')
+                data = api_get(
+                    f'/competitions/{code}/matches'
+                    f'?dateFrom={ss}&dateTo={ee}&status=FINISHED'
+                )
                 for m in data.get('matches', []):
-                    if m['status'] != 'FINISHED':
-                        continue
-                    sc = m['score']['fullTime']
-                    if sc['home'] is None:
+                    hs = m['score']['fullTime'].get('home')
+                    as_ = m['score']['fullTime'].get('away')
+                    if hs is None or as_ is None:
                         continue
                     all_matches.append({
                         'date':    m['utcDate'][:10],
                         'home':    m['homeTeam']['shortName'],
                         'away':    m['awayTeam']['shortName'],
-                        'h_score': sc['home'],
-                        'a_score': sc['away'],
+                        'h_score': int(hs),
+                        'a_score': int(as_),
                     })
                 break
             except urllib.error.HTTPError as exc:
                 if exc.code == 429 and attempt == 0:
                     time.sleep(15)
-                    continue
-                break
+                else:
+                    break
             except Exception:
                 break
         if i < len(segments) - 1:
@@ -122,147 +115,89 @@ def fetch_league_history(code: str, months_back: int = 10) -> list[dict]:
 
 
 def get_today_matches() -> list[dict]:
-    """Fetch today's JCZQ fixtures from all covered leagues.
+    """Fetch today's JCZQ-covered fixtures from football-data.org.
 
-    Deduplicates within each competition to avoid double-counting
-    fixtures that appear in multiple API pages.
-
-    Returns
-    -------
-    list[dict]
-        Raw football-data.org match dicts with status SCHEDULED or TIMED.
+    Returns an empty list when the API is unreachable or returns no
+    scheduled/live matches for today.
     """
     today = date.today().isoformat()
-    all_matches: list[dict] = []
-    seen: set[tuple] = set()
+    league_map = {code: name for code, name in JCZQ_LEAGUES}
+    matches: list[dict] = []
 
-    for code, _league_name in JCZQ_LEAGUES:
+    for code, _ in JCZQ_LEAGUES:
         try:
-            data = api_get(f'/competitions/{code}/matches?dateFrom={today}&dateTo={today}')
+            data = api_get(
+                f'/competitions/{code}/matches'
+                f'?dateFrom={today}&dateTo={today}'
+            )
             for m in data.get('matches', []):
-                if m['status'] not in ('SCHEDULED', 'TIMED'):
+                if m.get('status') not in ('SCHEDULED', 'TIMED', 'IN_PLAY', 'LIVE'):
                     continue
-                key = (code, m['homeTeam']['shortName'], m['awayTeam']['shortName'])
-                if key not in seen:
-                    seen.add(key)
-                    all_matches.append(m)
+                m['competition'] = {'code': code, 'name': league_map.get(code, code)}
+                matches.append(m)
         except Exception:
-            pass
+            continue
 
-    return all_matches
+    return matches
 
 
 def load_365scores_today() -> list[dict]:
-    """Load today's 365scores enrichment data.
+    """Load today's 365scores enrichment data from local CSV cache.
 
-    Checks a pre-fetched CSV cache first; falls back to live fetch via
-    ``fetch_365scores`` module if cache is absent or empty.
-
-    Returns
-    -------
-    list[dict]
-        One dict per fixture with keys: home, away, competition, time,
-        votes (h/d/a/total), pop_rank_home/away, fifa_rank_home/away,
-        trend_home, trend_away, trend_win_rate_home/away.
+    Falls back to an empty list when the cache file is absent or
+    unreadable.  The cache is populated by a separate scrape job.
     """
-    date_str = date.today().isoformat()
-    csv_path = os.path.join(_SCORES365_DIR, f'{date_str}.csv')
-    games: list[dict] = []
-
-    if os.path.exists(csv_path):
-        try:
-            with open(csv_path, 'r', encoding='utf-8') as fh:
-                reader = csv.DictReader(fh)
-                for row in reader:
-                    games.append(_parse_365_row(row))
-        except Exception:
-            games = []
-
-    if not games:
-        try:
-            _ensure_365_on_path()
-            from fetch_365scores import fetch_365scores_data, extract_games
-            raw = fetch_365scores_data()
-            games = extract_games(raw)
-        except Exception:
-            games = []
-
-    return games
+    today = date.today().isoformat()
+    cache_path = os.path.join(_SCORES365_DIR, f'{today}.csv')
+    if not os.path.exists(cache_path):
+        return []
+    try:
+        with open(cache_path, encoding='utf-8') as f:
+            return list(csv.DictReader(f))
+    except Exception:
+        return []
 
 
 def build_365_map(games: list[dict]) -> dict:
-    """Build a bi-directional (home, away) → game lookup from 365scores data.
+    """Build a (home_norm, away_norm) → row lookup from 365scores rows.
 
-    Team names are normalised via ``team_name_normalizer`` before keying,
-    so lookups succeed regardless of variant spellings.
+    Team names are normalised via team_name_normalizer when available;
+    falls back to lowercased raw names on import failure.
+
+    Parameters
+    ----------
+    games : list[dict]
+        Rows returned by :func:`load_365scores_today`.
 
     Returns
     -------
-    dict[(str, str), dict]
-        Maps both (home, away) and (away, home) to the same game dict.
+    dict
+        Keys are 2-tuples of normalised team name strings.
     """
-    from team_name_normalizer import normalize_match_pair
-    mapping: dict = {}
-    for g in games:
-        try:
-            h, a = normalize_match_pair(g.get('home', ''), g.get('away', ''))
-            if h and a:
-                mapping[(h, a)] = g
-                mapping[(a, h)] = g
-        except Exception:
-            continue
-    return mapping
-
-
-# ── 内部辅助 ──────────────────────────────────────────────────────────────────
-
-def _ensure_365_on_path() -> None:
-    """Make sure the /root directory is importable (fallback path for fetch_365scores)."""
-    if '/root' not in sys.path:
-        sys.path.insert(0, '/root')
-
-
-def _safe_float(value, default=None):
-    if value in ('', None):
-        return default
     try:
-        return float(value)
-    except (TypeError, ValueError):
-        return default
+        from team_name_normalizer import normalize_match_pair
+    except ImportError:
+        def normalize_match_pair(h, a):  # type: ignore[misc]
+            return h.lower(), a.lower()
 
+    result: dict = {}
+    for row in games:
+        home_raw = row.get('home_team', row.get('home', ''))
+        away_raw = row.get('away_team', row.get('away', ''))
+        if not home_raw or not away_raw:
+            continue
+        try:
+            h_norm, a_norm = normalize_match_pair(home_raw, away_raw)
+        except Exception:
+            h_norm, a_norm = home_raw.lower(), away_raw.lower()
 
-def _safe_int(value, default=None):
-    v = _safe_float(value)
-    return default if v is None else int(v)
+        # Parse votes sub-dict when stored as JSON string
+        if 'votes' in row and isinstance(row['votes'], str):
+            try:
+                row = dict(row)
+                row['votes'] = json.loads(row['votes'])
+            except Exception:
+                pass
 
-
-def _parse_365_row(row: dict) -> dict:
-    """Convert a raw CSV DictReader row into a normalised 365scores game dict."""
-    return {
-        'home':        row.get('home', ''),
-        'away':        row.get('away', ''),
-        'competition': row.get('competition', ''),
-        'time':        row.get('time', ''),
-        'votes': {
-            'home':  _safe_float(row.get('vote_home')),
-            'draw':  _safe_float(row.get('vote_draw')),
-            'away':  _safe_float(row.get('vote_away')),
-            'total': _safe_int(row.get('vote_count')),
-        },
-        'pop_rank_home':       _safe_int(row.get('pop_rank_home')),
-        'pop_rank_away':       _safe_int(row.get('pop_rank_away')),
-        'fifa_rank_home':      _safe_int(row.get('fifa_rank_home')),
-        'fifa_rank_away':      _safe_int(row.get('fifa_rank_away')),
-        'trend_home': [
-            _safe_int(row.get('trend_home_w'), 0),
-            _safe_int(row.get('trend_home_d'), 0),
-            _safe_int(row.get('trend_home_l'), 0),
-        ],
-        'trend_away': [
-            _safe_int(row.get('trend_away_w'), 0),
-            _safe_int(row.get('trend_away_d'), 0),
-            _safe_int(row.get('trend_away_l'), 0),
-        ],
-        'trend_win_rate_home': _safe_float(row.get('trend_win_rate_home')),
-        'trend_win_rate_away': _safe_float(row.get('trend_win_rate_away')),
-    }
+        result[(h_norm, a_norm)] = row
+    return result
