@@ -289,20 +289,17 @@ class TestRecordPrediction:
         }
 
     def test_subprocess_called(self):
-        with patch('subprocess.run') as mock_run:
-            mock_run.return_value.returncode = 0
-            mock_run.return_value.stdout = ''
+        mock_record = MagicMock(return_value='✅ 已记录: M001 TeamA vs TeamB')
+        with patch.dict('sys.modules', {'backtest_jczq': MagicMock(record_match=mock_record)}):
             record_prediction(self._bundle())
-            mock_run.assert_called_once()
-            args = mock_run.call_args[0][0]
-            assert 'python3' in args
-            assert '--code' in args
-            assert '--pred-h' in args
+            mock_record.assert_called_once()
+            kwargs = mock_record.call_args[1]
+            assert 'code' in kwargs
+            assert kwargs['code'] == 'M001'
 
     def test_prints_error_on_failure(self, capsys):
-        with patch('subprocess.run') as mock_run:
-            mock_run.return_value.returncode = 1
-            mock_run.return_value.stderr = 'error!'
+        mock_record = MagicMock(side_effect=RuntimeError('record failed'))
+        with patch.dict('sys.modules', {'backtest_jczq': MagicMock(record_match=mock_record)}):
             record_prediction(self._bundle())
             captured = capsys.readouterr()
             assert '落盘失败' in captured.out
