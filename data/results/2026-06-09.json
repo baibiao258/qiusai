@@ -1,0 +1,50 @@
+[
+  {
+    "code": "周二203",
+    "league": "友谊赛",
+    "time": "06-10 09:00",
+    "home": "阿根廷",
+    "away": "冰岛",
+    "rq": "-2",
+    "score_ht": "1:0",
+    "score_full": "3:0",
+    "home_goals": "3",
+    "away_goals": "0",
+    "rq_result": "胜",
+    "hda_result": "胜",
+    "goals": "3",
+    "htft": "胜胜"
+  },
+  {
+    "code": "周二202",
+    "league": "友谊赛",
+    "time": "06-10 01:00",
+    "home": "匈牙利",
+    "away": "哈萨克斯坦",
+    "rq": "-2",
+    "score_ht": "0:1",
+    "score_full": "3:1",
+    "home_goals": "3",
+    "away_goals": "1",
+    "rq_result": "平",
+    "hda_result": "胜",
+    "goals": "4",
+    "htft": "负胜"
+  },
+  {
+    "code": "周二201",
+    "league": "友谊赛",
+    "time": "06-09 19:35",
+    "home": "中国",
+    "away": "泰国",
+    "rq": "-1",
+    "score_ht": "0:0",
+    "score_full": "0:0",
+    "home_goals": "0",
+    "away_goals": "0",
+    "rq_result": "负",
+    "hda_result": "平",
+    "goals": "0",
+    "htft": "平平"
+  }
+]

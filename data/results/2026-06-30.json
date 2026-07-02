@@ -1,0 +1,50 @@
+[
+  {
+    "code": "周二079",
+    "league": "世界杯",
+    "time": "07-01 10:00",
+    "home": "墨西哥",
+    "away": "厄瓜多尔",
+    "rq": "-1",
+    "score_ht": "2:0",
+    "score_full": "2:0",
+    "home_goals": "2",
+    "away_goals": "0",
+    "rq_result": "胜",
+    "hda_result": "胜",
+    "goals": "2",
+    "htft": "胜胜"
+  },
+  {
+    "code": "周二078",
+    "league": "世界杯",
+    "time": "07-01 05:00",
+    "home": "法国",
+    "away": "瑞典",
+    "rq": "-1",
+    "score_ht": "1:0",
+    "score_full": "3:0",
+    "home_goals": "3",
+    "away_goals": "0",
+    "rq_result": "胜",
+    "hda_result": "胜",
+    "goals": "3",
+    "htft": "胜胜"
+  },
+  {
+    "code": "周二077",
+    "league": "世界杯",
+    "time": "07-01 01:00",
+    "home": "科特迪瓦",
+    "away": "挪威",
+    "rq": "+1",
+    "score_ht": "0:1",
+    "score_full": "1:2",
+    "home_goals": "1",
+    "away_goals": "2",
+    "rq_result": "平",
+    "hda_result": "负",
+    "goals": "3",
+    "htft": "负负"
+  }
+]

@@ -1,0 +1,4409 @@
+{
+  "meta": {
+    "generated_at": "2026-06-15T13:19:18.829481",
+    "start_date": "2021-01-01",
+    "end_date": "2026-06-15",
+    "total_matches": 32117,
+    "teams_with_elo": 712,
+    "teams_with_lambda": 609,
+    "half_life_days": 547.875,
+    "max_recent_matches": 30,
+    "elo_init": 1500,
+    "elo_k": 20,
+    "updated_at": "2026-07-02T05:31:30.121152"
+  },
+  "elo": {
+    "Cameroon A": 1484.5,
+    "Uganda": 1517.1,
+    "Manchester United": 1687.4,
+    "Aston Villa": 1677.3,
+    "Everton": 1580.3,
+    "West Ham United": 1540.1,
+    "Sheffield Wednesday": 1271.8,
+    "Derby County": 1461.5,
+    "Al Ahly FC": 1773.1,
+    "Wadi Degla": 1530.3,
+    "Pyramids FC": 1750.4,
+    "El-Entag El-Harby": 1440.2,
+    "Zambia": 1467.7,
+    "Niger": 1457.5,
+    "West Bromwich Albion": 1426.5,
+    "Arsenal": 1804.1,
+    "Brighton & Hove Albion": 1620.9,
+    "Wolverhampton": 1455.6,
+    "Crystal Palace": 1576.5,
+    "Sheffield United": 1461.5,
+    "Tottenham Hotspur": 1525.0,
+    "Leeds United": 1623.7,
+    "VfB Stuttgart": 1621.3,
+    "RB Leipzig": 1630.4,
+    "Hertha BSC": 1396.5,
+    "FC Schalke 04": 1416.1,
+    "TSG Hoffenheim": 1557.4,
+    "SC Freiburg": 1546.7,
+    "SV Werder Bremen": 1459.3,
+    "1. FC Union Berlin": 1477.3,
+    "Arminia Bielefeld": 1423.6,
+    "Borussia M'gladbach": 1487.8,
+    "Eintracht Frankfurt": 1540.5,
+    "Bayer 04 Leverkusen": 1667.4,
+    "1. FC Köln": 1427.7,
+    "FC Augsburg": 1506.1,
+    "Real Madrid": 1757.7,
+    "Celta Vigo": 1545.2,
+    "Getafe": 1496.5,
+    "Real Valladolid": 1307.2,
+    "Real Betis": 1602.8,
+    "Sevilla": 1466.1,
+    "Villarreal": 1639.1,
+    "Levante UD": 1472.7,
+    "Sporting": 1833.7,
+    "Sporting Braga": 1666.4,
+    "Stoke City": 1379.4,
+    "Bournemouth": 1655.8,
+    "Swansea City": 1470.9,
+    "Watford": 1397.4,
+    "Huddersfield Town": 1405.1,
+    "Reading": 1394.7,
+    "Norwich City": 1476.3,
+    "Barnsley": 1369.2,
+    "Preston North End": 1417.7,
+    "Nottingham Forest": 1587.0,
+    "Wycombe Wanderers": 1484.2,
+    "Middlesbrough": 1503.5,
+    "Birmingham City": 1441.3,
+    "Blackburn Rovers": 1418.5,
+    "Millwall": 1533.5,
+    "Coventry City": 1585.5,
+    "ENPPI": 1545.1,
+    "Zamalek SC": 1698.6,
+    "Tala'ea El-Gaish": 1473.2,
+    "Al-Ittihad Alexandria": 1457.0,
+    "Smouha": 1511.6,
+    "Ceramica Cleopatra": 1565.4,
+    "Mumbai City FC": 1608.6,
+    "Kerala Blasters": 1479.3,
+    "Chelsea": 1619.8,
+    "Manchester City": 1782.0,
+    "Newcastle United": 1605.3,
+    "Leicester City": 1403.1,
+    "FC Bayern München": 1813.9,
+    "1. FSV Mainz 05": 1530.1,
+    "Borussia Dortmund": 1686.9,
+    "VfL Wolfsburg": 1440.5,
+    "Huesca": 1453.5,
+    "Barcelona": 1791.1,
+    "Real Sociedad": 1505.8,
+    "Osasuna": 1480.3,
+    "Eibar": 1416.2,
+    "Granada": 1349.7,
+    "Deportivo Alavés": 1482.2,
+    "Atlético Madrid": 1642.3,
+    "Athletic Club": 1528.0,
+    "Elche": 1450.9,
+    "FC Porto": 1802.8,
+    "Moreirense": 1487.3,
+    "Paços de Ferreira": 1402.5,
+    "Rio Ave": 1469.2,
+    "Santa Clara": 1491.5,
+    "Benfica": 1821.2,
+    "Marítimo": 1401.2,
+    "Boavista": 1380.5,
+    "Tondela": 1403.6,
+    "Famalicão": 1587.9,
+    "Misr El-Makkasa": 1331.0,
+    "Ismaily": 1370.6,
+    "Mohun Bagan Super Giant": 1653.7,
+    "NorthEast United": 1463.0,
+    "East Bengal FC": 1482.7,
+    "Odisha FC": 1486.3,
+    "Southampton": 1530.3,
+    "Liverpool": 1693.8,
+    "Valencia": 1531.9,
+    "Cádiz": 1432.3,
+    "Portimonense": 1396.7,
+    "SC Farense": 1415.2,
+    "Gil Vicente": 1500.4,
+    "B-SAD": 1424.0,
+    "Chennaiyin FC": 1409.3,
+    "Hyderabad FC": 1392.1,
+    "Bengaluru FC": 1555.3,
+    "Olympique de Marseille": 1615.6,
+    "Montpellier": 1374.1,
+    "Saint-Étienne": 1413.3,
+    "Paris Saint-Germain": 1767.9,
+    "Lille": 1645.6,
+    "Angers": 1427.1,
+    "Olympique Lyonnais": 1616.5,
+    "RC Lens": 1649.2,
+    "Stade de Reims": 1457.0,
+    "Dijon": 1392.7,
+    "Metz": 1348.5,
+    "Bordeaux": 1404.9,
+    "Stade Brestois": 1513.1,
+    "Nice": 1515.4,
+    "Lorient": 1501.2,
+    "AS Monaco": 1614.2,
+    "RC Strasbourg": 1584.9,
+    "Nîmes Olympique": 1471.6,
+    "Nantes": 1406.8,
+    "Stade Rennais": 1588.7,
+    "Coritiba": 1461.7,
+    "Goiás": 1445.8,
+    "Sport Recife": 1345.7,
+    "Fortaleza": 1539.4,
+    "Botafogo": 1595.0,
+    "Athletico": 1516.9,
+    "Grêmio": 1508.4,
+    "Bahia": 1548.4,
+    "FC Goa": 1588.6,
+    "Cameroon": 1483.3,
+    "Ceará": 1457.5,
+    "Internacional": 1512.5,
+    "Red Bull Bragantino": 1525.1,
+    "São Paulo": 1527.2,
+    "Flamengo": 1690.3,
+    "Fluminense": 1600.6,
+    "Al-Masry": 1596.0,
+    "CD Nacional": 1421.2,
+    "Atlético Goianiense": 1412.7,
+    "Vasco da Gama": 1476.6,
+    "National Bank of Egypt": 1516.6,
+    "Vitória SC": 1527.0,
+    "FC Utrecht": 1626.0,
+    "FC Groningen": 1487.0,
+    "Heracles Almelo": 1360.6,
+    "Vitesse": 1421.6,
+    "FC Emmen": 1456.8,
+    "FC Twente": 1640.5,
+    "RKC Waalwijk": 1391.3,
+    "ADO Den Haag": 1444.1,
+    "Palmeiras": 1709.9,
+    "Ghazl El Mahalla": 1458.6,
+    "El Gouna FC": 1518.5,
+    "Aswan SC": 1401.7,
+    "AFC Ajax": 1664.5,
+    "PSV Eindhoven": 1819.4,
+    "VVV-Venlo": 1424.4,
+    "Willem II Tilburg": 1412.4,
+    "SC Heerenveen": 1540.8,
+    "Fortuna Sittard": 1470.3,
+    "Sparta Rotterdam": 1501.1,
+    "Feyenoord": 1707.8,
+    "Santos": 1498.4,
+    "Jamshedpur FC": 1520.5,
+    "Atlético Mineiro": 1524.1,
+    "Morocco": 1633.8,
+    "Guinea": 1514.4,
+    "United Arab Emirates": 1523.4,
+    "Iraq": 1480.4,
+    "Benin": 1498.7,
+    "Togo": 1519.8,
+    "Tanzania": 1459.5,
+    "DR Congo": 1495.3,
+    "Burnley": 1488.0,
+    "Luton Town": 1418.7,
+    "Queens Park Rangers": 1407.9,
+    "Al-Mokawloon": 1468.5,
+    "Fulham": 1593.5,
+    "PEC Zwolle": 1471.2,
+    "AZ Alkmaar": 1607.7,
+    "Corinthians": 1536.7,
+    "Rotherham United": 1306.3,
+    "Cardiff City": 1381.6,
+    "Bristol City": 1445.6,
+    "Wolfsberger AC": 1515.2,
+    "SK Sturm Graz": 1669.2,
+    "Kuwait": 1491.7,
+    "Palestine": 1492.2,
+    "Dominican Republic": 1455.5,
+    "Puerto Rico": 1478.3,
+    "GNK Dinamo Zagreb": 1773.6,
+    "HNK Rijeka": 1588.4,
+    "NK Istra 1961": 1486.3,
+    "HNK Gorica": 1470.5,
+    "Brentford": 1612.3,
+    "SK Rapid Wien": 1547.9,
+    "HNK Šibenik": 1365.1,
+    "HNK Hajduk Split": 1644.7,
+    "NK Lokomotiva Zagreb": 1530.2,
+    "NK Osijek": 1475.0,
+    "Guatemala": 1441.8,
+    "SKN St. Pölten": 1386.5,
+    "Admira Wacker": 1424.7,
+    "TSV Hartberg": 1533.5,
+    "SV Ried": 1442.3,
+    "Austria Wien": 1591.3,
+    "NK Varaždin": 1546.5,
+    "Jordan": 1440.3,
+    "Dynamo Kyiv": 1502.8,
+    "LASK": 1653.1,
+    "WSG Tirol": 1442.9,
+    "SC Rheindorf Altach": 1455.0,
+    "Red Bull Salzburg": 1623.5,
+    "NK Slaven Belupo": 1474.8,
+    "Serbia": 1527.8,
+    "Panama": 1453.0,
+    "Raków Częstochowa": 1620.8,
+    "Pogoń Szczecin": 1552.4,
+    "Zagłębie Lubin": 1504.0,
+    "Wisła Płock": 1475.5,
+    "Górnik Zabrze": 1572.6,
+    "Lech Poznań": 1651.4,
+    "KS Lechia Gdańsk": 1472.8,
+    "Jagiellonia Białystok": 1605.8,
+    "Warta Poznań": 1472.7,
+    "Cracovia": 1508.4,
+    "Podbeskidzie Bielsko-Biała": 1463.6,
+    "Legia Warszawa": 1587.1,
+    "Wisła Kraków": 1418.8,
+    "Piast Gliwice": 1504.0,
+    "Tajikistan": 1540.4,
+    "USA": 1488.4,
+    "Trinidad and Tobago": 1465.4,
+    "Stal Mielec": 1447.5,
+    "Śląsk Wrocław": 1484.7,
+    "Uzbekistan": 1487.2,
+    "Nicaragua": 1438.7,
+    "Kawasaki Frontale": 1536.6,
+    "Yokohama F. Marinos": 1512.2,
+    "Vissel Kobe": 1621.5,
+    "Gamba Osaka": 1546.4,
+    "Cerezo Osaka": 1559.0,
+    "Kashiwa Reysol": 1530.1,
+    "Kashima Antlers": 1680.7,
+    "Shimizu S-Pulse": 1453.2,
+    "Shonan Bellmare": 1409.9,
+    "Sagan Tosu": 1425.4,
+    "Oita Trinita": 1446.5,
+    "Tokushima Vortis": 1421.0,
+    "Urawa Red Diamonds": 1536.3,
+    "FC Tokyo": 1577.9,
+    "Sanfrecce Hiroshima": 1599.8,
+    "Vegalta Sendai": 1401.8,
+    "Hokkaido Consadole Sapporo": 1463.6,
+    "Yokohama FC": 1391.5,
+    "Daegu FC": 1450.3,
+    "Suwon FC": 1438.8,
+    "Jeonbuk Hyundai Motors": 1632.3,
+    "FC Seoul": 1581.9,
+    "Avispa Fukuoka": 1499.9,
+    "Nagoya Grampus": 1535.7,
+    "Suwon Samsung Bluewings": 1412.6,
+    "Gwangju FC": 1439.2,
+    "Pohang Steelers": 1539.6,
+    "Incheon United": 1491.6,
+    "Seongnam FC": 1424.1,
+    "Jeju SK": 1465.8,
+    "Ulsan HD": 1534.7,
+    "Gangwon FC": 1567.1,
+    "Kenya": 1515.3,
+    "South Sudan": 1494.0,
+    "Kyrgyzstan Olympic Team": 1487.2,
+    "Bangladesh": 1504.0,
+    "Kosovo": 1505.8,
+    "Lithuania": 1459.0,
+    "Belarus": 1521.0,
+    "Honduras": 1464.4,
+    "Luxembourg": 1454.8,
+    "Qatar": 1396.8,
+    "Lebanon": 1501.3,
+    "Saudi Arabia": 1457.0,
+    "Jamaica": 1448.0,
+    "Bahrain": 1451.2,
+    "Syria": 1423.9,
+    "Oman": 1568.3,
+    "India": 1474.7,
+    "Nepal": 1500.3,
+    "Kyrgyzstan U23": 1502.8,
+    "Japan": 1573.2,
+    "South Korea": 1495.4,
+    "Japan U23": 1487.2,
+    "Argentina U23": 1511.8,
+    "Wales": 1457.5,
+    "Mexico": 1579.9,
+    "Azerbaijan": 1449.3,
+    "Bosnia & Herzegovina": 1448.4,
+    "Costa Rica": 1464.1,
+    "Austria U21": 1507.2,
+    "Saudi Arabia U21": 1492.8,
+    "Chile": 1557.1,
+    "Bolivia": 1395.0,
+    "Northern Ireland": 1484.7,
+    "Greece": 1524.0,
+    "Ecuador": 1569.0,
+    "Ireland": 1501.6,
+    "Saudi Arabia Olympic Team": 1497.2,
+    "Liberia": 1422.6,
+    "Iran": 1588.6,
+    "Switzerland": 1603.8,
+    "Finland": 1456.6,
+    "Sweden": 1545.1,
+    "Estonia": 1423.0,
+    "Los Angeles FC": 1588.1,
+    "Austin FC": 1439.5,
+    "Orlando City SC": 1498.4,
+    "Atlanta United": 1393.0,
+    "CF Montréal": 1415.6,
+    "Toronto FC": 1406.0,
+    "Seattle Sounders FC": 1586.6,
+    "Minnesota United": 1534.2,
+    "Houston Dynamo": 1503.2,
+    "San Jose Earthquakes": 1505.0,
+    "Columbus Crew": 1517.4,
+    "Philadelphia Union": 1476.5,
+    "Inter Miami CF": 1663.0,
+    "LA Galaxy": 1492.2,
+    "Chicago Fire": 1520.5,
+    "New England Revolution": 1462.8,
+    "Nashville SC": 1578.3,
+    "FC Cincinnati": 1568.3,
+    "FC Dallas": 1516.0,
+    "Colorado Rapids": 1442.0,
+    "DC United": 1416.6,
+    "New York City FC": 1541.9,
+    "New York Red Bulls": 1495.9,
+    "Sporting Kansas City": 1371.0,
+    "Vancouver Whitecaps": 1609.3,
+    "Portland Timbers": 1458.5,
+    "Real Salt Lake": 1517.7,
+    "Vålerenga IF": 1492.5,
+    "Rosenborg BK": 1519.0,
+    "Viking FK": 1751.5,
+    "SK Brann": 1588.5,
+    "Molde FK": 1568.4,
+    "Kristiansund BK": 1470.2,
+    "Bodø/Glimt": 1734.7,
+    "Tromsø IL": 1607.7,
+    "De Graafschap": 1448.5,
+    "Roda JC Kerkrade": 1479.1,
+    "Strømsgodset": 1404.8,
+    "Lillestrøm SK": 1462.6,
+    "Sandefjord Fotball": 1513.9,
+    "Mjøndalen": 1413.1,
+    "Sarpsborg 08": 1525.8,
+    "Haugesund": 1344.7,
+    "Grenoble Foot 38": 1499.8,
+    "Paris FC": 1527.8,
+    "Stabæk Fotball": 1418.8,
+    "Odds BK": 1418.6,
+    "NAC Breda": 1432.8,
+    "NEC Nijmegen": 1598.0,
+    "Toulouse": 1526.5,
+    "Ukraine": 1573.1,
+    "Indonesia": 1482.5,
+    "Afghanistan": 1467.9,
+    "Holstein Kiel": 1427.7,
+    "FC Arouca": 1512.9,
+    "Austria Klagenfurt": 1415.4,
+    "Türkiye": 1544.9,
+    "Italy": 1597.4,
+    "San Marino": 1295.1,
+    "Malaysia": 1538.9,
+    "Thailand": 1512.3,
+    "Cuiabá": 1424.9,
+    "Juventude": 1433.4,
+    "Malta": 1426.5,
+    "Iceland": 1499.2,
+    "Chapecoense": 1323.5,
+    "América Mineiro": 1404.6,
+    "Vietnam": 1494.4,
+    "Poland": 1500.7,
+    "Russia": 1586.5,
+    "North Macedonia": 1444.7,
+    "Slovenia": 1580.3,
+    "Slovakia": 1541.4,
+    "Bulgaria": 1451.6,
+    "Croatia": 1592.8,
+    "Armenia": 1432.3,
+    "France": 1668.9,
+    "Germany": 1567.1,
+    "Denmark": 1558.5,
+    "England": 1586.0,
+    "Austria": 1600.0,
+    "Romania": 1501.2,
+    "Georgia": 1530.6,
+    "Netherlands": 1607.1,
+    "Scotland": 1453.8,
+    "Norway": 1568.1,
+    "Montenegro": 1497.6,
+    "Algeria": 1633.5,
+    "Mauritania": 1522.0,
+    "Belgium": 1614.5,
+    "Moldova": 1440.5,
+    "Andorra": 1395.5,
+    "Liechtenstein": 1341.5,
+    "Faroe Islands": 1454.1,
+    "Gibraltar": 1418.5,
+    "Czechia": 1505.0,
+    "Nigeria": 1486.9,
+    "Hungary": 1563.1,
+    "Cyprus": 1430.3,
+    "Spain": 1634.7,
+    "Portugal": 1636.3,
+    "Kazakhstan": 1466.5,
+    "Tunisia": 1482.7,
+    "Senegal": 1564.7,
+    "Israel": 1515.1,
+    "Gambia": 1514.5,
+    "Côte d'Ivoire": 1552.8,
+    "Burkina Faso": 1533.2,
+    "Albania": 1474.9,
+    "Mali": 1538.8,
+    "Italy U20": 1512.4,
+    "Latvia": 1433.8,
+    "Bosnia & Herzegovina U21": 1514.0,
+    "Qatar U23": 1486.0,
+    "Central African Republic": 1498.7,
+    "Rwanda": 1506.9,
+    "Cape Verde": 1549.4,
+    "Ghana": 1458.1,
+    "Denmark U20": 1487.5,
+    "Congo Republic": 1505.9,
+    "South Africa": 1527.9,
+    "Sudan": 1489.2,
+    "Malawi": 1496.6,
+    "Brazil": 1635.8,
+    "Venezuela": 1534.0,
+    "Argentina": 1702.0,
+    "Colombia": 1669.3,
+    "Paraguay": 1526.5,
+    "Peru": 1514.7,
+    "Uruguay": 1565.2,
+    "El Salvador": 1441.9,
+    "Brazil U23": 1507.2,
+    "United Arab Emirates Olympic Team U23": 1486.5,
+    "South Korea Olympic Team": 1493.5,
+    "France U23": 1512.8,
+    "NK Hrvatski Dragovoljac": 1372.0,
+    "Kuwait U23": 1507.2,
+    "Bahrain U23": 1492.8,
+    "Radomiak Radom": 1505.2,
+    "Bruk-Bet Termalica Nieciecza": 1442.6,
+    "Górnik Łęczna": 1420.9,
+    "Vizela": 1395.6,
+    "Troyes": 1366.6,
+    "Estoril Praia": 1482.1,
+    "Peterborough United": 1395.9,
+    "Hull City": 1492.3,
+    "Blackpool": 1392.8,
+    "Clermont Foot": 1443.1,
+    "SpVgg Greuther Fürth": 1389.4,
+    "VfL Bochum 1848": 1400.3,
+    "Espanyol": 1468.0,
+    "Mallorca": 1475.3,
+    "Rayo Vallecano": 1537.2,
+    "SC Cambuur": 1353.2,
+    "Go Ahead Eagles": 1516.7,
+    "Haiti": 1460.7,
+    "Comoros": 1502.9,
+    "Seychelles": 1500.4,
+    "Kyrgyzstan": 1423.6,
+    "Egypt": 1569.4,
+    "Curaçao": 1422.6,
+    "New Zealand": 1404.9,
+    "Modern Sport FC": 1488.4,
+    "Pharco FC": 1422.6,
+    "Eastern Company SC": 1475.9,
+    "Spain U19": 1497.2,
+    "Israel U19": 1502.8,
+    "Sri Lanka": 1500.0,
+    "Maldives": 1479.1,
+    "Singapore": 1468.0,
+    "Cuba": 1514.9,
+    "Portugal U19": 1487.2,
+    "Denmark U19": 1512.8,
+    "Myanmar": 1460.1,
+    "Fredrikstad FK": 1540.4,
+    "KFUM Oslo": 1482.6,
+    "Daejeon Hana Citizen": 1531.9,
+    "Jerv": 1403.0,
+    "Gabon": 1494.1,
+    "Extranjeros Liga 1": 1492.9,
+    "East Timor": 1487.2,
+    "Suriname": 1504.0,
+    "Barbados": 1476.4,
+    "Libya": 1564.2,
+    "Belize": 1496.5,
+    "Mauritius": 1486.7,
+    "Jubilo Iwata": 1423.3,
+    "Kyoto Sanga FC": 1524.9,
+    "Gimcheon Sangmu FC": 1518.8,
+    "Charlotte FC": 1517.3,
+    "Guadeloupe": 1487.0,
+    "Mozambique": 1455.6,
+    "Grenada": 1479.2,
+    "Philippines": 1470.0,
+    "Laos": 1459.1,
+    "Mongolia": 1451.7,
+    "Sierra Leone": 1482.6,
+    "Saint Kitts and Nevis": 1479.4,
+    "Ethiopia": 1477.1,
+    "Angola": 1515.7,
+    "Guinea-Bissau": 1450.9,
+    "Burundi": 1448.1,
+    "Brunei Darussalam": 1466.6,
+    "Bulgaria U19": 1507.2,
+    "Montenegro U19": 1505.8,
+    "Guyana": 1508.1,
+    "Equatorial Guinea": 1489.5,
+    "Jordan U23": 1513.3,
+    "HamKam": 1505.8,
+    "Aalesunds FK": 1416.1,
+    "Avaí": 1424.4,
+    "FC Eindhoven": 1486.8,
+    "Excelsior": 1466.4,
+    "Sochaux": 1515.1,
+    "Hamburger SV": 1483.3,
+    "Auxerre": 1484.4,
+    "Chaves": 1409.7,
+    "Catalunya": 1517.9,
+    "Turkmenistan": 1472.9,
+    "Lesotho": 1481.5,
+    "Australia": 1534.9,
+    "Hong Kong": 1491.0,
+    "Cambodia": 1452.0,
+    "MKS Korona Kielce": 1509.7,
+    "Widzew Łódź": 1486.4,
+    "Miedź Legnica": 1411.8,
+    "SC Austria Lustenau": 1410.3,
+    "Lazio": 1496.9,
+    "Wigan Athletic": 1415.8,
+    "Sunderland": 1577.9,
+    "Fiorentina": 1496.9,
+    "Vietnam U19": 1507.2,
+    "Myanmar U19": 1492.8,
+    "Malaysia U19": 1497.2,
+    "Thailand U19": 1502.8,
+    "Ajaccio": 1385.8,
+    "Casa Pia": 1462.2,
+    "FC Volendam": 1402.2,
+    "Almería": 1387.1,
+    "Girona FC": 1482.7,
+    "Croatia U23": 1524.6,
+    "Solomon Islands": 1469.5,
+    "New Caledonia": 1527.2,
+    "Canada": 1546.2,
+    "Vanuatu": 1448.9,
+    "Papua New Guinea": 1523.4,
+    "Madagascar": 1508.5,
+    "Botswana": 1479.6,
+    "Bucheon FC 1995": 1493.0,
+    "Gyeongnam FC": 1504.2,
+    "El Dakhlya": 1399.6,
+    "Haras El Hedoud": 1381.5,
+    "FC Anyang": 1519.8,
+    "Fagiano Okayama": 1514.9,
+    "Montedio Yamagata": 1515.1,
+    "Roasso Kumamoto": 1495.6,
+    "Sandnes Ulf": 1487.2,
+    "Kongsvinger": 1516.6,
+    "IK Start": 1463.2,
+    "Pakistan": 1485.2,
+    "Saint Lucia": 1487.6,
+    "Chinese Taipei": 1502.8,
+    "Thailand U23": 1507.0,
+    "Albirex Niigata": 1387.9,
+    "St.Louis City": 1444.0,
+    "England C": 1507.2,
+    "Wales C": 1492.8,
+    "Tahiti": 1494.7,
+    "China": 1493.1,
+    "Bhutan": 1470.4,
+    "Macau": 1436.7,
+    "Fiji": 1503.2,
+    "Cruzeiro": 1578.8,
+    "Almere City FC": 1419.5,
+    "MVV Maastricht": 1478.7,
+    "CF Estrela Amadora": 1414.7,
+    "Djibouti": 1513.2,
+    "ŁKS Łódź": 1416.3,
+    "NK Rudeš": 1334.7,
+    "Puszcza Niepołomice": 1434.3,
+    "Ruch Chorzów": 1475.7,
+    "FC Blau Weiss Linz": 1424.2,
+    "Plymouth Argyle": 1402.0,
+    "Ipswich Town": 1550.0,
+    "Las Palmas": 1398.6,
+    "Le Havre": 1464.8,
+    "1. FC Heidenheim": 1417.8,
+    "Darmstadt 98": 1372.5,
+    "Egypt U23": 1506.1,
+    "Namibia": 1490.5,
+    "ZED FC": 1538.0,
+    "Baladiyet El Mahallah": 1426.9,
+    "Punjab FC": 1502.0,
+    "Eswatini": 1496.5,
+    "Somalia": 1503.8,
+    "Cook Islands": 1487.1,
+    "Bryne FK": 1469.4,
+    "Gimpo FC": 1494.7,
+    "Busan I Park": 1497.8,
+    "Machida Zelvia": 1606.5,
+    "Tokyo Verdy": 1493.6,
+    "Bonaire": 1462.9,
+    "Bermuda": 1492.8,
+    "Basque Country": 1506.3,
+    "Zimbabwe": 1499.3,
+    "Martinique": 1475.7,
+    "Cayman Islands": 1481.8,
+    "Criciúma": 1451.1,
+    "Vitória": 1514.4,
+    "FC Dordrecht": 1489.9,
+    "Rodez AF": 1501.2,
+    "Fortuna Düsseldorf": 1496.1,
+    "AVS - Futebol SAD": 1411.2,
+    "Saint Vincent and the Grenadines": 1537.1,
+    "Greenland": 1486.2,
+    "Sint Maarten": 1540.2,
+    "Guinea U23": 1513.5,
+    "GKS Katowice": 1557.8,
+    "Motor Lublin": 1519.5,
+    "Grazer AK 1902": 1465.1,
+    "Oxford United": 1396.8,
+    "Portsmouth": 1433.7,
+    "Leganés": 1476.2,
+    "FC St. Pauli": 1399.9,
+    "North Korea": 1495.9,
+    "Australia U23": 1522.8,
+    "Mohammedan SC": 1362.2,
+    "Yemen": 1502.7,
+    "Lyn FK": 1497.6,
+    "Jeonnam Dragons": 1499.9,
+    "Egersund": 1495.1,
+    "Seoul E-Land FC": 1463.7,
+    "Chungnam Asan FC": 1498.1,
+    "Moss FK": 1495.7,
+    "Guam": 1494.4,
+    "Solomon Islands U23": 1486.7,
+    "Chad": 1470.4,
+    "Zanzibar": 1483.0,
+    "Petrojet": 1515.8,
+    "San Diego FC": 1521.3,
+    "Aruba": 1526.6,
+    "Mirassol": 1527.2,
+    "Anguilla": 1497.1,
+    "British Virgin Islands": 1512.5,
+    "Dominica": 1462.5,
+    "FC Den Bosch": 1469.8,
+    "SC Telstar": 1510.8,
+    "USL Dunkerque": 1496.9,
+    "Guingamp": 1492.8,
+    "SV 07 Elversberg": 1486.8,
+    "Eritrea": 1496.1,
+    "Toros Neza": 1502.6,
+    "MZKS Arka Gdynia": 1466.8,
+    "Nigeria U23": 1512.7,
+    "Oman U23": 1504.0,
+    "Al Seeb": 1492.8,
+    "HNK Vukovar 1991": 1438.2,
+    "Wrexham": 1505.1,
+    "Charlton Athletic": 1417.5,
+    "FC Alverca": 1491.5,
+    "Ismailia Electricity Club": 1444.9,
+    "Real Oviedo": 1426.6,
+    "Algeria B": 1490.3,
+    "Morocco U23": 1512.7,
+    "Papua New Guinea U23": 1495.4,
+    "Antigua and Barbuda": 1484.3,
+    "Bahamas": 1455.5,
+    "Saint Martin": 1518.3,
+    "Egypt B": 1503.7,
+    "Burundi B": 1511.8,
+    "US Virgin Islands": 1492.6,
+    "Morocco B": 1507.8,
+    "Ranheim IL": 1492.5,
+    "Remo": 1484.9,
+    "V-Varen Nagasaki": 1495.6,
+    "JEF United Chiba": 1446.7,
+    "Mito Hollyhock": 1446.8,
+    "Inter Kashi FC": 1496.4,
+    "FK Arsenal Tivat": 1487.0,
+    "Zambia U23": 1490.3,
+    "Saudi Arabia U23": 1507.1,
+    "Red Star FC": 1486.9,
+    "Torreense": 1487.6,
+    "SC Paderborn 07": 1496.6,
+    "Bangladesh U23": 1506.2
+  },
+  "lambda_prior": {
+    "Uganda": {
+      "lambda_home": 1.0726,
+      "lambda_away": 1.7117,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Manchester United": {
+      "lambda_home": 1.9288,
+      "lambda_away": 1.2488,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Aston Villa": {
+      "lambda_home": 1.6004,
+      "lambda_away": 1.3871,
+      "n_matches": 30,
+      "total_n": 214
+    },
+    "Everton": {
+      "lambda_home": 1.2796,
+      "lambda_away": 1.39,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "West Ham United": {
+      "lambda_home": 1.3264,
+      "lambda_away": 1.5488,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Sheffield Wednesday": {
+      "lambda_home": 0.571,
+      "lambda_away": 1.8911,
+      "n_matches": 30,
+      "total_n": 162
+    },
+    "Derby County": {
+      "lambda_home": 1.5015,
+      "lambda_away": 1.2373,
+      "n_matches": 30,
+      "total_n": 163
+    },
+    "Al Ahly FC": {
+      "lambda_home": 1.6284,
+      "lambda_away": 0.842,
+      "n_matches": 30,
+      "total_n": 169
+    },
+    "Wadi Degla": {
+      "lambda_home": 1.3983,
+      "lambda_away": 0.8941,
+      "n_matches": 30,
+      "total_n": 64
+    },
+    "Pyramids FC": {
+      "lambda_home": 1.6412,
+      "lambda_away": 0.8175,
+      "n_matches": 30,
+      "total_n": 169
+    },
+    "El-Entag El-Harby": {
+      "lambda_home": 1.1395,
+      "lambda_away": 1.7889,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Zambia": {
+      "lambda_home": 0.8625,
+      "lambda_away": 2.5171,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Niger": {
+      "lambda_home": 1.2393,
+      "lambda_away": 1.3754,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "West Bromwich Albion": {
+      "lambda_home": 1.0635,
+      "lambda_away": 1.2687,
+      "n_matches": 30,
+      "total_n": 254
+    },
+    "Arsenal": {
+      "lambda_home": 1.8563,
+      "lambda_away": 0.7937,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Brighton & Hove Albion": {
+      "lambda_home": 1.3291,
+      "lambda_away": 1.1621,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Wolverhampton": {
+      "lambda_home": 0.735,
+      "lambda_away": 1.7211,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Crystal Palace": {
+      "lambda_home": 0.9725,
+      "lambda_away": 1.463,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Sheffield United": {
+      "lambda_home": 1.716,
+      "lambda_away": 1.3441,
+      "n_matches": 30,
+      "total_n": 249
+    },
+    "Tottenham Hotspur": {
+      "lambda_home": 1.1242,
+      "lambda_away": 1.657,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Leeds United": {
+      "lambda_home": 1.3902,
+      "lambda_away": 1.4052,
+      "n_matches": 30,
+      "total_n": 231
+    },
+    "VfB Stuttgart": {
+      "lambda_home": 2.2168,
+      "lambda_away": 1.4779,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "RB Leipzig": {
+      "lambda_home": 1.9918,
+      "lambda_away": 1.3581,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "Hertha BSC": {
+      "lambda_home": 1.3251,
+      "lambda_away": 2.1402,
+      "n_matches": 30,
+      "total_n": 91
+    },
+    "FC Schalke 04": {
+      "lambda_home": 1.0637,
+      "lambda_away": 2.0301,
+      "n_matches": 30,
+      "total_n": 55
+    },
+    "TSG Hoffenheim": {
+      "lambda_home": 1.8837,
+      "lambda_away": 1.4399,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "SC Freiburg": {
+      "lambda_home": 1.4463,
+      "lambda_away": 1.6448,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "SV Werder Bremen": {
+      "lambda_home": 0.969,
+      "lambda_away": 1.6664,
+      "n_matches": 30,
+      "total_n": 157
+    },
+    "1. FC Union Berlin": {
+      "lambda_home": 1.2259,
+      "lambda_away": 1.591,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "Arminia Bielefeld": {
+      "lambda_home": 0.7952,
+      "lambda_away": 1.6237,
+      "n_matches": 30,
+      "total_n": 55
+    },
+    "Borussia M'gladbach": {
+      "lambda_home": 1.3568,
+      "lambda_away": 1.5431,
+      "n_matches": 30,
+      "total_n": 190
+    },
+    "Eintracht Frankfurt": {
+      "lambda_home": 1.6479,
+      "lambda_away": 1.8546,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "Bayer 04 Leverkusen": {
+      "lambda_home": 1.9923,
+      "lambda_away": 1.345,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "1. FC Köln": {
+      "lambda_home": 1.3415,
+      "lambda_away": 1.8979,
+      "n_matches": 30,
+      "total_n": 159
+    },
+    "FC Augsburg": {
+      "lambda_home": 1.2883,
+      "lambda_away": 1.6989,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "Real Madrid": {
+      "lambda_home": 1.9296,
+      "lambda_away": 0.8809,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Celta Vigo": {
+      "lambda_home": 1.5246,
+      "lambda_away": 1.2783,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Getafe": {
+      "lambda_home": 0.7768,
+      "lambda_away": 0.8887,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Real Valladolid": {
+      "lambda_home": 0.726,
+      "lambda_away": 2.4559,
+      "n_matches": 30,
+      "total_n": 98
+    },
+    "Real Betis": {
+      "lambda_home": 1.5335,
+      "lambda_away": 1.3318,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Sevilla": {
+      "lambda_home": 1.0372,
+      "lambda_away": 1.6175,
+      "n_matches": 30,
+      "total_n": 214
+    },
+    "Villarreal": {
+      "lambda_home": 1.9307,
+      "lambda_away": 1.2828,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Levante UD": {
+      "lambda_home": 1.1649,
+      "lambda_away": 1.5554,
+      "n_matches": 30,
+      "total_n": 99
+    },
+    "Sporting": {
+      "lambda_home": 2.5476,
+      "lambda_away": 0.7236,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Sporting Braga": {
+      "lambda_home": 1.8054,
+      "lambda_away": 1.0805,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Stoke City": {
+      "lambda_home": 0.9658,
+      "lambda_away": 1.4885,
+      "n_matches": 30,
+      "total_n": 254
+    },
+    "Bournemouth": {
+      "lambda_home": 1.4684,
+      "lambda_away": 1.39,
+      "n_matches": 30,
+      "total_n": 225
+    },
+    "Swansea City": {
+      "lambda_home": 1.4065,
+      "lambda_away": 1.2406,
+      "n_matches": 30,
+      "total_n": 257
+    },
+    "Watford": {
+      "lambda_home": 1.0121,
+      "lambda_away": 1.5338,
+      "n_matches": 30,
+      "total_n": 247
+    },
+    "Huddersfield Town": {
+      "lambda_home": 1.1187,
+      "lambda_away": 1.6456,
+      "n_matches": 30,
+      "total_n": 165
+    },
+    "Reading": {
+      "lambda_home": 0.8922,
+      "lambda_away": 1.4986,
+      "n_matches": 30,
+      "total_n": 116
+    },
+    "Norwich City": {
+      "lambda_home": 1.5987,
+      "lambda_away": 0.9679,
+      "n_matches": 30,
+      "total_n": 248
+    },
+    "Barnsley": {
+      "lambda_home": 0.7061,
+      "lambda_away": 1.6803,
+      "n_matches": 30,
+      "total_n": 72
+    },
+    "Preston North End": {
+      "lambda_home": 1.1326,
+      "lambda_away": 1.5546,
+      "n_matches": 30,
+      "total_n": 254
+    },
+    "Nottingham Forest": {
+      "lambda_home": 1.4619,
+      "lambda_away": 1.1916,
+      "n_matches": 30,
+      "total_n": 225
+    },
+    "Wycombe Wanderers": {
+      "lambda_home": 1.0155,
+      "lambda_away": 1.516,
+      "n_matches": 24,
+      "total_n": 24
+    },
+    "Middlesbrough": {
+      "lambda_home": 1.4914,
+      "lambda_away": 0.9702,
+      "n_matches": 30,
+      "total_n": 260
+    },
+    "Birmingham City": {
+      "lambda_home": 1.1001,
+      "lambda_away": 1.252,
+      "n_matches": 30,
+      "total_n": 208
+    },
+    "Blackburn Rovers": {
+      "lambda_home": 0.8667,
+      "lambda_away": 1.1635,
+      "n_matches": 30,
+      "total_n": 254
+    },
+    "Millwall": {
+      "lambda_home": 1.4017,
+      "lambda_away": 0.8622,
+      "n_matches": 30,
+      "total_n": 258
+    },
+    "Coventry City": {
+      "lambda_home": 1.8229,
+      "lambda_away": 0.9807,
+      "n_matches": 30,
+      "total_n": 259
+    },
+    "ENPPI": {
+      "lambda_home": 1.0262,
+      "lambda_away": 1.0794,
+      "n_matches": 30,
+      "total_n": 168
+    },
+    "Zamalek SC": {
+      "lambda_home": 1.4877,
+      "lambda_away": 0.6093,
+      "n_matches": 30,
+      "total_n": 169
+    },
+    "Tala'ea El-Gaish": {
+      "lambda_home": 0.6436,
+      "lambda_away": 0.9116,
+      "n_matches": 30,
+      "total_n": 173
+    },
+    "Al-Ittihad Alexandria": {
+      "lambda_home": 0.8987,
+      "lambda_away": 1.0861,
+      "n_matches": 30,
+      "total_n": 176
+    },
+    "Smouha": {
+      "lambda_home": 0.8222,
+      "lambda_away": 0.9818,
+      "n_matches": 30,
+      "total_n": 168
+    },
+    "Ceramica Cleopatra": {
+      "lambda_home": 1.3437,
+      "lambda_away": 0.8795,
+      "n_matches": 30,
+      "total_n": 168
+    },
+    "Mumbai City FC": {
+      "lambda_home": 1.1134,
+      "lambda_away": 1.0048,
+      "n_matches": 30,
+      "total_n": 120
+    },
+    "Kerala Blasters": {
+      "lambda_home": 1.2234,
+      "lambda_away": 1.318,
+      "n_matches": 30,
+      "total_n": 117
+    },
+    "Chelsea": {
+      "lambda_home": 1.3801,
+      "lambda_away": 1.4636,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Manchester City": {
+      "lambda_home": 1.9937,
+      "lambda_away": 0.962,
+      "n_matches": 30,
+      "total_n": 214
+    },
+    "Newcastle United": {
+      "lambda_home": 1.5187,
+      "lambda_away": 1.5934,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Leicester City": {
+      "lambda_home": 1.2499,
+      "lambda_away": 1.6734,
+      "n_matches": 30,
+      "total_n": 228
+    },
+    "FC Bayern München": {
+      "lambda_home": 3.4681,
+      "lambda_away": 1.1268,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "1. FSV Mainz 05": {
+      "lambda_home": 1.3293,
+      "lambda_away": 1.6075,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "Borussia Dortmund": {
+      "lambda_home": 2.0472,
+      "lambda_away": 1.0384,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "VfL Wolfsburg": {
+      "lambda_home": 1.2539,
+      "lambda_away": 1.9684,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Huesca": {
+      "lambda_home": 0.9052,
+      "lambda_away": 1.2624,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Barcelona": {
+      "lambda_home": 2.402,
+      "lambda_away": 0.8932,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Real Sociedad": {
+      "lambda_home": 1.7333,
+      "lambda_away": 1.6518,
+      "n_matches": 30,
+      "total_n": 211
+    },
+    "Osasuna": {
+      "lambda_home": 1.233,
+      "lambda_away": 1.4101,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Eibar": {
+      "lambda_home": 0.7686,
+      "lambda_away": 1.6469,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Granada": {
+      "lambda_home": 0.8335,
+      "lambda_away": 1.9592,
+      "n_matches": 30,
+      "total_n": 99
+    },
+    "Deportivo Alavés": {
+      "lambda_home": 1.2004,
+      "lambda_away": 1.6148,
+      "n_matches": 30,
+      "total_n": 174
+    },
+    "Atlético Madrid": {
+      "lambda_home": 1.5571,
+      "lambda_away": 1.1788,
+      "n_matches": 30,
+      "total_n": 214
+    },
+    "Athletic Club": {
+      "lambda_home": 1.1502,
+      "lambda_away": 1.6486,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Elche": {
+      "lambda_home": 1.271,
+      "lambda_away": 1.599,
+      "n_matches": 30,
+      "total_n": 138
+    },
+    "FC Porto": {
+      "lambda_home": 1.8264,
+      "lambda_away": 0.5944,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Moreirense": {
+      "lambda_home": 1.0355,
+      "lambda_away": 1.5219,
+      "n_matches": 30,
+      "total_n": 161
+    },
+    "Paços de Ferreira": {
+      "lambda_home": 0.8113,
+      "lambda_away": 1.7463,
+      "n_matches": 30,
+      "total_n": 91
+    },
+    "Rio Ave": {
+      "lambda_home": 0.9315,
+      "lambda_away": 1.6,
+      "n_matches": 30,
+      "total_n": 161
+    },
+    "Santa Clara": {
+      "lambda_home": 1.0384,
+      "lambda_away": 1.2319,
+      "n_matches": 30,
+      "total_n": 159
+    },
+    "Benfica": {
+      "lambda_home": 2.2396,
+      "lambda_away": 0.786,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Marítimo": {
+      "lambda_home": 1.0668,
+      "lambda_away": 1.6428,
+      "n_matches": 30,
+      "total_n": 93
+    },
+    "Boavista": {
+      "lambda_home": 0.769,
+      "lambda_away": 1.9064,
+      "n_matches": 30,
+      "total_n": 159
+    },
+    "Tondela": {
+      "lambda_home": 0.8483,
+      "lambda_away": 1.5395,
+      "n_matches": 30,
+      "total_n": 91
+    },
+    "Famalicão": {
+      "lambda_home": 1.2393,
+      "lambda_away": 0.96,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Misr El-Makkasa": {
+      "lambda_home": 0.2862,
+      "lambda_away": 1.5608,
+      "n_matches": 30,
+      "total_n": 63
+    },
+    "Ismaily": {
+      "lambda_home": 0.4861,
+      "lambda_away": 1.25,
+      "n_matches": 30,
+      "total_n": 174
+    },
+    "Mohun Bagan Super Giant": {
+      "lambda_home": 1.7938,
+      "lambda_away": 0.6432,
+      "n_matches": 30,
+      "total_n": 125
+    },
+    "NorthEast United": {
+      "lambda_home": 1.3975,
+      "lambda_away": 1.3445,
+      "n_matches": 30,
+      "total_n": 114
+    },
+    "East Bengal FC": {
+      "lambda_home": 1.839,
+      "lambda_away": 0.9957,
+      "n_matches": 30,
+      "total_n": 111
+    },
+    "Odisha FC": {
+      "lambda_home": 1.4914,
+      "lambda_away": 1.6826,
+      "n_matches": 30,
+      "total_n": 115
+    },
+    "Southampton": {
+      "lambda_home": 1.8489,
+      "lambda_away": 1.0524,
+      "n_matches": 30,
+      "total_n": 233
+    },
+    "Liverpool": {
+      "lambda_home": 1.6438,
+      "lambda_away": 1.4041,
+      "n_matches": 30,
+      "total_n": 212
+    },
+    "Valencia": {
+      "lambda_home": 1.2349,
+      "lambda_away": 1.3616,
+      "n_matches": 30,
+      "total_n": 213
+    },
+    "Cádiz": {
+      "lambda_home": 0.6065,
+      "lambda_away": 1.4767,
+      "n_matches": 30,
+      "total_n": 136
+    },
+    "Portimonense": {
+      "lambda_home": 1.1747,
+      "lambda_away": 2.0407,
+      "n_matches": 30,
+      "total_n": 127
+    },
+    "SC Farense": {
+      "lambda_home": 0.8126,
+      "lambda_away": 1.2075,
+      "n_matches": 30,
+      "total_n": 91
+    },
+    "Gil Vicente": {
+      "lambda_home": 1.4187,
+      "lambda_away": 1.2395,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "B-SAD": {
+      "lambda_home": 0.7106,
+      "lambda_away": 1.5885,
+      "n_matches": 30,
+      "total_n": 57
+    },
+    "Chennaiyin FC": {
+      "lambda_home": 0.8861,
+      "lambda_away": 1.6399,
+      "n_matches": 30,
+      "total_n": 112
+    },
+    "Hyderabad FC": {
+      "lambda_home": 0.9772,
+      "lambda_away": 1.6298,
+      "n_matches": 30,
+      "total_n": 115
+    },
+    "Bengaluru FC": {
+      "lambda_home": 1.5006,
+      "lambda_away": 1.0518,
+      "n_matches": 30,
+      "total_n": 119
+    },
+    "Olympique de Marseille": {
+      "lambda_home": 1.7589,
+      "lambda_away": 1.3862,
+      "n_matches": 30,
+      "total_n": 201
+    },
+    "Montpellier": {
+      "lambda_home": 0.6617,
+      "lambda_away": 2.1987,
+      "n_matches": 30,
+      "total_n": 165
+    },
+    "Saint-Étienne": {
+      "lambda_home": 1.0921,
+      "lambda_away": 2.0536,
+      "n_matches": 30,
+      "total_n": 101
+    },
+    "Paris Saint-Germain": {
+      "lambda_home": 2.1386,
+      "lambda_away": 0.8659,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "Lille": {
+      "lambda_home": 1.2946,
+      "lambda_away": 1.0371,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "Angers": {
+      "lambda_home": 0.855,
+      "lambda_away": 1.5105,
+      "n_matches": 30,
+      "total_n": 165
+    },
+    "Olympique Lyonnais": {
+      "lambda_home": 1.5719,
+      "lambda_away": 1.2538,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "RC Lens": {
+      "lambda_home": 2.0384,
+      "lambda_away": 1.0294,
+      "n_matches": 30,
+      "total_n": 200
+    },
+    "Stade de Reims": {
+      "lambda_home": 0.8114,
+      "lambda_away": 1.3513,
+      "n_matches": 30,
+      "total_n": 167
+    },
+    "Dijon": {
+      "lambda_home": 0.62,
+      "lambda_away": 2.2684,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Metz": {
+      "lambda_home": 0.9586,
+      "lambda_away": 2.2576,
+      "n_matches": 30,
+      "total_n": 132
+    },
+    "Bordeaux": {
+      "lambda_home": 1.3602,
+      "lambda_away": 2.4645,
+      "n_matches": 30,
+      "total_n": 59
+    },
+    "Stade Brestois": {
+      "lambda_home": 1.2537,
+      "lambda_away": 1.5255,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "Nice": {
+      "lambda_home": 1.1191,
+      "lambda_away": 1.6716,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Lorient": {
+      "lambda_home": 1.447,
+      "lambda_away": 1.298,
+      "n_matches": 30,
+      "total_n": 165
+    },
+    "AS Monaco": {
+      "lambda_home": 1.7438,
+      "lambda_away": 1.6304,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "RC Strasbourg": {
+      "lambda_home": 1.7678,
+      "lambda_away": 1.4777,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "Nîmes Olympique": {
+      "lambda_home": 1.2464,
+      "lambda_away": 1.7578,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Nantes": {
+      "lambda_home": 0.924,
+      "lambda_away": 1.6424,
+      "n_matches": 30,
+      "total_n": 200
+    },
+    "Stade Rennais": {
+      "lambda_home": 1.8096,
+      "lambda_away": 1.4731,
+      "n_matches": 30,
+      "total_n": 199
+    },
+    "Coritiba": {
+      "lambda_home": 1.2788,
+      "lambda_away": 1.3881,
+      "n_matches": 30,
+      "total_n": 105
+    },
+    "Goiás": {
+      "lambda_home": 0.9639,
+      "lambda_away": 1.2722,
+      "n_matches": 30,
+      "total_n": 87
+    },
+    "Sport Recife": {
+      "lambda_home": 0.8004,
+      "lambda_away": 2.0782,
+      "n_matches": 30,
+      "total_n": 87
+    },
+    "Fortaleza": {
+      "lambda_home": 1.1281,
+      "lambda_away": 1.7338,
+      "n_matches": 30,
+      "total_n": 201
+    },
+    "Botafogo": {
+      "lambda_home": 1.8049,
+      "lambda_away": 1.6485,
+      "n_matches": 30,
+      "total_n": 180
+    },
+    "Athletico": {
+      "lambda_home": 1.2654,
+      "lambda_away": 1.0809,
+      "n_matches": 30,
+      "total_n": 181
+    },
+    "Grêmio": {
+      "lambda_home": 1.2761,
+      "lambda_away": 1.3521,
+      "n_matches": 30,
+      "total_n": 182
+    },
+    "Bahia": {
+      "lambda_home": 1.4086,
+      "lambda_away": 1.3187,
+      "n_matches": 30,
+      "total_n": 180
+    },
+    "FC Goa": {
+      "lambda_home": 1.3619,
+      "lambda_away": 0.9214,
+      "n_matches": 30,
+      "total_n": 117
+    },
+    "Cameroon": {
+      "lambda_home": 1.1296,
+      "lambda_away": 0.9742,
+      "n_matches": 17,
+      "total_n": 17
+    },
+    "Ceará": {
+      "lambda_home": 0.8268,
+      "lambda_away": 1.1095,
+      "n_matches": 30,
+      "total_n": 125
+    },
+    "Internacional": {
+      "lambda_home": 1.1205,
+      "lambda_away": 1.3604,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "Red Bull Bragantino": {
+      "lambda_home": 1.2988,
+      "lambda_away": 1.2417,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "São Paulo": {
+      "lambda_home": 1.2329,
+      "lambda_away": 1.3795,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "Flamengo": {
+      "lambda_home": 1.9547,
+      "lambda_away": 1.0249,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "Fluminense": {
+      "lambda_home": 1.4784,
+      "lambda_away": 1.003,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "Al-Masry": {
+      "lambda_home": 1.4491,
+      "lambda_away": 1.0725,
+      "n_matches": 30,
+      "total_n": 167
+    },
+    "CD Nacional": {
+      "lambda_home": 1.0924,
+      "lambda_away": 1.2559,
+      "n_matches": 30,
+      "total_n": 91
+    },
+    "Atlético Goianiense": {
+      "lambda_home": 0.7643,
+      "lambda_away": 1.5564,
+      "n_matches": 30,
+      "total_n": 125
+    },
+    "Vasco da Gama": {
+      "lambda_home": 1.279,
+      "lambda_away": 1.6988,
+      "n_matches": 30,
+      "total_n": 144
+    },
+    "National Bank of Egypt": {
+      "lambda_home": 1.2547,
+      "lambda_away": 1.0098,
+      "n_matches": 30,
+      "total_n": 172
+    },
+    "Vitória SC": {
+      "lambda_home": 1.1687,
+      "lambda_away": 1.4538,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "FC Utrecht": {
+      "lambda_home": 1.5741,
+      "lambda_away": 1.2792,
+      "n_matches": 30,
+      "total_n": 196
+    },
+    "FC Groningen": {
+      "lambda_home": 1.3107,
+      "lambda_away": 1.2833,
+      "n_matches": 30,
+      "total_n": 150
+    },
+    "Heracles Almelo": {
+      "lambda_home": 1.0744,
+      "lambda_away": 2.3709,
+      "n_matches": 30,
+      "total_n": 154
+    },
+    "Vitesse": {
+      "lambda_home": 0.922,
+      "lambda_away": 2.2079,
+      "n_matches": 30,
+      "total_n": 118
+    },
+    "FC Emmen": {
+      "lambda_home": 1.0978,
+      "lambda_away": 1.6727,
+      "n_matches": 30,
+      "total_n": 57
+    },
+    "FC Twente": {
+      "lambda_home": 1.8947,
+      "lambda_away": 1.1709,
+      "n_matches": 30,
+      "total_n": 183
+    },
+    "RKC Waalwijk": {
+      "lambda_home": 1.3399,
+      "lambda_away": 1.8015,
+      "n_matches": 30,
+      "total_n": 156
+    },
+    "ADO Den Haag": {
+      "lambda_home": 1.0468,
+      "lambda_away": 2.1601,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Palmeiras": {
+      "lambda_home": 1.6499,
+      "lambda_away": 0.781,
+      "n_matches": 30,
+      "total_n": 220
+    },
+    "Ghazl El Mahalla": {
+      "lambda_home": 0.9194,
+      "lambda_away": 0.8908,
+      "n_matches": 30,
+      "total_n": 140
+    },
+    "El Gouna FC": {
+      "lambda_home": 0.7662,
+      "lambda_away": 0.7561,
+      "n_matches": 30,
+      "total_n": 139
+    },
+    "Aswan SC": {
+      "lambda_home": 0.9832,
+      "lambda_away": 1.354,
+      "n_matches": 30,
+      "total_n": 63
+    },
+    "AFC Ajax": {
+      "lambda_home": 1.7144,
+      "lambda_away": 1.1338,
+      "n_matches": 30,
+      "total_n": 183
+    },
+    "PSV Eindhoven": {
+      "lambda_home": 2.9691,
+      "lambda_away": 1.3386,
+      "n_matches": 30,
+      "total_n": 183
+    },
+    "VVV-Venlo": {
+      "lambda_home": 1.2975,
+      "lambda_away": 2.1345,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "Willem II Tilburg": {
+      "lambda_home": 1.1569,
+      "lambda_away": 1.6312,
+      "n_matches": 30,
+      "total_n": 93
+    },
+    "SC Heerenveen": {
+      "lambda_home": 1.7806,
+      "lambda_away": 1.591,
+      "n_matches": 30,
+      "total_n": 188
+    },
+    "Fortuna Sittard": {
+      "lambda_home": 1.339,
+      "lambda_away": 1.8814,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Sparta Rotterdam": {
+      "lambda_home": 1.1326,
+      "lambda_away": 1.7251,
+      "n_matches": 30,
+      "total_n": 190
+    },
+    "Feyenoord": {
+      "lambda_home": 1.9892,
+      "lambda_away": 1.411,
+      "n_matches": 30,
+      "total_n": 183
+    },
+    "Santos": {
+      "lambda_home": 1.531,
+      "lambda_away": 1.3864,
+      "n_matches": 30,
+      "total_n": 181
+    },
+    "Jamshedpur FC": {
+      "lambda_home": 1.3683,
+      "lambda_away": 1.1317,
+      "n_matches": 30,
+      "total_n": 114
+    },
+    "Atlético Mineiro": {
+      "lambda_home": 1.3231,
+      "lambda_away": 1.2333,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "Morocco": {
+      "lambda_home": 1.8232,
+      "lambda_away": 0.4118,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Guinea": {
+      "lambda_home": 1.436,
+      "lambda_away": 1.0855,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "United Arab Emirates": {
+      "lambda_home": 1.4785,
+      "lambda_away": 0.8198,
+      "n_matches": 17,
+      "total_n": 17
+    },
+    "Iraq": {
+      "lambda_home": 0.6085,
+      "lambda_away": 1.2745,
+      "n_matches": 16,
+      "total_n": 16
+    },
+    "Benin": {
+      "lambda_home": 0.8448,
+      "lambda_away": 1.0989,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Togo": {
+      "lambda_home": 1.3463,
+      "lambda_away": 1.095,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Tanzania": {
+      "lambda_home": 0.9102,
+      "lambda_away": 1.5667,
+      "n_matches": 15,
+      "total_n": 15
+    },
+    "DR Congo": {
+      "lambda_home": 1.2373,
+      "lambda_away": 0.715,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Burnley": {
+      "lambda_home": 0.9568,
+      "lambda_away": 1.9958,
+      "n_matches": 30,
+      "total_n": 229
+    },
+    "Luton Town": {
+      "lambda_home": 0.9111,
+      "lambda_away": 1.419,
+      "n_matches": 30,
+      "total_n": 205
+    },
+    "Queens Park Rangers": {
+      "lambda_home": 1.3544,
+      "lambda_away": 1.6139,
+      "n_matches": 30,
+      "total_n": 254
+    },
+    "Al-Mokawloon": {
+      "lambda_home": 0.9641,
+      "lambda_away": 0.9556,
+      "n_matches": 30,
+      "total_n": 165
+    },
+    "Fulham": {
+      "lambda_home": 1.2725,
+      "lambda_away": 1.2837,
+      "n_matches": 30,
+      "total_n": 221
+    },
+    "PEC Zwolle": {
+      "lambda_home": 1.3268,
+      "lambda_away": 2.1895,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "AZ Alkmaar": {
+      "lambda_home": 1.6274,
+      "lambda_away": 1.5453,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Corinthians": {
+      "lambda_home": 1.1241,
+      "lambda_away": 1.1321,
+      "n_matches": 30,
+      "total_n": 219
+    },
+    "Rotherham United": {
+      "lambda_home": 0.7355,
+      "lambda_away": 1.8982,
+      "n_matches": 30,
+      "total_n": 118
+    },
+    "Cardiff City": {
+      "lambda_home": 1.0914,
+      "lambda_away": 1.6248,
+      "n_matches": 30,
+      "total_n": 208
+    },
+    "Bristol City": {
+      "lambda_home": 1.1367,
+      "lambda_away": 1.3725,
+      "n_matches": 30,
+      "total_n": 256
+    },
+    "Wolfsberger AC": {
+      "lambda_home": 1.2131,
+      "lambda_away": 1.3935,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "SK Sturm Graz": {
+      "lambda_home": 1.596,
+      "lambda_away": 1.085,
+      "n_matches": 30,
+      "total_n": 181
+    },
+    "Kuwait": {
+      "lambda_home": 1.4637,
+      "lambda_away": 1.649,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Palestine": {
+      "lambda_home": 0.4515,
+      "lambda_away": 1.5465,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Dominican Republic": {
+      "lambda_home": 1.1691,
+      "lambda_away": 1.7828,
+      "n_matches": 15,
+      "total_n": 15
+    },
+    "Puerto Rico": {
+      "lambda_home": 0.4648,
+      "lambda_away": 2.9838,
+      "n_matches": 7,
+      "total_n": 7
+    },
+    "GNK Dinamo Zagreb": {
+      "lambda_home": 2.7001,
+      "lambda_away": 0.7869,
+      "n_matches": 30,
+      "total_n": 175
+    },
+    "HNK Rijeka": {
+      "lambda_home": 1.4074,
+      "lambda_away": 0.9453,
+      "n_matches": 30,
+      "total_n": 177
+    },
+    "NK Istra 1961": {
+      "lambda_home": 1.0745,
+      "lambda_away": 1.3461,
+      "n_matches": 30,
+      "total_n": 177
+    },
+    "HNK Gorica": {
+      "lambda_home": 1.0596,
+      "lambda_away": 1.3092,
+      "n_matches": 30,
+      "total_n": 175
+    },
+    "Brentford": {
+      "lambda_home": 1.453,
+      "lambda_away": 1.3331,
+      "n_matches": 30,
+      "total_n": 217
+    },
+    "SK Rapid Wien": {
+      "lambda_home": 1.1165,
+      "lambda_away": 1.2934,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "HNK Šibenik": {
+      "lambda_home": 0.6621,
+      "lambda_away": 1.719,
+      "n_matches": 30,
+      "total_n": 103
+    },
+    "HNK Hajduk Split": {
+      "lambda_home": 1.4766,
+      "lambda_away": 0.9984,
+      "n_matches": 30,
+      "total_n": 173
+    },
+    "NK Lokomotiva Zagreb": {
+      "lambda_home": 1.0615,
+      "lambda_away": 1.4439,
+      "n_matches": 30,
+      "total_n": 175
+    },
+    "NK Osijek": {
+      "lambda_home": 0.761,
+      "lambda_away": 1.4555,
+      "n_matches": 30,
+      "total_n": 171
+    },
+    "Guatemala": {
+      "lambda_home": 0.5737,
+      "lambda_away": 1.9659,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "SKN St. Pölten": {
+      "lambda_home": 0.7178,
+      "lambda_away": 1.771,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Admira Wacker": {
+      "lambda_home": 1.0362,
+      "lambda_away": 1.5055,
+      "n_matches": 30,
+      "total_n": 52
+    },
+    "TSV Hartberg": {
+      "lambda_home": 1.214,
+      "lambda_away": 1.2141,
+      "n_matches": 30,
+      "total_n": 184
+    },
+    "SV Ried": {
+      "lambda_home": 1.0534,
+      "lambda_away": 1.2912,
+      "n_matches": 30,
+      "total_n": 119
+    },
+    "Austria Wien": {
+      "lambda_home": 1.4184,
+      "lambda_away": 1.5446,
+      "n_matches": 30,
+      "total_n": 188
+    },
+    "NK Varaždin": {
+      "lambda_home": 1.3122,
+      "lambda_away": 1.2847,
+      "n_matches": 30,
+      "total_n": 137
+    },
+    "Jordan": {
+      "lambda_home": 1.1645,
+      "lambda_away": 1.8378,
+      "n_matches": 30,
+      "total_n": 43
+    },
+    "LASK": {
+      "lambda_home": 1.8884,
+      "lambda_away": 1.2337,
+      "n_matches": 30,
+      "total_n": 184
+    },
+    "WSG Tirol": {
+      "lambda_home": 1.0938,
+      "lambda_away": 1.6485,
+      "n_matches": 30,
+      "total_n": 183
+    },
+    "SC Rheindorf Altach": {
+      "lambda_home": 1.1224,
+      "lambda_away": 1.3204,
+      "n_matches": 30,
+      "total_n": 180
+    },
+    "Red Bull Salzburg": {
+      "lambda_home": 1.6045,
+      "lambda_away": 1.3073,
+      "n_matches": 30,
+      "total_n": 180
+    },
+    "NK Slaven Belupo": {
+      "lambda_home": 1.3169,
+      "lambda_away": 1.6889,
+      "n_matches": 30,
+      "total_n": 172
+    },
+    "Serbia": {
+      "lambda_home": 1.2494,
+      "lambda_away": 1.8977,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Panama": {
+      "lambda_home": 1.3884,
+      "lambda_away": 2.0838,
+      "n_matches": 29,
+      "total_n": 29
+    },
+    "Raków Częstochowa": {
+      "lambda_home": 1.5272,
+      "lambda_away": 1.0917,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Pogoń Szczecin": {
+      "lambda_home": 1.3279,
+      "lambda_away": 1.3057,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Zagłębie Lubin": {
+      "lambda_home": 1.1519,
+      "lambda_away": 1.0412,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Wisła Płock": {
+      "lambda_home": 0.8885,
+      "lambda_away": 1.2488,
+      "n_matches": 30,
+      "total_n": 118
+    },
+    "Górnik Zabrze": {
+      "lambda_home": 1.5153,
+      "lambda_away": 1.1207,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Lech Poznań": {
+      "lambda_home": 1.8232,
+      "lambda_away": 1.1887,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "KS Lechia Gdańsk": {
+      "lambda_home": 1.7516,
+      "lambda_away": 1.7997,
+      "n_matches": 30,
+      "total_n": 153
+    },
+    "Jagiellonia Białystok": {
+      "lambda_home": 1.535,
+      "lambda_away": 1.0802,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Warta Poznań": {
+      "lambda_home": 0.9005,
+      "lambda_away": 1.2731,
+      "n_matches": 30,
+      "total_n": 118
+    },
+    "Cracovia": {
+      "lambda_home": 0.9581,
+      "lambda_away": 1.1666,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Podbeskidzie Bielsko-Biała": {
+      "lambda_home": 0.9933,
+      "lambda_away": 1.3852,
+      "n_matches": 16,
+      "total_n": 16
+    },
+    "Legia Warszawa": {
+      "lambda_home": 1.2529,
+      "lambda_away": 1.1425,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Wisła Kraków": {
+      "lambda_home": 1.013,
+      "lambda_away": 1.6,
+      "n_matches": 30,
+      "total_n": 50
+    },
+    "Piast Gliwice": {
+      "lambda_home": 1.3947,
+      "lambda_away": 1.4447,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Tajikistan": {
+      "lambda_home": 1.4905,
+      "lambda_away": 1.1833,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "USA": {
+      "lambda_home": 1.7611,
+      "lambda_away": 1.6015,
+      "n_matches": 30,
+      "total_n": 46
+    },
+    "Trinidad and Tobago": {
+      "lambda_home": 0.4635,
+      "lambda_away": 2.3355,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Stal Mielec": {
+      "lambda_home": 1.2761,
+      "lambda_away": 1.7384,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Śląsk Wrocław": {
+      "lambda_home": 1.2216,
+      "lambda_away": 1.6177,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Uzbekistan": {
+      "lambda_home": 1.3885,
+      "lambda_away": 1.1005,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Nicaragua": {
+      "lambda_home": 0.5861,
+      "lambda_away": 1.9617,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Kawasaki Frontale": {
+      "lambda_home": 1.3257,
+      "lambda_away": 1.6136,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Yokohama F. Marinos": {
+      "lambda_home": 1.672,
+      "lambda_away": 1.3984,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Vissel Kobe": {
+      "lambda_home": 1.3834,
+      "lambda_away": 1.0331,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Gamba Osaka": {
+      "lambda_home": 1.6838,
+      "lambda_away": 1.3203,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Cerezo Osaka": {
+      "lambda_home": 1.6456,
+      "lambda_away": 1.3106,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Kashiwa Reysol": {
+      "lambda_home": 1.3371,
+      "lambda_away": 1.0473,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Kashima Antlers": {
+      "lambda_home": 1.546,
+      "lambda_away": 0.6241,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Shimizu S-Pulse": {
+      "lambda_home": 0.9958,
+      "lambda_away": 1.3402,
+      "n_matches": 30,
+      "total_n": 130
+    },
+    "Shonan Bellmare": {
+      "lambda_home": 0.9602,
+      "lambda_away": 1.6876,
+      "n_matches": 30,
+      "total_n": 182
+    },
+    "Sagan Tosu": {
+      "lambda_home": 1.3626,
+      "lambda_away": 1.7174,
+      "n_matches": 30,
+      "total_n": 144
+    },
+    "Oita Trinita": {
+      "lambda_home": 0.9781,
+      "lambda_away": 1.431,
+      "n_matches": 30,
+      "total_n": 39
+    },
+    "Tokushima Vortis": {
+      "lambda_home": 0.8575,
+      "lambda_away": 1.57,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Urawa Red Diamonds": {
+      "lambda_home": 1.1006,
+      "lambda_away": 1.0078,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "FC Tokyo": {
+      "lambda_home": 1.3902,
+      "lambda_away": 0.8919,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Sanfrecce Hiroshima": {
+      "lambda_home": 1.3172,
+      "lambda_away": 0.9327,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Vegalta Sendai": {
+      "lambda_home": 0.8942,
+      "lambda_away": 1.4488,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Hokkaido Consadole Sapporo": {
+      "lambda_home": 1.274,
+      "lambda_away": 1.6435,
+      "n_matches": 30,
+      "total_n": 144
+    },
+    "Yokohama FC": {
+      "lambda_home": 0.653,
+      "lambda_away": 1.2308,
+      "n_matches": 30,
+      "total_n": 110
+    },
+    "Daegu FC": {
+      "lambda_home": 1.2883,
+      "lambda_away": 1.8117,
+      "n_matches": 30,
+      "total_n": 192
+    },
+    "Suwon FC": {
+      "lambda_home": 1.484,
+      "lambda_away": 1.6104,
+      "n_matches": 30,
+      "total_n": 194
+    },
+    "Jeonbuk Hyundai Motors": {
+      "lambda_home": 1.4557,
+      "lambda_away": 0.8515,
+      "n_matches": 30,
+      "total_n": 207
+    },
+    "FC Seoul": {
+      "lambda_home": 1.7008,
+      "lambda_away": 1.2975,
+      "n_matches": 30,
+      "total_n": 205
+    },
+    "Avispa Fukuoka": {
+      "lambda_home": 0.928,
+      "lambda_away": 1.303,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Nagoya Grampus": {
+      "lambda_home": 1.3902,
+      "lambda_away": 1.3332,
+      "n_matches": 30,
+      "total_n": 202
+    },
+    "Suwon Samsung Bluewings": {
+      "lambda_home": 0.7931,
+      "lambda_away": 1.4055,
+      "n_matches": 30,
+      "total_n": 118
+    },
+    "Gwangju FC": {
+      "lambda_home": 0.7267,
+      "lambda_away": 1.8282,
+      "n_matches": 30,
+      "total_n": 167
+    },
+    "Pohang Steelers": {
+      "lambda_home": 0.7947,
+      "lambda_away": 0.8037,
+      "n_matches": 30,
+      "total_n": 205
+    },
+    "Incheon United": {
+      "lambda_home": 1.2107,
+      "lambda_away": 1.1814,
+      "n_matches": 30,
+      "total_n": 167
+    },
+    "Seongnam FC": {
+      "lambda_home": 0.9115,
+      "lambda_away": 1.2968,
+      "n_matches": 30,
+      "total_n": 78
+    },
+    "Jeju SK": {
+      "lambda_home": 0.9615,
+      "lambda_away": 1.179,
+      "n_matches": 30,
+      "total_n": 207
+    },
+    "Ulsan HD": {
+      "lambda_home": 1.2207,
+      "lambda_away": 1.4459,
+      "n_matches": 30,
+      "total_n": 205
+    },
+    "Gangwon FC": {
+      "lambda_home": 1.1541,
+      "lambda_away": 0.7488,
+      "n_matches": 30,
+      "total_n": 209
+    },
+    "Kenya": {
+      "lambda_home": 1.3439,
+      "lambda_away": 1.434,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "South Sudan": {
+      "lambda_home": 1.3054,
+      "lambda_away": 1.8501,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "Bangladesh": {
+      "lambda_home": 1.0232,
+      "lambda_away": 1.1535,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Kosovo": {
+      "lambda_home": 1.8326,
+      "lambda_away": 1.2493,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Lithuania": {
+      "lambda_home": 0.6979,
+      "lambda_away": 1.5325,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "Belarus": {
+      "lambda_home": 1.6962,
+      "lambda_away": 1.3235,
+      "n_matches": 29,
+      "total_n": 29
+    },
+    "Honduras": {
+      "lambda_home": 0.7673,
+      "lambda_away": 1.6026,
+      "n_matches": 16,
+      "total_n": 16
+    },
+    "Luxembourg": {
+      "lambda_home": 0.7218,
+      "lambda_away": 1.3543,
+      "n_matches": 29,
+      "total_n": 29
+    },
+    "Qatar": {
+      "lambda_home": 0.7852,
+      "lambda_away": 1.3749,
+      "n_matches": 30,
+      "total_n": 40
+    },
+    "Lebanon": {
+      "lambda_home": 1.0717,
+      "lambda_away": 0.8415,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "Saudi Arabia": {
+      "lambda_home": 1.0683,
+      "lambda_away": 1.1938,
+      "n_matches": 30,
+      "total_n": 33
+    },
+    "Jamaica": {
+      "lambda_home": 0.6882,
+      "lambda_away": 1.121,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Bahrain": {
+      "lambda_home": 1.0074,
+      "lambda_away": 1.4401,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Syria": {
+      "lambda_home": 0.9923,
+      "lambda_away": 2.2598,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Oman": {
+      "lambda_home": 1.2387,
+      "lambda_away": 0.9609,
+      "n_matches": 25,
+      "total_n": 25
+    },
+    "India": {
+      "lambda_home": 0.8495,
+      "lambda_away": 1.521,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Nepal": {
+      "lambda_home": 0.9948,
+      "lambda_away": 1.1864,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "Japan": {
+      "lambda_home": 1.9583,
+      "lambda_away": 0.8374,
+      "n_matches": 30,
+      "total_n": 33
+    },
+    "South Korea": {
+      "lambda_home": 1.5227,
+      "lambda_away": 1.0737,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Wales": {
+      "lambda_home": 0.8853,
+      "lambda_away": 1.3601,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Mexico": {
+      "lambda_home": 1.3125,
+      "lambda_away": 0.8557,
+      "n_matches": 30,
+      "total_n": 55
+    },
+    "Azerbaijan": {
+      "lambda_home": 0.95,
+      "lambda_away": 1.6349,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "Bosnia & Herzegovina": {
+      "lambda_home": 0.9554,
+      "lambda_away": 1.3668,
+      "n_matches": 25,
+      "total_n": 25
+    },
+    "Costa Rica": {
+      "lambda_home": 0.7833,
+      "lambda_away": 2.3804,
+      "n_matches": 26,
+      "total_n": 26
+    },
+    "Chile": {
+      "lambda_home": 1.7336,
+      "lambda_away": 0.9183,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Bolivia": {
+      "lambda_home": 0.6146,
+      "lambda_away": 1.8847,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Northern Ireland": {
+      "lambda_home": 1.0415,
+      "lambda_away": 1.482,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Greece": {
+      "lambda_home": 1.2724,
+      "lambda_away": 0.8059,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "Ecuador": {
+      "lambda_home": 1.2468,
+      "lambda_away": 0.7674,
+      "n_matches": 30,
+      "total_n": 39
+    },
+    "Ireland": {
+      "lambda_home": 1.2904,
+      "lambda_away": 0.7609,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "Liberia": {
+      "lambda_home": 0.8736,
+      "lambda_away": 1.6824,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "Iran": {
+      "lambda_home": 2.005,
+      "lambda_away": 0.7537,
+      "n_matches": 26,
+      "total_n": 26
+    },
+    "Switzerland": {
+      "lambda_home": 2.0238,
+      "lambda_away": 1.134,
+      "n_matches": 30,
+      "total_n": 44
+    },
+    "Finland": {
+      "lambda_home": 1.307,
+      "lambda_away": 1.6604,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Sweden": {
+      "lambda_home": 2.2144,
+      "lambda_away": 1.5854,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Estonia": {
+      "lambda_home": 0.8132,
+      "lambda_away": 2.1125,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "Los Angeles FC": {
+      "lambda_home": 1.8868,
+      "lambda_away": 1.1209,
+      "n_matches": 30,
+      "total_n": 200
+    },
+    "Austin FC": {
+      "lambda_home": 1.3991,
+      "lambda_away": 1.9683,
+      "n_matches": 30,
+      "total_n": 190
+    },
+    "Orlando City SC": {
+      "lambda_home": 1.6521,
+      "lambda_away": 2.4799,
+      "n_matches": 30,
+      "total_n": 196
+    },
+    "Atlanta United": {
+      "lambda_home": 1.0256,
+      "lambda_away": 1.721,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "CF Montréal": {
+      "lambda_home": 1.4035,
+      "lambda_away": 1.9652,
+      "n_matches": 30,
+      "total_n": 187
+    },
+    "Toronto FC": {
+      "lambda_home": 1.3719,
+      "lambda_away": 1.6746,
+      "n_matches": 30,
+      "total_n": 184
+    },
+    "Seattle Sounders FC": {
+      "lambda_home": 1.7333,
+      "lambda_away": 1.2197,
+      "n_matches": 30,
+      "total_n": 195
+    },
+    "Minnesota United": {
+      "lambda_home": 1.3152,
+      "lambda_away": 1.4388,
+      "n_matches": 30,
+      "total_n": 194
+    },
+    "Houston Dynamo": {
+      "lambda_home": 1.3025,
+      "lambda_away": 1.6828,
+      "n_matches": 30,
+      "total_n": 191
+    },
+    "San Jose Earthquakes": {
+      "lambda_home": 1.9037,
+      "lambda_away": 1.4986,
+      "n_matches": 30,
+      "total_n": 186
+    },
+    "Columbus Crew": {
+      "lambda_home": 1.4376,
+      "lambda_away": 1.5832,
+      "n_matches": 30,
+      "total_n": 196
+    },
+    "Philadelphia Union": {
+      "lambda_home": 1.4115,
+      "lambda_away": 1.6355,
+      "n_matches": 30,
+      "total_n": 197
+    },
+    "Inter Miami CF": {
+      "lambda_home": 2.863,
+      "lambda_away": 1.6274,
+      "n_matches": 30,
+      "total_n": 195
+    },
+    "LA Galaxy": {
+      "lambda_home": 1.5857,
+      "lambda_away": 1.5494,
+      "n_matches": 30,
+      "total_n": 192
+    },
+    "Chicago Fire": {
+      "lambda_home": 2.0008,
+      "lambda_away": 1.4346,
+      "n_matches": 30,
+      "total_n": 187
+    },
+    "New England Revolution": {
+      "lambda_home": 1.4196,
+      "lambda_away": 1.5468,
+      "n_matches": 30,
+      "total_n": 187
+    },
+    "Nashville SC": {
+      "lambda_home": 1.8803,
+      "lambda_away": 1.3143,
+      "n_matches": 30,
+      "total_n": 192
+    },
+    "FC Cincinnati": {
+      "lambda_home": 1.8703,
+      "lambda_away": 1.9341,
+      "n_matches": 30,
+      "total_n": 198
+    },
+    "FC Dallas": {
+      "lambda_home": 1.8788,
+      "lambda_away": 1.4102,
+      "n_matches": 30,
+      "total_n": 192
+    },
+    "Colorado Rapids": {
+      "lambda_home": 1.6214,
+      "lambda_away": 1.794,
+      "n_matches": 30,
+      "total_n": 188
+    },
+    "DC United": {
+      "lambda_home": 1.1873,
+      "lambda_away": 1.7683,
+      "n_matches": 30,
+      "total_n": 185
+    },
+    "New York City FC": {
+      "lambda_home": 1.5647,
+      "lambda_away": 1.4051,
+      "n_matches": 30,
+      "total_n": 201
+    },
+    "New York Red Bulls": {
+      "lambda_home": 1.4693,
+      "lambda_away": 1.93,
+      "n_matches": 30,
+      "total_n": 195
+    },
+    "Sporting Kansas City": {
+      "lambda_home": 1.0532,
+      "lambda_away": 2.402,
+      "n_matches": 30,
+      "total_n": 190
+    },
+    "Vancouver Whitecaps": {
+      "lambda_home": 2.3633,
+      "lambda_away": 1.0286,
+      "n_matches": 30,
+      "total_n": 196
+    },
+    "Portland Timbers": {
+      "lambda_home": 1.3072,
+      "lambda_away": 1.8308,
+      "n_matches": 30,
+      "total_n": 193
+    },
+    "Real Salt Lake": {
+      "lambda_home": 1.5758,
+      "lambda_away": 1.4889,
+      "n_matches": 30,
+      "total_n": 194
+    },
+    "Vålerenga IF": {
+      "lambda_home": 1.5543,
+      "lambda_away": 1.734,
+      "n_matches": 30,
+      "total_n": 133
+    },
+    "Rosenborg BK": {
+      "lambda_home": 1.3248,
+      "lambda_away": 1.7459,
+      "n_matches": 30,
+      "total_n": 161
+    },
+    "Viking FK": {
+      "lambda_home": 2.623,
+      "lambda_away": 1.0506,
+      "n_matches": 30,
+      "total_n": 160
+    },
+    "SK Brann": {
+      "lambda_home": 1.8538,
+      "lambda_away": 1.5386,
+      "n_matches": 30,
+      "total_n": 134
+    },
+    "Molde FK": {
+      "lambda_home": 1.6662,
+      "lambda_away": 1.3412,
+      "n_matches": 30,
+      "total_n": 161
+    },
+    "Kristiansund BK": {
+      "lambda_home": 1.1521,
+      "lambda_away": 1.9376,
+      "n_matches": 30,
+      "total_n": 135
+    },
+    "Bodø/Glimt": {
+      "lambda_home": 2.8123,
+      "lambda_away": 0.9302,
+      "n_matches": 30,
+      "total_n": 162
+    },
+    "Tromsø IL": {
+      "lambda_home": 1.4543,
+      "lambda_away": 1.098,
+      "n_matches": 30,
+      "total_n": 163
+    },
+    "De Graafschap": {
+      "lambda_home": 1.1408,
+      "lambda_away": 2.0513,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Roda JC Kerkrade": {
+      "lambda_home": 0.9081,
+      "lambda_away": 1.8209,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Strømsgodset": {
+      "lambda_home": 1.2167,
+      "lambda_away": 2.4401,
+      "n_matches": 30,
+      "total_n": 150
+    },
+    "Lillestrøm SK": {
+      "lambda_home": 1.3149,
+      "lambda_away": 1.6058,
+      "n_matches": 30,
+      "total_n": 131
+    },
+    "Sandefjord Fotball": {
+      "lambda_home": 1.443,
+      "lambda_away": 1.2846,
+      "n_matches": 30,
+      "total_n": 163
+    },
+    "Mjøndalen": {
+      "lambda_home": 1.0931,
+      "lambda_away": 1.7695,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Sarpsborg 08": {
+      "lambda_home": 1.3087,
+      "lambda_away": 1.7396,
+      "n_matches": 30,
+      "total_n": 162
+    },
+    "Haugesund": {
+      "lambda_home": 0.764,
+      "lambda_away": 2.6799,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Paris FC": {
+      "lambda_home": 1.355,
+      "lambda_away": 1.3431,
+      "n_matches": 30,
+      "total_n": 37
+    },
+    "Stabæk Fotball": {
+      "lambda_home": 0.9915,
+      "lambda_away": 1.6004,
+      "n_matches": 30,
+      "total_n": 60
+    },
+    "Odds BK": {
+      "lambda_home": 0.848,
+      "lambda_away": 1.8082,
+      "n_matches": 30,
+      "total_n": 120
+    },
+    "NAC Breda": {
+      "lambda_home": 1.091,
+      "lambda_away": 1.7097,
+      "n_matches": 30,
+      "total_n": 82
+    },
+    "NEC Nijmegen": {
+      "lambda_home": 2.0784,
+      "lambda_away": 1.5992,
+      "n_matches": 30,
+      "total_n": 169
+    },
+    "Toulouse": {
+      "lambda_home": 1.371,
+      "lambda_away": 1.3614,
+      "n_matches": 30,
+      "total_n": 142
+    },
+    "Ukraine": {
+      "lambda_home": 1.5391,
+      "lambda_away": 1.0901,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Indonesia": {
+      "lambda_home": 1.7521,
+      "lambda_away": 0.8839,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Afghanistan": {
+      "lambda_home": 0.4409,
+      "lambda_away": 1.3971,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Holstein Kiel": {
+      "lambda_home": 1.4707,
+      "lambda_away": 2.2231,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "FC Arouca": {
+      "lambda_home": 1.3714,
+      "lambda_away": 1.7212,
+      "n_matches": 30,
+      "total_n": 172
+    },
+    "Austria Klagenfurt": {
+      "lambda_home": 1.0347,
+      "lambda_away": 2.1933,
+      "n_matches": 30,
+      "total_n": 130
+    },
+    "Türkiye": {
+      "lambda_home": 1.5533,
+      "lambda_away": 1.4074,
+      "n_matches": 30,
+      "total_n": 33
+    },
+    "Italy": {
+      "lambda_home": 1.4543,
+      "lambda_away": 0.692,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "San Marino": {
+      "lambda_home": 0.4904,
+      "lambda_away": 2.0916,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Malaysia": {
+      "lambda_home": 1.8035,
+      "lambda_away": 1.2496,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Thailand": {
+      "lambda_home": 1.3755,
+      "lambda_away": 1.3265,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Cuiabá": {
+      "lambda_home": 0.7425,
+      "lambda_away": 1.1368,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Juventude": {
+      "lambda_home": 0.9471,
+      "lambda_away": 1.6363,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Malta": {
+      "lambda_home": 1.1023,
+      "lambda_away": 1.7994,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Iceland": {
+      "lambda_home": 1.0758,
+      "lambda_away": 1.6744,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "Chapecoense": {
+      "lambda_home": 0.9257,
+      "lambda_away": 1.9347,
+      "n_matches": 30,
+      "total_n": 55
+    },
+    "América Mineiro": {
+      "lambda_home": 1.1558,
+      "lambda_away": 2.0422,
+      "n_matches": 30,
+      "total_n": 114
+    },
+    "Vietnam": {
+      "lambda_home": 1.4257,
+      "lambda_away": 1.2318,
+      "n_matches": 17,
+      "total_n": 17
+    },
+    "Poland": {
+      "lambda_home": 1.358,
+      "lambda_away": 1.1621,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Russia": {
+      "lambda_home": 2.5254,
+      "lambda_away": 0.54,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "North Macedonia": {
+      "lambda_home": 0.6591,
+      "lambda_away": 1.6023,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Slovenia": {
+      "lambda_home": 1.4299,
+      "lambda_away": 0.9537,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Slovakia": {
+      "lambda_home": 1.5106,
+      "lambda_away": 0.912,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Bulgaria": {
+      "lambda_home": 0.8886,
+      "lambda_away": 1.5528,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Croatia": {
+      "lambda_home": 1.4232,
+      "lambda_away": 1.2187,
+      "n_matches": 30,
+      "total_n": 35
+    },
+    "Armenia": {
+      "lambda_home": 1.1624,
+      "lambda_away": 1.8617,
+      "n_matches": 25,
+      "total_n": 25
+    },
+    "France": {
+      "lambda_home": 2.0791,
+      "lambda_away": 0.8935,
+      "n_matches": 30,
+      "total_n": 39
+    },
+    "Germany": {
+      "lambda_home": 2.5493,
+      "lambda_away": 1.2049,
+      "n_matches": 30,
+      "total_n": 37
+    },
+    "Denmark": {
+      "lambda_home": 1.6061,
+      "lambda_away": 0.7647,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "England": {
+      "lambda_home": 1.6164,
+      "lambda_away": 0.7342,
+      "n_matches": 30,
+      "total_n": 43
+    },
+    "Austria": {
+      "lambda_home": 2.0397,
+      "lambda_away": 0.748,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Romania": {
+      "lambda_home": 1.1791,
+      "lambda_away": 1.173,
+      "n_matches": 29,
+      "total_n": 29
+    },
+    "Georgia": {
+      "lambda_home": 1.7039,
+      "lambda_away": 1.2044,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Netherlands": {
+      "lambda_home": 1.8997,
+      "lambda_away": 1.011,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "Scotland": {
+      "lambda_home": 1.6506,
+      "lambda_away": 1.2855,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Norway": {
+      "lambda_home": 1.657,
+      "lambda_away": 1.0198,
+      "n_matches": 26,
+      "total_n": 26
+    },
+    "Montenegro": {
+      "lambda_home": 1.475,
+      "lambda_away": 1.4038,
+      "n_matches": 26,
+      "total_n": 26
+    },
+    "Algeria": {
+      "lambda_home": 2.331,
+      "lambda_away": 0.6687,
+      "n_matches": 30,
+      "total_n": 31
+    },
+    "Mauritania": {
+      "lambda_home": 0.7711,
+      "lambda_away": 0.8854,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Belgium": {
+      "lambda_home": 2.2246,
+      "lambda_away": 0.6516,
+      "n_matches": 30,
+      "total_n": 35
+    },
+    "Moldova": {
+      "lambda_home": 1.114,
+      "lambda_away": 1.777,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "Andorra": {
+      "lambda_home": 0.3885,
+      "lambda_away": 1.6027,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "Liechtenstein": {
+      "lambda_home": 0.2108,
+      "lambda_away": 2.3697,
+      "n_matches": 25,
+      "total_n": 25
+    },
+    "Faroe Islands": {
+      "lambda_home": 0.807,
+      "lambda_away": 1.1956,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Gibraltar": {
+      "lambda_home": 1.0831,
+      "lambda_away": 2.0699,
+      "n_matches": 24,
+      "total_n": 24
+    },
+    "Czechia": {
+      "lambda_home": 1.8912,
+      "lambda_away": 1.0389,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Nigeria": {
+      "lambda_home": 1.4003,
+      "lambda_away": 1.4779,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Hungary": {
+      "lambda_home": 1.4632,
+      "lambda_away": 0.9015,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Cyprus": {
+      "lambda_home": 1.3384,
+      "lambda_away": 1.9781,
+      "n_matches": 24,
+      "total_n": 24
+    },
+    "Spain": {
+      "lambda_home": 2.3884,
+      "lambda_away": 0.648,
+      "n_matches": 30,
+      "total_n": 37
+    },
+    "Portugal": {
+      "lambda_home": 2.1954,
+      "lambda_away": 0.6858,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Kazakhstan": {
+      "lambda_home": 1.162,
+      "lambda_away": 1.7714,
+      "n_matches": 24,
+      "total_n": 24
+    },
+    "Tunisia": {
+      "lambda_home": 0.7757,
+      "lambda_away": 1.5073,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Senegal": {
+      "lambda_home": 1.9463,
+      "lambda_away": 0.8566,
+      "n_matches": 26,
+      "total_n": 26
+    },
+    "Israel": {
+      "lambda_home": 1.2533,
+      "lambda_away": 1.1827,
+      "n_matches": 24,
+      "total_n": 24
+    },
+    "Gambia": {
+      "lambda_home": 1.3518,
+      "lambda_away": 1.7566,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Côte d'Ivoire": {
+      "lambda_home": 1.6802,
+      "lambda_away": 0.6601,
+      "n_matches": 24,
+      "total_n": 24
+    },
+    "Burkina Faso": {
+      "lambda_home": 1.585,
+      "lambda_away": 1.2336,
+      "n_matches": 25,
+      "total_n": 25
+    },
+    "Albania": {
+      "lambda_home": 1.1058,
+      "lambda_away": 0.9879,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Mali": {
+      "lambda_home": 0.8965,
+      "lambda_away": 0.4303,
+      "n_matches": 15,
+      "total_n": 15
+    },
+    "Latvia": {
+      "lambda_home": 0.5552,
+      "lambda_away": 1.5491,
+      "n_matches": 17,
+      "total_n": 17
+    },
+    "Central African Republic": {
+      "lambda_home": 1.6042,
+      "lambda_away": 1.4843,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Rwanda": {
+      "lambda_home": 0.9555,
+      "lambda_away": 1.3317,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "Cape Verde": {
+      "lambda_home": 1.3919,
+      "lambda_away": 0.736,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "Ghana": {
+      "lambda_home": 0.6775,
+      "lambda_away": 1.7276,
+      "n_matches": 26,
+      "total_n": 26
+    },
+    "Congo Republic": {
+      "lambda_home": 0.9027,
+      "lambda_away": 0.8435,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "South Africa": {
+      "lambda_home": 1.1066,
+      "lambda_away": 0.8496,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "Sudan": {
+      "lambda_home": 0.5245,
+      "lambda_away": 1.0757,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Malawi": {
+      "lambda_home": 0.6509,
+      "lambda_away": 0.6345,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "Brazil": {
+      "lambda_home": 2.2729,
+      "lambda_away": 1.1391,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "Venezuela": {
+      "lambda_home": 1.0818,
+      "lambda_away": 0.9625,
+      "n_matches": 27,
+      "total_n": 27
+    },
+    "Argentina": {
+      "lambda_home": 2.5763,
+      "lambda_away": 0.2717,
+      "n_matches": 30,
+      "total_n": 39
+    },
+    "Colombia": {
+      "lambda_home": 2.0675,
+      "lambda_away": 0.7373,
+      "n_matches": 30,
+      "total_n": 37
+    },
+    "Paraguay": {
+      "lambda_home": 1.2902,
+      "lambda_away": 1.4715,
+      "n_matches": 28,
+      "total_n": 28
+    },
+    "Peru": {
+      "lambda_home": 1.1757,
+      "lambda_away": 1.2858,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Uruguay": {
+      "lambda_home": 1.3067,
+      "lambda_away": 0.8494,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "El Salvador": {
+      "lambda_home": 0.5897,
+      "lambda_away": 1.1565,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "NK Hrvatski Dragovoljac": {
+      "lambda_home": 0.838,
+      "lambda_away": 1.8424,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "Radomiak Radom": {
+      "lambda_home": 1.4062,
+      "lambda_away": 1.5616,
+      "n_matches": 30,
+      "total_n": 170
+    },
+    "Bruk-Bet Termalica Nieciecza": {
+      "lambda_home": 1.2436,
+      "lambda_away": 2.0534,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Górnik Łęczna": {
+      "lambda_home": 0.8822,
+      "lambda_away": 1.7127,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Vizela": {
+      "lambda_home": 1.0208,
+      "lambda_away": 2.034,
+      "n_matches": 30,
+      "total_n": 104
+    },
+    "Troyes": {
+      "lambda_home": 1.0023,
+      "lambda_away": 2.1608,
+      "n_matches": 30,
+      "total_n": 76
+    },
+    "Estoril Praia": {
+      "lambda_home": 1.5986,
+      "lambda_away": 1.6723,
+      "n_matches": 30,
+      "total_n": 170
+    },
+    "Peterborough United": {
+      "lambda_home": 0.8976,
+      "lambda_away": 1.8515,
+      "n_matches": 30,
+      "total_n": 46
+    },
+    "Hull City": {
+      "lambda_home": 1.388,
+      "lambda_away": 1.0705,
+      "n_matches": 30,
+      "total_n": 233
+    },
+    "Blackpool": {
+      "lambda_home": 0.9158,
+      "lambda_away": 1.5754,
+      "n_matches": 30,
+      "total_n": 92
+    },
+    "Clermont Foot": {
+      "lambda_home": 0.7468,
+      "lambda_away": 1.7416,
+      "n_matches": 30,
+      "total_n": 110
+    },
+    "SpVgg Greuther Fürth": {
+      "lambda_home": 0.8599,
+      "lambda_away": 2.3328,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "VfL Bochum 1848": {
+      "lambda_home": 0.9965,
+      "lambda_away": 1.9582,
+      "n_matches": 30,
+      "total_n": 137
+    },
+    "Espanyol": {
+      "lambda_home": 1.0598,
+      "lambda_away": 1.4808,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Mallorca": {
+      "lambda_home": 1.3338,
+      "lambda_away": 1.4608,
+      "n_matches": 30,
+      "total_n": 190
+    },
+    "Rayo Vallecano": {
+      "lambda_home": 1.1252,
+      "lambda_away": 1.1261,
+      "n_matches": 30,
+      "total_n": 190
+    },
+    "SC Cambuur": {
+      "lambda_home": 0.6757,
+      "lambda_away": 1.9159,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Go Ahead Eagles": {
+      "lambda_home": 1.5958,
+      "lambda_away": 1.4693,
+      "n_matches": 30,
+      "total_n": 169
+    },
+    "Haiti": {
+      "lambda_home": 1.4011,
+      "lambda_away": 1.0031,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Comoros": {
+      "lambda_home": 1.7054,
+      "lambda_away": 1.1882,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "Kyrgyzstan": {
+      "lambda_home": 0.937,
+      "lambda_away": 2.2938,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "Egypt": {
+      "lambda_home": 1.4681,
+      "lambda_away": 0.8412,
+      "n_matches": 22,
+      "total_n": 22
+    },
+    "Curaçao": {
+      "lambda_home": 0.7839,
+      "lambda_away": 4.53,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "New Zealand": {
+      "lambda_home": 0.6097,
+      "lambda_away": 1.5602,
+      "n_matches": 30,
+      "total_n": 30
+    },
+    "Modern Sport FC": {
+      "lambda_home": 0.6816,
+      "lambda_away": 0.9612,
+      "n_matches": 30,
+      "total_n": 145
+    },
+    "Pharco FC": {
+      "lambda_home": 0.4775,
+      "lambda_away": 1.0139,
+      "n_matches": 30,
+      "total_n": 144
+    },
+    "Eastern Company SC": {
+      "lambda_home": 1.0342,
+      "lambda_away": 1.4903,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Sri Lanka": {
+      "lambda_home": 0.8247,
+      "lambda_away": 0.8047,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Maldives": {
+      "lambda_home": 0.7601,
+      "lambda_away": 1.7378,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Singapore": {
+      "lambda_home": 1.818,
+      "lambda_away": 1.5664,
+      "n_matches": 21,
+      "total_n": 21
+    },
+    "Cuba": {
+      "lambda_home": 1.2203,
+      "lambda_away": 1.9599,
+      "n_matches": 15,
+      "total_n": 15
+    },
+    "Myanmar": {
+      "lambda_home": 1.7565,
+      "lambda_away": 2.0351,
+      "n_matches": 17,
+      "total_n": 17
+    },
+    "Fredrikstad FK": {
+      "lambda_home": 1.303,
+      "lambda_away": 1.4737,
+      "n_matches": 30,
+      "total_n": 72
+    },
+    "KFUM Oslo": {
+      "lambda_home": 1.258,
+      "lambda_away": 1.3711,
+      "n_matches": 30,
+      "total_n": 74
+    },
+    "Daejeon Hana Citizen": {
+      "lambda_home": 1.4049,
+      "lambda_away": 1.1498,
+      "n_matches": 30,
+      "total_n": 133
+    },
+    "Jerv": {
+      "lambda_home": 1.0324,
+      "lambda_away": 2.3179,
+      "n_matches": 30,
+      "total_n": 32
+    },
+    "Gabon": {
+      "lambda_home": 1.6532,
+      "lambda_away": 2.3238,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "East Timor": {
+      "lambda_home": 0.4207,
+      "lambda_away": 1.7451,
+      "n_matches": 5,
+      "total_n": 5
+    },
+    "Barbados": {
+      "lambda_home": 1.0674,
+      "lambda_away": 1.9627,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Libya": {
+      "lambda_home": 1.5802,
+      "lambda_away": 0.8772,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Belize": {
+      "lambda_home": 1.871,
+      "lambda_away": 1.7429,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Mauritius": {
+      "lambda_home": 0.9122,
+      "lambda_away": 0.9998,
+      "n_matches": 5,
+      "total_n": 5
+    },
+    "Jubilo Iwata": {
+      "lambda_home": 1.2034,
+      "lambda_away": 1.9219,
+      "n_matches": 30,
+      "total_n": 72
+    },
+    "Kyoto Sanga FC": {
+      "lambda_home": 1.0669,
+      "lambda_away": 1.3842,
+      "n_matches": 30,
+      "total_n": 165
+    },
+    "Gimcheon Sangmu FC": {
+      "lambda_home": 1.3693,
+      "lambda_away": 1.4411,
+      "n_matches": 30,
+      "total_n": 131
+    },
+    "Charlotte FC": {
+      "lambda_home": 1.4714,
+      "lambda_away": 1.2783,
+      "n_matches": 30,
+      "total_n": 158
+    },
+    "Mozambique": {
+      "lambda_home": 0.6994,
+      "lambda_away": 1.6897,
+      "n_matches": 13,
+      "total_n": 13
+    },
+    "Grenada": {
+      "lambda_home": 1.3506,
+      "lambda_away": 2.0356,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Philippines": {
+      "lambda_home": 2.2037,
+      "lambda_away": 1.4267,
+      "n_matches": 15,
+      "total_n": 15
+    },
+    "Laos": {
+      "lambda_home": 0.9697,
+      "lambda_away": 2.0275,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Mongolia": {
+      "lambda_home": 0.2342,
+      "lambda_away": 2.7666,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Sierra Leone": {
+      "lambda_home": 0.9035,
+      "lambda_away": 2.0738,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "Saint Kitts and Nevis": {
+      "lambda_home": 1.3418,
+      "lambda_away": 2.369,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Ethiopia": {
+      "lambda_home": 1.1417,
+      "lambda_away": 1.3616,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Angola": {
+      "lambda_home": 1.5901,
+      "lambda_away": 0.9763,
+      "n_matches": 16,
+      "total_n": 16
+    },
+    "Guinea-Bissau": {
+      "lambda_home": 0.5521,
+      "lambda_away": 2.6115,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Burundi": {
+      "lambda_home": 0.6496,
+      "lambda_away": 2.1406,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Brunei Darussalam": {
+      "lambda_home": 0.4753,
+      "lambda_away": 2.9931,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "Guyana": {
+      "lambda_home": 2.0177,
+      "lambda_away": 1.071,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Equatorial Guinea": {
+      "lambda_home": 0.7698,
+      "lambda_away": 0.8671,
+      "n_matches": 13,
+      "total_n": 13
+    },
+    "HamKam": {
+      "lambda_home": 1.6286,
+      "lambda_away": 1.4479,
+      "n_matches": 30,
+      "total_n": 130
+    },
+    "Aalesunds FK": {
+      "lambda_home": 1.404,
+      "lambda_away": 1.9651,
+      "n_matches": 30,
+      "total_n": 75
+    },
+    "Avaí": {
+      "lambda_home": 0.8276,
+      "lambda_away": 1.5992,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "FC Eindhoven": {
+      "lambda_home": 1.2767,
+      "lambda_away": 1.2799,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "Excelsior": {
+      "lambda_home": 1.3691,
+      "lambda_away": 1.5034,
+      "n_matches": 30,
+      "total_n": 112
+    },
+    "Hamburger SV": {
+      "lambda_home": 1.2723,
+      "lambda_away": 1.5507,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Auxerre": {
+      "lambda_home": 1.0695,
+      "lambda_away": 1.2477,
+      "n_matches": 30,
+      "total_n": 109
+    },
+    "Chaves": {
+      "lambda_home": 0.9071,
+      "lambda_away": 1.9524,
+      "n_matches": 30,
+      "total_n": 70
+    },
+    "Turkmenistan": {
+      "lambda_home": 1.0232,
+      "lambda_away": 1.3401,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Lesotho": {
+      "lambda_home": 0.4696,
+      "lambda_away": 1.4057,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "Australia": {
+      "lambda_home": 1.0975,
+      "lambda_away": 1.001,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "Hong Kong": {
+      "lambda_home": 1.4105,
+      "lambda_away": 0.7795,
+      "n_matches": 23,
+      "total_n": 23
+    },
+    "Cambodia": {
+      "lambda_home": 1.5234,
+      "lambda_away": 1.4138,
+      "n_matches": 19,
+      "total_n": 19
+    },
+    "MKS Korona Kielce": {
+      "lambda_home": 1.1862,
+      "lambda_away": 1.1865,
+      "n_matches": 30,
+      "total_n": 136
+    },
+    "Widzew Łódź": {
+      "lambda_home": 1.1203,
+      "lambda_away": 1.1861,
+      "n_matches": 30,
+      "total_n": 136
+    },
+    "Miedź Legnica": {
+      "lambda_home": 0.9799,
+      "lambda_away": 1.5685,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "SC Austria Lustenau": {
+      "lambda_home": 0.6997,
+      "lambda_away": 1.7328,
+      "n_matches": 30,
+      "total_n": 67
+    },
+    "Wigan Athletic": {
+      "lambda_home": 0.694,
+      "lambda_away": 1.337,
+      "n_matches": 30,
+      "total_n": 46
+    },
+    "Sunderland": {
+      "lambda_home": 1.1087,
+      "lambda_away": 1.4078,
+      "n_matches": 30,
+      "total_n": 181
+    },
+    "Ajaccio": {
+      "lambda_home": 0.5968,
+      "lambda_away": 2.116,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Casa Pia": {
+      "lambda_home": 0.9133,
+      "lambda_away": 1.5455,
+      "n_matches": 30,
+      "total_n": 138
+    },
+    "FC Volendam": {
+      "lambda_home": 1.027,
+      "lambda_away": 1.5577,
+      "n_matches": 30,
+      "total_n": 104
+    },
+    "Almería": {
+      "lambda_home": 1.1061,
+      "lambda_away": 1.7852,
+      "n_matches": 30,
+      "total_n": 76
+    },
+    "Girona FC": {
+      "lambda_home": 1.1217,
+      "lambda_away": 1.2525,
+      "n_matches": 30,
+      "total_n": 152
+    },
+    "Solomon Islands": {
+      "lambda_home": 1.1725,
+      "lambda_away": 1.7217,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "New Caledonia": {
+      "lambda_home": 2.4823,
+      "lambda_away": 0.3187,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "Canada": {
+      "lambda_home": 1.061,
+      "lambda_away": 0.8174,
+      "n_matches": 30,
+      "total_n": 33
+    },
+    "Vanuatu": {
+      "lambda_home": 1.0287,
+      "lambda_away": 2.0088,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "Papua New Guinea": {
+      "lambda_home": 1.1535,
+      "lambda_away": 1.3889,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Madagascar": {
+      "lambda_home": 1.5526,
+      "lambda_away": 1.6178,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "Botswana": {
+      "lambda_home": 0.5804,
+      "lambda_away": 1.2185,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "Bucheon FC 1995": {
+      "lambda_home": 0.8127,
+      "lambda_away": 0.952,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "El Dakhlya": {
+      "lambda_home": 0.4877,
+      "lambda_away": 1.1567,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Haras El Hedoud": {
+      "lambda_home": 0.8031,
+      "lambda_away": 1.5664,
+      "n_matches": 30,
+      "total_n": 77
+    },
+    "FC Anyang": {
+      "lambda_home": 1.3312,
+      "lambda_away": 1.0926,
+      "n_matches": 30,
+      "total_n": 56
+    },
+    "Fagiano Okayama": {
+      "lambda_home": 1.1494,
+      "lambda_away": 1.2142,
+      "n_matches": 30,
+      "total_n": 59
+    },
+    "Kongsvinger": {
+      "lambda_home": 2.0896,
+      "lambda_away": 2.2696,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "IK Start": {
+      "lambda_home": 0.9935,
+      "lambda_away": 2.1449,
+      "n_matches": 14,
+      "total_n": 14
+    },
+    "Pakistan": {
+      "lambda_home": 1.2586,
+      "lambda_away": 0.5246,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Chinese Taipei": {
+      "lambda_home": 1.7632,
+      "lambda_away": 2.4785,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "Albirex Niigata": {
+      "lambda_home": 0.7788,
+      "lambda_away": 1.6666,
+      "n_matches": 30,
+      "total_n": 110
+    },
+    "St.Louis City": {
+      "lambda_home": 1.4067,
+      "lambda_away": 1.681,
+      "n_matches": 30,
+      "total_n": 118
+    },
+    "China": {
+      "lambda_home": 1.2485,
+      "lambda_away": 0.9364,
+      "n_matches": 12,
+      "total_n": 12
+    },
+    "Bhutan": {
+      "lambda_home": 0.2494,
+      "lambda_away": 1.9503,
+      "n_matches": 10,
+      "total_n": 10
+    },
+    "Macau": {
+      "lambda_home": 0.2384,
+      "lambda_away": 2.0265,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "Fiji": {
+      "lambda_home": 0.9901,
+      "lambda_away": 1.0636,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Cruzeiro": {
+      "lambda_home": 1.3404,
+      "lambda_away": 1.3477,
+      "n_matches": 30,
+      "total_n": 132
+    },
+    "Almere City FC": {
+      "lambda_home": 1.0816,
+      "lambda_away": 1.6387,
+      "n_matches": 30,
+      "total_n": 80
+    },
+    "CF Estrela Amadora": {
+      "lambda_home": 1.1548,
+      "lambda_away": 1.7279,
+      "n_matches": 30,
+      "total_n": 104
+    },
+    "ŁKS Łódź": {
+      "lambda_home": 1.1018,
+      "lambda_away": 2.2957,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "NK Rudeš": {
+      "lambda_home": 0.617,
+      "lambda_away": 2.3735,
+      "n_matches": 30,
+      "total_n": 36
+    },
+    "Puszcza Niepołomice": {
+      "lambda_home": 1.1211,
+      "lambda_away": 1.9351,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Ruch Chorzów": {
+      "lambda_home": 1.1868,
+      "lambda_away": 1.5854,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "FC Blau Weiss Linz": {
+      "lambda_home": 1.2589,
+      "lambda_away": 1.5434,
+      "n_matches": 30,
+      "total_n": 96
+    },
+    "Plymouth Argyle": {
+      "lambda_home": 1.1487,
+      "lambda_away": 1.9667,
+      "n_matches": 30,
+      "total_n": 92
+    },
+    "Ipswich Town": {
+      "lambda_home": 1.7357,
+      "lambda_away": 1.0349,
+      "n_matches": 30,
+      "total_n": 130
+    },
+    "Las Palmas": {
+      "lambda_home": 1.0081,
+      "lambda_away": 1.5054,
+      "n_matches": 30,
+      "total_n": 76
+    },
+    "Le Havre": {
+      "lambda_home": 0.9169,
+      "lambda_away": 1.2347,
+      "n_matches": 30,
+      "total_n": 102
+    },
+    "1. FC Heidenheim": {
+      "lambda_home": 1.3279,
+      "lambda_away": 2.0878,
+      "n_matches": 30,
+      "total_n": 104
+    },
+    "Darmstadt 98": {
+      "lambda_home": 0.8006,
+      "lambda_away": 2.4501,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "ZED FC": {
+      "lambda_home": 1.2258,
+      "lambda_away": 1.009,
+      "n_matches": 30,
+      "total_n": 77
+    },
+    "Baladiyet El Mahallah": {
+      "lambda_home": 0.7925,
+      "lambda_away": 1.9247,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Punjab FC": {
+      "lambda_home": 1.4228,
+      "lambda_away": 1.2448,
+      "n_matches": 30,
+      "total_n": 58
+    },
+    "Bryne FK": {
+      "lambda_home": 1.2145,
+      "lambda_away": 1.9134,
+      "n_matches": 30,
+      "total_n": 33
+    },
+    "Machida Zelvia": {
+      "lambda_home": 1.1098,
+      "lambda_away": 0.9863,
+      "n_matches": 30,
+      "total_n": 96
+    },
+    "Tokyo Verdy": {
+      "lambda_home": 0.8626,
+      "lambda_away": 1.3975,
+      "n_matches": 30,
+      "total_n": 96
+    },
+    "Bonaire": {
+      "lambda_home": 1.2351,
+      "lambda_away": 2.6605,
+      "n_matches": 7,
+      "total_n": 7
+    },
+    "Zimbabwe": {
+      "lambda_home": 1.2126,
+      "lambda_away": 1.3795,
+      "n_matches": 9,
+      "total_n": 9
+    },
+    "Martinique": {
+      "lambda_home": 0.5847,
+      "lambda_away": 1.2433,
+      "n_matches": 5,
+      "total_n": 5
+    },
+    "Cayman Islands": {
+      "lambda_home": 1.4137,
+      "lambda_away": 1.6681,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "Criciúma": {
+      "lambda_home": 0.9185,
+      "lambda_away": 1.561,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Vitória": {
+      "lambda_home": 1.204,
+      "lambda_away": 1.3148,
+      "n_matches": 30,
+      "total_n": 93
+    },
+    "FC Dordrecht": {
+      "lambda_home": 1.3827,
+      "lambda_away": 1.1235,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "AVS - Futebol SAD": {
+      "lambda_home": 0.8167,
+      "lambda_away": 1.9026,
+      "n_matches": 30,
+      "total_n": 72
+    },
+    "Saint Vincent and the Grenadines": {
+      "lambda_home": 2.3406,
+      "lambda_away": 1.1346,
+      "n_matches": 11,
+      "total_n": 11
+    },
+    "Sint Maarten": {
+      "lambda_home": 1.6573,
+      "lambda_away": 0.9999,
+      "n_matches": 5,
+      "total_n": 5
+    },
+    "GKS Katowice": {
+      "lambda_home": 1.608,
+      "lambda_away": 1.1745,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Motor Lublin": {
+      "lambda_home": 1.3738,
+      "lambda_away": 1.5392,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Grazer AK 1902": {
+      "lambda_home": 1.3834,
+      "lambda_away": 1.2414,
+      "n_matches": 30,
+      "total_n": 64
+    },
+    "Oxford United": {
+      "lambda_home": 0.9428,
+      "lambda_away": 1.1977,
+      "n_matches": 30,
+      "total_n": 92
+    },
+    "Portsmouth": {
+      "lambda_home": 1.1481,
+      "lambda_away": 1.4347,
+      "n_matches": 30,
+      "total_n": 92
+    },
+    "Leganés": {
+      "lambda_home": 1.1413,
+      "lambda_away": 1.5554,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "FC St. Pauli": {
+      "lambda_home": 0.7416,
+      "lambda_away": 1.8031,
+      "n_matches": 30,
+      "total_n": 68
+    },
+    "Mohammedan SC": {
+      "lambda_home": 0.5371,
+      "lambda_away": 2.2121,
+      "n_matches": 30,
+      "total_n": 37
+    },
+    "Chad": {
+      "lambda_home": 1.0313,
+      "lambda_away": 1.7272,
+      "n_matches": 7,
+      "total_n": 7
+    },
+    "Petrojet": {
+      "lambda_home": 1.2206,
+      "lambda_away": 1.1985,
+      "n_matches": 30,
+      "total_n": 43
+    },
+    "San Diego FC": {
+      "lambda_home": 1.9163,
+      "lambda_away": 1.4667,
+      "n_matches": 30,
+      "total_n": 54
+    },
+    "Mirassol": {
+      "lambda_home": 1.2669,
+      "lambda_away": 1.2774,
+      "n_matches": 30,
+      "total_n": 55
+    },
+    "Anguilla": {
+      "lambda_home": 1.1726,
+      "lambda_away": 2.3358,
+      "n_matches": 7,
+      "total_n": 7
+    },
+    "British Virgin Islands": {
+      "lambda_home": 1.9164,
+      "lambda_away": 1.5548,
+      "n_matches": 8,
+      "total_n": 8
+    },
+    "Dominica": {
+      "lambda_home": 0.5046,
+      "lambda_away": 1.2388,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "FC Den Bosch": {
+      "lambda_home": 0.7176,
+      "lambda_away": 1.5932,
+      "n_matches": 6,
+      "total_n": 6
+    },
+    "SC Telstar": {
+      "lambda_home": 1.5269,
+      "lambda_away": 1.6157,
+      "n_matches": 30,
+      "total_n": 40
+    },
+    "MZKS Arka Gdynia": {
+      "lambda_home": 1.0491,
+      "lambda_away": 1.9299,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "HNK Vukovar 1991": {
+      "lambda_home": 0.9874,
+      "lambda_away": 1.9437,
+      "n_matches": 30,
+      "total_n": 35
+    },
+    "Wrexham": {
+      "lambda_home": 1.627,
+      "lambda_away": 1.5467,
+      "n_matches": 30,
+      "total_n": 46
+    },
+    "Charlton Athletic": {
+      "lambda_home": 0.9052,
+      "lambda_away": 1.3612,
+      "n_matches": 30,
+      "total_n": 46
+    },
+    "FC Alverca": {
+      "lambda_home": 1.0285,
+      "lambda_away": 1.431,
+      "n_matches": 30,
+      "total_n": 34
+    },
+    "Ismailia Electricity Club": {
+      "lambda_home": 1.0784,
+      "lambda_away": 1.5921,
+      "n_matches": 30,
+      "total_n": 33
+    },
+    "Real Oviedo": {
+      "lambda_home": 0.7367,
+      "lambda_away": 1.5387,
+      "n_matches": 30,
+      "total_n": 38
+    },
+    "Remo": {
+      "lambda_home": 1.1695,
+      "lambda_away": 1.598,
+      "n_matches": 18,
+      "total_n": 18
+    },
+    "V-Varen Nagasaki": {
+      "lambda_home": 1.0995,
+      "lambda_away": 1.3891,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "JEF United Chiba": {
+      "lambda_home": 0.9547,
+      "lambda_away": 1.5536,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Mito Hollyhock": {
+      "lambda_home": 0.9392,
+      "lambda_away": 1.852,
+      "n_matches": 20,
+      "total_n": 20
+    },
+    "Inter Kashi FC": {
+      "lambda_home": 0.8288,
+      "lambda_away": 1.2501,
+      "n_matches": 12,
+      "total_n": 12
+    }
+  },
+  "home_advantage": {
+    "International Friendly": 0.5033,
+    "Premier League": 0.4358,
+    "Championship": 0.4315,
+    "Egyptian Premier League": 0.3565,
+    "Bundesliga": 0.4434,
+    "LaLiga": 0.4541,
+    "Liga Portugal Betclic": 0.4322,
+    "Indian Super League": 0.417,
+    "Ligue 1": 0.4259,
+    "Brasileirão Série A": 0.4714,
+    "Eredivisie": 0.443,
+    "Austrian Bundesliga": 0.3987,
+    "HNL (Croatia)": 0.4317,
+    "Ekstraklasa": 0.4361,
+    "J1 League": 0.4003,
+    "K League 1": 0.4005,
+    "MLS": 0.4685,
+    "Eliteserien": 0.4646,
+    "EURO": 0.3137,
+    "Copa America": 0.4667,
+    "FIFA World Cup": 0.4433,
+    "EURO Qualification": 0.4644
+  }
+}

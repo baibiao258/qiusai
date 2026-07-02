@@ -1,0 +1,34 @@
+[
+  {
+    "code": "周四002",
+    "league": "世界杯",
+    "time": "06-12 10:00",
+    "home": "韩国",
+    "away": "捷克",
+    "rq": "-1",
+    "score_ht": "0:0",
+    "score_full": "2:1",
+    "home_goals": "2",
+    "away_goals": "1",
+    "rq_result": "平",
+    "hda_result": "胜",
+    "goals": "3",
+    "htft": "平胜"
+  },
+  {
+    "code": "周四001",
+    "league": "世界杯",
+    "time": "06-12 03:00",
+    "home": "墨西哥",
+    "away": "南非",
+    "rq": "-1",
+    "score_ht": "1:0",
+    "score_full": "2:0",
+    "home_goals": "2",
+    "away_goals": "0",
+    "rq_result": "胜",
+    "hda_result": "胜",
+    "goals": "2",
+    "htft": "胜胜"
+  }
+]

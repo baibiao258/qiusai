@@ -1,0 +1,50 @@
+[
+  {
+    "code": "周二203",
+    "league": "友谊赛",
+    "time": "06-03 02:45",
+    "home": "威尔士",
+    "away": "加纳",
+    "rq": "-1",
+    "score_ht": "0:0",
+    "score_full": "1:1",
+    "home_goals": "1",
+    "away_goals": "1",
+    "rq_result": "负",
+    "hda_result": "平",
+    "goals": "2",
+    "htft": "平平"
+  },
+  {
+    "code": "周二202",
+    "league": "友谊赛",
+    "time": "06-03 01:00",
+    "home": "格鲁吉亚",
+    "away": "罗马尼亚",
+    "rq": "-1",
+    "score_ht": "0:0",
+    "score_full": "1:1",
+    "home_goals": "1",
+    "away_goals": "1",
+    "rq_result": "负",
+    "hda_result": "平",
+    "goals": "2",
+    "htft": "平平"
+  },
+  {
+    "code": "周二201",
+    "league": "友谊赛",
+    "time": "06-03 00:00",
+    "home": "克罗地亚",
+    "away": "比利时",
+    "rq": "-1",
+    "score_ht": "0:1",
+    "score_full": "0:2",
+    "home_goals": "0",
+    "away_goals": "2",
+    "rq_result": "负",
+    "hda_result": "负",
+    "goals": "2",
+    "htft": "负负"
+  }
+]

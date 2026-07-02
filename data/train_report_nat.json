@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-06-15T10:40:21.873350",
+  "model": "xgb_model_nat",
+  "n_total": 2186,
+  "n_train": 1530,
+  "n_val": 656,
+  "train_date_range": "2024-01-01 \u2192 2025-09-06",
+  "val_date_range": "2025-09-06 \u2192 2026-06-15",
+  "val_acc": 0.6189024390243902,
+  "val_logloss": 0.815761902707395,
+  "val_brier": 

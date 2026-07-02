@@ -1,0 +1,34 @@
+[
+  {
+    "code": "周五004",
+    "league": "世界杯",
+    "time": "06-13 09:00",
+    "home": "美国",
+    "away": "巴拉圭",
+    "rq": "-1",
+    "score_ht": "3:0",
+    "score_full": "4:1",
+    "home_goals": "4",
+    "away_goals": "1",
+    "rq_result": "胜",
+    "hda_result": "胜",
+    "goals": "5",
+    "htft": "胜胜"
+  },
+  {
+    "code": "周五003",
+    "league": "世界杯",
+    "time": "06-13 03:00",
+    "home": "加拿大",
+    "away": "波黑",
+    "rq": "-1",
+    "score_ht": "0:1",
+    "score_full": "1:1",
+    "home_goals": "1",
+    "away_goals": "1",
+    "rq_result": "负",
+    "hda_result": "平",
+    "goals": "2",
+    "htft": "负平"
+  }
+]

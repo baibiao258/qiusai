@@ -1,0 +1,419 @@
+{
+  "墨西哥": {
+    "home_group_points": 9,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "南非": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "韩国": {
+    "home_group_points": 3,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": false
+  },
+  "捷克": {
+    "home_group_points": 1,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": false
+  },
+  "瑞士": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "加拿大": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": false
+  },
+  "波黑": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "卡塔尔": {
+    "home_group_points": 1,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "巴西": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": false
+  },
+  "摩洛哥": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "苏格兰": {
+    "home_group_points": 3,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "海地": {
+    "home_group_points": 0,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "美国": {
+    "home_group_points": 6,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "澳大利亚": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "巴拉圭": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "土耳其": {
+    "home_group_points": 3,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "德国": {
+    "home_group_points": 6,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "科特迪瓦": {
+    "home_group_points": 6,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "厄瓜多尔": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "库拉索": {
+    "home_group_points": 1,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "荷兰": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "日本": {
+    "home_group_points": 5,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "瑞典": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "突尼斯": {
+    "home_group_points": 0,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "比利时": {
+    "home_group_points": 5,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "埃及": {
+    "home_group_points": 5,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "伊朗": {
+    "home_group_points": 3,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "新西兰": {
+    "home_group_points": 1,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "西班牙": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "佛得角": {
+    "home_group_points": 3,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "乌拉圭": {
+    "home_group_points": 2,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "沙特阿拉伯": {
+    "home_group_points": 2,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "法国": {
+    "home_group_points": 9,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": false
+  },
+  "挪威": {
+    "home_group_points": 6,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": false
+  },
+  "塞内加尔": {
+    "home_group_points": 3,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "伊拉克": {
+    "home_group_points": 0,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "阿根廷": {
+    "home_group_points": 9,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "奥地利": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "阿尔及利亚": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "约旦": {
+    "home_group_points": 0,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "哥伦比亚": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "葡萄牙": {
+    "home_group_points": 5,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "刚果(金)": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "乌兹别克": {
+    "home_group_points": 0,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "英格兰": {
+    "home_group_points": 7,
+    "away_group_points": 0,
+    "home_group_rank": 1,
+    "away_group_rank": 1,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "克罗地亚": {
+    "home_group_points": 6,
+    "away_group_points": 0,
+    "home_group_rank": 2,
+    "away_group_rank": 2,
+    "is_knockout": false,
+    "round_num": 3
+  },
+  "加纳": {
+    "home_group_points": 4,
+    "away_group_points": 0,
+    "home_group_rank": 3,
+    "away_group_rank": 3,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  },
+  "巴拿马": {
+    "home_group_points": 0,
+    "away_group_points": 0,
+    "home_group_rank": 4,
+    "away_group_rank": 4,
+    "is_knockout": false,
+    "round_num": 3,
+    "eliminated": true
+  }
+}
