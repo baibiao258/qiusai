@@ -5,6 +5,8 @@ are centralized here.  Import from this module everywhere else.
 """
 import os
 
+API_KEY = os.environ.get('FOOTBALL_API_KEY', '5d07c80baa2645d0809b6ec96d6b49c6')
+
 # ── File paths ──
 DATA_DIR = os.environ.get('DATA_DIR', '/root/data')
 PREDICTIONS_LOG = os.path.join(DATA_DIR, 'predictions_log.csv')

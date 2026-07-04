@@ -31,12 +31,17 @@ def load_all():
     dc = joblib.load(os.path.join(DATA_DIR, 'dc_model_club.pkl'))
     with open(os.path.join(DATA_DIR, 'form_club.json')) as f:
         form_state = json.load(f)
-    xg_path = os.path.join(DATA_DIR, 'xg_proxy_club.json')
-    xg_state = {}
-    if os.path.exists(xg_path):
-        with open(xg_path) as f:
-            xg_state = json.load(f)
-    return matches, elo, dc, form_state, xg_state
+    xg_proxy_path = os.path.join(DATA_DIR, 'xg_proxy_club.json')
+    xg_proxy_state = {}
+    if os.path.exists(xg_proxy_path):
+        with open(xg_proxy_path) as f:
+            xg_proxy_state = json.load(f)
+    xg_real_path = os.path.join(DATA_DIR, 'xg_real_club.json')
+    xg_real_state = None
+    if os.path.exists(xg_real_path):
+        with open(xg_real_path) as f:
+            xg_real_state = json.load(f)
+    return matches, elo, dc, form_state, xg_proxy_state, xg_real_state
 
 
 # ── Feature Buffer (简化版) ──
@@ -81,8 +86,12 @@ class ClubFeatureBuffer:
         return [wins / len(raw), gf / len(raw), ga / len(raw)]
 
 
-def build_feat(fb, dc, h, a, xg_state=None):
-    """构建 29 维特征."""
+def build_feat(fb, dc, h, a, xg_state=None, xg_real_state=None):
+    """构建 41 维特征 (29 基线 + 8 xG-proxy + 4 xG-real).
+
+    特征顺序（必须与推理侧 _build_xg_feat 的输出顺序完全一致）:
+      b15(15) + gold(5) + odds(3) + form(6) + xg_proxy(8) + xg_real(4) = 41
+    """
     eh = fb.elo.get(h, 1400)
     ea = fb.elo.get(a, 1400)
 
@@ -137,7 +146,18 @@ def build_feat(fb, dc, h, a, xg_state=None):
     else:
         xg_proxy_feat = [0.0] * 8
 
-    return b15 + gold + odds_feat + form_feat + xg_proxy_feat
+    # ── xG-real 特征 (4维: 主客各2) ──
+    # 使用 NaN 表示缺失（XGBoost 原生支持缺失值分裂）
+    rh = (xg_real_state or {}).get(h)
+    ra = (xg_real_state or {}).get(a)
+    xg_real_feat = [
+        rh.get('xg_recent_avg') if rh else float('nan'),
+        rh.get('xg_diff_avg')   if rh else float('nan'),
+        ra.get('xg_recent_avg') if ra else float('nan'),
+        ra.get('xg_diff_avg')   if ra else float('nan'),
+    ]
+
+    return b15 + gold + odds_feat + form_feat + xg_proxy_feat + xg_real_feat
 
 
 def main():
@@ -150,7 +170,7 @@ def main():
     print("🌲 训练俱乐部 XGBoost (含 xG-proxy)")
     print("=" * 50)
 
-    matches, elo, dc, form_state, xg_state = load_all()
+    matches, elo, dc, form_state, xg_state, xg_real_state = load_all()
     matches.sort(key=lambda m: m['date'])
 
     # 去重
@@ -180,7 +200,7 @@ def main():
     fb = ClubFeatureBuffer(elo, form_state)
     X_train, y_train = [], []
     for m in ms_train:
-        feat = build_feat(fb, dc, m['home'], m['away'], xg_state)
+        feat = build_feat(fb, dc, m['home'], m['away'], xg_state, xg_real_state)
         X_train.append(feat)
         if m['h_score'] > m['a_score']: y_train.append(2)
         elif m['h_score'] == m['a_score']: y_train.append(1)
@@ -190,7 +210,7 @@ def main():
     # Cal/Val 不加入 buffer (防止泄漏)
     X_cal, y_cal = [], []
     for m in ms_cal:
-        feat = build_feat(fb, dc, m['home'], m['away'], xg_state)
+        feat = build_feat(fb, dc, m['home'], m['away'], xg_state, xg_real_state)
         X_cal.append(feat)
         if m['h_score'] > m['a_score']: y_cal.append(2)
         elif m['h_score'] == m['a_score']: y_cal.append(1)
@@ -198,7 +218,7 @@ def main():
 
     X_val, y_val = [], []
     for m in ms_val:
-        feat = build_feat(fb, dc, m['home'], m['away'], xg_state)
+        feat = build_feat(fb, dc, m['home'], m['away'], xg_state, xg_real_state)
         X_val.append(feat)
         if m['h_score'] > m['a_score']: y_val.append(2)
         elif m['h_score'] == m['a_score']: y_val.append(1)

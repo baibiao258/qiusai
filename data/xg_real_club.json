@@ -1,0 +1,1479 @@
+{
+  "SE Palmeiras": {
+    "xg_recent_avg": 1.5333,
+    "xg_against_avg": 0.8956,
+    "xg_diff_avg": 0.6378,
+    "n": 9,
+    "form": "DDWDD"
+  },
+  "Cuiabá EC": {
+    "xg_recent_avg": 1.2533,
+    "xg_against_avg": 0.7856,
+    "xg_diff_avg": 0.4678,
+    "n": 9,
+    "form": "WDDDD"
+  },
+  "América FC": {
+    "xg_recent_avg": 1.087,
+    "xg_against_avg": 1.58,
+    "xg_diff_avg": -0.493,
+    "n": 10,
+    "form": "LLDLL"
+  },
+  "Fluminense FC": {
+    "xg_recent_avg": 1.0144,
+    "xg_against_avg": 0.9678,
+    "xg_diff_avg": 0.0467,
+    "n": 9,
+    "form": "WDDLL"
+  },
+  "Fortaleza EC": {
+    "xg_recent_avg": 1.4211,
+    "xg_against_avg": 1.3544,
+    "xg_diff_avg": 0.0667,
+    "n": 9,
+    "form": "WLWLD"
+  },
+  "SC Internacional": {
+    "xg_recent_avg": 1.3333,
+    "xg_against_avg": 0.9433,
+    "xg_diff_avg": 0.39,
+    "n": 9,
+    "form": "WDWLD"
+  },
+  "CA Paranaense": {
+    "xg_recent_avg": 1.5489,
+    "xg_against_avg": 0.7678,
+    "xg_diff_avg": 0.7811,
+    "n": 9,
+    "form": "DWDLW"
+  },
+  "Goiás EC": {
+    "xg_recent_avg": 1.2711,
+    "xg_against_avg": 1.3011,
+    "xg_diff_avg": -0.03,
+    "n": 9,
+    "form": "DWWWL"
+  },
+  "RB Bragantino": {
+    "xg_recent_avg": 1.8044,
+    "xg_against_avg": 0.9067,
+    "xg_diff_avg": 0.8978,
+    "n": 9,
+    "form": "WLWWL"
+  },
+  "EC Bahia": {
+    "xg_recent_avg": 1.5378,
+    "xg_against_avg": 1.5578,
+    "xg_diff_avg": -0.02,
+    "n": 9,
+    "form": "DDLLW"
+  },
+  "Botafogo FR": {
+    "xg_recent_avg": 2.2689,
+    "xg_against_avg": 1.1122,
+    "xg_diff_avg": 1.1567,
+    "n": 9,
+    "form": "WDWLW"
+  },
+  "São Paulo FC": {
+    "xg_recent_avg": 1.2356,
+    "xg_against_avg": 1.1922,
+    "xg_diff_avg": 0.0433,
+    "n": 9,
+    "form": "LLDDD"
+  },
+  "CA Mineiro": {
+    "xg_recent_avg": 1.32,
+    "xg_against_avg": 1.1656,
+    "xg_diff_avg": 0.1544,
+    "n": 9,
+    "form": "WDDWL"
+  },
+  "CR Vasco da Gama": {
+    "xg_recent_avg": 1.5233,
+    "xg_against_avg": 1.3667,
+    "xg_diff_avg": 0.1567,
+    "n": 9,
+    "form": "LWWDW"
+  },
+  "SC Corinthians Paulista": {
+    "xg_recent_avg": 1.2,
+    "xg_against_avg": 1.0544,
+    "xg_diff_avg": 0.1456,
+    "n": 9,
+    "form": "LWDLW"
+  },
+  "Cruzeiro EC": {
+    "xg_recent_avg": 1.5644,
+    "xg_against_avg": 1.0133,
+    "xg_diff_avg": 0.5511,
+    "n": 9,
+    "form": "DWDLW"
+  },
+  "CR Flamengo": {
+    "xg_recent_avg": 1.9767,
+    "xg_against_avg": 0.9389,
+    "xg_diff_avg": 1.0378,
+    "n": 9,
+    "form": "DWDDW"
+  },
+  "Coritiba FBC": {
+    "xg_recent_avg": 0.9956,
+    "xg_against_avg": 1.6567,
+    "xg_diff_avg": -0.6611,
+    "n": 9,
+    "form": "LLDWD"
+  },
+  "Grêmio FBPA": {
+    "xg_recent_avg": 1.2667,
+    "xg_against_avg": 1.4522,
+    "xg_diff_avg": -0.1856,
+    "n": 9,
+    "form": "DLWDD"
+  },
+  "Santos FC": {
+    "xg_recent_avg": 1.5089,
+    "xg_against_avg": 1.3144,
+    "xg_diff_avg": 0.1944,
+    "n": 9,
+    "form": "LWDDD"
+  },
+  "Sheffield Wednesday FC": {
+    "xg_recent_avg": 0.94,
+    "xg_against_avg": 2.173,
+    "xg_diff_avg": -1.233,
+    "n": 10,
+    "form": "DLLLD"
+  },
+  "Southampton FC": {
+    "xg_recent_avg": 1.581,
+    "xg_against_avg": 1.35,
+    "xg_diff_avg": 0.231,
+    "n": 10,
+    "form": "DWWWW"
+  },
+  "Blackburn Rovers FC": {
+    "xg_recent_avg": 1.003,
+    "xg_against_avg": 1.523,
+    "xg_diff_avg": -0.52,
+    "n": 10,
+    "form": "DWDWL"
+  },
+  "West Bromwich Albion FC": {
+    "xg_recent_avg": 1.604,
+    "xg_against_avg": 0.95,
+    "xg_diff_avg": 0.654,
+    "n": 10,
+    "form": "DDWWD"
+  },
+  "Bristol City FC": {
+    "xg_recent_avg": 1.082,
+    "xg_against_avg": 1.715,
+    "xg_diff_avg": -0.633,
+    "n": 10,
+    "form": "WWLDL"
+  },
+  "Preston North End FC": {
+    "xg_recent_avg": 1.668,
+    "xg_against_avg": 1.921,
+    "xg_diff_avg": -0.253,
+    "n": 10,
+    "form": "DDWLL"
+  },
+  "Middlesbrough FC": {
+    "xg_recent_avg": 2.009,
+    "xg_against_avg": 1.196,
+    "xg_diff_avg": 0.813,
+    "n": 10,
+    "form": "WDLDL"
+  },
+  "Millwall FC": {
+    "xg_recent_avg": 1.348,
+    "xg_against_avg": 1.385,
+    "xg_diff_avg": -0.037,
+    "n": 10,
+    "form": "WDLWD"
+  },
+  "Norwich City FC": {
+    "xg_recent_avg": 1.329,
+    "xg_against_avg": 1.354,
+    "xg_diff_avg": -0.025,
+    "n": 10,
+    "form": "WDWLW"
+  },
+  "Hull City AFC": {
+    "xg_recent_avg": 1.133,
+    "xg_against_avg": 1.437,
+    "xg_diff_avg": -0.304,
+    "n": 10,
+    "form": "DDLDD"
+  },
+  "Plymouth Argyle FC": {
+    "xg_recent_avg": 3.31,
+    "xg_against_avg": 1.1471,
+    "xg_diff_avg": 2.1629,
+    "n": 7,
+    "form": "WDWWD"
+  },
+  "Huddersfield Town AFC": {
+    "xg_recent_avg": 2.1825,
+    "xg_against_avg": 1.7062,
+    "xg_diff_avg": 0.4763,
+    "n": 8,
+    "form": "DDLDD"
+  },
+  "Watford FC": {
+    "xg_recent_avg": 1.092,
+    "xg_against_avg": 1.628,
+    "xg_diff_avg": -0.536,
+    "n": 10,
+    "form": "DLDWL"
+  },
+  "Queens Park Rangers FC": {
+    "xg_recent_avg": 1.257,
+    "xg_against_avg": 1.312,
+    "xg_diff_avg": -0.055,
+    "n": 10,
+    "form": "DWWWL"
+  },
+  "Stoke City FC": {
+    "xg_recent_avg": 1.442,
+    "xg_against_avg": 1.741,
+    "xg_diff_avg": -0.299,
+    "n": 10,
+    "form": "LWLWD"
+  },
+  "Rotherham United FC": {
+    "xg_recent_avg": 1.0488,
+    "xg_against_avg": 1.765,
+    "xg_diff_avg": -0.7163,
+    "n": 8,
+    "form": "LLLLL"
+  },
+  "Swansea City AFC": {
+    "xg_recent_avg": 1.407,
+    "xg_against_avg": 1.517,
+    "xg_diff_avg": -0.11,
+    "n": 10,
+    "form": "DDLLW"
+  },
+  "Birmingham City FC": {
+    "xg_recent_avg": 1.161,
+    "xg_against_avg": 1.182,
+    "xg_diff_avg": -0.021,
+    "n": 10,
+    "form": "LLLDW"
+  },
+  "Leicester City FC": {
+    "xg_recent_avg": 1.745,
+    "xg_against_avg": 1.113,
+    "xg_diff_avg": 0.632,
+    "n": 10,
+    "form": "DDDLW"
+  },
+  "Coventry City FC": {
+    "xg_recent_avg": 2.101,
+    "xg_against_avg": 1.163,
+    "xg_diff_avg": 0.938,
+    "n": 10,
+    "form": "DWWLW"
+  },
+  "Leeds United FC": {
+    "xg_recent_avg": 1.547,
+    "xg_against_avg": 1.571,
+    "xg_diff_avg": -0.024,
+    "n": 10,
+    "form": "DWWDD"
+  },
+  "Cardiff City FC": {
+    "xg_recent_avg": 2.1086,
+    "xg_against_avg": 1.7929,
+    "xg_diff_avg": 0.3157,
+    "n": 7,
+    "form": "DWDLW"
+  },
+  "Sunderland AFC": {
+    "xg_recent_avg": 1.36,
+    "xg_against_avg": 1.279,
+    "xg_diff_avg": 0.081,
+    "n": 10,
+    "form": "LWWLL"
+  },
+  "Ipswich Town FC": {
+    "xg_recent_avg": 1.852,
+    "xg_against_avg": 1.129,
+    "xg_diff_avg": 0.723,
+    "n": 10,
+    "form": "LWWDW"
+  },
+  "Burnley FC": {
+    "xg_recent_avg": 0.857,
+    "xg_against_avg": 2.015,
+    "xg_diff_avg": -1.158,
+    "n": 10,
+    "form": "LLLDL"
+  },
+  "Manchester City FC": {
+    "xg_recent_avg": 1.969,
+    "xg_against_avg": 1.189,
+    "xg_diff_avg": 0.78,
+    "n": 10,
+    "form": "DWWWW"
+  },
+  "UD Almería": {
+    "xg_recent_avg": 1.5775,
+    "xg_against_avg": 1.1038,
+    "xg_diff_avg": 0.4737,
+    "n": 8,
+    "form": "DWDWW"
+  },
+  "Rayo Vallecano de Madrid": {
+    "xg_recent_avg": 1.35,
+    "xg_against_avg": 1.417,
+    "xg_diff_avg": -0.067,
+    "n": 10,
+    "form": "WWWDW"
+  },
+  "Sevilla FC": {
+    "xg_recent_avg": 0.92,
+    "xg_against_avg": 1.041,
+    "xg_diff_avg": -0.121,
+    "n": 10,
+    "form": "LLWLL"
+  },
+  "Valencia CF": {
+    "xg_recent_avg": 1.443,
+    "xg_against_avg": 1.224,
+    "xg_diff_avg": 0.219,
+    "n": 10,
+    "form": "WDLLW"
+  },
+  "OGC Nice": {
+    "xg_recent_avg": 1.3,
+    "xg_against_avg": 1.3067,
+    "xg_diff_avg": -0.0067,
+    "n": 6,
+    "form": "LDDDD"
+  },
+  "Lille OSC": {
+    "xg_recent_avg": 1.479,
+    "xg_against_avg": 0.744,
+    "xg_diff_avg": 0.735,
+    "n": 10,
+    "form": "WWWLW"
+  },
+  "FC Volendam": {
+    "xg_recent_avg": 1.185,
+    "xg_against_avg": 1.3662,
+    "xg_diff_avg": -0.1812,
+    "n": 8,
+    "form": "WLDLL"
+  },
+  "Sporting Clube de Braga": {
+    "xg_recent_avg": 1.186,
+    "xg_against_avg": 1.38,
+    "xg_diff_avg": -0.194,
+    "n": 10,
+    "form": "LWDWW"
+  },
+  "FC Famalicão": {
+    "xg_recent_avg": 1.331,
+    "xg_against_avg": 0.724,
+    "xg_diff_avg": 0.607,
+    "n": 10,
+    "form": "DDWWW"
+  },
+  "Arsenal FC": {
+    "xg_recent_avg": 1.456,
+    "xg_against_avg": 1.026,
+    "xg_diff_avg": 0.43,
+    "n": 10,
+    "form": "WDWLD"
+  },
+  "Nottingham Forest FC": {
+    "xg_recent_avg": 1.472,
+    "xg_against_avg": 1.573,
+    "xg_diff_avg": -0.101,
+    "n": 10,
+    "form": "WWWWD"
+  },
+  "AFC Bournemouth": {
+    "xg_recent_avg": 1.837,
+    "xg_against_avg": 1.346,
+    "xg_diff_avg": 0.491,
+    "n": 10,
+    "form": "WWDDD"
+  },
+  "West Ham United FC": {
+    "xg_recent_avg": 1.509,
+    "xg_against_avg": 1.643,
+    "xg_diff_avg": -0.134,
+    "n": 10,
+    "form": "DWDLD"
+  },
+  "Brighton & Hove Albion FC": {
+    "xg_recent_avg": 1.656,
+    "xg_against_avg": 1.047,
+    "xg_diff_avg": 0.609,
+    "n": 10,
+    "form": "DWWWL"
+  },
+  "Luton Town FC": {
+    "xg_recent_avg": 2.8133,
+    "xg_against_avg": 1.8333,
+    "xg_diff_avg": 0.98,
+    "n": 6,
+    "form": "WDWDW"
+  },
+  "Everton FC": {
+    "xg_recent_avg": 1.266,
+    "xg_against_avg": 1.596,
+    "xg_diff_avg": -0.33,
+    "n": 10,
+    "form": "LDWLW"
+  },
+  "Fulham FC": {
+    "xg_recent_avg": 1.34,
+    "xg_against_avg": 1.303,
+    "xg_diff_avg": 0.037,
+    "n": 10,
+    "form": "DLWDL"
+  },
+  "Sheffield United FC": {
+    "xg_recent_avg": 1.743,
+    "xg_against_avg": 1.56,
+    "xg_diff_avg": 0.183,
+    "n": 10,
+    "form": "LDLDL"
+  },
+  "Crystal Palace FC": {
+    "xg_recent_avg": 1.612,
+    "xg_against_avg": 1.395,
+    "xg_diff_avg": 0.217,
+    "n": 10,
+    "form": "WLWLD"
+  },
+  "Newcastle United FC": {
+    "xg_recent_avg": 1.461,
+    "xg_against_avg": 1.96,
+    "xg_diff_avg": -0.499,
+    "n": 10,
+    "form": "LLLLW"
+  },
+  "Aston Villa FC": {
+    "xg_recent_avg": 1.747,
+    "xg_against_avg": 1.188,
+    "xg_diff_avg": 0.559,
+    "n": 10,
+    "form": "LLLWW"
+  },
+  "Real Sociedad de Fútbol": {
+    "xg_recent_avg": 1.497,
+    "xg_against_avg": 1.593,
+    "xg_diff_avg": -0.096,
+    "n": 10,
+    "form": "DLDDW"
+  },
+  "Girona FC": {
+    "xg_recent_avg": 1.17,
+    "xg_against_avg": 1.2,
+    "xg_diff_avg": -0.03,
+    "n": 10,
+    "form": "LLDWL"
+  },
+  "UD Las Palmas": {
+    "xg_recent_avg": 1.0429,
+    "xg_against_avg": 1.3914,
+    "xg_diff_avg": -0.3486,
+    "n": 7,
+    "form": "WLWWL"
+  },
+  "RCD Mallorca": {
+    "xg_recent_avg": 1.256,
+    "xg_against_avg": 1.483,
+    "xg_diff_avg": -0.227,
+    "n": 10,
+    "form": "LDWWL"
+  },
+  "Athletic Club": {
+    "xg_recent_avg": 1.0544,
+    "xg_against_avg": 1.1689,
+    "xg_diff_avg": -0.1144,
+    "n": 9,
+    "form": "WWDDD"
+  },
+  "Real Madrid CF": {
+    "xg_recent_avg": 1.677,
+    "xg_against_avg": 1.321,
+    "xg_diff_avg": 0.356,
+    "n": 10,
+    "form": "DWLDL"
+  },
+  "Olympique de Marseille": {
+    "xg_recent_avg": 1.77,
+    "xg_against_avg": 1.375,
+    "xg_diff_avg": 0.395,
+    "n": 10,
+    "form": "WLLWW"
+  },
+  "Stade de Reims": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": ""
+  },
+  "Paris Saint-Germain FC": {
+    "xg_recent_avg": 1.849,
+    "xg_against_avg": 1.339,
+    "xg_diff_avg": 0.51,
+    "n": 10,
+    "form": "DWWWL"
+  },
+  "FC Lorient": {
+    "xg_recent_avg": 1.322,
+    "xg_against_avg": 1.253,
+    "xg_diff_avg": 0.069,
+    "n": 10,
+    "form": "LDLWD"
+  },
+  "PSV": {
+    "xg_recent_avg": 1.9189,
+    "xg_against_avg": 1.6311,
+    "xg_diff_avg": 0.2878,
+    "n": 9,
+    "form": "WLLWL"
+  },
+  "FC Utrecht": {
+    "xg_recent_avg": 1.7244,
+    "xg_against_avg": 1.4811,
+    "xg_diff_avg": 0.2433,
+    "n": 9,
+    "form": "LWLWW"
+  },
+  "SC Heerenveen": {
+    "xg_recent_avg": 1.659,
+    "xg_against_avg": 1.823,
+    "xg_diff_avg": -0.164,
+    "n": 10,
+    "form": "LWDWW"
+  },
+  "AFC Ajax": {
+    "xg_recent_avg": 1.61,
+    "xg_against_avg": 1.1422,
+    "xg_diff_avg": 0.4678,
+    "n": 9,
+    "form": "WWLDW"
+  },
+  "Heracles Almelo": {
+    "xg_recent_avg": 0.95,
+    "xg_against_avg": 2.091,
+    "xg_diff_avg": -1.141,
+    "n": 10,
+    "form": "LDLDL"
+  },
+  "PEC Zwolle": {
+    "xg_recent_avg": 1.3011,
+    "xg_against_avg": 1.69,
+    "xg_diff_avg": -0.3889,
+    "n": 9,
+    "form": "LWDDD"
+  },
+  "Sparta Rotterdam": {
+    "xg_recent_avg": 1.137,
+    "xg_against_avg": 1.703,
+    "xg_diff_avg": -0.566,
+    "n": 10,
+    "form": "DWLDL"
+  },
+  "Gil Vicente FC": {
+    "xg_recent_avg": 1.203,
+    "xg_against_avg": 1.221,
+    "xg_diff_avg": -0.018,
+    "n": 10,
+    "form": "DWLDD"
+  },
+  "Portimonense SC": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": "L"
+  },
+  "SC Farense": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": "DW"
+  },
+  "Casa Pia AC": {
+    "xg_recent_avg": 0.96,
+    "xg_against_avg": 1.075,
+    "xg_diff_avg": -0.115,
+    "n": 8,
+    "form": "LLDLD"
+  },
+  "Sporting Clube de Portugal": {
+    "xg_recent_avg": 1.186,
+    "xg_against_avg": 1.38,
+    "xg_diff_avg": -0.194,
+    "n": 10,
+    "form": "LWDWW"
+  },
+  "FC Vizela": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": ""
+  },
+  "Brentford FC": {
+    "xg_recent_avg": 1.718,
+    "xg_against_avg": 1.622,
+    "xg_diff_avg": 0.096,
+    "n": 10,
+    "form": "DDDDD"
+  },
+  "Tottenham Hotspur FC": {
+    "xg_recent_avg": 1.243,
+    "xg_against_avg": 0.966,
+    "xg_diff_avg": 0.277,
+    "n": 10,
+    "form": "DLLWD"
+  },
+  "Chelsea FC": {
+    "xg_recent_avg": 1.227,
+    "xg_against_avg": 1.26,
+    "xg_diff_avg": -0.033,
+    "n": 10,
+    "form": "WLLLW"
+  },
+  "Liverpool FC": {
+    "xg_recent_avg": 1.398,
+    "xg_against_avg": 1.573,
+    "xg_diff_avg": -0.175,
+    "n": 10,
+    "form": "WLWLL"
+  },
+  "RC Celta de Vigo": {
+    "xg_recent_avg": 1.153,
+    "xg_against_avg": 1.618,
+    "xg_diff_avg": -0.465,
+    "n": 10,
+    "form": "LLLLL"
+  },
+  "CA Osasuna": {
+    "xg_recent_avg": 1.325,
+    "xg_against_avg": 1.068,
+    "xg_diff_avg": 0.257,
+    "n": 10,
+    "form": "WLDDW"
+  },
+  "Villarreal CF": {
+    "xg_recent_avg": 1.645,
+    "xg_against_avg": 1.162,
+    "xg_diff_avg": 0.483,
+    "n": 10,
+    "form": "WDWLW"
+  },
+  "Real Betis Balompié": {
+    "xg_recent_avg": 1.308,
+    "xg_against_avg": 1.455,
+    "xg_diff_avg": -0.147,
+    "n": 10,
+    "form": "DWLDD"
+  },
+  "Getafe CF": {
+    "xg_recent_avg": 0.958,
+    "xg_against_avg": 1.184,
+    "xg_diff_avg": -0.226,
+    "n": 10,
+    "form": "LWLWW"
+  },
+  "FC Barcelona": {
+    "xg_recent_avg": 1.383,
+    "xg_against_avg": 1.121,
+    "xg_diff_avg": 0.262,
+    "n": 10,
+    "form": "LWWLL"
+  },
+  "Stade Brestois 29": {
+    "xg_recent_avg": 1.089,
+    "xg_against_avg": 1.714,
+    "xg_diff_avg": -0.625,
+    "n": 10,
+    "form": "DLLLW"
+  },
+  "Racing Club de Lens": {
+    "xg_recent_avg": 1.7471,
+    "xg_against_avg": 1.3757,
+    "xg_diff_avg": 0.3714,
+    "n": 7,
+    "form": "DWLDL"
+  },
+  "Clermont Foot 63": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": ""
+  },
+  "AS Monaco FC": {
+    "xg_recent_avg": 1.559,
+    "xg_against_avg": 1.408,
+    "xg_diff_avg": 0.151,
+    "n": 10,
+    "form": "LWWWW"
+  },
+  "FC Nantes": {
+    "xg_recent_avg": 1.356,
+    "xg_against_avg": 1.233,
+    "xg_diff_avg": 0.123,
+    "n": 10,
+    "form": "DDLLL"
+  },
+  "Toulouse FC": {
+    "xg_recent_avg": 1.0356,
+    "xg_against_avg": 1.5211,
+    "xg_diff_avg": -0.4856,
+    "n": 9,
+    "form": "LLWWL"
+  },
+  "Montpellier HSC": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": ""
+  },
+  "Le Havre AC": {
+    "xg_recent_avg": 1.209,
+    "xg_against_avg": 1.465,
+    "xg_diff_avg": -0.256,
+    "n": 10,
+    "form": "DDLDL"
+  },
+  "Stade Rennais FC 1901": {
+    "xg_recent_avg": 1.912,
+    "xg_against_avg": 1.691,
+    "xg_diff_avg": 0.221,
+    "n": 10,
+    "form": "WWDLW"
+  },
+  "FC Metz": {
+    "xg_recent_avg": 1.05,
+    "xg_against_avg": 1.879,
+    "xg_diff_avg": -0.829,
+    "n": 10,
+    "form": "LDDLL"
+  },
+  "RC Strasbourg Alsace": {
+    "xg_recent_avg": 1.43,
+    "xg_against_avg": 1.7656,
+    "xg_diff_avg": -0.3356,
+    "n": 9,
+    "form": "LLWLW"
+  },
+  "Olympique Lyonnais": {
+    "xg_recent_avg": 1.391,
+    "xg_against_avg": 1.427,
+    "xg_diff_avg": -0.036,
+    "n": 10,
+    "form": "WDLLD"
+  },
+  "NEC": {
+    "xg_recent_avg": 1.967,
+    "xg_against_avg": 1.27,
+    "xg_diff_avg": 0.697,
+    "n": 10,
+    "form": "DWDWW"
+  },
+  "SBV Excelsior": {
+    "xg_recent_avg": 1.576,
+    "xg_against_avg": 1.518,
+    "xg_diff_avg": 0.058,
+    "n": 10,
+    "form": "LDLLL"
+  },
+  "Feyenoord Rotterdam": {
+    "xg_recent_avg": 1.9456,
+    "xg_against_avg": 1.0867,
+    "xg_diff_avg": 0.8589,
+    "n": 9,
+    "form": "DDWDL"
+  },
+  "Fortuna Sittard": {
+    "xg_recent_avg": 1.4178,
+    "xg_against_avg": 1.94,
+    "xg_diff_avg": -0.5222,
+    "n": 9,
+    "form": "LLWLW"
+  },
+  "AZ": {
+    "xg_recent_avg": 1.53,
+    "xg_against_avg": 1.2478,
+    "xg_diff_avg": 0.2822,
+    "n": 9,
+    "form": "DWLWL"
+  },
+  "Go Ahead Eagles": {
+    "xg_recent_avg": 1.3489,
+    "xg_against_avg": 2.0744,
+    "xg_diff_avg": -0.7256,
+    "n": 9,
+    "form": "WLWLW"
+  },
+  "Almere City FC": {
+    "xg_recent_avg": 1.31,
+    "xg_against_avg": 1.86,
+    "xg_diff_avg": -0.55,
+    "n": 4,
+    "form": "LWWD"
+  },
+  "FC Twente '65": {
+    "xg_recent_avg": 1.737,
+    "xg_against_avg": 1.424,
+    "xg_diff_avg": 0.313,
+    "n": 10,
+    "form": "WWLWW"
+  },
+  "Rio Ave FC": {
+    "xg_recent_avg": 1.337,
+    "xg_against_avg": 1.226,
+    "xg_diff_avg": 0.111,
+    "n": 10,
+    "form": "WLWWW"
+  },
+  "GD Chaves": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": ""
+  },
+  "CF Estrela da Amadora": {
+    "xg_recent_avg": 1.449,
+    "xg_against_avg": 1.59,
+    "xg_diff_avg": -0.141,
+    "n": 10,
+    "form": "LLWLD"
+  },
+  "Vitória SC": {
+    "xg_recent_avg": 1.228,
+    "xg_against_avg": 1.3,
+    "xg_diff_avg": -0.072,
+    "n": 10,
+    "form": "DWLLL"
+  },
+  "FC Arouca": {
+    "xg_recent_avg": 1.383,
+    "xg_against_avg": 1.121,
+    "xg_diff_avg": 0.262,
+    "n": 10,
+    "form": "LWWLL"
+  },
+  "GD Estoril Praia": {
+    "xg_recent_avg": 0.875,
+    "xg_against_avg": 1.64,
+    "xg_diff_avg": -0.765,
+    "n": 10,
+    "form": "LLLWD"
+  },
+  "Manchester United FC": {
+    "xg_recent_avg": 1.614,
+    "xg_against_avg": 1.519,
+    "xg_diff_avg": 0.095,
+    "n": 10,
+    "form": "WLDWL"
+  },
+  "Wolverhampton Wanderers FC": {
+    "xg_recent_avg": 0.998,
+    "xg_against_avg": 1.733,
+    "xg_diff_avg": -0.735,
+    "n": 10,
+    "form": "LLDLW"
+  },
+  "Cádiz CF": {
+    "xg_recent_avg": 0.9767,
+    "xg_against_avg": 1.6617,
+    "xg_diff_avg": -0.685,
+    "n": 6,
+    "form": "DLDLL"
+  },
+  "Deportivo Alavés": {
+    "xg_recent_avg": 1.423,
+    "xg_against_avg": 1.065,
+    "xg_diff_avg": 0.358,
+    "n": 10,
+    "form": "WLDDW"
+  },
+  "Club Atlético de Madrid": {
+    "xg_recent_avg": 1.728,
+    "xg_against_avg": 1.657,
+    "xg_diff_avg": 0.071,
+    "n": 10,
+    "form": "WDWLD"
+  },
+  "Granada CF": {
+    "xg_recent_avg": 1.1071,
+    "xg_against_avg": 1.4086,
+    "xg_diff_avg": -0.3014,
+    "n": 7,
+    "form": "LWLLW"
+  },
+  "Moreirense FC": {
+    "xg_recent_avg": 0.722,
+    "xg_against_avg": 1.693,
+    "xg_diff_avg": -0.971,
+    "n": 10,
+    "form": "DLLLD"
+  },
+  "FC Porto": {
+    "xg_recent_avg": 1.68,
+    "xg_against_avg": 0.942,
+    "xg_diff_avg": 0.738,
+    "n": 10,
+    "form": "LWDDW"
+  },
+  "Sport Lisboa e Benfica": {
+    "xg_recent_avg": 2.376,
+    "xg_against_avg": 1.181,
+    "xg_diff_avg": 1.195,
+    "n": 10,
+    "form": "WDWWD"
+  },
+  "SV Werder Bremen": {
+    "xg_recent_avg": 1.112,
+    "xg_against_avg": 1.704,
+    "xg_diff_avg": -0.592,
+    "n": 10,
+    "form": "LLWLW"
+  },
+  "FC Bayern München": {
+    "xg_recent_avg": 2.58,
+    "xg_against_avg": 1.9825,
+    "xg_diff_avg": 0.5975,
+    "n": 8,
+    "form": "DLWWW"
+  },
+  "Bayer 04 Leverkusen": {
+    "xg_recent_avg": 2.2644,
+    "xg_against_avg": 1.89,
+    "xg_diff_avg": 0.3744,
+    "n": 9,
+    "form": "LWWDL"
+  },
+  "RB Leipzig": {
+    "xg_recent_avg": 2.005,
+    "xg_against_avg": 1.624,
+    "xg_diff_avg": 0.381,
+    "n": 10,
+    "form": "WWWLW"
+  },
+  "VfL Wolfsburg": {
+    "xg_recent_avg": 1.7662,
+    "xg_against_avg": 1.56,
+    "xg_diff_avg": 0.2063,
+    "n": 8,
+    "form": "DWLLL"
+  },
+  "1. FC Heidenheim 1846": {
+    "xg_recent_avg": 1.545,
+    "xg_against_avg": 1.647,
+    "xg_diff_avg": -0.102,
+    "n": 10,
+    "form": "WDDLL"
+  },
+  "TSG 1899 Hoffenheim": {
+    "xg_recent_avg": 1.651,
+    "xg_against_avg": 1.373,
+    "xg_diff_avg": 0.278,
+    "n": 10,
+    "form": "DLLDW"
+  },
+  "SC Freiburg": {
+    "xg_recent_avg": 1.0678,
+    "xg_against_avg": 1.9022,
+    "xg_diff_avg": -0.8344,
+    "n": 9,
+    "form": "DLLWW"
+  },
+  "FC Augsburg": {
+    "xg_recent_avg": 1.811,
+    "xg_against_avg": 2.231,
+    "xg_diff_avg": -0.42,
+    "n": 10,
+    "form": "DDLLL"
+  },
+  "Borussia Mönchengladbach": {
+    "xg_recent_avg": 1.123,
+    "xg_against_avg": 1.717,
+    "xg_diff_avg": -0.594,
+    "n": 10,
+    "form": "LDDWL"
+  },
+  "VfB Stuttgart": {
+    "xg_recent_avg": 2.1163,
+    "xg_against_avg": 1.69,
+    "xg_diff_avg": 0.4263,
+    "n": 8,
+    "form": "DLWLW"
+  },
+  "VfL Bochum 1848": {
+    "xg_recent_avg": 1.275,
+    "xg_against_avg": 1.509,
+    "xg_diff_avg": -0.234,
+    "n": 10,
+    "form": "WLLDW"
+  },
+  "Borussia Dortmund": {
+    "xg_recent_avg": 2.181,
+    "xg_against_avg": 1.135,
+    "xg_diff_avg": 1.046,
+    "n": 10,
+    "form": "LWWWW"
+  },
+  "1. FC Köln": {
+    "xg_recent_avg": 1.862,
+    "xg_against_avg": 1.58,
+    "xg_diff_avg": 0.282,
+    "n": 10,
+    "form": "WDDDL"
+  },
+  "Empoli FC": {
+    "xg_recent_avg": 1.57,
+    "xg_against_avg": 1.257,
+    "xg_diff_avg": 0.313,
+    "n": 10,
+    "form": "LWDDL"
+  },
+  "Hellas Verona FC": {
+    "xg_recent_avg": 0.862,
+    "xg_against_avg": 1.411,
+    "xg_diff_avg": -0.549,
+    "n": 10,
+    "form": "LLLLL"
+  },
+  "Frosinone Calcio": {
+    "xg_recent_avg": 1.817,
+    "xg_against_avg": 1.328,
+    "xg_diff_avg": 0.489,
+    "n": 10,
+    "form": "WWWDW"
+  },
+  "SSC Napoli": {
+    "xg_recent_avg": 1.302,
+    "xg_against_avg": 0.856,
+    "xg_diff_avg": 0.446,
+    "n": 10,
+    "form": "LDWWW"
+  },
+  "Genoa CFC": {
+    "xg_recent_avg": 0.968,
+    "xg_against_avg": 1.326,
+    "xg_diff_avg": -0.358,
+    "n": 10,
+    "form": "WWLLW"
+  },
+  "ACF Fiorentina": {
+    "xg_recent_avg": 0.89,
+    "xg_against_avg": 1.5522,
+    "xg_diff_avg": -0.6622,
+    "n": 9,
+    "form": "DWWLW"
+  },
+  "FC Internazionale Milano": {
+    "xg_recent_avg": 1.6925,
+    "xg_against_avg": 1.305,
+    "xg_diff_avg": 0.3875,
+    "n": 8,
+    "form": "WDWWW"
+  },
+  "AC Monza": {
+    "xg_recent_avg": 1.246,
+    "xg_against_avg": 1.064,
+    "xg_diff_avg": 0.182,
+    "n": 10,
+    "form": "LWWWD"
+  },
+  "1. FC Union Berlin": {
+    "xg_recent_avg": 1.434,
+    "xg_against_avg": 1.939,
+    "xg_diff_avg": -0.505,
+    "n": 10,
+    "form": "LDLWL"
+  },
+  "1. FSV Mainz 05": {
+    "xg_recent_avg": 1.894,
+    "xg_against_avg": 1.579,
+    "xg_diff_avg": 0.315,
+    "n": 10,
+    "form": "LLWWW"
+  },
+  "Eintracht Frankfurt": {
+    "xg_recent_avg": 1.308,
+    "xg_against_avg": 1.559,
+    "xg_diff_avg": -0.251,
+    "n": 10,
+    "form": "WDLWD"
+  },
+  "SV Darmstadt 98": {
+    "xg_recent_avg": 1.374,
+    "xg_against_avg": 1.875,
+    "xg_diff_avg": -0.501,
+    "n": 10,
+    "form": "LLDDW"
+  },
+  "AS Roma": {
+    "xg_recent_avg": 1.8,
+    "xg_against_avg": 0.878,
+    "xg_diff_avg": 0.922,
+    "n": 10,
+    "form": "DWLWD"
+  },
+  "US Sassuolo Calcio": {
+    "xg_recent_avg": 1.217,
+    "xg_against_avg": 1.405,
+    "xg_diff_avg": -0.188,
+    "n": 10,
+    "form": "WLWDL"
+  },
+  "Atalanta BC": {
+    "xg_recent_avg": 1.3575,
+    "xg_against_avg": 1.0125,
+    "xg_diff_avg": 0.345,
+    "n": 8,
+    "form": "LDLWW"
+  },
+  "US Lecce": {
+    "xg_recent_avg": 0.886,
+    "xg_against_avg": 1.561,
+    "xg_diff_avg": -0.675,
+    "n": 10,
+    "form": "DLLLL"
+  },
+  "SS Lazio": {
+    "xg_recent_avg": 1.2113,
+    "xg_against_avg": 1.0025,
+    "xg_diff_avg": 0.2088,
+    "n": 8,
+    "form": "WDWLD"
+  },
+  "Udinese Calcio": {
+    "xg_recent_avg": 1.225,
+    "xg_against_avg": 1.502,
+    "xg_diff_avg": -0.277,
+    "n": 10,
+    "form": "LWDWL"
+  },
+  "Juventus FC": {
+    "xg_recent_avg": 1.864,
+    "xg_against_avg": 0.793,
+    "xg_diff_avg": 1.071,
+    "n": 10,
+    "form": "WWWDW"
+  },
+  "Torino FC": {
+    "xg_recent_avg": 1.585,
+    "xg_against_avg": 1.351,
+    "xg_diff_avg": 0.234,
+    "n": 10,
+    "form": "DWWLW"
+  },
+  "Cagliari Calcio": {
+    "xg_recent_avg": 1.307,
+    "xg_against_avg": 1.413,
+    "xg_diff_avg": -0.106,
+    "n": 10,
+    "form": "LWLLL"
+  },
+  "Bologna FC 1909": {
+    "xg_recent_avg": 0.989,
+    "xg_against_avg": 1.365,
+    "xg_diff_avg": -0.376,
+    "n": 10,
+    "form": "LLWLW"
+  },
+  "AC Milan": {
+    "xg_recent_avg": 1.231,
+    "xg_against_avg": 1.286,
+    "xg_diff_avg": -0.055,
+    "n": 10,
+    "form": "WLLWL"
+  },
+  "Criciúma EC": {
+    "xg_recent_avg": 1.208,
+    "xg_against_avg": 1.012,
+    "xg_diff_avg": 0.196,
+    "n": 10,
+    "form": "DDDDW"
+  },
+  "AC Goianiense": {
+    "xg_recent_avg": 2.0489,
+    "xg_against_avg": 1.2156,
+    "xg_diff_avg": 0.8333,
+    "n": 9,
+    "form": "DLDWD"
+  },
+  "EC Vitória": {
+    "xg_recent_avg": 0.9256,
+    "xg_against_avg": 1.6956,
+    "xg_diff_avg": -0.77,
+    "n": 9,
+    "form": "WLLDW"
+  },
+  "FC Groningen": {
+    "xg_recent_avg": 1.608,
+    "xg_against_avg": 1.562,
+    "xg_diff_avg": 0.046,
+    "n": 10,
+    "form": "DWWDW"
+  },
+  "NAC Breda": {
+    "xg_recent_avg": 1.084,
+    "xg_against_avg": 1.504,
+    "xg_diff_avg": -0.42,
+    "n": 10,
+    "form": "DLLDL"
+  },
+  "Derby County FC": {
+    "xg_recent_avg": 1.467,
+    "xg_against_avg": 1.346,
+    "xg_diff_avg": 0.121,
+    "n": 10,
+    "form": "WLWWL"
+  },
+  "Willem II Tilburg": {
+    "xg_recent_avg": 1.945,
+    "xg_against_avg": 2.0,
+    "xg_diff_avg": -0.055,
+    "n": 2,
+    "form": "LWLD"
+  },
+  "AVS": {
+    "xg_recent_avg": 1.061,
+    "xg_against_avg": 1.869,
+    "xg_diff_avg": -0.808,
+    "n": 10,
+    "form": "DLDLD"
+  },
+  "CD Nacional": {
+    "xg_recent_avg": 0.948,
+    "xg_against_avg": 1.397,
+    "xg_diff_avg": -0.449,
+    "n": 10,
+    "form": "LWLLD"
+  },
+  "Portsmouth FC": {
+    "xg_recent_avg": 1.045,
+    "xg_against_avg": 1.412,
+    "xg_diff_avg": -0.367,
+    "n": 10,
+    "form": "WDDLL"
+  },
+  "Oxford United FC": {
+    "xg_recent_avg": 1.506,
+    "xg_against_avg": 1.151,
+    "xg_diff_avg": 0.355,
+    "n": 10,
+    "form": "DDLDW"
+  },
+  "CD Santa Clara": {
+    "xg_recent_avg": 0.949,
+    "xg_against_avg": 0.873,
+    "xg_diff_avg": 0.076,
+    "n": 10,
+    "form": "LLWWW"
+  },
+  "CD Leganés": {
+    "xg_recent_avg": 1.3757,
+    "xg_against_avg": 1.3829,
+    "xg_diff_avg": -0.0071,
+    "n": 7,
+    "form": "LLLLW"
+  },
+  "Parma Calcio 1913": {
+    "xg_recent_avg": 0.695,
+    "xg_against_avg": 1.552,
+    "xg_diff_avg": -0.857,
+    "n": 10,
+    "form": "WDDLL"
+  },
+  "AS Saint-Étienne": {
+    "xg_recent_avg": 0.0,
+    "xg_against_avg": 0.0,
+    "xg_diff_avg": 0.0,
+    "n": 0,
+    "form": "W"
+  },
+  "Venezia FC": {
+    "xg_recent_avg": 2.185,
+    "xg_against_avg": 0.834,
+    "xg_diff_avg": 1.351,
+    "n": 10,
+    "form": "WDWDW"
+  },
+  "AJ Auxerre": {
+    "xg_recent_avg": 0.92,
+    "xg_against_avg": 1.437,
+    "xg_diff_avg": -0.517,
+    "n": 10,
+    "form": "DDWLD"
+  },
+  "Angers SCO": {
+    "xg_recent_avg": 0.983,
+    "xg_against_avg": 1.738,
+    "xg_diff_avg": -0.755,
+    "n": 10,
+    "form": "LDLLW"
+  },
+  "Real Valladolid CF": {
+    "xg_recent_avg": 0.8033,
+    "xg_against_avg": 1.195,
+    "xg_diff_avg": -0.3917,
+    "n": 6,
+    "form": "WLWLD"
+  },
+  "RCD Espanyol de Barcelona": {
+    "xg_recent_avg": 1.156,
+    "xg_against_avg": 1.629,
+    "xg_diff_avg": -0.473,
+    "n": 10,
+    "form": "DLLDL"
+  },
+  "Como 1907": {
+    "xg_recent_avg": 1.6378,
+    "xg_against_avg": 0.8267,
+    "xg_diff_avg": 0.8111,
+    "n": 9,
+    "form": "WLLDW"
+  },
+  "Holstein Kiel": {
+    "xg_recent_avg": 1.364,
+    "xg_against_avg": 1.227,
+    "xg_diff_avg": 0.137,
+    "n": 10,
+    "form": "WDWLL"
+  },
+  "FC St. Pauli 1910": {
+    "xg_recent_avg": 0.875,
+    "xg_against_avg": 1.93,
+    "xg_diff_avg": -1.055,
+    "n": 10,
+    "form": "LDLLD"
+  },
+  "SC Recife": {
+    "xg_recent_avg": 1.548,
+    "xg_against_avg": 1.153,
+    "xg_diff_avg": 0.395,
+    "n": 10,
+    "form": "WLWWW"
+  },
+  "Mirassol FC": {
+    "xg_recent_avg": 1.1133,
+    "xg_against_avg": 0.8244,
+    "xg_diff_avg": 0.2889,
+    "n": 9,
+    "form": "LDWWW"
+  },
+  "Ceará SC": {
+    "xg_recent_avg": 1.0422,
+    "xg_against_avg": 1.2111,
+    "xg_diff_avg": -0.1689,
+    "n": 9,
+    "form": "LLWLL"
+  },
+  "Charlton Athletic FC": {
+    "xg_recent_avg": 1.164,
+    "xg_against_avg": 1.446,
+    "xg_diff_avg": -0.282,
+    "n": 10,
+    "form": "DLLDW"
+  },
+  "Wrexham AFC": {
+    "xg_recent_avg": 1.111,
+    "xg_against_avg": 1.599,
+    "xg_diff_avg": -0.488,
+    "n": 10,
+    "form": "LDWLW"
+  },
+  "Telstar 1963": {
+    "xg_recent_avg": 1.663,
+    "xg_against_avg": 1.583,
+    "xg_diff_avg": 0.08,
+    "n": 10,
+    "form": "LWLWL"
+  },
+  "CD Tondela": {
+    "xg_recent_avg": 0.893,
+    "xg_against_avg": 1.447,
+    "xg_diff_avg": -0.554,
+    "n": 10,
+    "form": "LDLDL"
+  },
+  "FC Alverca": {
+    "xg_recent_avg": 1.096,
+    "xg_against_avg": 0.871,
+    "xg_diff_avg": 0.225,
+    "n": 10,
+    "form": "WWLDD"
+  },
+  "Real Oviedo": {
+    "xg_recent_avg": 0.941,
+    "xg_against_avg": 1.349,
+    "xg_diff_avg": -0.408,
+    "n": 10,
+    "form": "LDWWL"
+  },
+  "Levante UD": {
+    "xg_recent_avg": 1.782,
+    "xg_against_avg": 1.233,
+    "xg_diff_avg": 0.549,
+    "n": 10,
+    "form": "DWWLW"
+  },
+  "Paris FC": {
+    "xg_recent_avg": 1.589,
+    "xg_against_avg": 1.457,
+    "xg_diff_avg": 0.132,
+    "n": 10,
+    "form": "WDWDD"
+  },
+  "Elche CF": {
+    "xg_recent_avg": 1.011,
+    "xg_against_avg": 1.297,
+    "xg_diff_avg": -0.286,
+    "n": 10,
+    "form": "WWWLW"
+  },
+  "Hamburger SV": {
+    "xg_recent_avg": 1.224,
+    "xg_against_avg": 2.255,
+    "xg_diff_avg": -1.031,
+    "n": 10,
+    "form": "LDLDW"
+  },
+  "AC Pisa 1909": {
+    "xg_recent_avg": 1.191,
+    "xg_against_avg": 1.386,
+    "xg_diff_avg": -0.195,
+    "n": 10,
+    "form": "LLLLW"
+  },
+  "Clube do Remo": {
+    "xg_recent_avg": 0.9967,
+    "xg_against_avg": 1.3278,
+    "xg_diff_avg": -0.3311,
+    "n": 9,
+    "form": "WLWLD"
+  },
+  "Chapecoense AF": {
+    "xg_recent_avg": 0.7889,
+    "xg_against_avg": 1.4356,
+    "xg_diff_avg": -0.6467,
+    "n": 9,
+    "form": "LLLLL"
+  }
+}

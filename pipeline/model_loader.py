@@ -52,8 +52,9 @@ _CLUB_OPTIONAL = {
 }
 
 _CLUB_JSON = {
-    "form": "form_club.json",
-    "xg":   "xg_proxy_club.json",
+    "form":     "form_club.json",
+    "xg_proxy": "xg_proxy_club.json",
+    "xg_real":  "xg_real_club.json",
 }
 
 

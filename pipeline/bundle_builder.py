@@ -23,7 +23,7 @@ import sys
 from datetime import date
 from typing import Optional
 
-import bet_math
+from core import bet_math
 from scraper_500_analysis import enrich_bundle_with_500, format_500_analysis_lines
 from fatigue_features import format_fatigue_lines
 from config.settings import (

@@ -230,7 +230,8 @@ def _try_club_predict(home: str, away: str) -> Optional[dict]:
         elo_d = cm.get('elo')
         cals  = cm.get('calibrators')
         form  = cm.get('form')
-        xg    = cm.get('xg')
+        xg_proxy = cm.get('xg_proxy')
+        xg_real  = cm.get('xg_real')
 
         if dc is None or xgb is None or elo_d is None or form is None:
             return None
@@ -269,7 +270,7 @@ def _try_club_predict(home: str, away: str) -> Optional[dict]:
         gold      = [h2h_gd, 0, 0, fh12[1] - fa12[2], fa12[1] - fh12[0]]
         odds_feat = [op_h, op_a, 0.0]
         form_feat = [fh5[1], fh5[2], fa5[1], fa5[2], fh5[0] * 3, fa5[0] * 3]
-        xg_feat   = _build_xg_feat(xg, h, a)
+        xg_feat   = _build_xg_feat(xg_proxy, xg_real, h, a)
         feat      = np.array([b15 + gold + odds_feat + form_feat + xg_feat])
 
         xgb_p = xgb.predict_proba(feat)[0]
@@ -456,18 +457,33 @@ def _recent_form_club(form: dict, team: str, n: int = 5) -> list:
     return [wins / len(recent), gf, ga, gf - ga]
 
 
-def _build_xg_feat(xg: Optional[dict], h: str, a: str) -> list:
-    """8-dim xG-proxy feature vector (home 4 dims + away 4 dims)."""
-    feat = []
-    for team in (h, a):
-        s = (xg or {}).get(team, {})
-        feat.extend([
-            s.get('xg_proxy_5', 0.0),
-            s.get('xg_proxy_12', 0.0),
-            s.get('xg_streak', 0) / 10.0,
-            s.get('xg_volatility', 0.0),
-        ])
-    return feat
+def _build_xg_feat(xg_proxy: dict, xg_real: dict, home: str, away: str) -> list:
+    """构建12维xG特征: 8维proxy(运气/回归信号) + 4维real(实力/机会创造信号)。
+
+    real xG 缺失时用 NaN（XGBoost原生支持缺失值分裂），不用0或proxy兜底，
+    避免"零创造力"这种伪信号污染训练。
+    """
+    ph = (xg_proxy or {}).get(home, {})
+    pa = (xg_proxy or {}).get(away, {})
+
+    proxy_feat = [
+        ph.get('xg_proxy_5', 0.0), ph.get('xg_proxy_12', 0.0),
+        ph.get('xg_streak', 0) / 10.0,  ph.get('xg_volatility', 0.0),
+        pa.get('xg_proxy_5', 0.0), pa.get('xg_proxy_12', 0.0),
+        pa.get('xg_streak', 0) / 10.0,  pa.get('xg_volatility', 0.0),
+    ]
+
+    rh = (xg_real or {}).get(home)
+    ra = (xg_real or {}).get(away)
+
+    real_feat = [
+        rh.get('xg_recent_avg') if rh else float('nan'),
+        rh.get('xg_diff_avg')   if rh else float('nan'),
+        ra.get('xg_recent_avg') if ra else float('nan'),
+        ra.get('xg_diff_avg')   if ra else float('nan'),
+    ]
+
+    return proxy_feat + real_feat
 
 
 def _load_h2h_gd(h: str, a: str) -> float:
