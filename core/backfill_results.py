@@ -138,7 +138,7 @@ def compute_brier_spf(row):
 def compute_brier_rq(row):
     """让球 3分类 Brier Score (让胜/让平/让负), 与 SPF 同构。"""
     rq = row.get("actual_rq_result", "")
-    if rq not in ("H", "D", "A"):
+    if rq not in ("让胜", "让平", "让负"):
         return ""
     try:
         pW = float(row.get("pred_rq_win", 0)) / 100.0
@@ -146,9 +146,9 @@ def compute_brier_rq(row):
         pL = float(row.get("pred_rq_loss", 0)) / 100.0
     except (ValueError, TypeError):
         return ""
-    iW = 1.0 if rq == "H" else 0.0
-    iD = 1.0 if rq == "D" else 0.0
-    iL = 1.0 if rq == "A" else 0.0
+    iW = 1.0 if rq == "让胜" else 0.0
+    iD = 1.0 if rq == "让平" else 0.0
+    iL = 1.0 if rq == "让负" else 0.0
     brier = ((iW - pW) ** 2 + (iD - pD) ** 2 + (iL - pL) ** 2) / 3.0
     return f"{brier:.4f}"
 
@@ -233,7 +233,7 @@ def match_from_results(row, results_source):
                     "hda": _normalize_hda(m.get("hda_result", "")),
                     "goals": m.get("goals", ""),
                     "htft": m.get("htft", ""),
-                    "rq_result": _normalize_hda(m.get("rq_result", "")),
+                    "rq_result": _rq_from_result(m.get("rq_result", "")),
                     "source": f"results:{d}",
                 }
     return None
@@ -659,6 +659,16 @@ def _normalize_hda(val):
     return mapping.get(val, val if val in ("H", "D", "A") else "")
 
 
+def _rq_from_result(val):
+    """将 rq_result (胜/平/负) 转为 让胜/让平/让负"""
+    val = str(val).strip()
+    if val in ("H", "D", "A"):
+        return {"H": "让胜", "D": "让平", "A": "让负"}.get(val, "")
+    if val in ("胜", "平", "负"):
+        return "让" + val
+    return ""
+
+
 def _compute_htft(ht_score, ft_score):
     """从半场/全场比分计算半全场"""
     if not ht_score or not ft_score or ":" not in ht_score or ":" not in ft_score:
@@ -691,11 +701,11 @@ def _compute_rq_result(ft_h_str, ft_a_str, rq_str):
 
     adj_hg = hg + handicap
     if adj_hg > ag:
-        return "H"
+        return "让胜"
     elif adj_hg == ag:
-        return "D"
+        return "让平"
     else:
-        return "A"
+        return "让负"
 
 
 def _score_to_hda(score):

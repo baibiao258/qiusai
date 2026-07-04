@@ -213,7 +213,12 @@ def build_prediction_bundle(
     # ── Handicap / RQ ──
     handicap = int(market_row.get('handicap', 0) or 0)
     dc_rho = p.get('rho', 0.0)
-    rq_probs = compute_rq_probs(lambda_home, lambda_away, handicap, rho=dc_rho)
+    # NOTE 2026-07-04: DC rho 修正仅对 handicap=0 (SPF) 场景生效。
+    # handicap≠0 时 tau 修正的低比分格 (0,0)/(1,0)/(0,1)/(1,1)
+    # 与"让平"判定区间不重合，会系统性压低让平概率 ~1%。
+    # A/B 验证: 181场中 145/181 负向。详见 commit 26814f2。
+    rq_probs = compute_rq_probs(lambda_home, lambda_away, handicap,
+                                rho=(dc_rho if handicap == 0 else 0.0))
     rq_pick = max(rq_probs.items(), key=lambda x: x[1])[0]
     market_rq_pick = top_market_label(
         {'让胜': market_row.get('rq_h', 0), '让平': market_row.get('rq_d', 0), '让负': market_row.get('rq_a', 0)},
