@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚽ 预测模型 Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: #0f172a; color: #e2e8f0; padding: 20px; }
+  .header { text-align: center; padding: 30px 0; }
+  .header h1 { font-size: 2rem; color: #38bdf8; }
+  .header p { color: #94a3b8; margin-top: 8px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px; margin: 20px 0; }
+  .card { background: #1e293b; border-radius: 12px; padding: 20px;
+           border: 1px solid #334155; }
+  .card .label { color: #94a3b8; font-size: 0.85rem; }
+  .card .value { font-size: 2rem; font-weight: 700; margin-top: 8px; }
+  .card .value.green { color: #22c55e; }
+  .card .value.blue { color: #38bdf8; }
+  .card .value.yellow { color: #facc15; }
+  .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+                gap: 20px; margin: 20px 0; }
+  .chart-box { background: #1e293b; border-radius: 12px; padding: 20px;
+               border: 1px solid #334155; }
+  .chart-box h3 { color: #cbd5e1; margin-bottom: 15px; font-size: 1rem; }
+  canvas { max-height: 300px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>⚽ 预测模型 Dashboard</h1>
+  <p>更新时间: 2026-07-04 08:31</p>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="label">最新 Brier Score</div>
+    <div class="value green">0.1916</div>
+  </div>
+  <div class="card">
+    <div class="label">最新准确率</div>
+    <div class="value blue">100.0%</div>
+  </div>
+  <div class="card">
+    <div class="label">总预测数</div>
+    <div class="value yellow">222</div>
+  </div>
+  <div class="card">
+    <div class="label">已核验</div>
+    <div class="value green">213</div>
+  </div>
+</div>
+
+<div class="chart-grid">
+  <div class="chart-box">
+    <h3>📈 Brier Score 趋势</h3>
+    <canvas id="brierChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>📈 RPS 趋势</h3>
+    <canvas id="rpsChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>🎯 概率校准曲线</h3>
+    <canvas id="calChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>🏟️ 模型来源对比</h3>
+    <canvas id="sourceChart"></canvas>
+  </div>
+</div>
+
+<script>
+const chartDefaults = {
+  responsive: true,
+  plugins: { legend: { labels: { color: '#94a3b8' } } },
+  scales: {
+    x: { ticks: { color: '#64748b' }, grid: { color: '#1e293b' } },
+    y: { ticks: { color: '#64748b' }, grid: { color: '#334155' } }
+  }
+};
+
+// Brier Trend
+new Chart(document.getElementById('brierChart'), {
+  type: 'line',
+  data: {
+    labels: ["2026-06-08", "2026-06-08", "2026-06-08", "2026-06-08", "2026-06-16", "2026-06-27"],
+    datasets: [{ label: 'Brier Score', data: [0.4919, 0.4919, 0.4921, 0.4613, 0.7373, 0.1916],
+      borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.1)',
+      fill: true, tension: 0.3 }]
+  },
+  options: { ...chartDefaults, scales: { ...chartDefaults.scales,
+    y: { ...chartDefaults.scales.y, min: 0, max: 1 } } }
+});
+
+// RPS Trend
+new Chart(document.getElementById('rpsChart'), {
+  type: 'line',
+  data: {
+    labels: ["2026-06-08", "2026-06-08", "2026-06-08", "2026-06-08", "2026-06-16", "2026-06-27"],
+    datasets: [{ label: 'RPS', data: [0.1503, 0.1503, 0.1505, 0.1475, 0.2547, 0.071],
+      borderColor: '#38bdf8', backgroundColor: 'rgba(56,189,248,0.1)',
+      fill: true, tension: 0.3 }]
+  },
+  options: { ...chartDefaults, scales: { ...chartDefaults.scales,
+    y: { ...chartDefaults.scales.y, min: 0, max: 0.5 } } }
+});
+
+// Calibration
+new Chart(document.getElementById('calChart'), {
+  type: 'scatter',
+  data: {
+    datasets: [
+      { label: '模型', data: [0.0457840909090909, 0.14830065359477113, 0.2488095238095238, 0.34958888888888884, 0.4418292682926829, 0.5514399999999999, 0.646525, 0.7616470588235293, 0.8334090909090908, 0.9553333333333334].map((p,i) => ({x: p, y: [0.09090909090909091, 0.21568627450980393, 0.19047619047619047, 0.16666666666666666, 0.3170731707317073, 0.56, 0.625, 0.6274509803921569, 0.36363636363636365, 1.0][i]})),
+        backgroundColor: '#38bdf8', pointRadius: 6 },
+      { label: '完美校准', data: [{x:0,y:0},{x:1,y:1}],
+        type: 'line', borderColor: '#475569', borderDash: [5,5], pointRadius: 0 }
+    ]
+  },
+  options: { ...chartDefaults, scales: {
+    x: { ...chartDefaults.scales.x, title: { display: true, text: '预测概率', color: '#94a3b8' } },
+    y: { ...chartDefaults.scales.y, title: { display: true, text: '实际频率', color: '#94a3b8' }, min: 0, max: 1 }
+  } }
+});
+
+// Source Comparison
+new Chart(document.getElementById('sourceChart'), {
+  type: 'bar',
+  data: {
+    labels: ["unknown"],
+    datasets: [
+      { label: 'Brier (越低越好)', data: [0.4613248333333334], backgroundColor: '#22c55e' },
+    ]
+  },
+  options: { ...chartDefaults, scales: { ...chartDefaults.scales,
+    y: { ...chartDefaults.scales.y, min: 0 } } }
+});
+</script>
+</body>
+</html>
