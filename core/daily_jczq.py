@@ -672,6 +672,20 @@ def estimate_vote_fusion_alpha(votes):
         return '0.10'
     return '0.05'
 
+def _draw_correction_delta(pred_h: float) -> float:
+    """经验平局校正量（0-1 尺度），同 bundle_builder._draw_correction_delta。"""
+    if pred_h < 0.75 or pred_h >= 0.87:
+        return 0.0
+    knots = [(0.75, 0.356), (0.78, 0.0), (0.81, 0.422), (0.87, 0.0)]
+    for i in range(len(knots) - 1):
+        x1, y1 = knots[i]
+        x2, y2 = knots[i + 1]
+        if x1 <= pred_h < x2:
+            t = (pred_h - x1) / (x2 - x1)
+            return y1 + t * (y2 - y1)
+    return 0.0
+
+
 
 
 
@@ -991,6 +1005,17 @@ def build_prediction_bundle(code, home, away, utc, league, p, market_row=None, s
             if s > 0: pred_h /= s; pred_d /= s; pred_a /= s
         except Exception:
             pass
+
+    # ── 平局概率后验校正 (draw bias correction) ──
+    # NOTE 2026-07-04: 同 bundle_builder.py 的校正逻辑。
+    if pred_h >= 0.75 and pred_h < 0.87:
+        delta_d = _draw_correction_delta(pred_h)
+        if delta_d > 0:
+            pred_d_adj = pred_d + delta_d
+            scale = (1.0 - pred_d_adj) / (1.0 - pred_d) if (1.0 - pred_d) > 0 else 1.0
+            pred_h = pred_h * scale
+            pred_a = pred_a * scale
+            pred_d = pred_d_adj
 
     pred_h *= 100
     pred_d *= 100

@@ -196,6 +196,20 @@ def build_prediction_bundle(
         except Exception:
             pass
 
+    # ── 平局概率后验校正 (draw bias correction) ──
+    # NOTE 2026-07-04: 模型在 pred_h >= 75% 的场景系统性低估平局（A/B: 48场, 实际平局35.4% vs 模型14.4%）
+    # 80-85% 区间最严重：实际 56.2% 平局 vs 模型 14.3%，缺口 +42pp。
+    # 根因：Poisson 模型无法捕捉弱队主动摆大巴的行为学模式。见 commit 7ed2ba4。
+    # 这里用经验分段函数补偿，0-1 尺度下操作，后接概率归一。
+    if pred_h >= 0.75 and pred_h < 0.87:
+        delta_d = _draw_correction_delta(pred_h)
+        if delta_d > 0:
+            pred_d_adj = pred_d + delta_d
+            scale = (1.0 - pred_d_adj) / (1.0 - pred_d) if (1.0 - pred_d) > 0 else 1.0
+            pred_h = pred_h * scale
+            pred_a = pred_a * scale
+            pred_d = pred_d_adj
+
     pred_h *= 100
     pred_d *= 100
     pred_a *= 100
@@ -593,6 +607,34 @@ def patch_logged_metadata(code: str, source_tag: str, model_version: str) -> Non
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
+
+
+def _draw_correction_delta(pred_h: float) -> float:
+    """经验平局校正量（0-1 尺度），基于 48 场历史数据的 sliding-window gap 分段拟合。
+    
+    Gap = 实际平局率 - 模型平局概率，来自 predictions_log.csv 中 pred_h>=75% 的场次。
+    commit 7ed2ba4 包含完整的 A/B 分析和滑动窗口验证。
+    
+    校正设计：
+      pred_h < 0.75: 无校正（gap 较小或负向）
+      0.75-0.78:    gap +35.6pp → 强校正
+      0.78-0.81:    gap ≈ 0     → 无校正
+      0.81-0.87:    gap +42.2pp → 强校正（峰顶）
+      >= 0.87:      无校正（样本少，gap 回正）
+    
+    概率从主胜/客胜按比例扣减，归一化由调用方负责。
+    """
+    if pred_h < 0.75 or pred_h >= 0.87:
+        return 0.0
+    # 分段常数，线性插值平滑
+    knots = [(0.75, 0.356), (0.78, 0.0), (0.81, 0.422), (0.87, 0.0)]
+    for i in range(len(knots) - 1):
+        x1, y1 = knots[i]
+        x2, y2 = knots[i + 1]
+        if x1 <= pred_h < x2:
+            t = (pred_h - x1) / (x2 - x1)
+            return y1 + t * (y2 - y1)
+    return 0.0
 
 
 def record_prediction(bundle: dict) -> None:
