@@ -201,6 +201,7 @@ def build_prediction_bundle(
     # 80-85% 区间最严重：实际 56.2% 平局 vs 模型 14.3%，缺口 +42pp。
     # 根因：Poisson 模型无法捕捉弱队主动摆大巴的行为学模式。见 commit 7ed2ba4。
     # 这里用经验分段函数补偿，0-1 尺度下操作，后接概率归一。
+    model_note_postfix = ''
     if pred_h >= 0.75 and pred_h < 0.87:
         delta_d = _draw_correction_delta(pred_h)
         if delta_d > 0:
@@ -209,6 +210,8 @@ def build_prediction_bundle(
             pred_h = pred_h * scale
             pred_a = pred_a * scale
             pred_d = pred_d_adj
+            # 标记后验校正版本
+            model_note_postfix = '+draw_postcal_v1'
 
     pred_h *= 100
     pred_d *= 100
@@ -390,7 +393,7 @@ def build_prediction_bundle(
         'zjq_odds_str': _fmt_zjq(market_row.get('zjq_odds', {})),
         'spf_value_tips': spf_value_tips, 'bet_analysis': bet_analysis,
         'market_conflicts': market_conflicts, 'votes_text': vote_text,
-        'model_note': p.get('model', ''),
+        'model_note': p.get('model', '') + model_note_postfix,
         'direction': f"SPF:{spf_pick} | RQ:{rq_pick} | HTFT:{pred_top_htft} | Goals:{goals_pick} | Score:{pred_top_score}",
         'source_tag': '500+365', 'model_version': MODEL_VERSION,
         'simple_pred': simple_pred, 'simple_conf': simple_conf,

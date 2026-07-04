@@ -1008,6 +1008,7 @@ def build_prediction_bundle(code, home, away, utc, league, p, market_row=None, s
 
     # ── 平局概率后验校正 (draw bias correction) ──
     # NOTE 2026-07-04: 同 bundle_builder.py 的校正逻辑。
+    model_note_postfix = ""
     if pred_h >= 0.75 and pred_h < 0.87:
         delta_d = _draw_correction_delta(pred_h)
         if delta_d > 0:
@@ -1016,6 +1017,7 @@ def build_prediction_bundle(code, home, away, utc, league, p, market_row=None, s
             pred_h = pred_h * scale
             pred_a = pred_a * scale
             pred_d = pred_d_adj
+            model_note_postfix = "+draw_postcal_v1"
 
     pred_h *= 100
     pred_d *= 100
@@ -1152,7 +1154,7 @@ def build_prediction_bundle(code, home, away, utc, league, p, market_row=None, s
     elif handicap < 0:
         rq_text = f"让{abs(handicap)}"
 
-    model_note = p.get('model', '')
+    model_note = p.get('model', '') + model_note_postfix
 
     # ── 亚盘价值 (AH) 公平赔率 ──
     ah_fair_odds = {}
