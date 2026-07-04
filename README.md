@@ -38,7 +38,7 @@ Model Training ← training_data_with_odds.json
 ### 1. 500.com (竞彩官网) — 实时赔率+开售清单
 
 **核心脚本**:
-- `core/daily_jczq.py` → `scrape_500_odds_today()` — 主入口, 异步抓取4玩法(SPF/RQSPF/JQS/BQC)
+- `pipeline/scraper.py` → `scrape_500_odds_today()` — 主入口, 异步抓取4玩法(SPF/RQSPF/JQS/BQC)
 - `wc_upgrade/async_500_scraper.py` — aiohttp+BeautifulSoup 并发爬虫 (~2秒完成4页面)
 - `scripts/scraper_500_analysis.py` — 分析页爬虫(FIFA排名/近10场/亚盘/澳门心水)
 - `wc_upgrade/historical_kaijiang.py` — 从 zx.500.com 抓取历史收盘SP赔率(3248场+)
@@ -53,7 +53,7 @@ Model Training ← training_data_with_odds.json
 ### 2. 365scores — 公众投票/趋势/阵容数据
 
 **核心脚本**:
-- `core/daily_jczq.py` → `fetch_365scores_data()` — API调用+队名映射
+- `pipeline/data_loader.py` → `fetch_365scores_data()` — API调用+队名映射
 - `scripts/collect_365scores_daily.py` — 每日02:00 cron自动抓取, 缓存到 CSV
 - `scripts/fetch_365scores.py` — 单次抓取工具
 
@@ -297,7 +297,7 @@ python3 scripts/backfill_results.py --report # 每日趋势
 
 ```bash
 # 每日预测管线
-python3 core/daily_jczq.py
+python3 /root/daily_jczq.py
 
 # 世界杯单场预测
 python3 core/predict_match.py "Brazil" "Argentina"
