@@ -3,7 +3,7 @@
 telegram_bot.py — 每日竞彩预测 Telegram 自动推送
 ===============================================
 读取 daily_jczq.py 刚刚写入的 predictions_log.csv,
-提取 RECOMMEND 场次, 格式化 Markdown 消息并推送.
+提取 推荐 场次, 格式化 Markdown 消息并推送.
 
 使用:
   python3 telegram_bot.py                  # 正常推送
@@ -60,7 +60,7 @@ def load_config():
 
 # ── 读取今日预测 ──
 def load_today_predictions():
-    """从 CSV 读取今天的 RECOMMEND 比赛"""
+    """从 CSV 读取今天的 推荐 比赛"""
     if not os.path.exists(LOG_PATH):
         print(f"❌ 预测日志不存在: {LOG_PATH}")
         return []
@@ -77,7 +77,7 @@ def load_today_predictions():
                 continue
 
             bet_action = row.get('bet_action', '').strip()
-            if bet_action != 'RECOMMEND':
+            if '推荐' not in bet_action:
                 continue
 
             # 提取字段
@@ -227,7 +227,7 @@ def main():
 
     # 读取今日推荐
     recommends = load_today_predictions()
-    print(f"📡 今日 RECOMMEND: {len(recommends)} 场")
+    print(f"  推荐: {len(recommends)} 场")
 
     # 格式化消息
     message = format_message(recommends)

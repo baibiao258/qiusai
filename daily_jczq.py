@@ -205,15 +205,18 @@ def main() -> int:
         record_prediction(bundle)
 
     # ── 全局价值汇总 ──
+    def _is_excluded(action):
+        a = action or ''
+        return '观望' in a or '跳过' in a
     all_analyses = [
         b['bet_analysis'] for b in bundles
-        if b.get('bet_analysis') and b.get('bet_action') not in ('SKIP_LEAGUE', 'WATCH', 'WATCH_FRIENDLY')
+        if b.get('bet_analysis') and not _is_excluded(b.get('bet_action'))
     ]
-    n_skipped = sum(1 for b in bundles if b.get('bet_action') in ('SKIP_LEAGUE', 'WATCH', 'WATCH_FRIENDLY'))
+    n_skipped = sum(1 for b in bundles if _is_excluded(b.get('bet_action')))
     if all_analyses:
         print(bet_math.format_value_summary(all_analyses, min_ev=0.05))
     if n_skipped:
-        print(f'  ℹ️ 已过滤 {n_skipped} 场赛事类型不推荐场次 (SKIP_LEAGUE/WATCH)')
+        print(f'  ℹ️ 已过滤 {n_skipped} 场赛事类型不推荐场次 (跳过联赛/观望)')
 
     print(f"\n{'=' * 60}\n  💎 购彩建议\n{'=' * 60}")
     print(f'  📆 {today_str} 周{wd}  |  {len(bundles)} 场竞彩赛事')

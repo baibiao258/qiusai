@@ -124,18 +124,18 @@ def compute_bet_action(
 
     Returns
     -------
-    'SKIP_LEAGUE'    : systematically unprofitable competition
-    'WATCH'          : market-fallback or circular EV
-    'WATCH_FRIENDLY' : friendly match — calibrator overfit confirmed
-    'RECOMMEND'      : cleared for full analysis
+    '跳过联赛'        : systematically unprofitable competition
+    '观望'            : market-fallback or circular EV
+    '友谊赛观望'       : friendly match — calibrator overfit confirmed
+    '推荐'            : cleared for full analysis
     """
     if league == 'UEFA Nations League':
-        return 'SKIP_LEAGUE'
+        return '跳过联赛'
     if model_type == 'market_fallback':
-        return 'WATCH'
+        return '观望'
     if '友谊赛' in league or 'Friendly' in league or 'Friendlies' in league:
-        return 'WATCH_FRIENDLY'
-    return 'RECOMMEND'
+        return '友谊赛观望'
+    return '推荐'
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -344,8 +344,8 @@ def build_prediction_bundle(
     # ── bet_action ──
     bet_action = compute_bet_action(league, model_type, bet_analysis, htft_top6, handicap, rq_probs)
     max_hda_prob = max(pred_h, pred_d, pred_a)
-    if max_hda_prob < 60 and bet_action.startswith(('RECOMMEND', 'WATCH')):
-        bet_action = f'{bet_action} [LOW_CONF]'
+    if max_hda_prob < 60 and bet_action.startswith(('推荐', '观望')):
+        bet_action = f'{bet_action} [低置信]'
 
     htft_warning = any(
         s.play == '半全场' and s.pick == '胜胜' and s.prob < 0.20 and model_type == 'hybrid'
@@ -396,6 +396,7 @@ def build_prediction_bundle(
         'model_note': p.get('model', '') + model_note_postfix,
         'direction': f"SPF:{spf_pick} | RQ:{rq_pick} | HTFT:{pred_top_htft} | Goals:{goals_pick} | Score:{pred_top_score}",
         'source_tag': '500+365', 'model_version': MODEL_VERSION,
+ 'model': model_type,
         'simple_pred': simple_pred, 'simple_conf': simple_conf,
         'pred30_h': p.get('pred30_h'), 'pred30_d': p.get('pred30_d'), 'pred30_a': p.get('pred30_a'),
         'odds_h_str': f'{odds_h:.2f}' if odds_h else '',

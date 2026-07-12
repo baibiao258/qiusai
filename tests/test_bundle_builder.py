@@ -117,19 +117,19 @@ class MockBetAnalysis:
 
 class TestComputeBetAction:
     def test_skip_league(self):
-        assert compute_bet_action('UEFA Nations League', 'hybrid', None, [], 0, {}) == 'SKIP_LEAGUE'
+        assert compute_bet_action('UEFA Nations League', 'hybrid', None, [], 0, {}) == '跳过联赛'
 
     def test_market_fallback(self):
-        assert compute_bet_action('英超', 'market_fallback', None, [], 0, {}) == 'WATCH'
+        assert compute_bet_action('英超', 'market_fallback', None, [], 0, {}) == '观望'
 
     def test_friendly(self):
-        assert compute_bet_action('友谊赛', 'hybrid', None, [], 0, {}) == 'WATCH_FRIENDLY'
+        assert compute_bet_action('友谊赛', 'hybrid', None, [], 0, {}) == '友谊赛观望'
 
     def test_friendly_english(self):
-        assert compute_bet_action('International Friendly', 'hybrid', None, [], 0, {}) == 'WATCH_FRIENDLY'
+        assert compute_bet_action('International Friendly', 'hybrid', None, [], 0, {}) == '友谊赛观望'
 
     def test_recommend(self):
-        assert compute_bet_action('英超', 'hybrid', None, [], 0, {}) == 'RECOMMEND'
+        assert compute_bet_action('英超', 'hybrid', None, [], 0, {}) == '推荐'
 
 
 # ── _fmt_zjq ─────────────────────────────────────────────────────────────────
@@ -282,7 +282,7 @@ class TestRecordPrediction:
             's365_home_winrate': None, 's365_away_winrate': None,
             's365_home_fifa': None, 's365_away_fifa': None,
             's365_rank_diff': None, 's365_popularity_diff': None,
-            'ah_fair_odds': {}, 'bet_action': 'RECOMMEND',
+            'ah_fair_odds': {}, 'bet_action': '推荐',
             'htft_warning': False, 'standings': None,
             'model_route': 'hybrid', 'match_key': '',
             'date': '2025-01-01',
