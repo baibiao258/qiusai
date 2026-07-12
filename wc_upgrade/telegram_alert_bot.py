@@ -93,7 +93,7 @@ def send_daily_summary():
         for r in reader:
             ba = r.get('bet_action', '').strip()
             actual = r.get('actual_hda', '').strip()
-            if ba == 'RECOMMEND' and not actual:
+            if ba == '推荐' and not actual:
                 # 用 home+away+league 去重 (取最后出现的 = 最新预测)
                 key = (r.get('home_cn',''), r.get('away_cn',''), r.get('league',''))
                 match_map[key] = r
@@ -223,9 +223,9 @@ def send_status_report():
                 ba = r.get('bet_action', '')
                 if r.get('actual_hda', '').strip():
                     stats['filled'] += 1
-                elif ba == 'RECOMMEND':
+                elif ba == '推荐':
                     stats['recommend'] += 1
-                elif 'WATCH' in ba:
+                elif '观望' in ba:
                     stats['watch'] += 1
 
     now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')

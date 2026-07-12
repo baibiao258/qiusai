@@ -235,7 +235,7 @@ def _classify_match(r, evo_features):
     # ── 层级过滤 ──
     if model not in VALID_MODELS:
         return {**base, 'tier':'D', 'tier_label':'🔴', 'reason':'模型='+model+'已证0%正确', 'verdict':'忽略'}
-    if bet not in ('RECOMMEND', 'WATCH'):
+    if bet not in ('推荐', '观望'):
         return {**base, 'tier':'D', 'tier_label':'🔴', 'reason':'系统标记='+bet, 'verdict':'跳过'}
     if max_prob < 1:
         return {**base, 'tier':'D', 'tier_label':'🔴', 'reason':'概率数据异常', 'verdict':'无数据'}

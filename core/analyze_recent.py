@@ -21,7 +21,7 @@ dates_sorted = sorted(by_date.keys())
 print(f"\n最近5天趋势:")
 for d in dates_sorted[-5:]:
     recs = by_date[d]
-    rec_items = [r for r in recs if r.get('bet_action') in ('RECOMMEND','RECOMMEND [LOW_CONF]')]
+    rec_items = [r for r in recs if r.get('bet_action') in ('推荐','推荐 [低置信]')]
     total_rec = len(rec_items)
     rec_correct = sum(1 for r in rec_items if r.get('pred_spf_pick') and r.get('actual_hda') and 
         ((r['pred_spf_pick'] == '主胜' and r['actual_hda'] == 'H') or
@@ -36,22 +36,22 @@ for d in dates_sorted[-5:]:
     
     all_acc = all_correct/total_all*100 if total_all else 0
     rec_acc = rec_correct/total_rec*100 if total_rec else 0
-    print(f"  {d}: 全部{all_correct}/{total_all}={all_acc:.0f}% | RECOMMEND {rec_correct}/{total_rec}={rec_acc:.0f}%")
+    print(f"  {d}: 全部{all_correct}/{total_all}={all_acc:.0f}% | 推荐 {rec_correct}/{total_rec}={rec_acc:.0f}%")
 
 # 完整汇总
-all_rec = [r for r in settled if r.get('bet_action') in ('RECOMMEND','RECOMMEND [LOW_CONF]')]
+all_rec = [r for r in settled if r.get('bet_action') in ('推荐','推荐 [低置信]')]
 rec_correct_spf = sum(1 for r in all_rec if r.get('pred_spf_pick') and r.get('actual_hda') and 
     ((r['pred_spf_pick'] == '主胜' and r['actual_hda'] == 'H') or
      (r['pred_spf_pick'] == '平' and r['actual_hda'] == 'D') or
      (r['pred_spf_pick'] == '客胜' and r['actual_hda'] == 'A')))
 print(f"\n===== 总汇总 =====")
-print(f"RECOMMEND: {len(all_rec)}场, SPF正确: {rec_correct_spf}/{len(all_rec)}={rec_correct_spf/len(all_rec)*100:.1f}%")
+print(f"推荐: {len(all_rec)}场, SPF正确: {rec_correct_spf}/{len(all_rec)}={rec_correct_spf/len(all_rec)*100:.1f}%")
 
-# 分日期汇总每个RECOMMEND
-print(f"\n===== 每日RECOMMEND明细 =====")
+# 分日期汇总每个推荐
+print(f"\n===== 每日推荐明细 =====")
 for d in sorted(by_date.keys()):
     recs = by_date[d]
-    rec_items = [r for r in recs if r.get('bet_action') in ('RECOMMEND','RECOMMEND [LOW_CONF]')]
+    rec_items = [r for r in recs if r.get('bet_action') in ('推荐','推荐 [低置信]')]
     if not rec_items:
         continue
     
@@ -81,14 +81,14 @@ for d in sorted(by_date.keys()):
         route = r.get('model_route','')
         print(f"    ❌ {r['home_cn']} vs {r['away_cn']}: 预测{pick}({max_p:.0f}%)→实际{actual}({score}) {route}")
 
-# RECOMMEND在近期的细分
+# 推荐在近期的细分
 late_recs = [r for r in all_rec if r.get('date') >= '2026-06-25']
 late_correct = sum(1 for r in late_recs if r.get('pred_spf_pick') and r.get('actual_hda') and 
     ((r['pred_spf_pick'] == '主胜' and r['actual_hda'] == 'H') or
      (r['pred_spf_pick'] == '平' and r['actual_hda'] == 'D') or
      (r['pred_spf_pick'] == '客胜' and r['actual_hda'] == 'A')))
 print(f"\n===== 近期(6/25起) =====")
-print(f"RECOMMEND: {len(late_recs)}场, 正确: {late_correct}/{len(late_recs)}={late_correct/len(late_recs)*100:.1f}%")
+print(f"推荐: {len(late_recs)}场, 正确: {late_correct}/{len(late_recs)}={late_correct/len(late_recs)*100:.1f}%")
 
 # 6/20低谷日详细  
 june20 = [r for r in settled if r.get('date') == '2026-06-20']
